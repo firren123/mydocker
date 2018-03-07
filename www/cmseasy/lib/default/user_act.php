@@ -1,19 +1,634 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??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*/
+
+if (!defined('ROOT')) exit('Can\'t Access !');
+
+class user_act extends act
+{
+function init()
+{
+$user = null;
+$this->_user = new user();
+if (cookie::get('login_username') && cookie::get('login_password')) {
+$user = $this->_user->getrow(array('username' => cookie::get('login_username')));
+if (cookie::get('login_password') != front::cookie_encode($user['password'])) {
+unset($user);
+}
+}
+$nologin_arr = array('login', 'ologin', 'respond', 'dialog_login',
+'space', 'register', 'login_js', 'login_success', 'getpass');
+if (!is_array($user) && !in_array(front::$act, $nologin_arr)) {
+front::redirect(url::create('user/login'));
+} else {
+$this->view->user = $user;
+}
+
+$this->view->form = $this->_user->get_form();
+$this->view->field = $this->_user->getFields();
+$this->view->primary_key = $this->_user->primary_key;
+if (is_array($_POST)) {
+foreach ($_POST as $v) {
+if (inject_check($v)) {
+exit(lang('do_not_submit_illegal_content'));
+}
+}
+}
+
+$this->view->union_conf = include ROOT.'/config/union.php';
+}
+
+function index_action()
+{
+$this->view->data = $this->view->user;
+}
+
+function space_action()
+{
+//$space=new user();
+//$space=$space->getrow(array('userid'=>front::get('mid')));
+//$this->view->user=$space;
+//var_dump($this->view->user);
+if (!$this->view->user['userid']) {
+alertinfo(lang('not_logged'), url::create('user/login'));
+}
+$this->_table = new archive;
+if (!front::get('page')) front::$get['page'] = 1;
+$limit = ((front::get('page') - 1) * 20) . ',20';
+$where = "userid={$this->view->user['userid']}";
+$where .= ' and ' . $this->_table->get_where('user_manage');
+$this->_view_table = $this->_table->getrows($where, $limit, '1 desc', $this->_table->getcols('manage'));
+$this->view->data = $this->_view_table;
+$this->view->record_count = $this->_table->record_count;
+}
+
+function edit_action()
+{
+if (front::post('submit')) {
+unset(front::$post['username']);
+unset(front::$post['groupid']);
+unset(front::$post['powerlist']);
+unset(front::$post['password']);
+if (!is_email(front::$post['e_mail'])) {
+alerterror(lang('mailbox_format_is_not'));
+}
+foreach (front::$post as $k => $v) {
+if (is_array($v) && !empty($v)) {
+front::$post[$k] = implode(',', $v);
+}
+front::check_type(front::post($k), 'safe');
+}
+$this->_user->rec_update(front::$post, "username='".session::get('username')."'");
+front::flash(lang('modify_data_successfully'));
+front::redirect(url::create('user/index'));
+}
+$this->view->data = $this->view->user;
+//var_dump($this->view->data);
+}
+
+//第三方平台登录
+function ologin_action()
+{
+$logintypes = array('alipaylogin','qqlogin','wechatlogin');
+$logintype = $_GET['logtype'];
+if(!in_array($logintype,$logintypes)){
+exit(lang('the_wrong_name'));
+}
+$logintype = $_GET['logtype'];
+$where = array('ologin_code' => $logintype);
+$ologins = ologin::getInstance()->getrows($where);
+include_once ROOT . '/lib/plugins/ologin/' . $logintype . '.php';
+$loginobj = new $logintype();
+$url = $loginobj->get_code(unserialize_config($ologins[0]['ologin_config']));
+@header("Location: $url");
+exit;
+}
+
+function respond_action()
+{
+$classname = front::$get['ologin_code'];
+if (!in_array($classname, array('alipaylogin', 'qqlogin','wechatlogin'))) {
+front::flash(lang('the_wrong_name'));
+return;
+}
+if (front::post('regsubmit')) {
+if (!config::get('reg_on')) {
+front::flash(lang('site_has_been_closed_to_register'));
+return;
+}
+if (front::post('username') != strip_tags(front::post('username'))
+|| front::post('username') != htmlspecialchars(front::post('username'))
+) {
+front::flash(lang('ame_is_not_standardized'));
+return;
+}
+if (strlen(front::post('username')) < 4) {
+front::flash(lang('user_name_is_too_short'));
+return;
+}
+if (front::post('username') && front::post('password')) {
+$username = front::post('username');
+$username = str_replace('\\', '', $username);
+$password = md5(front::post('password'));
+$data = array(
+'username' => $username,
+'password' => $password,
+'groupid' => 101,
+'userip' => front::ip(),
+$classname => session::get('openid'),
+);
+if ($this->_user->getrow(array('username' => $username))) {
+front::flash(lang('user_name_already_registered'));
+return;
+}
+$insert = $this->_user->rec_insert($data);
+$_userid = $this->_user->insert_id();
+if ($insert) {
+front::flash(lang('registered_success'));
+} else {
+front::flash(lang('registration_failure'));
+return;
+}
+$user = $data;
+cookie::set('login_username', $user['username']);
+cookie::set('login_password', front::cookie_encode($user['password']));
+session::set('username', $user['username']);
+front::redirect(url::create('user'));
+exit;
+}
+}
+
+if (front::post('submit')) {
+if (front::post('username') && front::post('password')) {
+$username = front::post('username');
+$password = md5(front::post('password'));
+$data = array(
+'username' => $username,
+'password' => $password,
+);
+$user = new user();
+$row = $user->getrow(array('username' => $data['username'], 'password' => $data['password']));
+if (!is_array($row)) {
+$this->login_false();
+return;
+}
+$post[$classname] = session::get('openid');
+$this->_user->rec_update($post, 'userid=' . $row['userid']);
+cookie::set('login_username', $row['username']);
+cookie::set('login_password', front::cookie_encode($row['password']));
+session::set('username', $row['username']);
+front::redirect(url::create('user'));
+return;
+} else {
+$this->login_false();
+return;
+}
+
+}
+
+include_once ROOT . '/lib/plugins/ologin/' . $classname . '.php';
+$ologinobj = new $classname();
+$status = $ologinobj->respond();
+//var_dump(session::get('openid'));exit;
+$where[$classname] = session::get('openid');
+if (!$where[$classname]) front::redirect(url::create('user'));
+$user = new user();
+$data = $user->getrow($where);
+if (!$data) {
+$this->view->data = $status;
+} else {
+cookie::set('login_username', $data['username']);
+cookie::set('login_password', front::cookie_encode($data['password']));
+session::set('username', $data['username']);
+front::redirect(url::create('user'));
+}
+
+}
+
+//////////////////////
+
+function login_action()
+{
+if (!$this->loginfalsemaxtimes())
+if (front::post('submit')) {
+if(config::get('verifycode') == 1) {
+if (!session::get('verify') || front::post('verify') <> session::get('verify')) {
+alerterror(lang('verification_code'));
+return;
+}
+}else if(config::get('verifycode') == 2){
+if (!verify::checkGee()) {
+alerterror(lang('verification_code'));
+return;
+}
+}
+if (config::get('mobilechk_enable') && config::get('mobilechk_login')) {
+$mobilenum = front::$post['mobilenum'];
+$smsCode = new SmsCode();
+if (!$smsCode->chkcode($mobilenum)) {
+alerterror(lang('cell_phone_parity_error') . "<a href=''>" . lang('backuppage') . "</a>");
+return;
+}
+}
+if (front::post('username') && front::post('password')) {
+$username = front::post('username');
+$password = md5(front::post('password'));
+$data = array(
+'username' => $username,
+'password' => $password,
+);
+$user = new user();
+$user = $user->getrow($data);
+if (!is_array($user)) {
+$this->login_false();
+return;
+}
+//var_dump($user);exit;
+if($user['isblock']){
+alerterror('您的账户已被冻结！');
+return;
+}
+//$user = $data;
+cookie::set('login_username', $user['username']);
+cookie::set('login_password', front::cookie_encode($user['password']));
+session::set('username', $user['username']);
+$this->view->from = front::post('from') ? front::post('from') : front::$from;
+front::flash($this->fetch('login_success.html'));
+return;
+} else {
+$this->login_false();
+return;
+}
+}
+$this->view->ologinlist = ologin::getInstance()->getrows('', 50);
+}
+
+function dialog_login_action()
+{
+if (!$this->loginfalsemaxtimes())
+if (front::post('submit')) {
+if (config::get('verifycode')) {
+if (!session::get('verify') || front::post('verify') <> session::get('verify')) {
+front::flash(lang('verification_code') . "<a href=''>" . lang('backuppage') . "</a>");
+return;
+}
+}
+if (front::post('username') && front::post('password')) {
+$username = front::post('username');
+$password = md5(front::post('password'));
+$data = array(
+'username' => $username,
+'password' => $password,
+);
+$user = new user();
+$user = $user->getrow($data);
+if (!is_array($user)) {
+$this->login_false();
+return;
+}
+//$user = $data;
+//var_dump($user);exit;
+if($user['isblock']){
+front::flash('您的账户已被冻结！');
+return;
+}
+cookie::set('login_username', $user['username']);
+cookie::set('login_password', front::cookie_encode($user['password']));
+session::set('username', $user['username']);
+session::set('userid', $user['uid']);
+$this->view->from = front::post('from') ? front::post('from') : front::$from;
+$this->view->message = $this->fetch('user/login_success.html');
+return;
+} else {
+$this->login_false();
+return;
+}
+}
+}
+
+function login_false()
+{
+cookie::set('loginfalse', (int)cookie::get('loginfalse') + 1, time() + 3600);
+event::log('loginfalse', lang('failure') . ' user=' . front::post('username'));
+//front::flash(lang('login_failure') . "<a href=''>" . lang('backuppage') . "</a>");
+alerterror(lang('login_failure'));
+}
+
+function loginfalsemaxtimes()
+{
+if (cookie::get('loginfalse') > 5 || event::loginfalsemaxtimes()) {
+front::flash('wrong_too_many_times');
+return true;
+}
+}
+
+function login_js_action()
+{
+if (cookie::get('login_username') && cookie::get('login_password')) {
+$user = $this->_user->getrow(array('username' => cookie::get('login_username')));
+if (is_array($user) && cookie::get('login_password') == front::cookie_encode($user['password'])) {
+$this->view->user = $user;
+session::set('username', $user['username']);
+}
+}
+echo tool::text_javascript($this->fetch());
+exit;
+}
+
+function logout_action()
+{
+cookie::del('login_username');
+cookie::del('login_password');
+session::del('username');
+front::redirect(url::create('user/login'));
+exit;
+}
+
+private function sendmail($smtpemailto, $title, $mailbody)
+{
+include_once(ROOT . '/lib/plugins/smtp.php');
+$mailsubject = mb_convert_encoding($title, 'GB2312', 'UTF-8');
+$mailtype = "HTML";
+$smtp = new include_smtp(config::get('smtp_mail_host'), config::get('smtp_mail_port'), config::get('smtp_mail_auth'), config::get('smtp_mail_username'), config::get('smtp_mail_password'));
+$smtp->debug = false;
+$smtp->sendmail($smtpemailto, config::get('smtp_user_add'), $mailsubject, $mailbody, $mailtype);
+}
+
+function register_action()
+{
+//echo session::get('verify');
+//var_dump($_SESSION);
+if (front::post('submit')) {
+if (!config::get('reg_on')) {
+alerterror(lang('site_has_been_closed_to_register'));
+return;
+}
+
+if(config::get('verifycode') == 1) {
+if (!session::get('verify') || front::post('verify') <> session::get('verify')) {
+alerterror(lang('verification_code'));
+exit;
+}
+}else if(config::get('verifycode') == 2){
+if (!verify::checkGee()) {
+alerterror(lang('verification_code'));
+exit;
+}
+}
+
+if (config::get('invitation_registration')) {
+
+$invite = front::$post['invite'];
+$db_invite = invite::getInstance();
+if(!$db_invite->checkInvite($invite)){
+alerterror('邀请码错误');
+return;
+}
+}
+
+if (config::get('mobilechk_enable') && config::get('mobilechk_reg')) {
+$mobilenum = front::$post['mobilenum'];
+$smsCode = new SmsCode();
+if (!$smsCode->chkcode($mobilenum)) {
+alerterror(lang('cell_phone_parity_error'));
+return;
+}
+}
+if (front::post('username') != strip_tags(front::post('username'))
+|| front::post('username') != htmlspecialchars(front::post('username'))
+) {
+alerterror(lang('name_is_not_standardized'));
+return;
+}
+if (strlen(front::post('username')) < 4) {
+alerterror(lang('user_name_is_too_short'));
+return;
+}
+if (strlen(front::post('e_mail')) < 1 && !is_email(front::post('e_mail'))) {
+alerterror(lang('please_fill_in_the_mailbox'));
+return;
+}
+if (!is_email(front::post('e_mail'))) {
+alerterror(lang('please_fill_in_the_correct_mailbox_format'));
+return;
+}
+if (strlen(front::post('tel')) < 1) {
+alerterror(lang('please fill in your mobile phone number'));
+return;
+}
+
+
+if (front::post('username') && front::post('password')) {
+$username = front::post('username');
+$username = str_replace('\\', '', $username);
+$password = md5(front::post('password'));
+$e_mail = front::post('e_mail');
+$tel = front::post('tel');
+$data = array(
+'username' => $username,
+'password' => $password,
+'e_mail' => $e_mail,
+'tel' => $tel,
+'groupid' => 101,
+'userip' => front::ip()
+);
+
+foreach ($this->view->field as $f) {
+$name = $f['name'];
+if (!preg_match('/^my_/', $name)) {
+unset($field[$name]);
+continue;
+}
+if (!setting::$var['user'][$name]['showinreg']) {
+continue;
+}
+$data[$name] = front::post($name);
+}
+if ($this->_user->getrow(array('username' => $username))) {
+front::flash(lang('user_name_already_registered'));
+return;
+}
+$insert = $this->_user->rec_insert($data);
+$_userid = $this->_user->insert_id();
+if ($insert) {
+if (config::get('sms_on') && config::get('sms_reg_on')) {
+$smsCode = new SmsCode();
+$content = $smsCode->getTemplate('reg', array($username, front::post('password')));
+sendMsg($tel, $content);
+}
+$cmsname = config::get('sitename');
+if (config::get('email_reg_on')) {
+$this->sendmail($e_mail, lang('welcome_to_register')."$cmsname !", lang('respect') . $username . ', ' . lang('hello_welcome_you_to_register' . $cmsname . '!'));
+}
+alerterror(lang('registered_success'));
+} else {
+alerterror(lang('registration_failure'));
+return;
+}
+if (union::getconfig('enabled')) {
+$union_visitid = intval(cookie::get('union_visitid'));
+$union_userid = intval(cookie::get('union_userid'));
+if ($union_visitid && $union_userid) {
+$union_reg = new union();
+$r = $union_reg->getrow(array('userid' => $union_userid));
+if ($r) {
+$union_reg->rec_update(array('registers' => '[registers+1]'), array('userid' => $union_userid));
+if ($union_reg->affected_rows()) {
+$union_visit_reg = new union_visit();
+$union_visit_reg->rec_update(array('regusername' => front::post('username'), 'regtime' => time()), array('visitid' => $union_visitid));
+$this->_user->rec_update(array('introducer' => $union_userid), array('userid' => $_userid));
+$regrewardtype = union::getconfig('regrewardtype');
+$regrewardnumber = union::getconfig('regrewardnumber');
+switch ($regrewardtype) {
+case 'point':
+union::pointadd($r['username'], $regrewardnumber, 'union');
+break;
+}
+}
+}
+}
+}
+$user = $data;
+cookie::set('login_username', $user['username']);
+cookie::set('login_password', front::cookie_encode($user['password']));
+session::set('username', $user['username']);
+front::redirect(url::create('user'));
+exit;
+} else {
+alerterror(lang('registration_failure'));
+return;
+}
+}
+/*if (front::get('t') == 'wap') {
+$tpl = 'wap/register.html';
+$this->render($tpl);
+exit;
+}*/
+}
+
+function changepassword_action()
+{
+if (front::post('dosubmit') && front::post('password')) {
+if (!front::post('oldpassword') || !is_array($this->_user->getrow(array('password' => md5(front::post('oldpassword'))), 'userid=' . $this->view->user['userid']))) {
+front::flash(lang('the_original_password_is_not_correct!_Password_change_failed'));
+return;
+}
+$this->_user->rec_update(array('password' => md5(front::post('password'))), 'userid=' . $this->view->user['userid']);
+front::flash(lang('password_modification_success'));
+}
+
+$this->view->data = $this->view->user;
+
+}
+
+function getpass_action()
+{
+if (front::post('step') == '') {
+echo template('getpass.html');
+} else if (front::post('step') == '1') {
+if(config::get('verifycode') == 1) {
+if (!session::get('verify') || front::post('verify') <> session::get('verify')) {
+alerterror(lang('verification_code'));
+return;
+}
+}else if(config::get('verifycode') == 2){
+if (!verify::checkGee()) {
+alerterror(lang('verification_code'));
+return;
+}
+}
+if (strlen(front::post('username')) < 4) {
+alerterror(lang('user_name_is_too_short'));
+return;
+}
+$user = new user();
+$user = $user->getrow(array('username' => front::post('username')));
+$this->view->user = $user;
+session::set('answer', $user['answer']);
+session::set('username1', $user['username']);
+session::set('e_mail', $user['e_mail']);
+if (!empty($user['answer'])) {
+echo template('getpass_1.html');
+} else {
+session::set('ischk', 'true');
+echo template('getpass_2.html');
+}
+} else if (front::post('step') == '2') {
+if (strlen(front::post('answer')) < 1) {
+echo '<script>alert("' . lang('please_enter_the_answer') . '");</script>';
+return;
+}
+if (front::post('answer') != session::get('answer')) {
+echo '<script>alert("' . lang('your_answer_is_wrong') . '");</script>';
+return;
+}
+session::set('ischk', 'true');
+echo template('getpass_2.html');
+} else if (front::post('step') == '3') {
+if (strlen(front::post('e_mail')) < 1) {
+echo '<script>alert("' . lang('please_enter_the_registration_time_to_fill_in_the_mailbox') . '");</script>';
+return;
+}
+if (front::post('e_mail') != session::get('e_mail')) {
+echo '<script>alert("' . lang('mailbox_and_user_does_not_match') . '");</script>';
+return;
+}
+if (session::get('ischk') == 'true') {
+function randomstr($length)
+{
+$str = '1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLOMNOPQRSTUVWXYZ';
+for ($i = 0; $i < $length; $i++) {
+$str1 .= $str{mt_rand(0, 35)};
+}
+return $str1;
+}
+
+$password1 = randomstr(6);
+$password = md5($password1);
+$user = new user();
+$user->rec_update(array('password' => $password), 'username="' . session::get('username1') . '"');
+/*config::setPath(ROOT.'/config/config.php');
+function sendmail($email_to,$email_subject,$email_message,$email_from = '') {
+extract($GLOBALS,EXTR_SKIP);
+require ROOT.'/lib/tool/sendmail_inc.php';
+}
+$mail[email]=config::get('email');*/
+$this->sendmail(session::get('e_mail'), lang('member_retrieve_password'), ' ' . lang('respect') . session::get('username1') . ', ' . lang('hello_Your_new_password_is') . ':' . $password1 . ' ' . lang(您可以登录后到会员中心进行修改) . '!');
+echo '<script>alert("' .lang('system_to_generate_the_password_has_been_sent_to_your_mailbox,_jump_to_the_login_page') . '");window.location="index.php?case=user&act=login"</script>';
+} else {
+echo '<script>alert("' . lang('illegal_parameter') . '");</script>';
+return;
+}
+}
+exit;
+}
+
+function fckupload_action()
+{
+/*$uploads=array();
+if(is_array($_FILES)) {
+$upload=new upload();
+foreach($_FILES as $name=>$file) {
+$uploads[$name]=$upload->run($file);
+}
+$this->view->uploads=$uploads;
+}
+$this->render('../admin/system/fckupload.php');*/
+exit;
+}
+
+function fckuploadcheck_action()
+{
+if (empty($this->view->user) || !$this->view->user['userid'])
+exit('PAGE NOT FOUND');
+fckuser::$user = $this->view->user;
+$this->end = false;
+}
+
+function end()
+{
+if (isset($this->end) && !$this->end) return;
+if (front::$debug)
+$this->render('style/index.html');
+else
+$this->render();
+}
+}

@@ -1,19 +1,1169 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??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*/
+
+if (!defined('ROOT'))
+exit('Can\'t Access !');
+
+class archive_act extends act
+{
+
+public $auto_end = true;
+public $showform = '1';
+public $manage = null;
+
+function init()
+{
+$this->archive = new archive();
+$this->category = category::getInstance();
+$this->view->category = $this->category->category;
+if (front::get('page'))
+$page = front::get('page');
+else
+$page = 1;
+$this->view->page = $page;
+front::check_type($page);
+$_catpage = category::categorypages(front::get('catid'));
+if ($_catpage) {
+$this->pagesize = $_catpage;
+} else {
+$this->pagesize = config::get('list_pagesize');
+}
+front::check_type($this->pagesize);
+$announcement = new announcement();
+$this->view->announcements = $announcement->getrows(null, 10);
+}
+
+
+function set_verify()
+{
+return array(
+'is_int' => 'id,aid',
+'is_word' => '',
+'is_email' => '',
+'is_text' => ''
+);
+}
+
+function index_action()
+{
+
+}
+
+function pages_action()
+{
+$p = front::get('p');
+if ($p != 'share' && $p != 'map') {
+die();
+}
+if (front::get('t') == 'wap') {
+$this->out("wap/$p.html");
+return;
+};
+}
+
+function rss_action()
+{
+$sitename = config::get('sitename');
+$site_url = config::get('site_url');
+$catid = intval(front::get('catid'));
+if (!$catid) {
+$title = $sitename;
+$url = $site_url;
+$articles = $this->archive->getrows('', 30);
+} else {
+$type = $this->category->category[$catid];
+$cids = $this->category->sons($catid);
+$where = "catid='$catid'";
+if ($cids) {
+$cids[] = $catid;
+$where = "catid in(" . implode(',', $cids) . ")";
+}
+$title = $type['catname'] . '-' . $sitename;
+//$url = $site_url . url('archive/list/catid/' . $catid);
+$url = 'http://' . $_SERVER['HTTP_HOST'] . category::url($catid);
+$articles = $this->archive->getrows($where, 30);
+}
+$code = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n";
+        $code .= "<rss version=\"2.0\">\r\n";
+        $code .= "<channel>\r\n";
+        $code .= "<title>{$title}</title>\r\n";
+        $code .= "<link><![CDATA[{$url}]]></link>\r\n";
+        $code .= "<description>11{$title}</description>\r\n";
+        $i = 1;
+        if (is_array($articles) && !empty($articles)) {
+            foreach ($articles as $arr) {
+                $aurl = 'http://' . $_SERVER['HTTP_HOST'] . archive::url($arr);
+                $text = strip_tags(cut($arr['content'], 588));
+                $code .= "<item id=\"{$i}\">\r\n";
+                $code .= "<title><![CDATA[{$arr['title']}]]></title>\r\n";
+                $code .= "<link><![CDATA[" . $aurl . "]]></link>\r\n";
+                $code .= "<description><![CDATA[{$text}]]></description>\r\n";
+                $code .= "<pubDate>{$arr['adddate']}</pubDate>\r\n";
+                $code .= "</item>\r\n";
+                $i++;
+            }
+        }
+        $code .= "</channel>\r\n";
+        $code .= "</rss>";
+        header('Content-type: application/xml');
+        echo $code;
+        exit;
+    }
+
+    function list_action()
+    {
+        front::check_type(front::get('catid'));
+        $this->view->categorys = category::getpositionlink2(front::get('catid'));
+        $topid = category::gettopparent(front::get('catid'));
+        if (!isset($this->category->category[front::get('catid')]) ||
+            !isset($this->category->category[$topid])
+        ) {
+            $this->out('message/error.html');
+        }
+        $limit = (($this->view->page - 1) * $this->pagesize) . ',' . $this->pagesize;
+        $categories = array();
+        if (@$this->category->category[front::get('catid')]['ispages'])
+            $categories = $this->category->sons(front::get('catid'));
+        $categories[] = front::get('catid');
+        $this->view->pages = @$this->category->category[front::get('catid')]['ispages'];
+        if (!rank::catget(front::get('catid'), $this->view->usergroupid))
+            $this->out('message/error.html');
+        $order = "listorder=0,`listorder` asc,`aid` DESC";
+        $tops = $this->archive->getrows("checked=1 AND state=1 AND toppost!=0", 0, 'toppost DESC,listorder=0,listorder ASC,aid DESC');
+        if (@$this->category->category[front::get('catid')]['includecatarchives']) {
+            $articles = $this->archive->getrows('catid in (' . implode(',', $categories) . ') and checked=1', $limit, $order);
+        } else {
+            $articles = $this->archive->getrows('catid=' . front::get('catid') . ' and checked=1', $limit, $order);
+        }
+        if (!is_array($articles)) {
+            $this->out('message/error.html');
+        }
+
+        if (is_array($tops) && !empty($tops)) {
+            foreach ($tops as $order => $arc) {
+                if ($arc['toppost'] == 3) {
+                    $tops[$order]['title'] = "[" . lang('the_total_top') . "]" . $arc['title'];
+                }
+                if ($arc['toppost'] == 2) {
+                    $subcatids = $this->category->sons($arc['catid']);
+                    if ($arc['catid'] != front::get('catid') && !in_array(front::get('catid'), $subcatids)) {
+                        unset($tops[$order]);
+                    } else {
+                        $tops[$order]['title'] = "[" . lang('the_column_top') . "]" . $arc['title'];
+                    }
+                }
+            }
+            $articles = array_merge($tops, $articles);
+        }
+
+        foreach ($articles as $order => $arc) {
+            $articles[$order]['url'] = archive::url($arc);
+            $articles[$order]['catname'] = category::name($arc['catid']);
+            $articles[$order]['caturl'] = category::url($arc['catid']);
+            $articles[$order]['adddate'] = sdate($arc['adddate']);
+            $articles[$order]['title'] = $arc['title'];
+            $articles[$order]['stitle'] = strip_tags($arc['title']);
+            $articles[$order]['strgrade'] = archive::getgrade($arc['grade']);
+            $articles[$order]['buyurl'] = url('archive/orders/aid/' . $arc['aid']);
+            if (strtolower(substr($arc['thumb'], 0, 7)) == 'http://') {
+                $articles[$order]['sthumb'] = $arc['thumb'];
+            } else {
+                $articles[$order]['sthumb'] = config::get('base_url') . '/' . $arc['thumb'];
+            }
+            $pics = unserialize($arc['pics']);
+            if(is_array($pics) && !empty($pics)){
+                $articles[$order]['pics'] = $pics;
+            }
+            $prices = getPrices($articles[$order]['attr2']);
+            $articles[$order]['attr2'] = $prices['price'];
+            $articles[$order]['oldprice'] = $prices['oldprice'];
+
+            if ($arc['strong']) {
+                $articles[$order]['title'] = '<strong>' . $arc['title'] . '</strong>';
+            }
+            if ($arc['color']) {
+                $articles[$order]['title'] = '<font style="color:' . $arc['color'] . ';">' . $articles[$order]['title'] . '</font>';
+            }
+        }
+        $this->view->archives = $articles;
+        $this->view->articles = $articles;
+
+        if (@$this->category->category[front::get('catid')]['includecatarchives'])
+            $this->view->record_count = $this->archive->rec_count('catid in(' . implode(',', $categories) . ') AND state=1 AND checked=1');
+        else
+            $this->view->record_count = $this->archive->rec_count('catid=' . front::get('catid') . ' AND state=1 AND checked=1');
+        front::$record_count = $this->view->record_count;
+        $this->view->catid = front::get('catid');
+        $this->view->ifson = category::hasson($articles[0]['catid'] ? $articles[0]['catid'] : $this->view->catid);
+        $this->view->topid = category::gettopparent(front::get('catid'));
+        $this->view->parentid = @$this->category->getparent($this->view->catid);
+        if (front::$ismobile) {
+            $cateobj = category::getInstance();
+            $this->view->subids = $cateobj->son($this->view->catid);
+            $template = $this->category->category[front::get('catid')]['templatewap'];
+            if ($template && file_exists(TEMPLATE . '/' . $this->view->_style . '/' . $template)) {
+                $this->out($template);
+            } else {
+                $tpl = category::gettemplatewap($this->view->catid);
+                $this->out($tpl);
+            }
+            return;
+        }
+        $template = @$this->category->category[front::get('catid')]['template'];
+        if ($template && file_exists(TEMPLATE . '/' . $this->view->_style . '/' . $template))
+            $this->out($template);
+        else {
+            $tpl = category::gettemplate($this->view->catid);
+            if (category::getishtml($this->view->catid)) {
+                $path = ROOT . category::url($this->view->catid, @front::$get['page'] > 1 ? front::$get['page'] : null);
+                if (!preg_match('/\.[a-zA-Z]+$/', $path))
+                    $path = rtrim(rtrim($path, '/'), '\\') . '/index.html';
+                $this->cache_path = $path;
+            }
+            $this->out($tpl);
+        }
+    }
+
+    //防伪码搜索
+    function ecodingsearch_action()
+    {//print_r($_SESSION);exit();
+        if (front::get('keyword') && !front::post('keyword'))
+            front::$post['keyword'] = front::get('keyword');
+        front::check_type(front::post('keyword'), 'safe');
+        if (front::post('keyword')) {
+            $this->view->keyword = trim(front::post('keyword'));
+            if (preg_match('/union/i', $this->view->keyword) || preg_match('/"/i', $this->view->keyword) || preg_match('/\'/i', $this->view->keyword)) {
+                exit(lang('illegal_parameter'));
+            }
+        } else {
+            alerterror(lang('key_words_can_not_be_empty'));
+        }
+
+        if (preg_match('/union/i', $this->view->keyword) || preg_match('/"/i', $this->view->keyword) || preg_match('/\'/i', $this->view->keyword)) {
+            exit(lang('illegal_parameter'));
+
+        }
+        $condition = "ecoding = '" . $this->view->keyword . "'";
+        if (config::get('isecoding')) {
+            $condition .= " AND (isecoding=0 OR isecoding=1)";
+        } else {
+            $condition .= " AND (isecoding=1)";
+        }
+        $order = "`listorder`,aid DESC";
+        $limit = (($this->view->page - 1) * $this->pagesize) . ',' . $this->pagesize;
+        $articles = $this->archive->getrows($condition, $limit, $order);
+        foreach ($articles as $order => $arc) {
+            $articles[$order]['url'] = archive::url($arc);
+            $articles[$order]['catname'] = category::name($arc['catid']);
+            $articles[$order]['caturl'] = category::url($arc['catid']);
+            $articles[$order]['adddate'] = sdate($arc['adddate']);
+            $articles[$order]['stitle'] = strip_tags($arc['title']);
+        }
+        $this->view->articles = $articles;
+        $this->view->archives = $articles;
+        $this->view->record_count = $this->archive->record_count;
+
+        if (front::get('t') == 'wap') {
+            $this->out('wap/archive_search.html');
+            return;
+        }
+    }
+
+    function search_action()
+    {//print_r($_SESSION);exit();
+        if (front::get('ule')) {
+            front::$get['keyword'] = str_replace('-', '%', front::$get['keyword']);
+            front::$get['keyword'] = urldecode(front::$get['keyword']);
+        }
+        if (front::get('keyword') && !front::post('keyword'))
+            front::$post['keyword'] = front::get('keyword');
+        front::check_type(front::post('keyword'), 'safe');
+        if (front::post('keyword')) {
+            $this->view->keyword = trim(front::post('keyword'));
+            if (preg_match('/union/i', $this->view->keyword) || preg_match('/"/i', $this->view->keyword) || preg_match('/\'/i', $this->view->keyword)) {
+                exit(lang('illegal_parameter'));
+            }
+            session::set('keyword', trim(front::post('keyword')));
+            /* if(isset(front::$get['keyword']))
+              front::redirect(preg_replace('/keyword=[^&]+/','keyword='.urlencode($this->view->keyword),front::$uri));
+              else  front::redirect(front::$uri.'&keyword='.urlencode($this->view->keyword)); */
+        } else {
+            $this->view->keyword = session::get('keyword');
+            if (preg_match('/union/i', $this->view->keyword) || preg_match('/"/i', $this->view->keyword) || preg_match('/\'/i', $this->view->keyword)) {
+                exit(lang('illegal_parameter'));
+            }
+        }
+
+        if (preg_match('/union/i', $this->view->keyword) || preg_match('/"/i', $this->view->keyword) || preg_match('/\'/i', $this->view->keyword)) {
+            exit(lang('illegal_parameter'));
+        }
+
+        $path = ROOT . '/data/hotsearch/' . urlencode($this->view->keyword) . '.txt';
+        $mtime = @filemtime($path);
+        $time = intval(config::get('search_time')) ? intval(config::get('search_time')) : 30;
+        if (time() - $mtime < $time && !front::get('page')) {
+            alertinfo($time . lang('within_seconds_can_not_repeat_search'), 'index.php?t=' . front::get('t'));
+        }
+        $keywordcount = @file_get_contents($path);
+        $keywordcount = $keywordcount + 1;
+        file_put_contents($path, $keywordcount);
+        $type = $this->view->category;
+        $condition = "";
+        $cid = intval(front::post('catid'));
+        if ($cid) {
+            $cateobj = category::getInstance();
+            $sons = $cateobj->sons($cid);
+            if (is_array($sons) && !empty($sons)) {
+                $cids = $cid . ',' . implode(',', $sons);
+            } else {
+                $cids = $cid;
+            }
+            $condition .= "catid in (" . $cids . ") AND ";
+            //var_dump($condition);exit;
+        }
+        $condition .= "(title like '%" . $this->view->keyword . "%'";
+        $sets = settings::getInstance()->getrow(array('tag' => 'table-fieldset'));
+        $arr = unserialize($sets['value']);
+        if (is_array($arr['archive']) && !empty($arr['archive'])) {
+            foreach ($arr['archive'] as $v) {
+                if ($v['issearch'] == '1') {
+                    $condition .= " OR {$v['name']} like '%{$this->view->keyword}%'";
+                }
+            }
+        }
+        $condition .= ")";
+        $order = "`listorder`,1 DESC";
+        $limit = (($this->view->page - 1) * $this->pagesize) . ',' . $this->pagesize;
+        $articles = $this->archive->getrows($condition, $limit, $order);
+        foreach ($articles as $order => $arc) {
+            $articles[$order]['url'] = archive::url($arc);
+            $articles[$order]['catname'] = category::name($arc['catid']);
+            $articles[$order]['caturl'] = category::url($arc['catid']);
+            $articles[$order]['adddate'] = sdate($arc['adddate']);
+            $articles[$order]['stitle'] = strip_tags($arc['title']);
+        }
+        $this->view->articles = $articles;
+        $this->view->archives = $articles;
+        $this->view->record_count = $this->archive->record_count;
+    }
+
+    function esearch_action()
+    {
+        front::check_type(front::get('keyword'), 'safe');
+        $this->view->keyword = trim(front::get('keyword'));
+        if ($this->view->keyword) {
+            $path = ROOT . '/data/hotsearch/' . urlencode($this->view->keyword) . '.txt';
+            $mtime = @filemtime($path);
+            $time = intval(config::get('search_time')) ? intval(config::get('search_time')) : 30;
+            if (time() - $mtime < $time && !front::get('page')) {
+                alertinfo($time . lang('within_seconds_can_not_repeat_search'), 'index.php?t=' . front::get('t'));
+            }
+            $keywordcount = @file_get_contents($path);
+            $keywordcount = $keywordcount + 1;
+            file_put_contents($path, $keywordcount);
+            $type = $this->view->category;
+            $condition = "";
+            if (front::get('catid')) {
+                $condition .= "catid = '" . front::get('catid') . "' AND ";
+            }
+            $condition .= "(title like '%" . $this->view->keyword . "%'";
+            $sets = settings::getInstance()->getrow(array('tag' => 'table-fieldset'));
+            $arr = unserialize($sets['value']);
+            if (is_array($arr['archive']) && !empty($arr['archive'])) {
+                foreach ($arr['archive'] as $v) {
+                    if ($v['issearch'] == '1' && front::get($v['name'])) {
+                        if ($v['selecttype']) {
+                            $condition .= " AND {$v['name']} = '" . front::get($v['name']) . "'";
+                        } else {
+                            $condition .= " AND {$v['name']} like '%" . front::get($v['name']) . "%'";
+                        }
+                    }
+                }
+            }
+            $condition .= ")";
+            $order = "`listorder`,1 DESC";
+            $limit = (($this->view->page - 1) * $this->pagesize) . ',' . $this->pagesize;
+            $articles = $this->archive->getrows($condition, $limit, $order);
+            foreach ($articles as $order => $arc) {
+                $articles[$order]['url'] = archive::url($arc);
+                $articles[$order]['catname'] = category::name($arc['catid']);
+                $articles[$order]['caturl'] = category::url($arc['catid']);
+                $articles[$order]['adddate'] = sdate($arc['adddate']);
+                $articles[$order]['stitle'] = strip_tags($arc['title']);
+            }
+            $this->view->articles = $articles;
+            $this->view->archives = $articles;
+            $this->view->record_count = $this->archive->record_count;
+        }
+        $this->view->field = $this->archive->getFields();
+    }
+
+    function asearch_action()
+    {
+        if (front::get('keyword') && !front::post('keyword'))
+            front::$post['keyword'] = front::get('keyword');
+        front::check_type(front::post('keyword'), 'safe');
+        if (front::post('keyword')) {
+            $this->view->keyword = trim(front::post('keyword'));
+            session::set('keyword', $this->view->keyword);
+        } elseif (session::get('keyword')) {
+            $this->view->keyword = trim(session::get('keyword'));
+            session::set('keyword', $this->view->keyword);
+        } else {
+            session::set('keyword', null);
+            $this->view->keyword = session::get('keyword');
+        }
+        $limit = (($this->view->page - 1) * $this->pagesize) . ',' . $this->pagesize;
+        $articles = $this->archive->getrows("title like '%" . $this->view->keyword . "%'", $limit);
+        foreach ($articles as $order => $arc) {
+            $articles[$order]['url'] = archive::url($arc);
+            $articles[$order]['catname'] = category::name($arc['catid']);
+            $articles[$order]['caturl'] = category::url($arc['catid']);
+            $articles[$order]['adddate'] = sdate($arc['adddate']);
+            $articles[$order]['stitle'] = strip_tags($arc['title']);
+        }
+        $this->view->articles = $articles;
+        $this->view->archives = $articles;
+        $this->view->record_count = $this->archive->record_count;
+    }
+
+    function show_action()
+    {
+
+        $aid = intval(front::get('aid'));
+        if (!$aid) {
+            $aid = intval(front::get('id'));
+        }
+        front::check_type($aid);
+        $this->view->showarchive = archive::getInstance()->getrow($aid);
+        $this->manage = new table_archive();
+        $this->manage->view_before($this->view->showarchive);
+        $addcontentuser = new user();
+        $addcontentuser = $addcontentuser->getrow(array('userid' => $this->view->showarchive['userid']));
+        if (is_array($addcontentuser)) {
+            $this->view->adduser = $addcontentuser;
+        }
+
+        $this->view->archive = $this->view->showarchive;
+
+        $this->view->categorys = category::getpositionlink2($this->view->archive['catid']);
+        if (!is_array($this->view->archive))
+            $this->out('message/error.html');
+        if ($this->view->archive['checked'] < 1)
+            exit("<div class='tip_box' style='width:150px;margin:0px auto;margin-top:50px;padding:20px;border:5px solid #ccc;border-radius: 5px 5px 5px 5px;text-align:center;'>" . lang('error_url') . "<a href='javascript:history.back(-1);'>" . lang('go_back') . "</a></div>");
+        if (!rank::arcget(front::get('aid'), $this->view->usergroupid)) {
+            $this->out('message/error.html');
+        }
+        $this->view->catid = $this->view->archive['catid'];
+        $this->view->topid = category::gettopparent($this->view->catid);
+        $this->view->parentid = $this->category->getparent($this->view->catid);
+        if (!rank::catget($this->view->catid, $this->view->usergroupid))
+            $this->out('message/error.html');
+        if (!isset($this->category->category[$this->view->catid]) ||
+            !isset($this->category->category[$this->view->topid])
+        ) {
+
+        }
+        $template = @$this->view->archive['template'];
+
+        $content = $this->view->archive['content'];
+        $contents = preg_split('%<div style="page-break-after(.*?)</div>%si', $content);
+        if ($contents) {
+            $this->view->pages = count($contents);
+            front::$record_count = $this->view->pages * config::get('list_pagesize');
+            $content = $contents[$this->view->page - 1];
+        }
+
+        $this->view->likenews = $this->getLike($this->view->archive['tag'], $this->view->archive['keyword']);
+
+        $taghtml = '';
+        $tag_table = new tag();
+        foreach ($tag_table->urls($this->view->archive['tag']) as $tag => $url) {
+            $taghtml .= "<a href='$url' target='_blank'>$tag</a>&nbsp;&nbsp;";
+        }
+        $this->view->archive['tag'] = $taghtml;
+
+        $this->view->archive['special'] = null;
+        if ($this->view->archive['spid']) {
+            $spurl = special::url($this->view->archive['spid'], special::getishtml($this->view->archive['spid']));
+            $sptitle = special::gettitle($this->view->archive['spid']);
+            $this->view->archive['special'] = "<a href='$spurl' target='_blank'>$sptitle</a>&nbsp;&nbsp;";
+        }
+        $this->view->archive['type'] = null;
+        if ($this->view->archive['typeid']) {
+            $typeurl = type::url($this->view->archive['typeid'], 1);
+            $typetitle = type::name($this->view->archive['typeid']);
+            $this->view->archive['type'] = "<a href='$typeurl' target='_blank'>$typetitle</a>&nbsp;&nbsp;";
+        }
+        //$this->view->archive['area'] = null;
+        //$this->view->archive['area'] = area::getpositonhtml($this->view->archive['province_id'], $this->view->archive['city_id'], $this->view->archive['section_id']);
+        $this->view->archive['content'] = $content;
+        $aid = intval(front::$get['aid']);
+        $catid = $this->view->catid;
+        if (!$this->view->archive['showform']) {
+            $this->getshowform($catid);
+        } else if ($this->view->archive['showform'] && $this->view->archive['showform'] == '1') {
+            $this->showform = 1;
+        } else {
+            $this->showform = $this->view->archive['showform'];
+        }
+        if (preg_match('/^my_/is', $this->showform)) {
+            $this->view->archive['showform'] = $this->showform;
+            $o_table = new defind($this->showform);
+            front::$get['form'] = $this->showform;
+            $this->view->primary_key = $o_table->primary_key;
+            $field = $o_table->getFields();
+            $fieldlimit = $o_table->getcols('user_modify');
+            helper::filterField($field, $fieldlimit);
+            $this->view->field = $field;
+        } else {
+            $this->view->archive['showform'] = '';
+        }
+
+        $str = "";
+        cb_data($this->view->archive);
+        foreach ($this->view->archive as $key => $value) {
+            if (!preg_match('/^my/', $key) || !$value)
+                continue;
+            $category = category::getInstance();
+            $sonids = $category->sons(setting::$var['archive'][$key]['catid']);
+            if (setting::$var['archive'][$key]['catid'] != $this->view->archive['catid'] && !in_array($this->view->archive['catid'], $sonids) && (setting::$var['archive'][$key]['catid'])) {
+                unset($this->view->field[$key]);
+                continue;
+            }
+            $str .= '<p> ' . setting::$var['archive'][$key]['cname'] . ':' . $value . '</p>';
+        }
+        $this->view->archive['my_fields'] = $str;
+
+        $sql1 = "SELECT aid,title,catid FROM `{$this->archive->name}` WHERE catid = '$catid' AND aid > '$aid' and state=1 ORDER BY aid ASC LIMIT 0,1";
+        $sql2 = "SELECT aid,title,catid FROM `{$this->archive->name}` WHERE catid = '$catid' AND aid < '$aid' and state=1 ORDER BY aid DESC LIMIT 0,1";
+        $n = $this->archive->rec_query_one($sql1);
+        $p = $this->archive->rec_query_one($sql2);
+        $this->view->archive['p'] = $p;
+        $this->view->archive['n'] = $n;
+        $this->view->archive['p']['url'] = archive::url($p);
+        $this->view->archive['n']['url'] = archive::url($n);
+
+        $this->view->archive['strgrade'] = archive::getgrade($this->view->archive['grade']);
+        $prices = getPrices($this->view->archive['attr2']);
+        $this->view->archive['attr2'] = $prices['price'];
+        $this->view->archive['oldprice'] = $prices['oldprice'];
+        $this->view->groupname = $prices['groupname'];
+
+        if (front::$ismobile) {
+            $templatewap = @$this->view->archive['templatewap'];
+            if ($templatewap && file_exists(TEMPLATE . '/' . $this->view->_style . '/' . $templatewap)) {
+                $this->out($templatewap);
+            } else {
+                $tpl = category::gettemplate($this->view->catid, 'showtemplatewap');
+                if (!$tpl) $tpl = 'archive/show.html';
+                $this->out($tpl);
+                return;
+            }
+        }
+
+
+        if ($template && file_exists(TEMPLATE . '/' . $this->view->_style . '/' . $template))
+            $this->out($template);
+        else {
+            $tpl = category::gettemplate($this->view->catid, 'showtemplate');
+            if (category::getarcishtml($this->view->archive)) {
+                $path = ROOT . archive::url($this->view->archive);
+                if (!preg_match('/\.[a-zA-Z]+$/', $path))
+                    $path = rtrim(rtrim($path, '/'), '\\') . '/index.html';
+                $this->cache_path = $path;
+            }
+            $this->out($tpl);
+        }
+    }
+
+    function getLike($tag, $keyword)
+    {
+        $str = '';
+        if ($tag) {
+            $tags = explode(',', $tag);
+            foreach ($tags as $v) {
+                if ($v)
+                    $str .= " OR tag LIKE '%$v%'";
+            }
+        }
+        if ($keyword) {
+            $keywords = explode(",", $keyword);
+            foreach ($keywords as $v) {
+                if ($v)
+                    $str .= " OR keyword LIKE '%$v%'";
+            }
+        }
+        $str = substr($str, 3);
+        if (!$str) {
+            return null;
+        }
+        $prefix = config::get('database', 'prefix');
+        $sql = "SELECT aid,catid,typeid,title,adddate,linkto,iswaphtml,htmlrule,ishtml,introduce,thumb FROM `{$prefix}archive` where checked=1 AND ($str) ORDER BY aid DESC LIMIT 0,5";
+        //echo $sql;
+        $row = $this->archive->rec_query($sql);
+        return $row;
+    }
+
+    function getshowform($cid)
+    {
+        $category = category::getInstance();
+        $row = $category->getrow(array('catid' => $cid), '1 desc', 'catid,showform,parentid');
+        if ($row['showform'] && $row['showform'] != 1) {
+            $this->showform = $row['showform'];
+        } else if ($row['showform'] && $row['showform'] == 1) {
+            $this->showform = 1;
+        } else if (!$row['showform']) {
+            if ($row['parentid'] != 0) {
+                $this->getshowform($row['parentid']);
+            } else {
+                $this->showform = '1';
+            }
+        }
+    }
+
+    function view_js_action()
+    {
+        front::check_type(front::get('aid'));
+        $aid = intval(front::get('aid'));
+        $this->archive->rec_update('view=view+1', $aid);
+        $archive = $this->archive->getrow($aid);
+        echo tool::text_javascript($archive['view']);
+        exit;
+    }
+
+    function jsPrice_action()
+    {
+        front::check_type(front::get('aid'));
+        $aid = intval(front::get('aid'));
+        $archive = $this->archive->getrow($aid);
+        $price = getPrices($archive['attr2']);
+        echo tool::text_javascript($price['price']);
+        exit;
+    }
+
+    function email_action()
+    {
+        if (front::post('submit')) {
+            $path = ROOT . '/data/subscriptionmail.txt';
+            $maillist = file_get_contents($path);
+            $content = $maillist . ',guest' . time() . ' [' . front::$post['email'] . ']';
+            file_put_contents($path, $content);
+            echo '<script type="text/javascript">alert("' . lang('operation_complete') . '")</script>';
+            front::refresh(url('archive/email', true));
+        }
+        $this->render('email/email.html');
+        exit;
+    }
+
+    function respond_action()
+    {
+
+        //file_put_contents('get.txt',var_export($_GET,true));
+        if(front::$get['code'] == 'wxscanpay') {
+            //$xml = $GLOBALS['HTTP_RAW_POST_DATA'];
+            //file_put_contents('xlog.txt',$xml);
+            include_once ROOT . '/lib/plugins/pay/wxscanpay.php';
+            $payobj = new wxscanpay();
+            $payobj->notify();
+            exit;
+        }
+        //file_put_contents('post.txt',var_export($_POST,true));
+
+        $out_trade_no = $_GET['subject'] ? $_GET['subject'] : $_POST['subject'];
+        if(!$out_trade_no){
+            $out_trade_no = $_GET['out_trade_no'] ? $_GET['out_trade_no'] : $_POST['out_trade_no'];
+        }
+        $code = explode('-', $out_trade_no);
+        $payclassname = $code[3];
+        //var_dump($code);
+        //var_dump($payclassname);
+
+        $flist = array('alipay', 'nopay', 'paypal', 'paypal_ec', 'tenpay', 'malipay','wxpay','wxscanpay');
+        if (!in_array($payclassname, $flist)) {
+            exit(lang('illegal_parameter'));
+        }
+
+        include_once ROOT . '/lib/plugins/pay/' . $payclassname . '.php';
+
+        $payobj = new $payclassname();
+        $status = $payobj->respond();
+        //var_dump($status);
+        if ($_POST['out_trade_no']) {
+            if ($status) {
+                exit('success');
+            } else {
+                exit('fail');
+            }
+        }
+        if ($status) {
+            //echo '<script type="text/javascript">alert("' . lang('payment_go_order') . '")</script>';
+            front::refresh(url('archive/orders/oid/' . $out_trade_no, true));
+        } else {
+            echo '<script type="text/javascript">alert("' . lang('go_order') . '")</script>';
+            front::refresh(url('archive/orders/oid/' . $out_trade_no, true));
+        }
+        exit;
+    }
+
+    function chkorders_action()
+    {
+        $oid = front::get('oid');
+        $row = orders::getInstance()->getrow(array('oid'=>$oid));
+        echo $row['status'];
+        exit;
+    }
+
+    function payorders_action()
+    {
+        //var_dump($_SERVER['QUERY_STRING']);
+        if (front::get('oid')) {
+            preg_match_all("/-(.*)-(.*)-(.*)/isu", front::get('oid'), $oidout);
+            $this->view->paytype = $oidout[3][0];
+            $this->view->user_id = $oidout[2][0];
+            $where = array();
+            $where['oid'] = front::get('oid');
+            $this->view->orders = orders::getInstance()->getrow($where);
+            $string = $this->view->orders['aid'];
+            $find = ',';
+            $pos = strpos($string, $find);
+            $this->view->statusnum = $data['status'] = $this->view->orders['status'];
+            switch ($data['status']) {
+                case 1:
+                    $this->view->orders['status'] = lang('complete');
+                    break;
+                case 2:
+                    $this->view->orders['status'] = lang('processing');
+                    break;
+                case 3:
+                    $this->view->orders['status'] = lang('shipped');
+                    break;
+                case 4:
+                    $this->view->orders['status'] = lang('pending_audit_payment');
+                    break;
+                case 5:
+                    $this->view->orders['status'] = lang('check_payment');
+                    break;
+                default:
+                    $this->view->orders['status'] = lang('ordersnotalreadydo');
+                    break;
+            }
+            //var_dump($this->view);
+            if (!$this->view->user['userid']) {
+                echo '<script type="text/javascript">alert("' . lang('not_logged_save_the_order_number') . '")</script>';
+            }
+            $logisticsid = $oidout[1][0];
+            if ($pos !== false) {
+                $_aid = $string;
+                $_aid = substr($_aid, 0, -1);
+                $this->view->archivearr1 = $this->view->_archivearr = archive::getInstance()->getrows('aid in (' . $_aid . ')', 100);
+                $pnums = explode(',', $this->view->orders['pnums']);
+                foreach ($this->view->archivearr1 as $key => $val) {
+                    $prices = getPrices($val['attr2']);
+                    $val['attr2'] = $prices['price'];
+                    $this->view->archivearr1[$key]['attr2'] = $val['attr2'];
+                    $this->view->orders[$key]['pnums'] = $pnums[$key];
+                    $this->view->archive['title'] .= $val['title'];
+                    $where = array();
+                    $payfilename = $where['pay_code'] = $this->view->paytype;
+                    $this->view->pay = pay::getInstance()->getrows($where);
+                    $where = array();
+                    $where['id'] = $logisticsid;
+                    $this->view->logistics = logistics::getInstance()->getrows($where);
+                    if ($this->view->logistics[0]['cashondelivery']) {
+                        $this->view->logistics[0]['price'] = 0.00;
+                    } else {
+                        if ($this->view->logistics[0]['insure']) {
+                            $this->view->logistics[0]['price'] = $this->view->logistics[0]['price'] + ($val['attr2'] * $this->view->orders[$key]['pnums']) * ($this->view->logistics[0]['insureproportion'] / 100);
+                        }
+                    }
+                    if (!isset($this->view->logistics[0]['price']))
+                        $this->view->logistics[0]['price'] = 0;
+                    $this->view->pay[0]['pay_fee'] = $this->view->pay[0]['pay_fee'] / 100;
+                    $this->view->archivearr1[$key]['total'] = $val['attr2'] * $this->view->orders['pnums'] + $this->view->logistics[0]['price'] + ($val['attr2'] * $this->view->orders[$key]['pnums'] * $this->view->pay[0]['pay_fee']);
+                    $this->view->total += $val['attr2'] * $this->view->orders[$key]['pnums'] + $this->view->logistics[0]['price'] + ($val['attr2'] * $this->view->orders[$key]['pnums'] * $this->view->pay[0]['pay_fee']);
+                }
+                $order['ordersn'] = front::get('oid');
+                $order['title'] = $this->view->archive['title'];
+                $order['id'] = $this->view->orders['id'];
+                $order['orderamount'] = $this->view->total;
+                include_once ROOT . '/lib/plugins/pay/' . $payfilename . '.php';
+                $payclassname = $payfilename;
+                $payobj = new $payclassname();
+                $this->view->pay[0]['pay_config'];
+                $this->view->gotopaygateway = $payobj->get_code($order, unserialize_config($this->view->pay[0]['pay_config']));
+                //var_dump($this->view->gotopaygateway);exit;
+            } else {
+                $this->view->archive = archive::getInstance()->getrow($this->view->orders['aid']);
+                $prices = getPrices($this->view->archive['attr2']);
+                $this->view->archive['attr2'] = $prices['price'];
+                $where = array();
+                $payfilename = $where['pay_code'] = $this->view->paytype;
+                $this->view->pay = pay::getInstance()->getrows($where);
+                $where = array();
+                $where['id'] = $logisticsid;
+                $this->view->logistics = logistics::getInstance()->getrows($where);
+                if ($this->view->logistics[0]['cashondelivery']) {
+                    $this->view->logistics[0]['price'] = 0.00;
+                } else {
+                    if ($this->view->logistics[0]['insure']) {
+                        $this->view->logistics[0]['price'] = $this->view->logistics[0]['price'] + ($this->view->archive['attr2'] * $this->view->orders['pnums']) * ($this->view->logistics[0]['insureproportion'] / 100);
+                    }
+                }
+                if (!isset($this->view->logistics[0]['price']))
+                    $this->view->logistics[0]['price'] = 0;
+                $this->view->pay[0]['pay_fee'] = $this->view->pay[0]['pay_fee'] / 100;
+                $this->view->total = $this->view->archive['attr2'] * $this->view->orders['pnums'] + $this->view->logistics[0]['price'] + ($this->view->archive['attr2'] * $this->view->orders['pnums'] * $this->view->pay[0]['pay_fee']);
+                $order['ordersn'] = front::get('oid');
+                $order['title'] = $this->view->archive['title'];
+                $order['id'] = $this->view->orders['id'];
+                $order['orderamount'] = $this->view->total;
+                include_once ROOT . '/lib/plugins/pay/' . $payfilename . '.php';
+                $payclassname = $payfilename;
+                $payobj = new $payclassname();
+                //var_dump(unserialize_config($this->view->pay[0]['pay_config']));
+                //var_dump($payobj);
+
+                $this->view->gotopaygateway = $payobj->get_code($order, unserialize_config($this->view->pay[0]['pay_config']));
+                //var_dump($this->view->gotopaygateway);exit;
+                //var_dump($this->view->gotopaygateway);
+                //var_dump($this->view->pay[0]['pay_config']);
+                //exit;
+                //var_dump($this->view->gotopaygateway);exit;
+            }
+        }
+        //front::get('aaa');
+        //admin_system::_pcompile_('aaa');
+        $this->render('pay/payorders.html');
+        exit;
+    }
+
+    function doorders_action()
+    {
+        $aid = intval(front::get('aid'));
+        if (archive::getInstance()->getrow($aid)) {
+            $orders_c = cookie::get('ce_orders_cookie');
+            $orders_c = base64_decode($orders_c);
+            $orders_c = xxtea_decrypt($orders_c, config::get('cookie_password'));
+            //var_dump($orders_c);
+            $orders_c = stripslashes(htmlspecialchars_decode($orders_c));
+            $c_aid = 'c' . front::get('aid');
+            //var_dump($orders_c);
+            if (empty($orders_c)) {
+                $orders_c = array($c_aid => array('aid' => $aid, 'amount' => 1));
+                $orders_c = serialize($orders_c);
+                //var_dump($orders_c);
+            } else {
+                $orderid = unserialize($orders_c);
+                if (count($orderid) >= 12) {
+                    echo 'limit';
+                    exit;
+                }
+                //var_dump($orderid);
+                if (is_array($orderid) && array_key_exists($c_aid, $orderid)) {
+                    $amount = $orderid[$c_aid]['amount'] + 1;
+                    unset($orderid[$c_aid]);
+                    $nowcart = array($c_aid => array('aid' => $aid, 'amount' => $amount));
+                    $newcart = array_merge($orderid, $nowcart);
+                    $orders_c = serialize($newcart);
+                } elseif (is_array($orderid)) {
+                    $nowcart = array($c_aid => array('aid' => $aid, 'amount' => 1));
+                    $newcart = array_merge_recursive($nowcart, $orderid);
+                    $orders_c = serialize($newcart);
+                } else {
+                    $nowcart = array($c_aid => array('aid' => $aid, 'amount' => 1));
+                    $orders_c = serialize($nowcart);
+                }
+            }
+            $orders_c = xxtea_encrypt($orders_c, config::get('cookie_password'));
+            //var_dump(config::get('cookie_password'));
+            $orders_c = base64_encode($orders_c);
+            //var_dump($orders_c);
+            cookie::set('ce_orders_cookie', $orders_c);
+            echo '<div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button><h5 class="modal-title">' . lang(add_to_cart) . '</h5></div><div class="modal-body"><button type="button" class="btn btn-default" data-dismiss="modal">' . lang(continue_shopping) . '</button><a href="' . url('archive/orders',true) . '"  class="btn btn-primary col-md-offset-1 col-xs-offset-1 col-sm-offset-1 col-lg-offset-1" role="button">' . lang(go_to_cart) . '</a></div>';
+            exit;
+            //echo '<script type="text/javascript">alert("' . lang('完成操作，你可以继续购物，或者在购物车中结算！') . '");window.location.href="'.url('archive/show/aid/' . front::get('aid'), true).'";</script>';
+        }
+    }
+
+    function orders_action()
+    {
+        $this->view->aid = trim(front::get('aid'));
+
+        if (config::get('memberbuy') && !front::$user['userid']) {
+            alertinfo(lang('not_logged'), url('user/login'));
+            return;
+        }
+
+        //var_dump($this->view->user);
+        if (front::post('submit')) {
+
+
+            //var_dump($this->view->user);exit;
+            $this->orders = new orders();
+            $row = $this->orders->getrow("", "adddate DESC");
+            //var_dump(time());
+            if ($row['adddate'] && time() - $row['adddate'] <= intval(config::get('order_time'))) {
+                alerterror(lang('frequent_operation_please_wait'));
+                return;
+            }
+            if (front::$post['telphone'] == '') {
+                alerterror(lang('telephone_is_required'));
+                return;
+            }
+            if (config::get('mobilechk_enable') && config::get('mobilechk_buy')) {
+                $mobilenum = front::$post['mobilenum'];
+                $smsCode = new SmsCode();
+                if (!$smsCode->chkcode($mobilenum)) {
+                    alerterror(lang('cell_phone_parity_error'));
+                    return false;
+                }
+            }
+            front::$post['mid'] = $this->view->user['userid'] ? $this->view->user['userid'] : 0;
+
+            front::$post['adddate'] = time();
+            front::$post['ip'] = front::ip();
+            if (isset(front::$post['aid'])) {
+                $aidarr = front::$post['aid'];
+                unset(front::$post['aid']);
+                foreach ($aidarr as $val) {
+                    front::$post['aid'] .= $val . ',';
+                    front::$post['pnums'] .= abs(intval(front::$post['thisnum'][$val])) . ',';
+                }
+            } else {
+                front::$post['aid'] = $this->view->aid;
+            }
+            if (!isset(front::$post['logisticsid']))
+                front::$post['logisticsid'] = 0;
+            $payname = front::$post['payname'] ? front::$post['payname'] : 'none';
+            front::$post['oid'] = date('YmdHis') . '-' . front::$post['logisticsid'] . '-' . front::$post['mid'] . '-' . $payname;
+            unset(front::$post['status']);
+            front::$post['status'] = 0;
+            front::$post['courier_number'] = '';
+            front::$post['s_status'] = 0;
+            front::$post['trade_no'] = '';
+            $insert = $this->orders->rec_insert(front::$post);
+            if ($insert < 1) {
+                front::flash($this->tname . lang('add_failure'));
+            } else {
+                if (config::get('sms_on') && config::get('sms_order_on')) {
+                    $smsCode = new SmsCode();
+                    $content = $smsCode->getTemplate('order', array($this->view->user['username'], front::$post['oid']));
+                    sendMsg(front::$post['telphone'], $content);
+                }
+                if (config::get('sms_on') && config::get('sms_order_admin_on') && $mobile = config::get('site_mobile')) {
+                    sendMsg($mobile, lang('web_ site') . date('Y-m-d H:i:s') . lang('ordersnotalreadydo'));
+                    //echo 11;
+                }
+
+                //$user = $this->view->user;
+                if (config::get('email_order_send_cust') && front::$post['postcode']) {
+                    $title = lang('you_in') . config::get('sitename') . lang('the_order') . front::get('oid') . lang('has_been_submitted');
+                    $this->sendmail(front::$post['postcode'], $title, $title);
+                }
+                if (config::get('email_order_send_admin') && config::get('email')) {
+                    $title = lang('web_ site') . date('Y-m-d H:i:s') . lang('ordersnotalreadydo');
+                    $this->sendmail(config::get('email'), $title, $title);
+                }
+                if (front::$post['payname'] && front::$post['payname'] != 'nopay') {
+
+                    echo '<script type="text/javascript">alert("' . lang('orderssuccess') . ' ' . lang('now_turn_to_pay_page') . '");window.location.href="' . url('archive/payorders/oid/' . front::$post['oid'], true) . '";</script>';
+                    exit;
+                }
+                echo '<script type="text/javascript">alert("' . lang('orderssuccess') . '");window.location.href="' . url('archive/orders/oid/' . front::$post['oid'], true) . '";</script>';
+                exit;
+            }
+        } elseif (front::get('oid')) {
+            preg_match_all("/-(.*)-(.*)-(.*)/isu", front::get('oid'), $oidout);
+            $this->view->paytype = $oidout[3][0];
+            //非会员不可查看
+            if ($oidout[2][0] != $this->view->user['userid']) {
+                alertinfo(lang('view_order_failure'), url::create('index/index'));
+            }
+
+            $where = array();
+            $where['oid'] = front::get('oid');
+            $this->view->orders = orders::getInstance()->getrow($where);
+            $this->view->statusnum = $data['status'] = $this->view->orders['status'];
+            $unpay = false;
+            switch ($data['status']) {
+                case 1:
+                    $data['status'] = lang('complete');
+                    break;
+                case 2:
+                    $data['status'] = lang('processing');
+                    break;
+                case 3:
+                    $data['status'] = lang('shipped');
+                    break;
+                case 4:
+                    $data['status'] = lang('pending_audit_payment');
+                    break;
+                case 5:
+                    $data['status'] = lang('check_payment');
+                    break;
+                default:
+                    $data['status'] = lang('ordersnotalreadydo');
+                    $unpay = true;
+                    break;
+            }
+            $this->view->orders['status'] = $data['status'];
+            /*if ($this->view->paytype) {
+                $this->view->gotopaygateway = '<a href="' . url('archive/payorders/oid/' . front::get('oid'), true) . '">进入支付页面</a>';
+            }*/
+
+            //获取支付链接
+            if ($unpay && $this->view->paytype && $this->view->paytype != 'nopay' && $this->view->paytype != 'none') {
+
+                $logisticsid = $oidout[1][0];
+                $this->view->archive = archive::getInstance()->getrow($this->view->orders['aid']);
+                $prices = getPrices($this->view->archive['attr2']);
+                $this->view->archive['attr2'] = $prices['price'];
+                $where = array();
+                $payfilename = $where['pay_code'] = $this->view->paytype;
+                $this->view->pay = pay::getInstance()->getrows($where);
+                $where = array();
+                $where['id'] = $logisticsid;
+                $this->view->logistics = logistics::getInstance()->getrows($where);
+                if ($this->view->logistics[0]['cashondelivery']) {
+                    $this->view->logistics[0]['price'] = 0.00;
+                } else {
+                    if ($this->view->logistics[0]['insure']) {
+                        $this->view->logistics[0]['price'] = $this->view->logistics[0]['price'] + ($this->view->archive['attr2'] * $this->view->orders['pnums']) * ($this->view->logistics[0]['insureproportion'] / 100);
+                    }
+                }
+                if (!isset($this->view->logistics[0]['price'])) {
+                    $this->view->logistics[0]['price'] = 0;
+                }
+                $this->view->pay[0]['pay_fee'] = $this->view->pay[0]['pay_fee'] / 100;
+                $this->view->total = $this->view->archive['attr2'] * $this->view->orders['pnums'] + $this->view->logistics[0]['price'] + ($this->view->archive['attr2'] * $this->view->orders['pnums'] * $this->view->pay[0]['pay_fee']);
+                $order['ordersn'] = front::get('oid');
+                $order['title'] = $this->view->archive['title'];
+                $order['id'] = $this->view->orders['id'];
+                $order['orderamount'] = $this->view->total;
+                include_once ROOT . '/lib/plugins/pay/' . $payfilename . '.php';
+                $payclassname = $payfilename;
+                $payobj = new $payclassname();
+                $this->view->gotopaygateway = $payobj->get_code($order, unserialize_config($this->view->pay[0]['pay_config']));
+            }
+
+            //var_dump($this->view->user);var_dump($_SESSION);exit();
+
+            $this->out('message/orderssuccess.html');
+        } elseif (intval(front::get('aid'))) {
+            front::check_type(front::get('aid'));
+            $aid = intval(front::get('aid'));
+            $this->view->archive = archive::getInstance()->getrow($aid);
+            $this->view->categorys = category::getpositionlink2($this->view->archive['catid']);
+            $this->view->paylist = pay::getInstance()->getrows('', 50);
+            $this->view->logisticslist = logistics::getInstance()->getrows('', 50);
+            $prices = getPrices($this->view->archive['attr2']);
+            $this->view->archive['attr2'] = $prices['price'];
+            if (!is_array($this->view->archive))
+                $this->out('message/error.html');
+            if ($this->view->archive['checked'] < 1)
+                exit(lang('unaudited'));
+            if (!rank::arcget($aid, $this->view->usergroupid)) {
+                $this->out('message/error.html');
+            }
+        } else {
+
+            $oreders_c = cookie::get('ce_orders_cookie');
+            $oreders_c = base64_decode($oreders_c);
+            $oreders_c = xxtea_decrypt($oreders_c, config::get('cookie_password'));
+            //var_dump($oreders_c);
+            if (preg_match('/(union|select|update|delete)/i', $oreders_c)) {
+                alerterror(lang('illegal_character'));
+            }
+            $oreders_c = stripslashes(htmlspecialchars_decode($oreders_c));
+            $aid = !empty($oreders_c) ? unserialize($oreders_c) : 0;
+            if ($aid) {
+                foreach ($aid as $key => $val) {
+                    $archive = archive::getInstance()->getrow(intval($val['aid']));
+                    $val['title'] = $archive['title'];
+                    $prices = getPrices($archive['attr2']);
+                    $val['attr2'] = $prices['price'];
+                    $val['thumb'] = $archive['thumb'];
+                    $val['url'] = $archive['url'];
+                    $aid[$key] = $val;
+                }
+                $this->view->orderaidlist = $aid;
+                $this->view->paylist = pay::getInstance()->getrows('', 50);
+                $this->view->logisticslist = logistics::getInstance()->getrows('', 50);
+            } else {
+                if (isset(front::$get['oid'])) {
+                    if ($_SERVER['HTTP_REFERER']) {
+                        front::refresh($_SERVER['HTTP_REFERER']);
+                    } else {
+                        front::refresh(url('index'));
+                    }
+                    exit;
+                }
+                echo '<script type="text/javascript">alert("' . lang('the commodity shopping cart') . '");';
+                if ($_SERVER['HTTP_REFERER']) {
+                    echo 'window.location.href="' . $_SERVER['HTTP_REFERER'] . '";';
+                } else {
+                    echo 'window.location.href="' . url('index') . '";';
+                }
+                echo '</script>';
+            }
+        }
+        $this->render('pay/orders.html');
+        exit;
+    }
+
+    public function delbuycar_action()
+{
+    $id = intval($_POST['aid']);
+    $oreders_c = cookie::get('ce_orders_cookie');
+    $oreders_c = base64_decode($oreders_c);
+    $oreders_c = xxtea_decrypt($oreders_c, config::get('cookie_password'));
+    if (preg_match('/(union|select|update|delete)/i', $oreders_c)) {
+        alerterror(lang('illegal_character'));
+    }
+    $oreders_c = stripslashes(htmlspecialchars_decode($oreders_c));
+    $aid = !empty($oreders_c) ? unserialize($oreders_c) : 0;
+    if ($aid) {
+        foreach ($aid as $key => $val) {
+            if ($val['aid'] == $id) {
+                unset($aid[$key]);
+            }
+        }
+        cookie::set('ce_orders_cookie', xxtea_encrypt(serialize($aid), config::get('cookie_password')));
+    }
+    echo 'ok';
+    exit;
+
+}
+
+    private function sendmail($smtpemailto, $title, $mailbody)
+{
+    include_once(ROOT . '/lib/plugins/smtp.php');
+    $mailsubject = mb_convert_encoding($title, 'GB2312', 'UTF-8');
+    $mailtype = "HTML";
+    $smtp = new include_smtp(config::get('smtp_mail_host'), config::get('smtp_mail_port'), config::get('smtp_mail_auth'), config::get('smtp_mail_username'), config::get('smtp_mail_password'));
+    $smtp->debug = false;
+    $smtp->sendmail($smtpemailto, config::get('smtp_user_add'), $mailsubject, $mailbody, $mailtype);
+}
+
+    function out($tpl)
+    {
+        if (front::$debug)
+            return;
+        $this->render($tpl);
+        $this->out = true;
+        exit;
+    }
+
+    function end()
+    {
+        if (isset($this->out))
+            return;
+        if ($this->auto_end) {
+            if (front::$debug)
+                $this->render('style/index.html');
+            else
+                $this->render();
+        }
+    }
+
+}

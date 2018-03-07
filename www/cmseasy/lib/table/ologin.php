@@ -1,19 +1,109 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??1VfdbhtFFL6PlHfYVk5mXTuOnRounG5bRA2tqEiVBG4sazXZnY2HrGdXM7tNAopEb0BCIEAKUrmEBygXSCB+XidNuOIVODOz6/114ii9YaXUM3PO+c7vnDNdXlpecnwshBH4wT5lBjmKCHOFEeE9nxifLS8Z8IXxnk8do8HwlFgotDUv2tRUEeFIUqdks8CenHsxcyIaMGOfRE8YHDKHmM0UWn7UM8xbgvjeYAAgBZL8GspAi5HDxEizuVnkmMlamjdHPsmWnEQxZxlzwnVyqdFewKc4wpzjY7PhePsVw6mwRcQp20/Iq6tmA9gNy4iZIJxin35KNK1p3LIsw8O+qHMyYB7dBzGtq+wi2EGwMzE0OBZG44AcG9b9xnPsV8BygCPJMEIyc2g8Bni9h39iOCgpOSluk4AlSPmgEnChrDThVu5VE3B5lAmzXWI7gQuR0tFsN4KQcCypFno0fHfr0RC1pc8Wevj0vQ82+mJjo7/yUGBv565Y6XkrqBCFBici9iPwF6HNYsIyYAOygYYfKuxKDCHgwEsBobsJP/fALJ+w1LwmnLVacwI/wTL9It4D3swf2u6Vk6rYwaeSBJy0peqVVCccQPGs9eYgJOLOhJsBd021bxottU7Qm7WCOkgdS0lcXgtZQPewIG/3bcJ0uvR5GT5jBx9sTkIfw63XpY1aqI3W4c9CzXZytAZbG/7gpAZR1VtN7pK6qF4mF65svW6taKZXmwJK07SWgKaB29dAKhESt2ms9EtsyjTJWl8QyprOLL/Igg+KWQlcEXVtVhZ1l+ioK0OqLeL/XbFrb6xiq10/kVyo58fcB5MgzoVoucSjjJhoZ7j98XDbfry7+wySaOvtKD1+trW9i8aqOvv9u+gBmkRRKAbr62hgqLVc5l2bwT7ZHdofbT9F7ZyCToYvt/bjrR1Az4un7vmUHUBEU5SO7tmDAQxdE8niscEr1OzcXqfMJUedcBI+cODYimFIrWInsiBAYcDcVT1jVTO2bndUHBaKGmiyQ3w8JSyqiV7jcEI4sarDTRNGCESVTjS28jrzLITJR4kLHL08NVHas2ChHM5eGWv3YcuDQ2FqjGaNnJyJKcSoOy5Pi4Q0b2DbPhVRedgnMqlTkq+YNfllEz2P9M5Oilx/VVPodLznJ3t6dOVwr7keCe5CmXYmxDmwpwEj8CairuxksLxeuqlMIwjnSXD9CReW/pmTybpEYu5M6HOpTf3OldTAI4Sl8qpRCxan/f5wd4T0rlRO161AedMEhFZQN9dMtQLYfUKcCI3bvbeKXXSh2Mp6yMHXarVmq2sYTT0zQ4D7AqHAYgKNg/gQe34Mka1clSJ/yKlDlIXdTrd71bOyqo8yEXNSo+dSXXMILTMtH6iLKOIbcHbHmJVKyOKpAFV36o0IeRAGXF4KNF7vdbuXjPOTYqloI6CsPJLYVzmUgPm8RUGEfcm5gMFG60b+yqOKPcU7Nw1i3TuVWaUCUQ1BDsGEr5KqpO1EPCZXFcBN/l8BrwS2T7RzulWpNYTm5t0qIUmVMYTM6tcQU21Azo2HmQ15iTiENx2Z1/w4cWzNkVxJeJ255WupGe71KtEmRxReAa9P/zj79uXFq5/Pvvnh/KvfXn/+4uzLP/85/fHfv7+++OX3ixen57/+df7qp/Pvvjj7/mXhjZLF+uQ/*/
+
+
+class ologin extends table {
+    public $name='p_ologin';
+    static $me;
+    public static function getInstance() {
+        if (!self::$me) {
+            $class=new ologin();
+            self::$me=$class;
+        }
+        return self::$me;
+    }
+    public static function formatarray($cfg) {
+        if (is_string($cfg) &&($arr = unserialize($cfg)) !== false) {
+            $config = array();
+            foreach ($arr as $key =>$val) {
+                $config[$val['name']] = $val['value'];
+            }
+            return $config;
+        }else {
+            return false;
+        }
+    }
+    public static function en_de_code($string,$operation='DECODE',$key='@LFK24s224%@safS3s%1f%') {
+        $result = '';
+        if ($operation == 'ENCODE') {
+            for ($i = 0;$i <strlen($string);$i++) {
+                $char = substr($string,$i,1);
+                $keychar = substr($key,($i %strlen($key)) -1,1);
+                $char = chr(ord($char) +ord($keychar));
+                $result.=$char;
+            }
+            $result = base64_encode($result);
+            $result = str_replace(array('+','/','='),array('-','_',''),$result);
+        }elseif ($operation == 'DECODE') {
+            $data = str_replace(array('-','_'),array('+','/'),$string);
+            $mod4 = strlen($data) %4;
+            if ($mod4) {
+                $data .= substr('====',$mod4);
+            }
+            $string = base64_decode($data);
+            for ($i = 0;$i <strlen($string);$i++) {
+                $char = substr($string,$i,1);
+                $keychar = substr($key,($i %strlen($key)) -1,1);
+                $char = chr(ord($char) -ord($keychar));
+                $result.=$char;
+            }
+        }
+        return $result;
+    }
+    public static function url($code) {
+        define('SERVER_HTTP',$_SERVER['SERVER_PORT'] == '443'?'https://': 'http://');
+        define('SITE_URL',SERVER_HTTP.$_SERVER['HTTP_HOST']);
+        return $link = SITE_URL.config::get('base_url')."/index.php?case=user&act=respond&ologin_code=".$code;
+    }
+    public static function get_payment($code) {
+        $where=array();
+        $where['pay_code']=$code;
+        $where['enabled']=1;
+        $payment1=pay::getInstance()->getrows($where);
+        $payment = $payment1[0];
+        if ($payment) {
+            $config_list = unserialize($payment['pay_config']);
+            foreach ($config_list AS $config) {
+                $payment[$config['name']] = $config['value'];
+            }
+        }
+        return $payment;
+    }
+    public static function check_money($id,$money) {
+        $where=array();
+        $where['id']=$id;
+        $orders=orders::getInstance()->getrow($where);
+        $archive=archive::getInstance()->getrow($orders['aid']);
+        $where=array();
+        $where['pay_code']=$_GET['code'];
+        $pay=pay::getInstance()->getrows($where);
+        $logisticsid = substr($_GET['subject'],15,1);
+        $where=array();
+        $where['id'] = $logisticsid;
+        $logistics=logistics::getInstance()->getrows($where);
+        if($logistics[0]['cashondelivery']) {
+            $logistics[0]['price'] = 0.00;
+        }else {
+            if($logistics[0]['insure']) {
+                $logistics[0]['price'] = $logistics[0]['price'] +($archive['attr2'] * $orders['pnums'])*($logistics[0]['insureproportion']/100);
+            }
+        }
+        $pay[0]['pay_fee'] = $pay[0]['pay_fee']/100;
+        $total = $archive['attr2'] * $orders['pnums'] +$logistics[0]['price'] +($archive['attr2'] * $orders['pnums'] * $pay[0]['pay_fee']);
+        $amount = $total;
+        if($money == $amount) {
+            return true;
+        }else {
+            return false;
+        }
+    }
+    public static function changeorders($id,$orderlog) {
+        $where=array();
+        $where['id']=$id;
+        $where['status']=4;
+        $where['orderlog']=serialize($orderlog);
+        $update=orders::getInstance()->rec_update($where,$id);
+        if($update<1) {
+            exit('改变订单状态出错，请联系管理员');
+        }
+    }
+}

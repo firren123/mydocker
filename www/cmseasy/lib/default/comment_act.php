@@ -1,19 +1,207 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??vVlfj9vGEX+2AX+HvYNgkmfp5AvQPuiOKgr32uTJxdkoUFwPBEWuTmtTJLtc3Vkx9FAgCYwWQdyHoHALpAngAgWKJijQom3afBsrvj71K3T2D0XucinJ6CV8OJG7s7OzM7/5s3O3bt66ScbI3YnxmKQ4dp2T+/cfOp6H8BPCXOdemP7MYej7UYSLAu043uGtm1ESwnuUTac4ZUEYMaBlOI0LxN+f3rqJ4BnP0oiRLEUkBT5eOcyfDpuQojechml4jv0UXyIWjhIcKI6HknJh8AnjmO8Frzq3fv8ipEE8m+bumGYpGww6eVYw75Af4LCiI+Nynk+7TjEbTQlzPHT7tjYeklgMwgHTMTkfDM4xjCrZuGJg74rrm0hwo78HQmhsLzAl43mUxVhxvqEzNoWW9I53NCzAHqALjY/igYwHmOxIgsEgmuDo8Y8wdj3P3E08YYIpI+k4c5MwPVeMSRRyvQdSzi4qTwm/Uw6IBpt+X5FQHBOKI+auXbKo6Wix1zf12yE58stNSe56h8b8rMA0DacYqBS2ohkN+OipU845Z4cNvsqosIyDUH012dPsknNW870haByG3N2Ste+sJHDQ/RNEchghubPbRbuA2jhkGP3g+MG9XZNzDTiMTLlNDALumXz7U0fxcc44MiUx6qGCUZaJL4PKQ0c+eB67CBPXhuOALwK4WPEiMIApzagCwZjin8/4qizHVEIhT3BY4OAy5C5kis0fitmMpsbEwjSB6Q/TbEQSHE0eBzjlMcHiiRVJ5ZOWQ3QkXTqbVtgRbnnqrGYEJhoLi2lxD4CuUPFAfjVQoaTfKckBc5PH3EHcamerYCsN17wswkkS5JMsxUEeUsLmgVC/zddMVouGhk0JtQCyAqrd9P09RT2GGD9R0l198ffXH7949Y9fvfrq09e/fW/5/MPln3/z33//wm749Z7PvbtOfcNUhQIW/L3AwTwDP5birtfEpmMDglgVvrc99fKzPy0/eHH1xXtXn3+5/OD95ef/vKZT86fl4GMCUCBpwCarhFi84em1/NobAkfw5mZYU9z9tbEvpNGEXMgsrd4bRLp3FUzGqfXxhxQiEzWVqTNbBTSf/7jOT3vTXozeHpBB4bQdqDcEC4AKAenMSMj2w8kFs1xuUUoI/uvX3u8cON1mndCM6BYkff3R81dfvvz62fPlL39vBVAjHCi7B7JGYTiGN1GBjWdJMt8Eh83ZdwUcnBTY9AjLCUo9CHlE3RGMQ4hxFg1svbW9yktIwaxlnuIjUBOweY5LzgJWDWMoH7gg+LI3DEG7UYJ9ZW+x5p0UgJpGgOZVQt+eYc4L1zo5H3C87zWHBgdNHnymIO9iX/MMcfJySgN3JyGAAt91GzL0Drw9g6m373SdfWOwzmyT22ublEj0zeqncKWj+wcoTGME6vKd/YYCu1L0VvaAkIzGEOdmIJDuv2Jsq03q3Eu06Yzbtlxn3gICWIRJ4tpYor5pS0+rLnX0gdgNoVsuOaWjPSquxQm+VVu/dbfrHDjtTrhGDfyBki5DiGVZMhgwuFAGj8KLsIgoyVkJ/DFm0USvkmtXLNDlSo8xOZ8R93YHCuRuh8T1OqxW9au3Mh7oqmmp+jm3GlmthOcrvMN+37j1cRnQvo92j2JygcTd2XdGUNwN6wMT+CzyMC2/RdEzfCrL+uoOszjqcyqdVmTIknaVMVekfdhG2yt3hrv6xVgupWCRM7NkVaqXCpX6rBE3A3r9yGny1ogq5mUFdubt7zZFGhvHfzdMgxFLHQRnCXsCceX5+L4LNRHVJuT48Opvn5weEcQnOBN9Un3BhKj+QUVkeGZTKcV5Mq9JQFtFoBYZlr/7ZPnyw1b9QyoKufmriYLNIT05MSnyJJwPUrgIHDriDJy9cYgj7h0hxaEgYNQkQPJOWioccQ/2ne86APcEXr5zl29d8hgejSjqD49Ims+YWqk6IwiKtxl8Lj/69dVnf5RnchCPOoDfGWNZqZxRq3JGtKGcSsNSvf2NChJ/64CVV0uBssr1zW7Ro/DJtYTQywmm/C64TQi0hN5NUSav6mSteNClEBfN3JPkWkVR5h+xz3bVhMxgPrLlW3ncZvEB5FB+5KiHDjy0V23roX0E9Qb87dhqDS2Rdlaps540N8TbQomkKomu8l0U4yLqls0V/qGfkQCru7oCCaRUSsO5jNO8rbCDpzlT32bYG2fgHJBshFhhwe8K1HabFy06PtkSPis6kd8O6sar5ha2wSqx1NibPcXaAbeQQgRmwLJj4SDmm8G+vnfLIu7dHXJWi/HckCIHILl+NWFrYPA7SJu8VtYqreict+iNCI7kzp3223PttZHYzbT+qIAw4yP+E+BUdn4EoVHSCEKtYviGqy5jg011l0Lm/1l5GeGXp94y+j414pitQ2sDrfwHxCwtyHnqtFUaJLYH0EYcD9soW6vm6ykQOypgrfbWSxDvzoFla60jIaNWucIfKo5e17JTkp3DTvLFuOY2KQEbcQy/LlcO59Ztt00D1VKIbfEg66k3QYSsdxvtulpvWnTo3n/2+sW/ll993AoQm91bGjgd2kpLLSARgafRXLaFum0RZWtgSevrShCiI38oTtc15lZ1H59XHyYNLdfT5nplcjHdBgfbGvnvj7ZV0pzmuvKywpdZGnwmuWwtcuLtWou19Z5xQVetINXkt3U213YHy84g7wpyI1h6EKsOWCd4cHzyk+OTU+fthw9/HJwc//D45Pik8qmmt8Q4sfmKLdh14OiytP7mQtjqglgZEvkV7k0j89JKhzKcB4PyONtGnVUqa0xxMXFnNHEd2bjuKxa8ku3rQ7or2gqIephYPvv0Py9eLl/+5eqvf7CFCav+WxLYG5hg+2isrFAG5U1G4DvZ9S9muPZLVhbl23vmG4Ci/IFawSKv97YKscp94ahwy/wn6rZV/usdrO/jb0yC+vZbo4urqIYsqbFrB5YGK5zG+l20+u9+J8aj2blnbb1QWIcprwbnCe4T+HiyP2HTRO+egajrVteCzeJ/*/
+
+if (!defined('ROOT')) exit('Can\'t Access !');
+class comment_act extends act {
+function init() {
+$this->manage=new table_comment;
+}
+function add_action() {
+//var_dump(front::$post);exit;
+if(front::post('submit') &&front::post('aid') && config::get('comment')) {
+
+//var_dump(front::$post);exit;
+/*if(config::get('verifycode')) {
+//if(front::post('verify')<>session::get('verify')) {
+if(!verify::checkGee()){
+alertinfo(lang('verification_code'), front::$from);
+//front::redirect(front::$from);
+}
+}*/
+
+$ip = front::ip();
+$username = $this->cur_user['username'];
+
+$comment = new comment();
+$row = $comment->getrow("username='$username' OR ip='$ip'", "adddate DESC");
+//var_dump(time());
+if ($row['adddate'] && time() - strtotime($row['adddate']) <= intval(config::get('comment_time'))) {
+alerterror(lang('frequent_operation_please_wait'));
+return;
+}
+
+if(config::get('mobilechk_enable') && config::get('mobilechk_comment')){
+$mobilenum = front::$post['mobilenum'];
+$smsCode = new SmsCode();
+if(!$smsCode->chkcode($mobilenum)){
+alertinfo(lang('cell_phone_parity_error'), front::$from);
+}
+}
+if(!front::post('username')) {
+/*front::flash(lang('请留下你的名字！'));
+front::redirect(front::$from);*/
+alertinfo(lang('please_leave_your_name'), front::$from);
+}
+if(!front::post('content')) {
+/*front::flash(lang('请填写评论内容！'));
+front::redirect(front::$from);*/
+alertinfo(lang('please_fill_in_the_comments'), front::$from);
+}
+$this->manage->filter();
+$comment=new comment();
+$archive=new archive();
+front::$post['state'] = intval(config::get('comment_ischeck'));
+front::$post['adddate']=date('Y-m-d H:i:s');
+$comment->rec_insert(front::$post);
+$archive->rec_update('comment_num=comment_num+1',front::post('aid'));
+//front::flash(lang('提交成功！'));
+alertinfo(lang('comments_submitted_successfully'), front::$from);
+//front::redirect(front::$from);
+}else {
+front::flash(lang('comment_submission_failed'));
+front::redirect(front::$from);
+}
+}
+function list_action() {
+front::check_type(front::get('aid'));
+$this->view->article=archive::getInstance()->getrow(front::get('aid'));
+$this->view->page=front::get('page')?front::get('page'):1;
+$this->pagesize=config::get('list_pagesize');
+$limit=(($this->view->page-1)*$this->pagesize).','.$this->pagesize;
+$comment=new comment();
+$this->view->comments=$comment->getrows('state=1 and aid='.front::get('aid'),$limit);
+$this->view->record_count=$comment->rec_count('state=1 and aid='.front::get('aid'));
+front::$record_count=$this->view->record_count;
+$this->view->pages = ceil(front::$record_count / $this->pagesize);
+
+$this->view->aid=front::get('aid');
+}
+function comment_js_action() {
+front::check_type(front::get('aid'));
+$comment=new comment();
+$this->view->comments=$comment->getrows('state=1 and aid='.front::get('aid'),20,'1');
+$this->view->aid=front::get('aid');
+echo  tool::text_javascript($this->fetch());
+exit;
+}
+function digui(&$str,$id){
+$comment = comment::getIns();
+$row = $comment->getrow($id);
+//var_dump($row);//exit;
+$str .= "<div class='bor'><div class='h'><span class='name'>{$row['username']}</span><span class='date'>{$row['adddate']}</span></div><div class='p'>";
+        if($row['rid']){
+        $this->digui($str,$row['rid']);
+        }
+        $str .= nl2br($row['content'])."</div><div class='f'><span class='zan_btn' data-aid='{$row['aid']}' data-cid='{$row['id']}'>赞[<i id='zan_{$row['id']}'>{$row['zannum']}</i>]</span><span class='reply_btn' data-raid='{$row['aid']}' data-rcid='{$row['id']}'>回复</span></div><div class='clear'></div><div style='display:none;' id='rcid_{$row['id']}'><textarea id='trid_{$row['id']}' name='content' rows='6' cols='50'></textarea><br /><input name='submit' value='发表回复' type='button' data-baid='{$row['aid']}' data-brid='{$row['id']}' class='re_btn' /></div><div class='clear'></div></div>";
+return $str;
+}
+
+function ajax_action() {
+front::check_type(front::get('aid'));
+$where = 'state=1 and aid='.front::get('aid');
+$comment = comment::getIns();
+$p = intval(front::get('p'));
+if(!$p) $p = 1;
+$pagesize = config::get('list_pagesize');
+$count = $comment->rec_count($where);
+$limit = (($p - 1) * $pagesize) . ',' . $pagesize;
+$pages = ceil($count / $pagesize);
+$row = $comment->getrows($where,$limit,'zannum desc,adddate desc');
+$i = 0;
+if(is_array($row) && !empty($row)){
+foreach($row as $arr){
+//if($arr['rid']){
+//echo 11;
+//}
+//var_dump($arr['rid']);exit;
+if($arr['rid']){
+$str = '';
+$this->digui($str,$arr['rid']);
+$row[$i]['content'] = $str . $arr['content'];
+}else{
+$row[$i]['content'] = nl2br($arr['content']);
+}
+$i++;
+}
+}
+//var_dump($row);exit;
+$json = json_encode($row);
+echo $json;
+//$this->view->comments=$comment->getrows('state=1 and aid='.front::get('aid'),20,'1');
+//$this->view->aid=front::get('aid');
+//echo  tool::text_javascript($this->fetch());
+exit;
+}
+
+function zan_action(){
+if(!$this->cur_user['userid']){
+exit('unsign');
+}
+$id = intval(front::get('id'));
+$aid = intval(front::get('aid'));
+$comment = comment::getIns();
+$row = $comment->getrow($id);
+$zannum = intval($row['zannum'])+1;
+$comment->rec_update(array('zannum'=>$zannum),$id);
+$zanlog = zanlog::getInstance();
+$zanlog->addlog($aid,$id,$this->cur_user['userid']);
+echo $zannum;
+exit;
+}
+
+function reply_action(){
+if(!$this->cur_user['username']) {
+alerterror('请先登录');
+}
+$aid = intval(front::post('aid'));
+$rid = intval(front::post('rid'));
+$content = front::$post['content'];
+$comment = comment::getIns();
+$comment->rec_insert(array(
+'aid' => $aid,
+'content' => $content,
+'rid' => $rid,
+'userid' => $this->cur_user['userid'],
+'username' => $this->cur_user['username'],
+'adddate' => date('Y-m-d H:i:s'),
+'state' => intval(config::get('comment_ischeck')),
+));
+
+$archive = new archive();
+$archive->rec_update('comment=comment+1',$aid);
+front::redirect($_SERVER['HTTP_REFERER']);
+}
+
+function del_action(){
+$id = intval(front::$get['id']);
+$comment = comment::getIns();
+$row = $comment->getrow($id);
+if($row['username'] == front::$user['username'] && $comment->rec_delete($id)){
+front::refresh(url('manage/commentlist/manage/comment'));
+}else{
+alerterror('删除失败');
+}
+}
+
+function delzan_action(){
+$id = intval(front::$get['id']);
+$zanlog = zanlog::getInstance();
+$row = $zanlog->getrow($id);
+if($row['uid'] == front::$user['userid'] && $zanlog->rec_delete($id)){
+
+$comment = comment::getIns();
+$arr = $comment->getrow($row['cid']);
+$zannum = abs(intval($arr['zannum'])-1);
+$comment->rec_update(array('zannum'=>$zannum),$row['cid']);
+
+front::refresh(url('manage/zanlist/manage/zanlog'));
+}else{
+alerterror('删除失败');
+}
+}
+function end() {
+if(front::$debug)
+$this->render('style/index.html');
+else
+$this->render();
+}
+}

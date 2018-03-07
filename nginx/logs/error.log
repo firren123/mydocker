@@ -137,3 +137,489 @@ PHP message: PHP   2. gzinflate(*uninitialized*) /var/www/html/cmseasy/lib/admin
 2018/03/07 04:36:00 [error] 7#7: *304 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /lib/admin/website_admin.php?XDEBUG_SESSION_START=13541 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
 2018/03/07 04:37:12 [error] 7#7: *306 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /lib/admin/weixin_admin.php?XDEBUG_SESSION_START=10588 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
 2018/03/07 04:38:19 [error] 7#7: *308 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /lib/admin/weixinmenu_admin.php?XDEBUG_SESSION_START=14471 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 05:56:16 [error] 7#7: *312 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /lib/default/announ_act.php?XDEBUG_SESSION_START=10129 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 05:58:58 [error] 7#7: *314 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /lib/default/archive_act.php?XDEBUG_SESSION_START=11875 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 06:01:03 [error] 7#7: *316 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /lib/default/attachment_act.php?XDEBUG_SESSION_START=14332 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 06:03:37 [error] 7#7: *320 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /lib/default/cache_act.php?XDEBUG_SESSION_START=10950 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 06:04:45 [error] 7#7: *322 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /lib/default/comment_act.php?XDEBUG_SESSION_START=18780 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 06:06:00 [error] 7#7: *324 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /lib/default/form_act.php?XDEBUG_SESSION_START=15019 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 06:07:21 [error] 7#7: *326 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /lib/default/friendlink_act.php?XDEBUG_SESSION_START=12697 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 06:08:31 [error] 7#7: *328 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /lib/default/guestbook_act.php?XDEBUG_SESSION_START=13755 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 06:09:42 [error] 7#7: *330 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /lib/default/index_act.php?XDEBUG_SESSION_START=14388 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 06:11:09 [error] 7#7: *332 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /lib/default/invite_act.php?XDEBUG_SESSION_START=12683 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 06:12:30 [error] 7#7: *334 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /lib/default/manage_act.php?XDEBUG_SESSION_START=18030 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 06:15:41 [error] 7#7: *340 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /lib/default/sms_act.php?XDEBUG_SESSION_START=17173 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 06:17:05 [error] 7#7: *342 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /lib/default/special_act.php?XDEBUG_SESSION_START=15392 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 06:20:55 [error] 7#7: *344 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /lib/default/tag_act.php?XDEBUG_SESSION_START=16242 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 06:22:23 [error] 7#7: *346 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /lib/default/template_.php?XDEBUG_SESSION_START=14391 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 06:23:45 [error] 7#7: *348 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /lib/default/templatetag_act.php?XDEBUG_SESSION_START=17416 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 06:26:01 [error] 7#7: *350 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /test.php?XDEBUG_SESSION_START=16994 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 06:27:14 [error] 7#7: *352 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /test.php?XDEBUG_SESSION_START=18082 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 06:28:17 [error] 7#7: *354 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /test.php?XDEBUG_SESSION_START=17274 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 06:30:40 [error] 7#7: *356 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /test.php?XDEBUG_SESSION_START=14802 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 06:31:52 [error] 7#7: *358 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /test.php?XDEBUG_SESSION_START=16573 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 07:04:54 [error] 7#7: *360 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /test.php?XDEBUG_SESSION_START=10977 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 07:08:19 [error] 7#7: *368 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /test.php?XDEBUG_SESSION_START=12967 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 07:09:24 [error] 7#7: *370 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /test.php?XDEBUG_SESSION_START=14599 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 08:50:27 [error] 7#7: *372 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /test.php?XDEBUG_SESSION_START=10388 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 08:52:07 [error] 7#7: *374 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /test.php?XDEBUG_SESSION_START=17187 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 08:55:41 [error] 7#7: *382 FastCGI sent in stderr: "PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate(*uninitialized*) /var/www/html/cmseasy/test.php:13" while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /test.php?XDEBUG_SESSION_START=10056 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 08:58:16 [error] 7#7: *388 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /test.php?XDEBUG_SESSION_START=13386 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 09:01:12 [error] 7#7: *394 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /test.php?XDEBUG_SESSION_START=15705 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 09:04:02 [error] 7#7: *398 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /test.php?XDEBUG_SESSION_START=18321 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 09:05:43 [error] 7#7: *400 FastCGI sent in stderr: "PHP message: PHP Warning:  opendir(/Users/lichenjun/www/docker/www/cmseasy/lib/table/): failed to open dir: No such file or directory in /var/www/html/cmseasy/test.php on line 11
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. opendir(*uninitialized*) /var/www/html/cmseasy/test.php:11" while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /test.php?XDEBUG_SESSION_START=17717 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 09:05:52 [error] 7#7: *402 FastCGI sent in stderr: "PHP message: PHP Warning:  opendir(/Users/lichenjun/www/docker/www/cmseasy/lib/table/): failed to open dir: No such file or directory in /var/www/html/cmseasy/test.php on line 11
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. opendir() /var/www/html/cmseasy/test.php:11" while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /test.php? HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 09:05:55 [error] 7#7: *404 FastCGI sent in stderr: "PHP message: PHP Warning:  opendir(/Users/lichenjun/www/docker/www/cmseasy/lib/table/): failed to open dir: No such file or directory in /var/www/html/cmseasy/test.php on line 11
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. opendir() /var/www/html/cmseasy/test.php:11" while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /test.php? HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 09:05:57 [error] 7#7: *406 FastCGI sent in stderr: "PHP message: PHP Warning:  opendir(/Users/lichenjun/www/docker/www/cmseasy/lib/table/): failed to open dir: No such file or directory in /var/www/html/cmseasy/test.php on line 11
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. opendir() /var/www/html/cmseasy/test.php:11" while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /test.php? HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 09:06:15 [error] 7#7: *408 FastCGI sent in stderr: "PHP message: PHP Warning:  opendir(/Users/lichenjun/www/docker/www/cmseasy/lib/table/): failed to open dir: No such file or directory in /var/www/html/cmseasy/test.php on line 11
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. opendir() /var/www/html/cmseasy/test.php:11" while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /test.php? HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 09:06:46 [error] 7#7: *410 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.17.0.1, server: local.test.com, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "local.test.com"
+2018/03/07 09:07:06 [error] 7#7: *413 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.17.0.1, server: local.test.com, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "local.test.com"
+2018/03/07 09:07:07 [error] 7#7: *413 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.17.0.1, server: local.test.com, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "local.test.com"
+2018/03/07 09:07:07 [error] 7#7: *413 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.17.0.1, server: local.test.com, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "local.test.com"
+2018/03/07 09:07:08 [error] 7#7: *413 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.17.0.1, server: local.test.com, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "local.test.com"
+2018/03/07 09:07:08 [error] 7#7: *413 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.17.0.1, server: local.test.com, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "local.test.com"
+2018/03/07 09:07:08 [error] 7#7: *413 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.17.0.1, server: local.test.com, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "local.test.com"
+2018/03/07 09:07:55 [error] 7#7: *423 FastCGI sent in stderr: "PHP message: PHP Warning:  opendir(/Users/lichenjun/www/docker/www/cmseasy/lib/table): failed to open dir: No such file or directory in /var/www/html/cmseasy/test.php on line 11
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. opendir(*uninitialized*) /var/www/html/cmseasy/test.php:11" while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /test.php?XDEBUG_SESSION_START=11010 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 09:08:00 [error] 7#7: *431 FastCGI sent in stderr: "PHP message: PHP Warning:  opendir(/Users/lichenjun/www/docker/www/cmseasy/lib/table): failed to open dir: No such file or directory in /var/www/html/cmseasy/test.php on line 11
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. opendir(*uninitialized*) /var/www/html/cmseasy/test.php:11" while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /test.php?XDEBUG_SESSION_START=11010 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 09:08:07 [error] 7#7: *439 FastCGI sent in stderr: "PHP message: PHP Warning:  opendir(/Users/lichenjun/www/docker/www/cmseasy/lib/table): failed to open dir: No such file or directory in /var/www/html/cmseasy/test.php on line 11
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. opendir(*uninitialized*) /var/www/html/cmseasy/test.php:11" while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /test.php?XDEBUG_SESSION_START=11011 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 09:14:41 [error] 7#7: *453 FastCGI sent in stderr: "PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 19
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate() /var/www/html/cmseasy/test.php:19
+PHP message: PHP Warning:  fopen(/var/www/html/cmseasy/lib/table/.): failed to open stream: Is a directory in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. fopen() /var/www/html/cmseasy/test.php:20" while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /test.php? HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 09:15:43 [error] 7#7: *455 FastCGI sent in stderr: "PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 19
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate(*uninitialized*) /var/www/html/cmseasy/test.php:19
+PHP message: PHP Warning:  fopen(/var/www/html/cmseasy/lib/table/.): failed to open stream: Is a directory in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. fopen(*uninitialized*, *uninitialized*) /var/www/html/cmseasy/test.php:20" while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /test.php?XDEBUG_SESSION_START=14369 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 09:18:53 [error] 7#7: *457 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /test.php?XDEBUG_SESSION_START=19945 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 09:19:54 [error] 7#7: *459 FastCGI sent in stderr: "PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate(*uninitialized*) /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate(*uninitialized*) /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate(*uninitialized*) /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate(*uninitialized*) /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate(*uninitialized*) /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate(*uninitialized*) /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate(*uninitialized*) /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmsea
+2018/03/07 09:19:54 [error] 7#7: *459 FastCGI sent in stderr: "php:20
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate(*uninitialized*) /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate(*uninitialized*) /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate(*uninitialized*) /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate(*uninitialized*) /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate(*uninitialized*) /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate(*uninitialized*) /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate(*uninitialized*) /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/htm
+2018/03/07 09:19:54 [error] 7#7: *459 FastCGI sent in stderr: "hp:20
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate(*uninitialized*) /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate(*uninitialized*) /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate(*uninitialized*) /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate(*uninitialized*) /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate(*uninitialized*) /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate(*uninitialized*) /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate(*uninitialized*) /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html
+2018/03/07 09:19:54 [error] 7#7: *459 FastCGI sent in stderr: "/test.php:20
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate(*uninitialized*) /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate(*uninitialized*) /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate(*uninitialized*) /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate(*uninitialized*) /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate(*uninitialized*) /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate(*uninitialized*) /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate(*uninitialized*) /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  gzinflate(): data error in /var/w
+2018/03/07 09:20:51 [error] 7#7: *459 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /test.php?XDEBUG_SESSION_START=19565 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 09:23:10 [error] 7#7: *461 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /test.php?XDEBUG_SESSION_START=19532 HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"
+2018/03/07 09:23:20 [error] 7#7: *463 FastCGI sent in stderr: "PHP message: PHP Warning:  file_get_contents(/var/www/html/cmseasy/lib/tool/area.php): failed to open stream: No such file or directory in /var/www/html/cmseasy/test.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. file_get_contents() /var/www/html/cmseasy/test.php:17
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate() /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  file_get_contents(/var/www/html/cmseasy/lib/tool/category.php): failed to open stream: No such file or directory in /var/www/html/cmseasy/test.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. file_get_contents() /var/www/html/cmseasy/test.php:17
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate() /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  file_get_contents(/var/www/html/cmseasy/lib/tool/table_tag.php): failed to open stream: No such file or directory in /var/www/html/cmseasy/test.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. file_get_contents() /var/www/html/cmseasy/test.php:17
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate() /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  file_get_contents(/var/www/html/cmseasy/lib/tool/table_announcement.php): failed to open stream: No such file or director
+2018/03/07 09:23:20 [error] 7#7: *463 FastCGI sent in stderr: "var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate() /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  file_get_contents(/var/www/html/cmseasy/lib/tool/type.php): failed to open stream: No such file or directory in /var/www/html/cmseasy/test.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. file_get_contents() /var/www/html/cmseasy/test.php:17
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate() /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  file_get_contents(/var/www/html/cmseasy/lib/tool/archive.php): failed to open stream: No such file or directory in /var/www/html/cmseasy/test.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. file_get_contents() /var/www/html/cmseasy/test.php:17
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate() /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  file_get_contents(/var/www/html/cmseasy/lib/tool/table_orders.php): failed to open stream: No such file or directory in /var/www/html/cmseasy/test.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. file_get_contents() /var/www/html/cmseasy/test.php:17
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message
+2018/03/07 09:23:20 [error] 7#7: *463 FastCGI sent in stderr: ": PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. file_get_contents() /var/www/html/cmseasy/test.php:17
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate() /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  file_get_contents(/var/www/html/cmseasy/lib/tool/tag.php): failed to open stream: No such file or directory in /var/www/html/cmseasy/test.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. file_get_contents() /var/www/html/cmseasy/test.php:17
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate() /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  file_get_contents(/var/www/html/cmseasy/lib/tool/ologin.php): failed to open stream: No such file or directory in /var/www/html/cmseasy/test.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. file_get_contents() /var/www/html/cmseasy/test.php:17
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate() /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  file_get_contents(/var/www/html/cmseasy/lib/tool/sessionox.php): failed to open stream: No such file or directory in /var/www/html/cmseasy/test.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. file_get_contents() /var/www/html/cmseasy/test
+2018/03/07 09:23:20 [error] 7#7: *463 FastCGI sent in stderr: ":20
+PHP message: PHP Warning:  file_get_contents(/var/www/html/cmseasy/lib/tool/templatetag.php): failed to open stream: No such file or directory in /var/www/html/cmseasy/test.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. file_get_contents() /var/www/html/cmseasy/test.php:17
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate() /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  file_get_contents(/var/www/html/cmseasy/lib/tool/table_logistics.php): failed to open stream: No such file or directory in /var/www/html/cmseasy/test.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. file_get_contents() /var/www/html/cmseasy/test.php:17
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate() /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  file_get_contents(/var/www/html/cmseasy/lib/tool/table_templatetag.php): failed to open stream: No such file or directory in /var/www/html/cmseasy/test.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. file_get_contents() /var/www/html/cmseasy/test.php:17
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate() /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  file_get_contents(/var/www/html/cmseasy/lib/tool/arctag.php): failed to open stream: No such fi
+2018/03/07 09:23:20 [error] 7#7: *463 FastCGI sent in stderr: ": data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate() /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  file_get_contents(/var/www/html/cmseasy/lib/tool/invite.php): failed to open stream: No such file or directory in /var/www/html/cmseasy/test.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. file_get_contents() /var/www/html/cmseasy/test.php:17
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate() /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  file_get_contents(/var/www/html/cmseasy/lib/tool/weixin.php): failed to open stream: No such file or directory in /var/www/html/cmseasy/test.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. file_get_contents() /var/www/html/cmseasy/test.php:17
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate() /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  file_get_contents(/var/www/html/cmseasy/lib/tool/run.php): failed to open stream: No such file or directory in /var/www/html/cmseasy/test.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. file_get_contents() /var/www/html/cmseasy/test.php:17
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PH
+2018/03/07 09:23:20 [error] 7#7: *463 FastCGI sent in stderr: "e: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. file_get_contents() /var/www/html/cmseasy/test.php:17
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate() /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  file_get_contents(/var/www/html/cmseasy/lib/tool/special.php): failed to open stream: No such file or directory in /var/www/html/cmseasy/test.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. file_get_contents() /var/www/html/cmseasy/test.php:17
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate() /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  file_get_contents(/var/www/html/cmseasy/lib/tool/table_option.php): failed to open stream: No such file or directory in /var/www/html/cmseasy/test.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. file_get_contents() /var/www/html/cmseasy/test.php:17
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate() /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  file_get_contents(/var/www/html/cmseasy/lib/tool/table_ologin.php): failed to open stream: No such file or directory in /var/www/html/cmseasy/test.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. file_get_contents() /var/www/htm
+2018/03/07 09:23:20 [error] 7#7: *463 FastCGI sent in stderr: "tml/cmseasy/test.php:20
+PHP message: PHP Warning:  file_get_contents(/var/www/html/cmseasy/lib/tool/operators.php): failed to open stream: No such file or directory in /var/www/html/cmseasy/test.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. file_get_contents() /var/www/html/cmseasy/test.php:17
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate() /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  file_get_contents(/var/www/html/cmseasy/lib/tool/table_usergroup.php): failed to open stream: No such file or directory in /var/www/html/cmseasy/test.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. file_get_contents() /var/www/html/cmseasy/test.php:17
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate() /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  file_get_contents(/var/www/html/cmseasy/lib/tool/weixinreply.php): failed to open stream: No such file or directory in /var/www/html/cmseasy/test.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. file_get_contents() /var/www/html/cmseasy/test.php:17
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate() /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  file_get_contents(/var/www/html/cmseasy/lib/tool/table_type.php): failed to open st
+2018/03/07 09:23:20 [error] 7#7: *463 FastCGI sent in stderr: "ing:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate() /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  file_get_contents(/var/www/html/cmseasy/lib/tool/table_invite.php): failed to open stream: No such file or directory in /var/www/html/cmseasy/test.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. file_get_contents() /var/www/html/cmseasy/test.php:17
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate() /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  file_get_contents(/var/www/html/cmseasy/lib/tool/announcement.php): failed to open stream: No such file or directory in /var/www/html/cmseasy/test.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. file_get_contents() /var/www/html/cmseasy/test.php:17
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate() /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  file_get_contents(/var/www/html/cmseasy/lib/tool/table_union.php): failed to open stream: No such file or directory in /var/www/html/cmseasy/test.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. file_get_contents() /var/www/html/cmseasy/test.php:17
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}(
+2018/03/07 09:23:20 [error] 7#7: *463 FastCGI sent in stderr: "asy/test.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. file_get_contents() /var/www/html/cmseasy/test.php:17
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate() /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  file_get_contents(/var/www/html/cmseasy/lib/tool/table_special.php): failed to open stream: No such file or directory in /var/www/html/cmseasy/test.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. file_get_contents() /var/www/html/cmseasy/test.php:17
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate() /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  file_get_contents(/var/www/html/cmseasy/lib/tool/table_comment.php): failed to open stream: No such file or directory in /var/www/html/cmseasy/test.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. file_get_contents() /var/www/html/cmseasy/test.php:17
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate() /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  file_get_contents(/var/www/html/cmseasy/lib/tool/table_pay.php): failed to open stream: No such file or directory in /var/www/html/cmseasy/test.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP
+2018/03/07 09:23:20 [error] 7#7: *463 FastCGI sent in stderr: "ssage: PHP   2. gzinflate() /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  file_get_contents(/var/www/html/cmseasy/lib/tool/table_linkword.php): failed to open stream: No such file or directory in /var/www/html/cmseasy/test.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. file_get_contents() /var/www/html/cmseasy/test.php:17
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate() /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  file_get_contents(/var/www/html/cmseasy/lib/tool/orders.php): failed to open stream: No such file or directory in /var/www/html/cmseasy/test.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. file_get_contents() /var/www/html/cmseasy/test.php:17
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate() /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  file_get_contents(/var/www/html/cmseasy/lib/tool/union_pay.php): failed to open stream: No such file or directory in /var/www/html/cmseasy/test.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. file_get_contents() /var/www/html/cmseasy/test.php:17
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate() /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  file_get_contents(/var/www/html/cmseasy/lib/tool/us
+2018/03/07 09:25:32 [error] 7#7: *465 FastCGI sent in stderr: "PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate() /var/www/html/cmseasy/test.php:20
+PHP message: PHP Warning:  gzinflate(): data error in /var/www/html/cmseasy/test.php on line 30
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/cmseasy/test.php:0
+PHP message: PHP   2. gzinflate() /var/www/html/cmseasy/test.php:30" while reading response header from upstream, client: 172.17.0.1, server: cms.test.com, request: "GET /test.php? HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "cms.test.com"

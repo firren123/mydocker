@@ -1,19 +1,93 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??pVY9j9w2EK11wP0HnrHwSIG82ivS6KB1nTrlYrHgSdQdAX2B5GazMBZImSAI4MJF4MZNmjRJaQP2zwkcu/Jf8JAitdKtdHdBWNxRnMc3b4bD4Z6fnZ+lBZWSyIalnBaE/ahYlUmi6HXByIvzM+/8jOBottcFT8msoiVL4Hpj8XA1MEtFlUaVzK6PWfNtlSpeV+SGqe8qXKxS5gfal8Z6PCf+hWRFHsfIc1z3ZkZpUrGdU+sHV87YbUhamDMc7H/B1FZUpINZ+6Evsy8srQvpz2iqOgF6yB1X6S05NeiRUskIlLSiNwzioU0PKwFkw7NQcVWw8JpWFRMuiW5kLKfbQsXdjm/6iMNAeV/zJq9F6Q90WQYqBN37p5LACkiWU4gOmfOCqX3DEAu8xBC/3+XbpqhpBuHptqC35nnA5a0qixE3Hg7AQ2GpcuSCZryGcBSDdh1jHBseVberfsu6wM3/vPvt31dvPv78EsJL/LTzILhLZ1OMfIuBSQMNQLGyKahiD6TmjnarciQhPfBEELmoK4W1+QNnu2dLW+Eb1RSbgkvlD2LojygCxRuJrE/I5/e/f/rrjy8fXr94nqL4m1rs4xgrw0Xj49wHnkEQgrytd12UweHJA6fYBZExmQre6KIDkiwna8uAXWJKlvFtqbC7PFQtwdV4fW9F4c/M1Zm11RTOGqzC5PLYIayBJK4/mNjbxXZv1y943uUbIStQsCZJQmBHGwi6joMoy3lcc50krauc3xgPPkiu2AYVQjAHd3JIFcHcuJ1DpM9wg59a8xzm5jp0zevACslOPCBfHKeC6XNzrJE+tUhFmlwzdx58w0yWl+Q5RHoaWWckJoDHnVN0cWyXri0ejvm4cOl7+pRcuOQIthMYW9BrKQ/L+x/CTCZI73TuCHh0+l2+2/QPMw8Db/+V+ZGHOtGmEcorqqejjbq7qCD3Ej8iV03Hfa2bqWtSN6fcKHf01bQ2meCfZ0uMV9Q76QOE3y4WA0xLKpNjn/3099vPP/3y8dc/5/M59LHY2Rg1TyQSEyq1g5OX0hGu0Lgy7yGs14n5MO8irE/fu16S3PaJFOh+p1nsle87178tMMNqb22Bpbx6dLL6ufKN9MTWQx/ohJ5GNCJ20KAGP4PukepN6fQeJdLrK7Sv85REXeUZVdSfFbzkKrlc3K0uo+C+rJlFU2dmNii2lnWqhtqdppBqkTGRLEcLygFXLWq9An1p10n3ENjnw1VbOAg8uL/cHPkxP4ev*/
+
+
+class special extends table {
+	
+    public $name='b_special';
+    public static $me;
+    
+    public static function getInstance() {
+    	if (!self::$me) {
+    		$class=new special();
+    		self::$me=$class;
+    	}
+    	return self::$me;
+    }
+    
+    function getcols($act) {
+        switch ($act) {
+            case 'manage':
+                return 'spid,title,banner';
+            default: return '*';
+        }
+    }
+    function get_form() {
+        return array(
+                'banner'=>array(
+                        'filetype'=>'imageSwfupload',
+                ),
+        		'ishtml'=>array(
+        				'selecttype'=>'radio',
+        				'select'=>form::arraytoselect(array(0=>'不生成',1=>'生成')),
+        				'default'=>0,
+        		),
+				'template'=>array(
+                    'selecttype'=>'select',
+                    'select'=>form::arraytoselect(front::$view->special_tpl_list()),
+                    //'tips'=>" 默认：{?category::gettemplate(get('id'),'showtemplate')}",
+                ),
+                'description' => array(
+                    'type'=>'mediumtext',
+                ),
+        );
+    }
+    function url($spid,$ishtml,$page=1) {
+    	$ishtml = special::getishtml($spid);
+    	if(front::$get['t'] == 'wap'){
+    		if($ishtml){
+    			return config::get('site_url').'special_wap/'.$spid.'/list_'.$page.'.html';
+    		}else{
+    			return url::create('special/show/t/wap/spid/'.$spid.($page >1 ?'/page/'.$page : ''),false);
+    		}
+    	}
+    	if(!$ishtml && !front::$rewrite){
+        	return url::create('special/show/spid/'.$spid.($page >1 ?'/page/'.$page : ''),false);
+    	}else if(front::$rewrite){
+    		return config::get('site_url').'speciallist_'.$spid.'_'.$page.'.htm';
+    	}else{
+    		return config::get('site_url').'special/'.$spid.'/list_'.$page.'.html';
+    	}
+    }
+    function pagination() {
+        return template('system/special_pagination.html');
+    }
+    function option() {
+        $sp=new special();
+        $sps=$sp->getrows('',500);
+        $options=array(0=>'请选择...');
+        foreach ($sps as $sp) {
+            $options[$sp['spid']]=$sp['title'];
+        }
+        return $options;
+    }
+    function gettitle($spid) {
+        if (empty($spid)) return;
+        $sp=new special();
+        $sp=$sp->getrow('spid='.$spid);
+        return $sp['title'];
+    }
+    function getishtml($spid) {
+    	if (empty($spid)) return;
+    	$sp=new special();
+    	$sp=$sp->getrow('spid='.$spid);
+    	return $sp['ishtml'];
+    }
+    function listdata($limit=10) {
+        $special=new special();
+        $specials=$special->getrows('',$limit);
+        foreach ($specials as $order=>$sp) {
+            $specials[$order]['url']=special::url($sp['spid'],$sp['ishtml']);
+        }
+        return $specials;
+    }
+}

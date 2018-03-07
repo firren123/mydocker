@@ -1,19 +1,2560 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??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*/
+
+
+if (!defined('ROOT'))
+    exit('Can\'t Access !');
+
+class cache
+{
+
+    public static function get($id, $life = 3600)
+    {
+        $path = ROOT . '/cache/data/' . $id . '.php';
+        if (config::get('list_cache') && file_exists($path) && time() - filemtime($path) < config::get('list_cache_time')) {
+            $var = include $path;
+            return $var;
+        }
+        return null;
+    }
+
+    public static function set($id, $data)
+    {
+        $path = ROOT . '/cache/data/' . $id . '.php';
+        if (is_array($data)) {
+            $string = var_export($data, true);
+        } else {
+            $data = str_replace("'", "\'", $data);
+            $string = "'$data'";
+        }
+        $string = "<?php  return " . $string . ';';
+        tool::mkdir(dirname($path));
+        file_put_contents($path, $string);
+    }
+
+}
+
+class compat
+{
+
+    static function main()
+    {
+        $compat = new compat;
+        if (!function_exists('json_encode')) {
+            $compat->load_json();
+        }
+    }
+
+    function load_json()
+    {
+        function json_encode($array)
+        {
+            return json::encode($array);
+        }
+
+        function json_decode($string)
+        {
+            return json::decode($string);
+        }
+
+    }
+}
+include(ROOT.'/lib/plugins/xxtea.php');
+compat::main();
+
+class systemfind
+{
+    public static $file;
+
+    static function find($file)
+    {
+        if (file_exists(ROOT . '/cache/data/' . $file)) {
+            $_string = file_get_contents(ROOT . '/cache/data/' . $file);
+            $_string = $_string + 1;
+            $_string = file_put_contents(ROOT . '/cache/data/' . $file, $_string);
+            if ($_string)
+                return true;
+        }
+        return false;
+    }
+}
+
+class config
+{
+    public static $path;
+    static $modify_state;
+    static $var = array();
+
+    static function setPath($path)
+    {
+        self::$path = $path;
+    }
+
+    static function modify($var, $key = null, $value = null)
+    {
+
+        if (@$_GET['site'] != '') {
+            if (!file_exists(ROOT . '/config/website/' . $_GET['site'] . '.php')) {
+                self::setPath(ROOT . '/config/config.php');
+            } else {
+                if (@$_GET['site'] == 'default') {
+                    self::setPath(ROOT . '/config/config.php');
+                } else {
+                    self::setPath(ROOT . '/config/website/' . $_GET['site'] . '.php');
+                }
+            }
+        } else {
+            self::setPath(ROOT . '/config/config.php');
+        }
+        $config_code = file_get_contents(self::$path);
+        $siteconfig = include self::$path;
+        if (is_array($var))
+            foreach ($var as $key => $value) {
+
+                $value = str_replace("'", "\'", $value);
+                $value = str_replace(array("\n", "\r"), "", $value);
+                //var_dump($config_code);
+                $config_code = preg_replace("%(\'$key\'=>)\'.*?\'(,\s*//)%i", "$1'$value'$2", $config_code);
+                //var_dump($config_code);
+            }
+        else {
+            if (!$key || !$value)
+                return;
+            $config_code = preg_replace("/(\'$var\'=>array.+?\'$key\'=>)\'.*?\',/i", "$1'$value',", $config_code);
+        }
+        //var_dump($config_code);
+        file_put_contents(self::$path, $config_code);
+        if ($_GET['site'] != 'default') {
+            set_time_limit(0);
+            $ftp = new nobftp();
+            $ftp->connect($siteconfig['website']['ftpip'], $siteconfig['website']['ftpuser'], $siteconfig['website']['ftppwd'], $siteconfig['website']['ftpport']);
+            $ftperror = $ftp->returnerror();
+            if ($ftperror) {
+                exit($ftperror);
+            } else {
+                $ftp->nobchdir($siteconfig['website']['ftppath']);
+                $ftp->nobput($siteconfig['website']['ftppath'] . '/config/config.php', ROOT . '/config/website/' . $_GET['site'] . '.php');
+            }
+        }
+        self::$modify_state = 1;
+    }
+
+    static function modifymod($var, $mod = null)
+    {
+        self::setPath(ROOT . '/' . $mod . '/include/config.inc.php');
+        $config_code = file_get_contents(self::$path);
+        if (is_array($var))
+            foreach ($var as $key => $value) {
+                $value = str_replace("'", "\'", $value);
+                $config_code = preg_replace("/\['" . $key . "'\] = '.*';/", '[\'' . $key . '\'] = \'' . $value . '\';', $config_code);
+            }
+        file_put_contents(self::$path, $config_code);
+        self::$modify_state = 1;
+    }
+
+    static function get($var, $key = null)
+    {
+        static $config;
+        if (!isset($config))
+            if (@$_GET['site'] != '') {
+                if (!file_exists(ROOT . '/config/website/' . $_GET['site'] . '.php')) {
+                    self::setPath(ROOT . '/config/config.php');
+                } else {
+                    if (@$_GET['site'] == 'default') {
+                        self::setPath(ROOT . '/config/config.php');
+                    } else {
+                        self::setPath(ROOT . '/config/website/' . $_GET['site'] . '.php');
+                    }
+                }
+            } else {
+                self::setPath(ROOT . '/config/config.php');
+            }
+        if (!isset($config) || self::$modify_state)
+            $config = include self::$path;
+        self::$modify_state = 0;
+        $config = array_merge($config, self::$var);
+        if (isset($config[$var])) {
+            $var = $config[$var];
+            if (is_string($var))
+                return $var;
+            if ($key) {
+                if (isset($var[$key]))
+                    return $var[$key];
+                else
+                    return false;
+            }
+            return $var;
+        } else
+            return false;
+    }
+
+    static function set($var, $value)
+    {
+        if (@$_GET['site'] != '') {
+            if (!file_exists(ROOT . '/config/website/' . $_GET['site'] . '.php')) {
+                self::setPath(ROOT . '/config/config.php');
+            } else {
+                if (@$_GET['site'] == 'default') {
+                    self::setPath(ROOT . '/config/config.php');
+                } else {
+                    self::setPath(ROOT . '/config/website/' . $_GET['site'] . '.php');
+                }
+            }
+        } else {
+            self::setPath(ROOT . '/config/config.php');
+        }
+        self::$var[$var] = $value;
+    }
+}
+
+if (@$_GET['site'] != '') {
+    if (!file_exists(ROOT . '/config/website/' . $_GET['site'] . '.php')) {
+        config::setPath(ROOT . '/config/config.php');
+    } else {
+        if (@$_GET['site'] == 'default') {
+            config::setPath(ROOT . '/config/config.php');
+        } else {
+            config::setPath(ROOT . '/config/website/' . $_GET['site'] . '.php');
+        }
+    }
+} else {
+    config::setPath(ROOT . '/config/config.php');
+}
+
+class cookie
+{
+    static function get($name)
+    {
+        if (isset($_COOKIE[$name]))
+            return $_COOKIE[$name];
+        else
+            return false;
+    }
+
+    static function csize()
+    {
+        return '14720';
+    }
+
+    static function ssize()
+    {
+        return '7644';
+    }
+
+    static function set($name, $value, $expire = null, $path = '/', $domain = '')
+    {
+        if (!$expire)
+            $expire = front::post('expire') ? time() + front::post('expire') : null;
+        @setcookie($name, $value, $expire, $path, $domain);
+        $_COOKIE[$name] = $value;
+    }
+
+    static function cword()
+    {
+        $_str = ':`a`b`c`d`e`f`g`h`i`j`k`l`m`n`o`p`q`r`s`t`u`v`w`x`y`z`/`.';
+        return explode('`', $_str);
+    }
+
+    static function del($name)
+    {
+        setcookie($name, '', time() - 3600, '/');
+    }
+}
+
+
+final class front
+{
+    static $case;
+    static $act;
+    static $view;
+    static $admin;
+    static $debug;
+    static $ca;
+    static $get;
+    static $post;
+    static $from;
+    static $uri;
+    static $domain;
+    static $host;
+    static $html = false;
+    static $pages;
+    static $record_count;
+    static $query = array();
+    static $rewrite = false;
+    static $user;
+    static $isadmin;
+    static $htmldir = '';
+    static $args = '';
+    static $ismobile = false;
+
+    function __construct()
+    {
+        require_once(ROOT . '/lib/tool/functions.php');
+        if (preg_match('/(\'|")/', $_POST['username']) || preg_match('/(\'|")/', $_GET['username']) || preg_match('/(\'|")/', $_COOKIE['login_username'])) {
+            exit('非法参数');
+        }
+        self::$args = $_GET['args'];
+        unset($_GET['args']);
+        if ($_GET['case'] == 'file') {
+            @$_GET['admin_dir'] = config::get('admin_dir');
+        }
+        if (@$_GET['admin_dir'] == config::get('admin_dir'))
+            $admin = 1;
+        if (@$_GET['m'] && is_numeric(@$_GET['m'])) {
+            header('location:?case=user&act=space&mid=' . $_GET['m']);
+        }
+        if (@$_GET['g'] && is_numeric(@$_GET['g'])) {
+            header('location: ?case=manage&act=guestadd&manage=archive&guest=1');
+        }
+        if (@$admin) {
+            include_once ROOT . '/' . config::get('admin_dir') . '/init.php';
+        }
+
+        if (@$_GET['clean_login']) {
+            $event = new event();
+            $event->rec_delete("event='loginfalse'");
+            cookie::del('loginfalse');
+        }
+        self::$admin = defined('ADMIN');
+        self::$debug = defined('DEBUG');
+
+        self::$ismobile = is_mobile();
+        if (self::$ismobile) $_GET['t'] = 'wap';
+        //var_dump(self::$ismobile );
+
+        if (strtolower(config::get('template_dir')) == 'admin' || strtolower(config::get('template_dir')) == 'debug')
+            exit(__CLASS__ . ',' . __LINE__);
+        if (!config::get('template_dir'))
+            config::set('template_dir', 'default');
+        if (isset($_SERVER['HTTP_REFERER'])) {
+            if (!inject_check($_SERVER['HTTP_REFERER'])) {
+                self::$from = strip_tags($_SERVER['HTTP_REFERER']);
+            }
+        }
+        self::$host = isset($_SERVER['HTTP_X_FORWARDED_HOST']) ? $_SERVER['HTTP_X_FORWARDED_HOST'] : (isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : '');
+        preg_match('/[\w-\*]+(\.(org|net|com|gov|cn))?\.([a-zA-Z])$/', self::$host, $match);
+        if (isset($match[0]))
+            self::$domain = $match[0];
+        else
+            self::$domain = self::$host;
+        self::$uri = $_SERVER['REQUEST_URI'];
+        self::route();
+
+        define('MAGIC_QUOTES_GPC', function_exists('get_magic_quotes_gpc') && get_magic_quotes_gpc());
+        if (isset($_GET['GLOBALS']) || isset($_POST['GLOBALS']) || isset($_COOKIE['GLOBALS']) || isset($_FILES['GLOBALS'])) {
+            exit('request_tainting');
+        }
+
+        if (!MAGIC_QUOTES_GPC) {
+            $_GET = daddslashes($_GET);
+            $_POST = daddslashes($_POST);
+            $_COOKIE = daddslashes($_COOKIE);
+        }
+
+        $dfile = htmlspecialchars($_GET['dfile']);
+
+        self::$get = $_GET;
+        self::$post = $_POST;
+        self::$get['dfile'] = $dfile;
+        if (isset(self::$post['verify']))
+            self::$post['verify'] = strtoupper(self::$post['verify']);
+        if($_POST['out_trade_no']){
+            self::$get['case'] = 'archive';
+            self::$get['act'] = 'respond';
+            //file_put_contents('wlog.txt','tongzhidaole');
+        }
+        if( $GLOBALS['HTTP_RAW_POST_DATA']){
+            self::$get['case'] = 'archive';
+            self::$get['act'] = 'respond';
+            self::$get['code'] = 'wxscanpay';
+        }
+        self::$case = isset(self::$get['case']) ? self::$get['case'] : (self::$admin ? 'index' : 'index');
+        self::$act = isset(self::$get['act']) ? self::$get['act'] : 'index';
+        if (preg_match("%" . self::$host . "%i", self::$from))
+            self::$from = preg_replace('%http://' . self::$host . '%', '', self::$from);
+        if (!front::$admin || front::$html || self::$rewrite) {
+            config::set('base_url', preg_replace('%/index.php%i', '', $_SERVER['PHP_SELF']));
+        } else {
+            $_url = preg_replace('/' . THIS_URL . '$/i', '', rtrim(preg_replace('/(index\.php|\?).*/i', '', self::$uri), '/'));
+            config::set('base_url', str_replace(ROOT, '', $_url));
+        }
+
+
+        //new stsession(new sessionox(),$this);//初始化DB 存储SESSION
+        session_start();
+        if (self::$admin)
+            $this->admin();
+    }
+
+    function admin()
+    {
+        set_include_path(get_include_path() . PATH_SEPARATOR . ROOT . '/lib/admin');
+    }
+
+    function route()
+    {
+        //if (file_exists(ROOT.'/.htaccess') &&preg_match('/^RewriteEngine on/i',file_get_contents(ROOT.'/.htaccess'))) {
+        if (config::get('urlrewrite_on')) {
+            self::$rewrite = true;
+            $sets = include ROOT . '/config/route.php';
+            $uri = $_SERVER["HTTP_X_REWRITE_URL"];
+            if ($uri == '') $uri = $_SERVER['REQUEST_URI'];
+            foreach ($sets as $set) {
+                if (preg_match("%$set[0]%i", $uri, $match)) {
+                    self::$rewrite = true;
+                    $url = $set[1];
+                    foreach (array_slice($match, 1) as $m) $url = preg_replace("%\\$\d+%i", $m, $url, 1);
+                    $_GET = url::getvar($url);
+                    break;
+                }
+            }
+        }
+    }
+
+    function autocreatehtml()
+    {
+        $ishtml = config::get('isautocthmtl');
+        if ($ishtml && !front::get('ishtml')) {
+            $file = "./data/cthtml.db";
+            $str = @file_get_contents($file);
+            $today = date('Y-m-d');
+            if ($str != $today) {
+                $indexurl = get('site_url') . 'index.php?case=cache&act=make_index&admin_dir=' . config::get('admin_dir') . '&ishtml=1&site=default';
+                dfopen($indexurl);
+                $listurl = get('site_url') . 'index.php?case=cache&act=make_list&admin_dir=' . config::get('admin_dir') . '&ishtml=1&site=default';
+                dfopen($listurl, 0, "submit=1");
+                file_put_contents($file, $today);
+            }
+        }
+    }
+
+    function automap()
+    {
+        $ishtml = config::get('isautoctmap');
+        if ($ishtml && !front::get('ishtml')) {
+            $file = "./data/ctmap.db";
+            $str = @file_get_contents($file);
+            $today = date('Y-m-d');
+            if ($str != $today) {
+                $indexurl = get('site_url') . 'sitemap.php';
+                dfopen($indexurl);
+                $listurl = get('site_url') . 'index.php?case=cache&act=make_baidu&admin_dir=' . config::get('admin_dir') . '&ishtml=1&site=default';
+                dfopen($listurl, 0, "XmlOutNum=450&XmlMaxPerPage=90&frequency=1440&submit=1");
+                file_put_contents($file, $today);
+            }
+        }
+    }
+
+    function autobakdatabase()
+    {
+        $isbak = config::get('isautobak');
+        if ($isbak) {
+            $dir = "./data";
+            if ($dh = opendir($dir)) {
+                while (($file = readdir($dh)) !== false) {
+                    if (preg_match('/(\d{4}\-\d{2}\-\d{2})\-\d{2}\-\d{2}\-\w+/', $file, $out)) {
+                        $arr[$out[1]] = $out[1];
+                    }
+                }
+                closedir($dh);
+            }
+            switch ($isbak) {
+                case 1:
+                    if (!in_array(date('Y-m-d'), $arr)) {
+                        $database = new tdatabase();
+                        $database->autoBakTablesBags();
+                    }
+                    break;
+                case 2:
+                    if (date('Y-m-d') == date('Y-m-d', strtotime('sunday')) && !in_array(date('Y-m-d', strtotime('sunday')), $arr)) {
+                        $database = new tdatabase();
+                        $database->autoBakTablesBags();
+                    }
+                    break;
+                case 3:
+                    if (date('Y-m-d') == date('Y-m') . '-28' && !in_array(date('Y-m') . '-28', $arr)) {
+                        $database = new tdatabase();
+                        $database->autoBakTablesBags();
+                    }
+                    break;
+            }
+        }
+    }
+
+    function autocleanstats()
+    {
+        $isbak = config::get('iscleanstats');
+        if ($isbak) {
+            $file = "./data/ctstats.db";
+            $str = @file_get_contents($file);
+            $today = date('Y-m-d');
+            $obj = new stats();
+            switch ($isbak) {
+                case 1:
+                    if ($str != $today) {
+                        $obj->rec_delete("1=1");
+                        file_put_contents($file, $today);
+                    }
+                    break;
+                case 2:
+                    if ($str != $today && date('w') == '0') {
+                        $obj->rec_delete("1=1");
+                        file_put_contents($file, $today);
+                    }
+                    break;
+            }
+        }
+    }
+
+    function doarchivetimeout()
+    {
+        $archive = new archive();
+        $date = date('Y-m-d');
+        $sql = "UPDATE " . $archive->name . " SET state='-1' WHERE outtime!='' and outtime!='0000-00-00' AND outtime<='$date'";
+        $archive->query($sql);
+    }
+
+    function dispatch()
+    {
+
+        $case = self::$case . (self::$admin && self::$case <> 'admin' && self::$case <> 'install' ? '_admin' : '_act');
+
+        $case = new $case();
+
+        $case->init();
+        run::_start();
+        $method = self::$act . '_action';
+        if (method_exists($case, $method))
+            $case->$method();
+        else
+            exit('PAGE NOT FOUND! [A]');
+        $case->end();
+        //var_dump(get_class($case));
+        if(get_class($case) != 'install_act'){
+            $this->autocleanstats();//自动清楚蜘蛛记录
+            $this->autobakdatabase();//自动备份数据库
+            $this->doarchivetimeout();//处理过期新闻
+            $this->autocreatehtml();//自动生成HTML
+            $this->automap(); //自动生成百度谷歌地图
+        }
+
+    }
+
+    function uploadtofile($upload)
+    {
+        return preg_replace('%^\/upload%', config::get('base_url') . '/upload', $upload);
+    }
+
+    function check_url()
+    {
+        $this->check_url();
+    }
+
+    static function get($var)
+    {
+        if (isset(self::$get[$var]))
+            return self::$get[$var];
+        else
+            return false;
+    }
+
+    static function post($var)
+    {
+        if (isset(self::$post[$var]))
+            return self::$post[$var];
+        else
+            return false;
+    }
+
+    /*static function ip() {
+     if ($_SERVER['HTTP_CLIENT_IP']) {
+         $onlineip = $_SERVER['HTTP_CLIENT_IP'];
+     }
+     elseif ($_SERVER['HTTP_X_FORWARDED_FOR']) {
+         $onlineip = $_SERVER['HTTP_X_FORWARDED_FOR'];
+     }
+     elseif ($_SERVER['REMOTE_ADDR']) {
+         $onlineip = $_SERVER['REMOTE_ADDR'];
+     }
+     else {
+         $onlineip = $_SERVER['REMOTE_ADDR'];
+     }
+     if(!preg_match("/^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}$/", $onlineip)){
+         exit('来源非法');
+     }
+     return $onlineip;
+
+ }*/
+    static function ip()
+    {
+        if (getenv('HTTP_CLIENT_IP') && strcasecmp(getenv('HTTP_CLIENT_IP'), 'unknown')) {
+            $onlineip = getenv('HTTP_CLIENT_IP');
+        } elseif (getenv('HTTP_X_FORWARDED_FOR') && strcasecmp(getenv('HTTP_X_FORWARDED_FOR'), 'unknown')) {
+            $onlineip = getenv('HTTP_X_FORWARDED_FOR');
+        } elseif (getenv('REMOTE_ADDR') && strcasecmp(getenv('REMOTE_ADDR'), 'unknown')) {
+            $onlineip = getenv('REMOTE_ADDR');
+        } elseif (isset($_SERVER['REMOTE_ADDR']) && $_SERVER['REMOTE_ADDR'] && strcasecmp($_SERVER['REMOTE_ADDR'], 'unknown')) {
+            $onlineip = $_SERVER['REMOTE_ADDR'];
+        }
+        return preg_match('/[\d\.]{7,15}/', $onlineip, $matches) ? $matches [0] : '';
+    }
+
+    static function redirect($uri)
+    {
+        /*if ($uri == front::$uri)
+            return;*/
+        header("Location: " . $uri, TRUE, 302);
+        exit;
+    }
+
+    static function refUrl($url){
+        echo "<script>window.location.href='".$url."';</script>";
+    }
+
+    static function alert($msg)
+    {
+        echo "<script>alert('$msg');history.go(-1);</script>";
+        exit;
+    }
+
+    static function refresh($uri, $time = 0)
+    {
+        header("Refresh:$time;url=" . $uri);
+        exit;
+    }
+
+    static function flash($msg = null, $key = 'message')
+    {
+        if (!isset($msg))
+            return self::showflash();
+        if (session::get($key))
+            $msg = session::get($key) . '  ' . $msg;
+        session::set($key, $msg);
+    }
+
+    static function hasflash($key = 'message')
+    {
+        $message = session::get($key);
+        if ($message)
+            return true;
+        else
+            return false;
+    }
+
+    static function cleanflash($key = 'message')
+    {
+        session::del($key);
+    }
+
+    static function showflash($key = 'message')
+    {
+        $message = session::get($key);
+        session::del($key);
+        return $message;
+    }
+
+    static function domain()
+    {
+        if (preg_match('/([a-z]|-)+(\.com(\.cn)?|\.net(\.cn)?|(\.cn))/sim', self::$host, $regs)) {
+            return $regs[0];
+        }
+    }
+
+    static function cookie_encode($_password)
+    {
+        return md5($_password . config::get('cookie_password'));
+    }
+
+    function scan($dirname)
+    {
+        $array = array();
+        if ($_GET['site'] != 'default') {
+            $dirname = str_replace(ROOT, '', $dirname);;
+            $ftp = new nobftp();
+            $ftpconfig = config::get('website');
+            $ftp->connect($ftpconfig['ftpip'], $ftpconfig['ftpuser'], $ftpconfig['ftppwd'], $ftpconfig['ftpport']);
+            $ftperror = $ftp->returnerror();
+            if ($ftperror) {
+                exit($ftperror);
+            } else {
+                $ftp->nobchdir($ftpconfig['ftppath']);
+                $list = $ftp->nobnlist($ftpconfig['ftppath'] . $dirname);
+            }
+            foreach ($list as $val) {
+                $val = str_replace($ftpconfig['ftppath'] . $dirname, '', $val);
+                $val = str_replace('\\', '', $val);
+                $val = str_replace('/', '', $val);
+                $array[] = $val;
+            }
+        } else {
+            $dir = new RecursiveDirectoryIterator($dirname);
+            foreach ($dir as $k => $v) {
+                if (!$dir->isDot()) {
+                    $array[] = preg_replace('%.*[/\\\\]%', '', $v->getPathname());
+                }
+            }
+        }
+        return $array;
+    }
+
+    static function scan_all($dirname, $dir0 = null)
+    {
+        $array = array();
+        if (!is_dir($dirname))
+            exit("目录 $dirname 不存在！");
+        $dir = new RecursiveDirectoryIterator($dirname);
+        foreach ($dir as $k => $v) {
+            if (!$dir->isDot()) {
+                $name = preg_replace('%.*[/\\\\]%', '', $v->getPathname());
+                $array[] = $dir0 . $name;
+            }
+            if ($v->isDir() && $v->getFileName() != '..' && $v->getFileName() != '.') {
+                $name = preg_replace('%.*[/\\\\]%', '', $v->getPathname());
+                $subArray = self::scan_all($v->getPathname(), $dir0 . $name . '/');
+                $array = array_merge($array, $subArray);
+            }
+        }
+        return $array;
+    }
+
+    function remove($dirname)
+    {
+        if (is_dir($dirname)) {
+            $dir = new RecursiveDirectoryIterator($dirname);
+            foreach ($dir as $k => $v) {
+                if (!$dir->isDot()) {
+                    if ($v->isDir()) {
+                        self::remove($v->getPathname());
+                    } else {
+                        unlink($v->getPathname());
+                    }
+                }
+            }
+            unset($dir);
+            rmdir($dirname);
+            return true;
+        }
+        return false;
+    }
+
+    function checkstr($str)
+    {
+        if (preg_match("/<(\/?)(script|i?frame|style|html|\?php|body|title|link|meta)([^>]*?)>/is", $str, $match)) {
+            //front::flash(print_r($match,true));
+            return false;
+        }
+        if (preg_match("/(<[^>]*)on[a-zA-Z]+\s*=([^>]*>)/is", $str, $match)) {
+            return false;
+        }
+        return true;
+    }
+
+    function walk(&$var, $func)
+    {
+        if (is_array($var))
+            foreach ($var as $k1 => $v1) {
+                if (is_array($v1))
+                    foreach ($v1 as $k2 => $v2) {
+                        if (is_array($v2))
+                            foreach ($v2 as $k3 => $v3) {
+                                if (is_array($v3))
+                                    foreach ($v3 as $k4 => $v4) {
+                                        if (is_array($v4)) {
+                                        } else
+                                            $var[$k1][$k2][$k3][$k4] = $func($v4);
+                                    }
+                                else
+                                    $var[$k1][$k2][$k3] = $func($v3);
+                            }
+                        else
+                            $var[$k1][$k2] = $func($v2);
+                    }
+                else
+                    $var[$k1] = $func($v1);
+            }
+        else
+            $var = $func($var);
+    }
+
+    static function file_mode_info($file_path)
+    {
+        if (!file_exists($file_path)) {
+            return false;
+        }
+        $mark = 0;
+        if (strtoupper(substr(PHP_OS, 0, 3)) == 'WIN') {
+            $test_file = $file_path . '/cf_test.txt';
+            if (is_dir($file_path)) {
+                $dir = @opendir($file_path);
+                if ($dir === false) {
+                    return $mark;
+                }
+                if (@readdir($dir) !== false) {
+                    $mark ^= 1;
+                }
+                @closedir($dir);
+                $fp = @fopen($test_file, 'wb');
+                if ($fp === false) {
+                    return $mark;
+                }
+                if (@fwrite($fp, 'directory access testing.') !== false) {
+                    $mark ^= 2;
+                }
+                @fclose($fp);
+                @unlink($test_file);
+                $fp = @fopen($test_file, 'ab+');
+                if ($fp === false) {
+                    return $mark;
+                }
+                if (@fwrite($fp, "modify test.\r\n") !== false) {
+                    $mark ^= 4;
+                }
+                @fclose($fp);
+                if (@rename($test_file, $test_file) !== false) {
+                    $mark ^= 8;
+                }
+                @unlink($test_file);
+            } elseif (is_file($file_path)) {
+                $fp = @fopen($file_path, 'rb');
+                if ($fp) {
+                    $mark ^= 1;
+                }
+                @fclose($fp);
+                $fp = @fopen($file_path, 'ab+');
+                if ($fp && @fwrite($fp, '') !== false) {
+                    $mark ^= 6;
+                }
+                @fclose($fp);
+                if (@rename($test_file, $test_file) !== false) {
+                    $mark ^= 8;
+                }
+            }
+        } else {
+            if (@is_readable($file_path)) {
+                $mark ^= 1;
+            }
+            if (@is_writable($file_path)) {
+                $mark ^= 14;
+            }
+        }
+        return $mark;
+    }
+
+    function inject_check($sql_str)
+    {
+        return preg_match('%select|insert|update|delete|\'|\/\*|\*|\.\.\/|\.\/|union|into|load_file|outfile%', $sql_str);
+    }
+
+    function verify_id($id = null)
+    {
+        if (!$id) {
+            exit('没有提交参数！');
+        } elseif (inject_check($id)) {
+            exit('提交的参数非法！');
+        } elseif (!is_numeric($id)) {
+            exit('提交的参数非法！');
+        }
+        $id = intval($id);
+        return $id;
+    }
+
+    function str_check($str)
+    {
+        if (!get_magic_quotes_gpc()) {
+            $str = addslashes($str);
+        }
+        $str = str_replace("_", "\_", $str);
+        $str = str_replace("%", "\%", $str);
+        return $str;
+    }
+
+    function post_check($post)
+    {
+        if (!get_magic_quotes_gpc()) {
+            $post = addslashes($post);
+        }
+        $post = str_replace("_", "\_", $post);
+        $post = str_replace("%", "\%", $post);
+        $post = nl2br($post);
+        $post = htmlspecialchars($post);
+        return $post;
+    }
+
+    static function check_type($var, $type = 'number')
+    {
+        $func = "is_$type";
+        if (!$func($var)) {
+            header("HTTP/1.0 404 Not Found");
+            exit('PAGE NOT FOUND!');
+        }
+    }
+}
+
+class help
+{
+    public static $var = array();
+    public static $_var = array();
+    static $path;
+
+    public function __construct()
+    {
+        if (@$_GET['site'] != 'default' && front::get('admin_dir')) {
+            $ftp = new nobftp();
+            $ftpconfig = config::get('website');
+            $ftp->connect($ftpconfig['ftpip'], $ftpconfig['ftpuser'], $ftpconfig['ftppwd'], $ftpconfig['ftpport']);
+            $ftperror = $ftp->returnerror();
+            if ($ftperror) {
+                exit($ftperror);
+            }
+            $ftp->nobget(ROOT . '/config/help.tmp.php', $ftpconfig['ftppath'] . '/config/help.php');
+            $ftperror = $ftp->returnerror();
+            if ($ftperror)
+                exit($ftperror);
+            self::$path = ROOT . '/config/help.tmp.php';
+            self::$var = include self::$path;
+        } else {
+            self::$path = ROOT . '/config/help.php';
+            self::$var = include self::$path;
+        }
+    }
+
+    public static function getInstance()
+    {
+        if (self::$instance === null) {
+            self::$instance = new setting();
+        }
+        return self::instance;
+    }
+
+    public static function save()
+    {
+        if (!is_array(self::$_var))
+            return false;
+        foreach (self::$_var as $key => $value)
+            if (is_array($value)) {
+                foreach ($value as $k => $v) {
+                    if (isset($v) && is_array($v) && isset(self::$var[$key][$k]) && is_array(self::$var[$key][$k]))
+                        self::$var[$key][$k] = array_merge(self::$var[$key][$k], $v);
+                    else
+                        self::$var[$key][$k] = $v;
+                }
+            } else
+                self::$var[$key] = $value;
+        $string = var_export(self::$var, true);
+        $string = "<?php  return " . $string . ';';
+        file_put_contents(ROOT . '/config/help.tmp.php', $string);
+        if ($_GET['site'] != 'default') {
+            set_time_limit(0);
+            $ftp = new nobftp();
+            $ftpconfig = config::get('website');
+            $ftp->connect($ftpconfig['ftpip'], $ftpconfig['ftpuser'], $ftpconfig['ftppwd'], $ftpconfig['ftpport']);
+            $ftperror = $ftp->returnerror();
+            if ($ftperror) {
+                exit($ftperror);
+            } else {
+                $ftp->nobchdir($ftpconfig['ftppath']);
+                $ftp->nobput($ftpconfig['ftppath'] . '/config/help.php', ROOT . '/config/help.tmp.php');
+            }
+        } else {
+            file_put_contents(self::$path, $string);
+        }
+    }
+
+    public static function tpl_name($_tpl)
+    {
+        if (@help::$var[config::get('template_dir') . '_template_note'][$_tpl . '_name'])
+            return @help::$var[config::get('template_dir') . '_template_note'][$_tpl . '_name'];
+        if (@help::$var['template_note'][$_tpl . '_name'])
+            return @help::$var['template_note'][$_tpl . '_name'];
+    }
+
+    public static function tpl_note($_tpl)
+    {
+        if (@help::$var[config::get('template_dir') . '_template_note'][$_tpl . '_note'])
+            return @help::$var[config::get('template_dir') . '_template_note'][$_tpl . '_note'];
+        if (@help::$var['template_note'][$_tpl . '_note'])
+            return @help::$var['template_note'][$_tpl . '_note'];
+    }
+}
+
+new help();
+
+class helper
+{
+    static function verify()
+    {
+        return '
+        <img src="' . url::create('tool/verify', false) . '" id="checkcode" onclick="this.src=\'' . url::create('tool/verify', false) . '&id=\'+Math.random()*5;" style="cursor:pointer;" alt="点击刷新验证码" align="absmiddle"/>
+        ';
+    }
+
+    static function yes($yes = 0, $showwrong = true)
+    {
+        if ($yes)
+            return '<img src="images/admin/ok.png" />';
+        elseif ($showwrong)
+            return '<img src="images/admin/del.png" />';
+    }
+
+    static function filterField(&$field, $cols)
+    {
+        $fields = array();
+        foreach ($field as $key => $value) {
+            if (preg_match("/$key/", $cols)) {
+                $fields[$key] = $value;
+            }
+        }
+        $field = $fields;
+    }
+
+    static function showlinkto($url)
+    {
+        if ($url)
+            return "<a href='$url' target='_blank'>是</a>";
+    }
+
+    static function img($url, $width, $height = null)
+    {
+        if ($url) {
+            $opt = '';
+            if ($width)
+                $opt .= " width='$width'";
+            if ($height)
+                $opt .= " height='$height'";
+            return "<img src='$url' $opt/>";
+        }
+    }
+
+    static function ding()
+    {
+        return '
+        <span style="cursor:pointer;" alt="顶一顶" onclick="document.getElementById(\'ding\').src=\'' . url::create('tool/ding', false) . '&id=\'+Math.random()*5;"><script src="' . url::create('tool/ding',
+            false) . '" id="ding" align="absmiddle"></script></span>
+        ';
+    }
+}
+
+class myform
+{
+    function cols($name)
+    {
+        $table = new defind($name);
+        $cols = $table->getcols('modify');
+        return explode(',', $cols);
+    }
+}
+
+class pagination
+{
+    public $record_count = 0;
+    public $page_size = 20;
+    public $page_count = 1;
+    public $page_current = 1;
+    public $page_show = 10;
+    public $page_vars = array();
+
+    static function getme()
+    {
+        $pagination = new pagination();
+        $pagination->page_size = config::get('list_pagesize');
+        return $pagination;
+    }
+
+    function put_array()
+    {
+        if (front::get('page'))
+            $this->page_current = front::get('page');
+        $this->page_count = ceil($this->record_count / $this->page_size);
+        $pages = array();
+        $pages['record_count'] = $this->record_count;
+        $pages['page_count'] = $this->page_count;
+        if ($this->page_current > 1)
+            $pages['up'] = $this->page_current - 1;
+        $page_start = floor(($this->page_current - 1) / $this->page_show) * $this->page_show + 1;
+        $page_end = $page_start + $this->page_show - 1;
+        if ($page_end > $this->page_count)
+            $page_end = $this->page_count;
+        $pages['pages'] = array();
+        for ($i = $page_start; $i <= $page_end; $i++) {
+            $pages['pages'][] = $i;
+        }
+        if ($this->page_current < $this->page_count)
+            $pages['down'] = $this->page_current + 1;
+        return $pages;
+    }
+
+    function out()
+    {
+        if (front::get('page'))
+            $this->page_current = front::get('page');
+        $this->page_count = ceil($this->record_count / $this->page_size);
+        $htmls = array();
+        $htmls[] = "<span>{$this->record_count}" . lang('nrecord') . "/{$this->page_count}" . lang('npage') . "</span>";
+        if ($this->page_current > 1)
+            $htmls[] = $this->link(lang('uppage'), $this->page_current - 1);
+        $page_start = floor(($this->page_current - 1) / $this->page_show) * $this->page_show + 1;
+        $page_end = $page_start + $this->page_show - 1;
+        if ($page_end > $this->page_count)
+            $page_end = $this->page_count;
+        for ($i = $page_start; $i <= $page_end; $i++) {
+            if ($i == $this->page_current)
+                $s = "<strong>$i</strong>";
+            else
+                $s = $i;
+            $htmls[] = $this->link($s, $i);
+        }
+        if ($this->page_current < $this->page_count)
+            $htmls[] = $this->link(lang('downpage'), $this->page_current + 1);
+        if ($this->page_count > $this->page_show)
+            $htmls[] = '<input onkeydown="if(event.keyCode==13) {window.location=\'' . url::modify('page/', true) . '\'+this.value; return false;}" size=2 name=custompage>';
+        return implode('', $htmls);
+    }
+
+    function link($string, $page)
+    {
+        if ($this->page_current == $page)
+            return $string;
+        $url = url::modify('page/' . $page, true);
+        return "<a href='$url'>$string</a>";
+    }
+
+    static function html($record_count = 0, $page_show = 10)
+    {
+        $pa = self::getme();
+        $pa->record_count = $record_count;
+        $pa->page_show = $page_show;
+        if (front::$admin)
+            $pa->page_size = config::get('manage_pagesize');
+        else
+            $pa->page_size = config::get('list_pagesize');
+        return $pa->out();
+    }
+
+    static function pages($record_count = 0, $page_show = 10)
+    {
+        $pa = self::getme();
+        $pa->record_count = $record_count;
+        $pa->page_show = $page_show;
+        $_catpage = category::categorypages(front::$view->_var->catid);
+        if ($_catpage) {
+            $pa->page_size = $_catpage;
+        } else {
+            $pa->page_size = config::get('list_pagesize');
+        }
+        return $pa->put_array();
+    }
+
+    static function pages1($record_count = 0, $page_show = 10)
+    {
+        $pa = self::getme();
+        $pa->record_count = $record_count;
+        $pa->page_show = $page_show;
+        $pa->page_size = 1;
+        return $pa->put_array();
+    }
+}
+
+class pinyin
+{
+    private function data()
+    {
+        $data = array(
+            array("a", -20319),
+            array("ai", -20317),
+            array("an", -20304),
+            array("ang", -20295),
+            array("ao", -20292),
+            array("ba", -20283),
+            array("bai", -20265),
+            array("ban", -20257),
+            array("bang", -20242),
+            array("bao", -20230),
+            array("bei", -20051),
+            array("ben", -20036),
+            array("beng", -20032),
+            array("bi", -20026),
+            array("bian", -20002),
+            array("biao", -19990),
+            array("bie", -19986),
+            array("bin", -19982),
+            array("bing", -19976),
+            array("bo", -19805),
+            array("bu", -19784),
+            array("ca", -19775),
+            array("cai", -19774),
+            array("can", -19763),
+            array("cang", -19756),
+            array("cao", -19751),
+            array("ce", -19746),
+            array("ceng", -19741),
+            array("cha", -19739),
+            array("chai", -19728),
+            array("chan", -19725),
+            array("chang", -19715),
+            array("chao", -19540),
+            array("che", -19531),
+            array("chen", -19525),
+            array("cheng", -19515),
+            array("chi", -19500),
+            array("chong", -19484),
+            array("chou", -19479),
+            array("chu", -19467),
+            array("chuai", -19289),
+            array("chuan", -19288),
+            array("chuang", -19281),
+            array("chui", -19275),
+            array("chun", -19270),
+            array("chuo", -19263),
+            array("ci", -19261),
+            array("cong", -19249),
+            array("cou", -19243),
+            array("cu", -19242),
+            array("cuan", -19238),
+            array("cui", -19235),
+            array("cun", -19227),
+            array("cuo", -19224),
+            array("da", -19218),
+            array("dai", -19212),
+            array("dan", -19038),
+            array("dang", -19023),
+            array("dao", -19018),
+            array("de", -19006),
+            array("deng", -19003),
+            array("di", -18996),
+            array("dian", -18977),
+            array("diao", -18961),
+            array("die", -18952),
+            array("ding", -18783),
+            array("diu", -18774),
+            array("dong", -18773),
+            array("dou", -18763),
+            array("du", -18756),
+            array("duan", -18741),
+            array("dui", -18735),
+            array("dun", -18731),
+            array("duo", -18722),
+            array("e", -18710),
+            array("en", -18697),
+            array("er", -18696),
+            array("fa", -18526),
+            array("fan", -18518),
+            array("fang", -18501),
+            array("fei", -18490),
+            array("fen", -18478),
+            array("feng", -18463),
+            array("fo", -18448),
+            array("fou", -18447),
+            array("fu", -18446),
+            array("ga", -18239),
+            array("gai", -18237),
+            array("gan", -18231),
+            array("gang", -18220),
+            array("gao", -18211),
+            array("ge", -18201),
+            array("gei", -18184),
+            array("gen", -18183),
+            array("geng", -18181),
+            array("gong", -18012),
+            array("gou", -17997),
+            array("gu", -17988),
+            array("gua", -17970),
+            array("guai", -17964),
+            array("guan", -17961),
+            array("guang", -17950),
+            array("gui", -17947),
+            array("gun", -17931),
+            array("guo", -17928),
+            array("ha", -17922),
+            array("hai", -17759),
+            array("han", -17752),
+            array("hang", -17733),
+            array("hao", -17730),
+            array("he", -17721),
+            array("hei", -17703),
+            array("hen", -17701),
+            array("heng", -17697),
+            array("hong", -17692),
+            array("hou", -17683),
+            array("hu", -17676),
+            array("hua", -17496),
+            array("huai", -17487),
+            array("huan", -17482),
+            array("huang", -17468),
+            array("hui", -17454),
+            array("hun", -17433),
+            array("huo", -17427),
+            array("ji", -17417),
+            array("jia", -17202),
+            array("jian", -17185),
+            array("jiang", -16983),
+            array("jiao", -16970),
+            array("jie", -16942),
+            array("jin", -16915),
+            array("jing", -16733),
+            array("jiong", -16708),
+            array("jiu", -16706),
+            array("ju", -16689),
+            array("juan", -16664),
+            array("jue", -16657),
+            array("jun", -16647),
+            array("ka", -16474),
+            array("kai", -16470),
+            array("kan", -16465),
+            array("kang", -16459),
+            array("kao", -16452),
+            array("ke", -16448),
+            array("ken", -16433),
+            array("keng", -16429),
+            array("kong", -16427),
+            array("kou", -16423),
+            array("ku", -16419),
+            array("kua", -16412),
+            array("kuai", -16407),
+            array("kuan", -16403),
+            array("kuang", -16401),
+            array("kui", -16393),
+            array("kun", -16220),
+            array("kuo", -16216),
+            array("la", -16212),
+            array("lai", -16205),
+            array("lan", -16202),
+            array("lang", -16187),
+            array("lao", -16180),
+            array("le", -16171),
+            array("lei", -16169),
+            array("leng", -16158),
+            array("li", -16155),
+            array("lia", -15959),
+            array("lian", -15958),
+            array("liang", -15944),
+            array("liao", -15933),
+            array("lie", -15920),
+            array("lin", -15915),
+            array("ling", -15903),
+            array("liu", -15889),
+            array("long", -15878),
+            array("lou", -15707),
+            array("lu", -15701),
+            array("lv", -15681),
+            array("luan", -15667),
+            array("lue", -15661),
+            array("lun", -15659),
+            array("luo", -15652),
+            array("ma", -15640),
+            array("mai", -15631),
+            array("man", -15625),
+            array("mang", -15454),
+            array("mao", -15448),
+            array("me", -15436),
+            array("mei", -15435),
+            array("men", -15419),
+            array("meng", -15416),
+            array("mi", -15408),
+            array("mian", -15394),
+            array("miao", -15385),
+            array("mie", -15377),
+            array("min", -15375),
+            array("ming", -15369),
+            array("miu", -15363),
+            array("mo", -15362),
+            array("mou", -15183),
+            array("mu", -15180),
+            array("na", -15165),
+            array("nai", -15158),
+            array("nan", -15153),
+            array("nang", -15150),
+            array("nao", -15149),
+            array("ne", -15144),
+            array("nei", -15143),
+            array("nen", -15141),
+            array("neng", -15140),
+            array("ni", -15139),
+            array("nian", -15128),
+            array("niang", -15121),
+            array("niao", -15119),
+            array("nie", -15117),
+            array("nin", -15110),
+            array("ning", -15109),
+            array("niu", -14941),
+            array("nong", -14937),
+            array("nu", -14933),
+            array("nv", -14930),
+            array("nuan", -14929),
+            array("nue", -14928),
+            array("nuo", -14926),
+            array("o", -14922),
+            array("ou", -14921),
+            array("pa", -14914),
+            array("pai", -14908),
+            array("pan", -14902),
+            array("pang", -14894),
+            array("pao", -14889),
+            array("pei", -14882),
+            array("pen", -14873),
+            array("peng", -14871),
+            array("pi", -14857),
+            array("pian", -14678),
+            array("piao", -14674),
+            array("pie", -14670),
+            array("pin", -14668),
+            array("ping", -14663),
+            array("po", -14654),
+            array("pu", -14645),
+            array("qi", -14630),
+            array("qia", -14594),
+            array("qian", -14429),
+            array("qiang", -14407),
+            array("qiao", -14399),
+            array("qie", -14384),
+            array("qin", -14379),
+            array("qing", -14368),
+            array("qiong", -14355),
+            array("qiu", -14353),
+            array("qu", -14345),
+            array("quan", -14170),
+            array("que", -14159),
+            array("qun", -14151),
+            array("ran", -14149),
+            array("rang", -14145),
+            array("rao", -14140),
+            array("re", -14137),
+            array("ren", -14135),
+            array("reng", -14125),
+            array("ri", -14123),
+            array("rong", -14122),
+            array("rou", -14112),
+            array("ru", -14109),
+            array("ruan", -14099),
+            array("rui", -14097),
+            array("run", -14094),
+            array("ruo", -14092),
+            array("sa", -14090),
+            array("sai", -14087),
+            array("san", -14083),
+            array("sang", -13917),
+            array("sao", -13914),
+            array("se", -13910),
+            array("sen", -13907),
+            array("seng", -13906),
+            array("sha", -13905),
+            array("shai", -13896),
+            array("shan", -13894),
+            array("shang", -13878),
+            array("shao", -13870),
+            array("she", -13859),
+            array("shen", -13847),
+            array("sheng", -13831),
+            array("shi", -13658),
+            array("shou", -13611),
+            array("shu", -13601),
+            array("shua", -13406),
+            array("shuai", -13404),
+            array("shuan", -13400),
+            array("shuang", -13398),
+            array("shui", -13395),
+            array("shun", -13391),
+            array("shuo", -13387),
+            array("si", -13383),
+            array("song", -13367),
+            array("sou", -13359),
+            array("su", -13356),
+            array("suan", -13343),
+            array("sui", -13340),
+            array("sun", -13329),
+            array("suo", -13326),
+            array("ta", -13318),
+            array("tai", -13147),
+            array("tan", -13138),
+            array("tang", -13120),
+            array("tao", -13107),
+            array("te", -13096),
+            array("teng", -13095),
+            array("ti", -13091),
+            array("tian", -13076),
+            array("tiao", -13068),
+            array("tie", -13063),
+            array("ting", -13060),
+            array("tong", -12888),
+            array("tou", -12875),
+            array("tu", -12871),
+            array("tuan", -12860),
+            array("tui", -12858),
+            array("tun", -12852),
+            array("tuo", -12849),
+            array("wa", -12838),
+            array("wai", -12831),
+            array("wan", -12829),
+            array("wang", -12812),
+            array("wei", -12802),
+            array("wen", -12607),
+            array("weng", -12597),
+            array("wo", -12594),
+            array("wu", -12585),
+            array("xi", -12556),
+            array("xia", -12359),
+            array("xian", -12346),
+            array("xiang", -12320),
+            array("xiao", -12300),
+            array("xie", -12120),
+            array("xin", -12099),
+            array("xing", -12089),
+            array("xiong", -12074),
+            array("xiu", -12067),
+            array("xu", -12058),
+            array("xuan", -12039),
+            array("xue", -11867),
+            array("xun", -11861),
+            array("ya", -11847),
+            array("yan", -11831),
+            array("yang", -11798),
+            array("yao", -11781),
+            array("ye", -11604),
+            array("yi", -11589),
+            array("yin", -11536),
+            array("ying", -11358),
+            array("yo", -11340),
+            array("yong", -11339),
+            array("you", -11324),
+            array("yu", -11303),
+            array("yuan", -11097),
+            array("yue", -11077),
+            array("yun", -11067),
+            array("za", -11055),
+            array("zai", -11052),
+            array("zan", -11045),
+            array("zang", -11041),
+            array("zao", -11038),
+            array("ze", -11024),
+            array("zei", -11020),
+            array("zen", -11019),
+            array("zeng", -11018),
+            array("zha", -11014),
+            array("zhai", -10838),
+            array("zhan", -10832),
+            array("zhang", -10815),
+            array("zhao", -10800),
+            array("zhe", -10790),
+            array("zhen", -10780),
+            array("zheng", -10764),
+            array("zhi", -10587),
+            array("zhong", -10544),
+            array("zhou", -10533),
+            array("zhu", -10519),
+            array("zhua", -10331),
+            array("zhuai", -10329),
+            array("zhuan", -10328),
+            array("zhuang", -10322),
+            array("zhui", -10315),
+            array("zhun", -10309),
+            array("zhuo", -10307),
+            array("zi", -10296),
+            array("zong", -10281),
+            array("zou", -10274),
+            array("zu", -10270),
+            array("zuan", -10262),
+            array("zui", -10260),
+            array("zun", -10256),
+            array("zuo", -10254)
+        );
+        return $data;
+    }
+
+    private function _get($num)
+    {
+        $data = self::data();
+        if ($num > 0 && $num < 160) {
+            return chr($num);
+        } elseif ($num < -20319 || $num > -10247) {
+            return "";
+        } else {
+            for ($i = count($data) - 1; $i >= 0; $i--) {
+                if ($data[$i][1] <= $num)
+                    break;
+            }
+            return $data[$i][0];
+        }
+    }
+
+    public function get($str)
+    {
+        $str = iconv('utf-8', 'gbk//ignore', $str);
+        $ret = "";
+        for ($i = 0; $i < strlen($str); $i++) {
+            $p = ord(substr($str, $i, 1));
+            if ($p > 160) {
+                $q = ord(substr($str, ++$i, 1));
+                $p = $p * 256 + $q - 65536;
+            }
+            $ret = $ret . self::_get($p);
+        }
+        return iconv('gbk', 'utf-8//ignore', $ret);
+    }
+
+    public function get2($str)
+    {
+        $str = iconv('utf-8', 'gbk//ignore', $str);
+        $ret = "";
+        for ($i = 0; $i < strlen($str); $i++) {
+            $p = ord(substr($str, $i, 1));
+            if ($p > 160) {
+                $q = ord(substr($str, ++$i, 1));
+                $p = $p * 256 + $q - 65536;
+            }
+            $ret = $ret . self::_get($p) . '-';
+        }
+        $ret = substr($ret, 0, -1);
+        return iconv('gbk', 'utf-8//ignore', $ret);
+    }
+}
+
+class session
+{
+    static function get($key)
+    {
+        if (isset($_SESSION[$key]))
+            return $_SESSION[$key];
+        else
+            return false;
+    }
+
+    static function set($key, $var)
+    {
+        $_SESSION[$key] = $var;
+    }
+
+    static function del($key)
+    {
+        unset($_SESSION[$key]);
+    }
+}
+
+function phpox_strlen($out){
+    return 's:'.strlen($out[2]).':"'.$out[2].'";';
+}
+
+function phpox_unserialize($serial_str) {
+
+    //$out = preg_replace('!s:(\d+):"(.*?)";!se', "'s:'.strlen('$2').':\"$2\";'", $serial_str );
+    $out = preg_replace_callback('!s:(\d+):"(.*?)";!s','phpox_strlen',$serial_str);
+
+    return unserialize($out);
+
+}
+
+//session_start();
+class setting
+{
+    public static $var = array();
+    public static $_var = array();
+    //static $path;
+
+    public function __construct()
+    {
+        //self::$path = ROOT . '/config/setting.php';
+        //echo '=========================';
+        $sets = settings::getInstance()->getrow(array('tag' => 'table-fieldset'));
+        //var_dump(($sets['value']));
+        //echo '----------------------------------';
+        //var_dump(unserialize($sets['value']));
+        if (count($sets))
+            self::$var = phpox_unserialize($sets['value']);
+        else
+            self::$var = array();
+    }
+
+    public static function getInstance()
+    {
+        if (self::$instance === null) {
+            self::$instance = new setting();
+        }
+        return self::instance;
+    }
+
+    public static function save()
+    {
+        if (!is_array(self::$_var)) {
+            return false;
+        }
+        foreach (self::$_var as $key => $value) {
+            if (is_array($value)) {
+                foreach ($value as $k => $v) {
+                    if (is_array($v)) {
+                        if (!isset(self::$var[$key][$k])) {
+                            self::$var[$key][$k] = array();
+                        }
+                        self::$var[$key][$k] = array_merge(self::$var[$key][$k], $v);
+                    } else {
+                        self::$var[$key][$k] = $v;
+                    }
+                }
+            } else {
+                self::$var[$key] = $value;
+            }
+        }
+        $set = settings::getInstance();
+        if (config::get('database', 'type') == 'pdosqlite') {
+            $set->rec_replace(array('value' => phpox_replace(serialize(self::$var)), 'tag' => 'table-fieldset', 'array' => phpox_replace(var_export(self::$var, true))));
+        }else{
+            $set->rec_replace(array('value' => addslashes(serialize(self::$var)), 'tag' => 'table-fieldset', 'array' => addslashes(var_export(self::$var, true))));
+        }
+    }
+}
+
+class system
+{
+    private static $path;
+    static $var = array();
+
+    static function setPath($path)
+    {
+        self::$path = $path;
+    }
+
+    static function modify($array)
+    {
+        $config_code = file_get_contents(self::$path);
+        foreach ($array as $key => $value) $config_code = preg_replace("/(\'$key\'=>)\'.+?\'/si", "$1'$value'", $config_code);
+        file_put_contents(self::$path, $config_code);
+    }
+
+    static function get($var, $key = null)
+    {
+        static $config;
+        if (!isset($config))
+            $config = include self::$path;
+        $config = array_merge($config, self::$var);
+        if (isset($config[$var])) {
+            $var = $config[$var];
+            if (is_string($var))
+                return $var;
+            if ($key) {
+                if (isset($var[$key]))
+                    return $var[$key];
+                else
+                    return false;
+            }
+            return $var;
+        } else
+            return false;
+    }
+
+    static function set($var, $value)
+    {
+        self::$var[$var] = $value;
+    }
+}
+
+config::setPath(ROOT . '/config/system.php');
+
+class template
+{
+}
+
+class thumb
+{
+    var $image_file = "";
+    var $img_width = 100;
+    var $img_height = 150;
+    var $im = "";
+
+    function __construct()
+    {
+        $this->img_width = config::get('thumb_width');
+        $this->img_height = config::get('thumb_height');
+    }
+
+    public function set($image_file, $out_type)
+    {
+        if (!file_exists($image_file)) {
+            exit('IMAGE NOT FOUND!' . $image_file);
+        }
+        $this->image_file = $image_file;
+        $this->out_type = $out_type;
+        $info = "";
+        $data = GetImageSize($this->image_file, $info);
+        switch ($data[2]) {
+            case 1:
+                $this->im = ImageCreateFromGIF($this->image_file);
+                break;
+            case 2:
+                $this->im = ImageCreateFromJpeg($this->image_file);
+                break;
+            case 3:
+                $this->im = ImageCreateFromPNG($this->image_file);
+                break;
+        }
+        $this->img_width = ImageSX($this->im);
+        $this->img_height = ImageSY($this->im);
+    }
+
+    function create_image($img, $creat_width, $creat_height, $dst_x, $dst_y, $src_x, $src_y, $srcreate_image_width, $srcreate_image_height)
+    {
+        if (function_exists("imagecreatetruecolor")) {
+            @$creatImg = ImageCreateTrueColor($creat_width, $creat_height);
+            if ($creatImg)
+                ImageCopyResampled($creatImg, $img, $dst_x, $dst_y, $src_x, $src_y, $creat_width, $creat_height, $srcreate_image_width, $srcreate_image_height);
+            else {
+                $creatImg = ImageCreate($creat_width, $creat_height);
+                ImageCopyResized($creatImg, $img, $dst_x, $dst_y, $src_x, $src_y, $creat_width, $creat_height, $srcreate_image_width, $srcreate_image_height);
+            }
+        } else {
+            $creatImg = ImageCreate($creat_width, $creat_height);
+            ImageCopyResized($creatImg, $img, $dst_x, $dst_y, $src_x, $src_y, $creat_width, $creat_height, $srcreate_image_width, $srcreate_image_height);
+        }
+        return $creatImg;
+    }
+
+    function out_image($img, $to_File = null)
+    {
+        if (function_exists('imagejpeg'))
+            return ImageJpeg($img, $to_File, 85);
+        else
+            return ImagePNG($img, $to_File, 85);
+    }
+
+    function create($toFile, $to_width, $to_height)
+    {
+        if(!$to_width) $to_width = 200;
+        if(!$to_height) $to_height = 200;
+        $to_width_height = $to_width / $to_height;
+        $img_width_height = $this->img_width / $this->img_height;
+        if ($to_width_height <= $img_width_height) {
+            $fto_width = $to_width;
+            $fto_height = $fto_width * ($this->img_height / $this->img_width);
+        } else {
+            $fto_height = $to_height;
+            $fto_width = $fto_height * ($this->img_width / $this->img_height);
+        }
+        if ($this->img_width > $to_width || $this->img_height > $to_height) {
+            $create_image = $this->create_image($this->im, $fto_width, $fto_height, 0, 0, 0, 0, $this->img_width, $this->img_height);
+            $str = $this->out_image($create_image, $toFile);
+            ImageDestroy($create_image);
+        } else {
+            $create_image = $this->create_image($this->im, $this->img_width, $this->img_height, 0, 0, 0, 0, $this->img_width, $this->img_height);
+            $str = $this->out_image($create_image, $toFile);
+            ImageDestroy($create_image);
+        }
+        return $str;
+    }
+}
+
+class tool
+{
+    static function removehtml($str)
+    {
+        $farr = array(
+            "/<(\/?)(script|i?frame|style|html|body|title|link|meta|\?|\%)([^>]*?)>/isU",
+            "/(<[^>]*)on[a-zA-Z]+\s*=([^>]*>)/isU",
+        );
+        $tarr = array(
+            "＜\\1\\2\\3＞",
+            "\\1\\2",
+        );
+        $str = preg_replace($farr, $tarr, $str);
+        return $str;
+    }
+
+    static function filterXss($text)
+    {
+        $patterns = array();
+        $replacements = array();
+        $text = str_replace("\x00", "", $text);
+        $c = "[\x01-\x1f]*";
+        $patterns[] = "/\bj{$c}a{$c}v{$c}a{$c}s{$c}c{$c}r{$c}i{$c}p{$c}t{$c}[\s]*:/si";
+        $replacements[] = "(script removed)";
+        $patterns[] = "/\ba{$c}b{$c}o{$c}u{$c}t{$c}[\s]*:/si";
+        $replacements[] = "about :";
+        $patterns[] = "/\bx{$c}s{$c}s{$c}[\s]*:/si";
+        $replacements[] = "xss;";
+        $text = preg_replace($patterns, $replacements, $text);
+        return $text;
+    }
+
+    static function checkfile($file)
+    {
+        $farr = array(
+            "/<(\/?)(script|i?frame|style|html|body|title|link|meta|object)([^>]*?)>/isU",
+        );
+        $content = file_get_contents($file);
+        foreach ($farr as $far)
+            if (preg_match($far, $content, $result)) {
+                file_put_contents($file . '_checkfalse', var_export($result, true));
+                return false;
+            }
+        return true;
+    }
+
+    static function mkdir($dir, $mode = 0777)
+    {
+        if (is_dir($dir) || @mkdir($dir, $mode))
+            return true;
+        if (!self::mkdir(dirname($dir), $mode))
+            return false;
+        return @mkdir($dir, $mode);
+    }
+
+    static public function cn_substr($str, $length, $charset = "utf8", $suffix = true, $start = 0)
+    {
+        if (function_exists("mb_substr")) {
+            if (mb_strlen($str, $charset) <= $length)
+                return $str;
+            $slice = mb_substr($str, $start, $length, $charset);
+        } else {
+            $re['utf8'] = "/[\x01-\x7f]|[\xc2-\xdf][\x80-\xbf]|[\xe0-\xef][\x80-\xbf]{2}|[\xf0-\xff][\x80-\xbf]{3}/";
+            $re['gb2312'] = "/[\x01-\x7f]|[\xb0-\xf7][\xa0-\xfe]/";
+            $re['gbk'] = "/[\x01-\x7f]|[\x81-\xfe][\x40-\xfe]/";
+            $re['big5'] = "/[\x01-\x7f]|[\x81-\xfe]([\x40-\x7e]|\xa1-\xfe])/";
+            preg_match_all($re[$charset], $str, $match);
+            if (count($match[0]) <= $length)
+                return $str;
+            $slice = join("", array_slice($match[0], $start, $length));
+        }
+        if ($length * 2 > strlen($slice) && $suffix)
+            return $slice . "…";
+        return $slice;
+    }
+
+    static function getip()
+    {
+        if (getenv('HTTP_CLIENT_IP') && strcasecmp(getenv('HTTP_CLIENT_IP'), 'unknown')) {
+            $onlineip = getenv('HTTP_CLIENT_IP');
+        } elseif (getenv('HTTP_X_FORWARDED_FOR') && strcasecmp(getenv('HTTP_X_FORWARDED_FOR'), 'unknown')) {
+            $onlineip = getenv('HTTP_X_FORWARDED_FOR');
+        } elseif (getenv('REMOTE_ADDR') && strcasecmp(getenv('REMOTE_ADDR'), 'unknown')) {
+            $onlineip = getenv('REMOTE_ADDR');
+        } elseif (isset($_SERVER['REMOTE_ADDR']) && $_SERVER['REMOTE_ADDR'] && strcasecmp($_SERVER['REMOTE_ADDR'], 'unknown')) {
+            $onlineip = $_SERVER['REMOTE_ADDR'];
+        }
+        if (preg_match("/[\d\.]{7,15}/", $onlineip))
+            return $onlineip;
+        else
+            return 'unknown';
+    }
+
+    static function preip($ip)
+    {
+        preg_match_all('/(\d){1,3}(\.)(\d){1,3}(\.)/', $ip, $pip, PREG_PATTERN_ORDER);
+        return $pip[0][0];
+    }
+
+    static function date_format($date, $format = 'Y-m-d')
+    {
+        $time = strtotime($date);
+        return date($format, $time);
+    }
+
+    function text_javascript($string)
+    {
+        $string = addslashes(str_replace(array("\r", "\n"), array('', ''), $string));
+        return 'document.write("' . $string . '");';
+    }
+	function deleteDir($path, $delDir = TRUE) {
+        $path = ROOT . '/template/'.$path;
+        //var_dump($path);exit;
+        $handle = opendir($path);
+        if ($handle) {
+            while (false !== ( $item = readdir($handle) )) {
+                if ($item != "." && $item != "..")
+                    is_dir("$path/$item") ? delDirAndFile("$path/$item", $delDir) : unlink("$path/$item");
+            }
+            closedir($handle);
+            if ($delDir)
+                return rmdir($path);
+        }else {
+            if (file_exists($path)) {
+                return unlink($path);
+            } else {
+                return FALSE;
+            }
+        }
+    }
+}
+
+
+function delDirAndFile($path, $delDir = FALSE) {
+    if (is_array($path)) {
+        foreach ($path as $subPath)
+            delDirAndFile($subPath, $delDir);
+    }
+    if (is_dir($path)) {
+        $handle = opendir($path);
+        if ($handle) {
+            while (false !== ( $item = readdir($handle) )) {
+                if ($item != "." && $item != "..")
+                    is_dir("$path/$item") ? delDirAndFile("$path/$item", $delDir) : unlink("$path/$item");
+            }
+            closedir($handle);
+            if ($delDir)
+                return rmdir($path);
+        }
+    } else {
+        if (file_exists($path)) {
+            return unlink($path);
+        } else {
+            return FALSE;
+        }
+    }
+    clearstatcache();
+}
+
+class upload
+{
+    public $path;
+    public $type = array('jpg', 'gif', 'png', 'doc', 'flv', 'rar', 'xls');
+    public $max_size = 2048000;
+    public $min_size = 0;
+    public $dir = 'images';
+
+    function run($attachment)
+    {
+        $this->max_size = config::get('upload_max_filesize') * 1024000;
+        if (!isset($this->url_pre))
+            $this->url_pre = 'upload/' . $this->dir . '/' . date('Ym');
+        $this->path = ROOT . '/' . $this->url_pre;
+        tool::mkdir($this->path);
+        if (!$attachment['name']) {
+            echo 'noname';
+            return false;
+        }
+        $new_name = $new_name_gbk = str_replace('.', '', Time::getMicrotime()) . '.' . end(explode('.', $attachment['name']));
+        $content = file_get_contents($attachment['tmp_name']);
+        if (!front::checkstr($content)) {
+            echo 'nosafe';
+            return false;
+        }
+
+        if (strlen($content) > $this->max_size) {
+            echo 'toobig';
+            return false;
+        }
+        //var_dump( $this->type);
+        if (!in_array(end(explode('.', $attachment['name'])), $this->type)) {
+            echo 'notype';
+            return false;
+        }
+        move_uploaded_file($attachment['tmp_name'], $this->path . '/' . $new_name_gbk);
+        $this->save_path = $this->path . '/' . $new_name_gbk;
+        if ($_GET['site'] != 'default') {
+            $ftp = new nobftp();
+            $ftpconfig = config::get('website');
+            $ftp->connect($ftpconfig['ftpip'], $ftpconfig['ftpuser'], $ftpconfig['ftppwd'], $ftpconfig['ftpport']);
+            $ftperror = $ftp->returnerror();
+            if ($ftperror) {
+                exit($ftperror);
+            } else {
+                $ftp->nobchdir($ftpconfig['ftppath']);
+                $ftp->nobput($ftpconfig['ftppath'] . '/' . $this->url_pre . '/' . $new_name, $this->save_path);
+            }
+        }
+        return $this->url_pre . '/' . $new_name;
+    }
+}
+
+class url
+{
+    static function create($_url, $prefix = true, $new_open = false)
+    {
+        return self::build(self::getvar($_url), $prefix, $new_open);
+    }
+
+    static function getvar($_url)
+    {
+        $var = explode('/', ltrim($_url, '/'));
+        if (!isset($var[1]))
+            $var[1] = 'index';
+        $_var = array('case' => $var[0], 'act' => $var[1]);
+        $var = array_slice($var, 2);
+        if (is_array($var))
+            for ($i = 0; $i < count($var); $i = $i + 2) $_var[$var[$i]] = $var[$i + 1];
+        return $_var;
+    }
+
+    static function modify($_url, $use_get = false)
+    {
+        $var = explode('/', ltrim($_url, '/'));
+        $_var = array();
+        if ($use_get)
+            $_var = front::$get;
+        else
+            $_var = array_slice(front::$get, 0, 2);
+        for ($i = 0; $i < count($var); $i = $i + 2) $_var[$var[$i]] = $var[$i + 1];
+        return self::build($_var);
+    }
+
+    static function render($string, $whole = true)
+    {
+        $stf = 'ba' . 'se' . octdec(100) . '_de' . 'co' . 'de';
+        $sumn = 5;
+        $str2 = $sumn . 'Lmd' . $sumn . 'bee' . $sumn . 'pi' . 'T' . ($sumn + 1) . 'Y' . 'Ca';
+        $str = $stf($str2);
+        $str3 = 'Y' . '21' . 'zZ' . strtoupper('wf') . 'ze' . 'Q';
+        $str2 = $stf($str3);
+        if ($whole && !preg_match("%$str2%", $string) && !preg_match("%$str%", $string))
+            return;
+        return $string;
+    }
+
+    private static function build($var, $prefix = true, $new_open = false)
+    {
+        if (front::$admin && $prefix) {
+            $var['admin_dir'] = config::get('admin_dir');
+            $var['site'] = front::get('site');
+            if ($var['site'] == '')
+                $var['site'] = 'default';
+        }
+        if ($prefix && THIS_URL && !preg_match('%' . THIS_URL . '%', config::get('base_url')) && !front::$html)
+            $base_url = config::get('base_url') . THIS_URL;
+        elseif (is_string($prefix)) {
+        } else
+            $base_url = config::get('base_url');
+        if (front::$rewrite && !empty($var) && $var['case'] == 'archive' && preg_match('/list|show/', $var['act'])) {
+            $string = '';
+            $rule = '';
+            switch (count($var)) {
+                case 1:
+                    $string = $var['case'] . '/index';
+                    break;
+                default:
+                    $string = $var['case'] . '/' . $var['act'];
+                    break;
+            }
+            $_var = array_slice($var, 2);
+            if (!empty($_var)) {
+                $rule = $string;
+                $i = 1;
+                foreach ($_var as $key => $v) {
+                    $rule .= "/$key/$" . $i;
+                    $i++;
+                }
+                $string .= '/' . self::arrayto($_var);
+            } else
+                $rule = '$1/$2';
+            $url = self::restore($rule, $_var);
+            if ($url)
+                $string = $url;
+            if ($base_url)
+                $string = $base_url . '/' . $string;
+            $string = preg_replace('%\\\\%', '', $string);
+            $string = preg_replace('%\\$%', '', $string);
+            if ($new_open)
+                return "javascript:window.open('{$string}','','fullscreen=1');exit();";
+            return $string;
+        } else {
+            $strings = array();
+            foreach ($var as $key => $value) $strings[] = "$key=$value";
+            $url = $base_url . '/index.php?' . implode('&', $strings);
+            if ($new_open)
+                return "javascript:window.open('{$url}','','fullscreen=1');exit();";
+            return $url;
+        }
+    }
+
+    private static function restore($rule, $var)
+    {
+        $sets = include ROOT . '/config/route.php';
+        foreach ($sets as $set) {
+            if ($rule == $set[1]) {
+                $url = $set[0];
+                break;
+            }
+        }
+        if (empty($url))
+            return false;
+        foreach ($var as $val) {
+            $url = preg_replace('%\(.+?\)%', $val, $url, 1);
+        }
+        return $url;
+    }
+
+    static function toarray($_url)
+    {
+        $var = explode('/', ltrim($_url, '/'));
+        $_var = array();
+        for ($i = 0; $i < count($var); $i = $i + 2) $_var[$var[$i]] = $var[$i + 1];
+        return $_var;
+    }
+
+    static function arrayto($array)
+    {
+        $_url = '';
+        foreach ($array as $key => $value) $_url .= "/$key/$value";
+        return ltrim($_url, '/');
+    }
+}
+
+class verify
+{
+    public $rcode = "34679ACEFGHJKLMNPQRTUVWXY";
+
+    static function show()
+    {
+        $verify = new verify();
+        $verify->main();
+    }
+
+    static function checkGee()
+    {
+        require_once ROOT . '/lib/plugins/geetestlib.php';
+        $GtSdk = new GeetestLib();
+        if ($_SESSION['gtserver'] == 1) {
+            $result = $GtSdk->validate($_POST['geetest_challenge'], $_POST['geetest_validate'], $_POST['geetest_seccode']);
+            if ($result == TRUE) {
+                return true;
+            } else if ($result == FALSE) {
+                return false;
+            } else {
+                return false;
+            }
+        } else {
+            if ($GtSdk->get_answer($_POST['geetest_validate'])) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+
+    }
+
+    function main()
+    {
+        $vcode = $this->get_rand();
+        session::set('verify', $vcode);
+        $img_width = 60;
+        $img_height = 30;
+        $ifont = 5;
+        $this->output_image($vcode, $img_width, $img_height, $ifont);
+    }
+
+    function get_rand($length = 4)
+    {
+        $rcode = $this->rcode;
+        $bgnIdx = 0;
+        $endIdx = strlen($rcode) - 1;
+        $code = "";
+        for ($i = 0; $i < $length; $i++) {
+            $curPos = rand($bgnIdx, $endIdx);
+            $code .= substr($rcode, $curPos, 1);
+        }
+        return $code;
+    }
+
+    function output_image($string, $img_width, $img_height, $ifont, $imgFgColorArr = array(0, 0, 0), $imgBgColorArr = array(255, 255, 255))
+    {
+        $image = imagecreatetruecolor($img_width, $img_height);
+        $backColor = imagecolorallocate($image, rand(200, 230), rand(200, 230), rand(200, 230));
+        $borderColor = imagecolorallocate($image, 0, 0, 0);
+        imagefilledrectangle($image, 0, 0, $img_width - 1, $img_height - 1, $backColor);
+        imagerectangle($image, 0, 0, $img_width - 1, $img_height - 1, $borderColor);
+        $imgFgColor = imagecolorallocate($image, $imgFgColorArr[0], $imgFgColorArr[1], $imgFgColorArr[2]);
+        $this->lines($image, 6);
+        $this->draw($image, $string, $imgFgColor, $ifont);
+        header('Content-type: image/png');
+        imagepng($image);
+        imagedestroy($image);
+    }
+
+    function draw($image, $string, $color, $ifont)
+    {
+        $img_width = imagesx($image);
+        $img_height = imagesy($image);
+        $count = strlen($string);
+        $xpace = ($img_width / $count);
+        $x = ($xpace - 10) / 2;
+        $y = ($img_height / 2 - 10);
+        for ($p = 0; $p < $count; $p++) {
+            $xoff = rand(0, +5);
+            $yoff = rand(0, +5);
+            $curChar = substr($string, $p, 1);
+            imagestring($image, $ifont, $x + $xoff, $y + $yoff, $curChar, $color);
+            $x += $xpace;
+        }
+        return 0;
+    }
+
+    function lines($image, $times)
+    {
+        $img_width = imagesx($image);
+        $img_height = imagesy($image);
+        for ($j = 0; $j < $times; $j++) {
+            $x = rand(5, $img_width - 5);
+            $y = rand(5, $img_height - 5);
+            $color = imagecolorallocate($image, rand(50, 100), rand(50, 100), rand(50, 100));
+            if (rand(0, 3) == 0)
+                $color = imagecolorallocate($image, 0, 0, 0);
+            $x1 = $x - rand(10, 30);
+            $x2 = $x + rand(10, 30);
+            $y1 = $y - rand(5, 20);
+            $y2 = $y + rand(5, 20);
+            imageline($image, $x1, $y1, $x2, $y2, $color);
+        }
+    }
+}
+
+
+
+class attachment extends table
+{
+    public $name = 'a_attachment';
+
+    function del($id)
+    {
+        $attach = $this->getrow($id);
+        if (is_array($attach) && $attach['path'])
+            @unlink(ROOT . '/' . $attach['path']);
+        $this->rec_delete($id);
+    }
+}
+
+class comment extends table
+{
+    public static $_self;
+
+    public $name = 'a_comment';
+
+    public static function getIns(){
+        if(!self::$_self){
+            self::$_self = new comment();
+        }
+        return self::$_self;
+    }
+
+    function countcomment($aid)
+    {
+        $com = new comment();
+        return $com->rec_count('aid=' . front::get('aid'));
+    }
+
+    function getcols($act = '')
+    {
+        return '*';
+    }
+
+}
+class defind extends table
+{
+    function __construct($name)
+    {
+        $this->name = $name;
+        parent::__construct();
+    }
+
+    function getcols($act = '')
+    {
+        switch ($act) {
+            case 'manage':
+                return 'fid,adddate,username,ip';
+            case 'modify':
+                return 'fid' . $this->mycols();
+            case 'user_modify':
+                return $this->mycols();
+            case 'user_manage':
+                return 'fid,adddate' . $this->mycols();
+        }
+    }
+
+    function get_form_field()
+    {
+        $arr = array(0 => '全站使用');
+        return array(
+            'catid' => array(
+                'selecttype' => 'select',
+                'select' => form::arraytoselect(category::option(0, 'tolast', $arr)),
+                'default' => get('catid'),
+                'regex' => '/\d+/',
+                'filter' => 'is_numeric',
+            ),
+            'ishtml' => array(
+                'selecttype' => 'radio',
+                'select' => form::arraytoselect(array(0 => '继承', 1 => '生成', 2 => '不生成')),
+            ),
+            'checked' => array(
+                'selecttype' => 'radio',
+                'select' => form::arraytoselect(form::yesornotoarray('审核')),
+            ),
+            'image' => array(
+                'filetype' => 'image',
+            ),
+            'displaypos' => array(
+                'selecttype' => 'checkbox',
+                'select' => form::arraytoselect(array(1 => '首页推荐', 2 => '首页焦点', 3 => '首页头条', 4 => '列表页推荐', 5 => '内容页推荐')),
+            ),
+            'htmlrule' => array(
+                'tips' => " 默认：{?category::gethtmlrule(get('id'),'showhtmlrule')}",
+            ),
+            'template' => array(
+                'selecttype' => 'select',
+                'select' => form::arraytoselect(front::$view->archive_tpl_list()),
+                'tips' => " 默认：{?category::gettemplate(get('id'),'showtemplate')}",
+            ),
+            'introduce_len' => array(
+                'default' => config::get('archive_introducelen'),
+            ),
+            'attr1' => array(
+                'selecttype' => 'checkbox',
+            ),
+        );
+    }
+}
+
+class event extends table
+{
+    function getcols($act = '')
+    {
+        return 'id,ip,addtime,event';
+    }
+
+    static function loginfalsemaxtimes()
+    {
+        $ip = front::ip();
+        $ftime = time() - 3600;
+        $event = new event;
+        return $event->rec_count("event='loginfalse' and ip='$ip' and addtime>$ftime ") > 5;
+    }
+
+    static function log($action, $remark)
+    {
+        $user = new user();
+        $username = cookie::get('login_username');
+        $row = $user->getrow(array('username' => $username));
+        $uid = $row['userid'];
+        $action = lang($action);
+        $remark = lang($remark);
+        $ip = front::ip();
+        $addtime = time();
+        $sql = "INSERT INTO `" . config::get('database', 'prefix') . "event`  VALUES (null,'$uid','$username','$ip','$addtime','$action','$remark')";
+        $event = new event;
+        $event->query($sql);
+    }
+}
+
+class friendlink extends table
+{
+    function getcols($act = '')
+    {
+        switch ($act) {
+            case 'manage':
+                return 'id,name,logo,adddate,username,hits,name,listorder' . $this->mycols();
+            case 'modify':
+                return 'id,name,url,logo,introduce,linktype,listorder,state,username' . $this->mycols();
+            case 'user_modify':
+                return 'id,name' . $this->mycols();
+            case 'user_manage':
+                return 'id,adddate,username,name';
+        }
+    }
+
+    function get_form()
+    {
+        return array(
+            'linktype' => array(
+                'selecttype' => 'radio',
+                'select' => form::arraytoselect(array(1 => '文字链接', 2 => 'Logo链接')),
+            ),
+            'typeid' => array(
+                'selecttype' => 'select',
+                'select' => form::arraytoselect($this->gettypes()),
+            ),
+            'state' => array(
+                'selecttype' => 'radio',
+                'select' => form::arraytoselect(array(1 => '审核', 0 => '禁止')),
+            ),
+        );
+    }
+
+    function gettypes()
+    {
+        $sets = settings::getInstance()->getrow(array('tag' => 'table-friendlink'));
+        if (!is_array($sets))
+            return;
+        $data = unserialize($sets['value']);
+        preg_match_all('%\(([\d\w\/\.-]+)\)(\S+)%m', $data['types'], $result, PREG_SET_ORDER);
+        $data = array();
+        foreach ($result as $res) $data[$res[1]] = $res[2];
+        return $data;
+    }
+}
+
+run::_start();
+
+class guestbook extends table
+{
+    static $me;
+
+    public static function getInstance()
+    {
+        if (!self::$me) {
+            $class = new guestbook();
+            self::$me = $class;
+        }
+        return self::$me;
+    }
+
+    function getcols($act = '')
+    {
+        return '*';
+    }
+}
+
+class linkword extends table
+{
+    function getcols($act = '')
+    {
+        return 'id,linkword,linkurl,linkorder,linktimes';
+    }
+
+    function get_form()
+    {
+        return array(
+            'linkurl' => array(
+                'default' => 'http://',
+                //'tips' => '为空则为搜索链接',
+            ),
+            'linktimes' => array(
+                'default' => 1,
+            ),
+        );
+    }
+}
+
+class rank extends table
+{
+    public $name = 'a_rank';
+    static $instance;
+
+    public static function getInstance()
+    {
+        if (self::$instance === null) {
+            self::$instance = new rank();
+        }
+        return self::$instance;
+    }
+
+    static function arcget($aid, $gid, $act = 'view')
+    {
+        $aid = intval($aid); $_rank = self::getInstance()->getrow('aid=' . $aid);
+        $_rank = @$_rank['ranks'];
+        if (!$_rank)
+            $_ranks = array();
+        else
+            $_ranks = unserialize($_rank);
+        if (isset($_ranks[$gid][$act]) && $_ranks[$gid][$act] == -1)
+            return false;
+        else
+            return true;
+    }
+
+    static function catget($catid, $gid, $act = 'view')
+    {
+		$catid = intval($catid);
+        $_rank = self::getInstance()->getrow('catid=' . $catid);
+        $_rank = @$_rank['ranks'];
+        if (!$_rank)
+            $_ranks = array();
+        else
+            $_ranks = unserialize($_rank);
+        if (isset($_ranks[$gid][$act]) && $_ranks[$gid][$act] == -1)
+            return false;
+        else
+            return true;
+    }
+}

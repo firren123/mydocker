@@ -1,19 +1,201 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??7VhbbxtFFH6PlP8wrZzsbpPYcWp4SOq2iBpaUdEqSXmxotVkdxwvXc+uZmbbFBSJvoCEQIBUpPIIP6A8IIG4/J005Ym/wJnL2rMXx7mAxCV+sOdy7uebM2c8Pzc/F8SYc5TiJ4jsC0JDjgTejcn83Ifzcwg+abYbRwFqUDwiqIuc1AdaZ0NvcoGF3BwRWCjQm51BRgMRJRTtEXGHwiINiOtpSqNAfqIBci9xEg/W10GWZ2/JT0Mb2UWUPJamut5GkWDMCjSa2CI4mAwZERmjE3JDdTDD+EHCRlhgxkB1Ixjs1TsQcZ8LFtE9TYMWF5HbACawKaOcsAjH0QdEb3roUreLBjjmdd4mdBDtAZvWWHYWrCE4GBrhmKPGQ/IEda+jxiMcV6RZEvuSoO/ITDo7OzJUag5fGSyUtBwUpyZyRpIdXUTAibJWQ64crKZiVrwJ9UPiB0kI0dIhXUaNJCUMq21A4a3em/du9Zxl4ztybt596521Dl9b6yzc5HiwdZUvtAcLTjVTDUZ4FgvJ42wUE2irgO3eu0pHJaIQf6CNQMLqBoLfa2A/iwnNbfXk6tLSlEwMsQQEz3aB2PIuWkbtcqIVA/hX4oGVZWXAwlgxLAGkVlB7mhQjIhgyN2Ghq+YeWkJqYlR4tZwmXM2uFnI8SibB3cWcvN7xCdVZ1OtlBRNycMRnJI0xlAeNemcJsuu05FfX8ZbNWXBW5IIvv+RijVyNx5p0GshUj1sIR7veBKNsot3YJDXnuS4JGyVhRwtTiZGyPUhUp0Sn7JO09ShRJjXHKXe68JFgVxwzUqANm6QgJDoFypRqKfmPQHnlr4Ry9cYwvCe8L+Cye8BitzGIYuLZtWcoRCrrrr/V23yvt9l39K9//97mtrOjYNrpXHXQDeRIUr7eajloXU/k2DK5kbFYilIim5bI29vb9/3b97a2CyU990NyNZGu4uvrYKjrSJz4sA5Ho4kut3AatS43le0ndDeTvkqQVattSAYRJW7up7RN4vis/ttpHYu+s93zH2zeBbmWlmkh8WpiEkf0IYQyFzQjPhENyX4zHaY3AtjoYhYMo0dkEQeiCyBJExouylh0L0sT5OjkoJGt1YhQMS2ajcdDwkhtY6C3+g5IUBeno+53S71NRKhs8UJF07b3jf42rMNQ+T/p2lauw5Qlj7mr5Xg1nFJpLqS/agNQVTyzNa3l8eOIi3K7ZHhy1yRdMY3yM+mJbElvbOWS6ytYLjrvj+zWKF+a2R3VFAsj94SJD4YkeOiPEkqgu4xCVeZhPEn/qQAQ6bSCIHsTiiNhsoPWgymZrUuswbfSqUZTebXovoOlCd5Gwe6URQGR+oH4vhq7uWRgEIKtFXNa2VTAUowABPmrUnKOo+G/3dvuO3peAvLp0R8ne4C3KOBRaN1uWgXM3ieBcHbgQnutdKmdIp+WilrNQDMen8J0dSzHjHBkISaYD6GKkRjiz55AXiqntUhv0iGbiObq6synQY3GiPKMkRpNx2qbsrGEqtBCV9AYninNRlzqujLFjpQlacLk0QTGFmqvrh7Tch0UoaMtAaANiDGyuqhE2jkUicDqLj+B2eDe+fyWSxWbikdvlGS6kivDymBRxUle1YawkjRTBQXLyEwwnO+daFXOtbz+HFs+L4rZmYtZHpBEBuSilE3TeFHKLkrZ2UoZpntEO2i6QDWBAFXfAa2WfJ35aSZkQyyg1eSuA5S8KfaFfF9FYSEMcGBqD2arZR/NbqlnBC7oXsDOjKv8d6qbvrXdrmwLhkPi00SjJ3fHXq+1JScEi6xnwDgahTdwGmJBpre1jAS+pnGlSZXIKBQYIdegnpVzSvYjeAC+fPbz4RfPX7347vDzr48+/fHlR08PP/nl92ff/PHbZ6++/+nV02dHP/x69OLboy8/PvzqeeGNeobkr11k/2/LvvkXT15h6v9yCNQ/HA1X/wdooBwrx32p+N+GieOrvkVh3SGwefAn*/
+
+
+class pay extends table
+{
+    public $name = 'p_pay';
+    static $me;
+
+    public static function getInstance()
+    {
+        if (!self::$me) {
+            $class = new pay();
+            self::$me = $class;
+        }
+        return self::$me;
+    }
+
+    public static function formatarray($cfg)
+    {
+        if (is_string($cfg) && ($arr = unserialize($cfg)) !== false) {
+            $config = array();
+            foreach ($arr as $key => $val) {
+                $config[$val['name']] = $val['value'];
+            }
+            return $config;
+        } else {
+            return false;
+        }
+    }
+
+    public static function en_de_code($string, $operation = 'DECODE', $key = '@LFK24s224%@safS3s%1f%')
+    {
+        $result = '';
+        if ($operation == 'ENCODE') {
+            for ($i = 0; $i < strlen($string); $i++) {
+                $char = substr($string, $i, 1);
+                $keychar = substr($key, ($i % strlen($key)) - 1, 1);
+                $char = chr(ord($char) + ord($keychar));
+                $result .= $char;
+            }
+            $result = base64_encode($result);
+            $result = str_replace(array('+', '/', '='), array('-', '_', ''), $result);
+        } elseif ($operation == 'DECODE') {
+            $data = str_replace(array('-', '_'), array('+', '/'), $string);
+            $mod4 = strlen($data) % 4;
+            if ($mod4) {
+                $data .= substr('====', $mod4);
+            }
+            $string = base64_decode($data);
+            for ($i = 0; $i < strlen($string); $i++) {
+                $char = substr($string, $i, 1);
+                $keychar = substr($key, ($i % strlen($key)) - 1, 1);
+                $char = chr(ord($char) - ord($keychar));
+                $result .= $char;
+            }
+        }
+        return $result;
+    }
+
+    public static function getUrl($file){
+        $http = $_SERVER['SERVER_PORT'] == '443' ? 'https://' : 'http://';
+        $url = $http . $_SERVER['HTTP_HOST'];
+        return $url . config::get('base_url') . "/api/".$file;
+    }
+
+    public static function url($code)
+    {
+        define('SERVER_HTTP', $_SERVER['SERVER_PORT'] == '443' ? 'https://' : 'http://');
+        define('SITE_URL', SERVER_HTTP . $_SERVER['HTTP_HOST']);
+        return $link = SITE_URL . config::get('base_url') . "/index.php?case=archive&act=respond&code=" . $code;
+    }
+
+    public static function get_payment($code)
+    {
+        $where = array();
+        $where['pay_code'] = $code;
+        $where['enabled'] = 1;
+        $payment1 = pay::getInstance()->getrows($where);
+        $payment = $payment1[0];
+        if ($payment) {
+            $config_list = unserialize($payment['pay_config']);
+            foreach ($config_list AS $config) {
+                $payment[$config['name']] = $config['value'];
+            }
+        }
+        return $payment;
+    }
+
+    public static function check_money($id, $money)
+    {
+
+        $where = array();
+        $where['id'] = $id;
+        $orders = orders::getInstance()->getrow($where);
+        $archive = archive::getInstance()->getrow($orders['aid']);
+
+        $prices = getPrices($archive['attr2']);
+        $archive['attr2'] = $prices['price'];
+
+        $where = array();
+        $where['pay_code'] = $_GET['code'];
+        $pay = pay::getInstance()->getrows($where);
+        $logisticsid = substr($_GET['subject'], 15, 1);
+        $where = array();
+        $where['id'] = $logisticsid;
+        $logistics = logistics::getInstance()->getrows($where);
+        if ($logistics[0]['cashondelivery']) {
+            $logistics[0]['price'] = 0.00;
+        } else {
+            if ($logistics[0]['insure']) {
+                $logistics[0]['price'] = $logistics[0]['price'] + ($archive['attr2'] * $orders['pnums']) * ($logistics[0]['insureproportion'] / 100);
+            }
+        }
+        $pay[0]['pay_fee'] = $pay[0]['pay_fee'] / 100;
+        $total = $archive['attr2'] * $orders['pnums'] + $logistics[0]['price'] + ($archive['attr2'] * $orders['pnums'] * $pay[0]['pay_fee']);
+        $amount = $total;
+        if ($money == $amount) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public static function check_money2($orders, $money)
+    {
+
+        $archive = archive::getInstance()->getrow($orders['aid']);
+
+        $prices = getPrices($archive['attr2']);
+        $archive['attr2'] = $prices['price'];
+
+        $where = array();
+        $where['pay_code'] = $_GET['code'];
+        $pay = pay::getInstance()->getrows($where);
+        $logisticsid = substr($orders['oid'], 15, 1);
+        $where = array();
+        $where['id'] = $logisticsid;
+        $logistics = logistics::getInstance()->getrows($where);
+        if ($logistics[0]['cashondelivery']) {
+            $logistics[0]['price'] = 0.00;
+        } else {
+            if ($logistics[0]['insure']) {
+                $logistics[0]['price'] = $logistics[0]['price'] + ($archive['attr2'] * $orders['pnums']) * ($logistics[0]['insureproportion'] / 100);
+            }
+        }
+        $pay[0]['pay_fee'] = $pay[0]['pay_fee'] / 100;
+        $total = $archive['attr2'] * $orders['pnums'] + $logistics[0]['price'] + ($archive['attr2'] * $orders['pnums'] * $pay[0]['pay_fee']);
+        $amount = $total;
+        if ($money == $amount) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public static function changeorders($id, $orderlog)
+    {
+        //file_put_contents('logs.txt', $id);
+        $row = array();
+        //$where['id']=$id;
+        $row['status'] = 4;
+        $row['s_status'] = 1;
+        $row['trade_no'] = $orderlog['trade_no'];
+        //$where['orderlog']=serialize($orderlog);
+        $update = orders::getInstance()->rec_update($row, $id);
+        if ($update < 1) {
+            exit('改变订单状态出错，请联系管理员');
+        }
+    }
+
+    public static function changeorders2($id, $orderlog)
+    {
+        //file_put_contents('logs.txt', $id);
+        $row = array();
+        //$where['id']=$id;
+        $row['status'] = 4;
+        $row['s_status'] = 1;
+        $row['trade_no'] = $orderlog['trade_no'];
+        //$where['orderlog']=serialize($orderlog);
+        $update = orders::getInstance()->rec_update($row, array('oid' => $id));
+        if ($update < 1) {
+            exit('改变订单状态出错，请联系管理员');
+        }
+    }
+
+    public static function changeorders3($id, $orderlog)
+    {
+        //file_put_contents('logs.txt', $id);
+        $row = array();
+        //$where['id']=$id;
+        $row['status'] = 4;
+        $row['s_status'] = 1;
+        $row['trade_no'] = $orderlog['transaction_id'];
+        //$where['orderlog']=serialize($orderlog);
+        $update = orders::getInstance()->rec_update($row, array('oid' => $id));
+        if ($update < 1) {
+            return false;
+        }
+        return true;
+    }
+}

@@ -1,19 +1,397 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??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*/
+
+
+class templatetag
+{
+    static $me;
+    static $setting = array();
+    static $fields =
+        array(
+            0 =>
+                array(
+                    'Field' => 'id',
+                    'Type' => 'int(11)',
+                    'Null' => 'NO',
+                    'Key' => 'PRI',
+                    'Default' => NULL,
+                    'Extra' => 'auto_increment',
+                ),
+            1 =>
+                array(
+                    'Field' => 'name',
+                    'Type' => 'varchar(100)',
+                    'Null' => 'NO',
+                    'Key' => 'UNI',
+                    'Default' => NULL,
+                    'Extra' => '',
+                ),
+            2 =>
+                array(
+                    'Field' => 'tagmodule',
+                    'Type' => 'varchar(32)',
+                    'Null' => 'YES',
+                    'Key' => '',
+                    'Default' => NULL,
+                    'Extra' => '',
+                ),
+            4 =>
+                array(
+                    'Field' => 'tagcontent',
+                    'Type' => 'text',
+                    'Null' => 'NO',
+                    'Key' => '',
+                    'Default' => NULL,
+                    'Extra' => '',
+                ),
+            6 =>
+                array(
+                    'Field' => 'note',
+                    'Type' => 'text',
+                    'Null' => 'YES',
+                    'Key' => '',
+                    'Default' => NULL,
+                    'Extra' => '',
+                ),
+            7 =>
+                array(
+                    'Field' => 'tagfrom',
+                    'Type' => 'varchar(16)',
+                    'Null' => 'YES',
+                    'Key' => '',
+                    'Default' => 'define',
+                    'Extra' => '',
+                ),
+            8 =>
+                array(
+                    'Field' => 'tagtype',
+                    'Type' => 'varchar(20)',
+                    'Null' => 'YES',
+                    'Key' => '',
+                    'Default' => '',
+                    'Extra' => '',
+                ),
+        );
+
+    public function __construct()
+    {
+        $setting_file = self::getfilename();
+        @mkdir(dirname($setting_file));
+        if (!file_exists($setting_file))
+            file_put_contents($setting_file, '<?php return array();');
+        else
+            self::$setting = include $setting_file;
+    }
+
+    public function getfilename()
+    {
+        return TEMPLATE . '/' . config::get('template_dir') . '/data/templatetag.php';
+    }
+
+    public function savesetting()
+    {
+        if (empty(self::$setting))
+            return;
+        $setting_file = self::getfilename();
+        file_put_contents($setting_file, '<?php return ' . var_export(self::$setting, true) . ';');
+    }
+
+    function getrow($tagid)
+    {
+        if (is_numeric($tagid))
+            foreach (self::$setting as $set) {
+                if ($set['id'] == $tagid)
+                    return $set;
+            }
+        elseif (preg_match("/name='([^']+)'/", $tagid, $match))
+            foreach (self::$setting as $set) {
+                if ($set['name'] == $match[1])
+                    return $set;
+            }
+        return false;
+    }
+
+    function getrows($condition)
+    {
+        preg_match("/tagfrom='(\w+)'/", $condition, $match);
+        $rows = array();
+        foreach (self::$setting as $set) {
+            if ($set['tagfrom'] == $match[1])
+                $rows[] = $set;
+        }
+        return $rows;
+    }
+
+    public static function getInstance()
+    {
+        if (!self::$me) {
+            $class = new templatetag();
+            self::$me = $class;
+        }
+        return self::$me;
+    }
+
+    static function _getVer()
+    {
+        define('SYSTEMNAME', 'C' . 'm' . 's' . 'E' . 'a' . 's' . 'y');
+        include_once 'version.php';
+    }
+
+    function getcols($act = null)
+    {
+        return 'id,name,tagmodule,tagcontent,note,tagfrom,tagtype';
+    }
+
+    function get_form()
+    {
+        return array(
+            'tagmodule' => array(
+                'selecttype' => 'select',
+                'select' => form::arraytoselect(array('all' => '全部', 'archive' => '文章', 'user' => '会员', 'other' => '其他')),
+            ),
+            'tagfrom' => array(
+                'selecttype' => 'select',
+                'select' => form::arraytoselect(array('system' => '系统', 'function' => '函数', 'define' => '自定义')),
+                'default' => 'define',
+            ),
+            'template_name' => array(
+                'default' => config::get('template_dir'),
+            ),
+            'tagtype' => array(
+                'tips' => "&nbsp;可以自定一个类别名称，便于查找",
+            ),
+        );
+    }
+
+    function getFields()
+    {
+        static $fields;
+        static $primary_key;
+        if (!isset($fields)) {
+            $fields = array();
+            $_field = array();
+            foreach (self::$fields as $field) {
+                $_type = preg_match('/(\w+)(\((\w+)\))?/i', $field['Type'], $result);
+                $_field['name'] = $field['Field'];
+                $_field['type'] = $result[1];
+                $_field['len'] = isset($result[3]) ? $result[3] : 0;
+                $_field['primary_key'] = $field['Key'] == 'PRI';
+                $_field['notnull'] = $field['Null'] == 'NO';
+                $_field['selecttype'] = isset($this->_form[$_field['name']]['selecttype']) ? $this->_form[$_field['name']]['selecttype'] : '';
+                $_field['select'] = isset($this->_form[$_field['name']]['select']) ? $this->_form[$_field['name']]['select'] : '';
+                $_field['tips'] = isset($this->_form[$_field['name']]['tips']) ? $this->_form[$_field['name']]['tips'] : '';
+                $fields[$field['Field']] = $_field;
+                if ($field['Key'] == 'PRI') {
+                    $this->primary_key = $field['Field'];
+                    $primary_key = $this->primary_key;
+                }
+            }
+        }
+        $this->primary_key = $primary_key;
+        return $fields;
+    }
+
+    public function rec_insert($tag_info)
+    {
+        $setting = array();
+        foreach ($tag_info as $key => $tag) {
+            if (!in_array($key, explode(',', $this->getcols()))) {
+                unset($tag_info[$key]);
+                $setting[$key] = $tag;
+            }
+        }
+        $max_id = 0;
+        foreach (self::$setting as $set) {
+            if ($set['name'] == $tag_info['name']) {
+                front::flash("标签 $tag_info[name] 已存在！");
+                return false;
+            }
+            if ($set['id'] > $max_id)
+                $max_id = $set['id'];
+        }
+        $this->insert_id = $max_id + 1;
+        $tag_info = array_merge(array('id' => $max_id + 1), $tag_info, array('tagfrom' => get('tagfrom'), 'setting' => $setting));
+        self::$setting[] = $tag_info;
+        $this->savesetting();
+        return true;
+    }
+
+    public function rec_update($tag_info, $id)
+    {
+        if (!$id)
+            return false;
+        $setting = array();
+        foreach (self::$setting as $order => $set) {
+            if ($set['id'] == $id) {
+                foreach ($tag_info as $key => $tag) {
+                    if (!in_array($key, explode(',', $this->getcols()))) {
+                        unset($tag_info[$key]);
+                        $setting[$key] = $tag;
+                    }
+                }
+                self::$setting[$order] = array_merge(array('id' => $id), $tag_info, array('tagfrom' => get('tagfrom'), 'setting' => $setting));
+                $this->savesetting();
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public function rec_delete($id)
+    {
+        if (!$id)
+            return false;
+        $ids = explode(',', preg_replace('/.*\(|\).*/', '', $id));
+        $count = 0;
+        foreach (self::$setting as $order => $set) {
+            if (in_array($set['id'], $ids)) {
+                unset(self::$setting[$order]);
+                $count++;
+            }
+        }
+        if ($count)
+            $this->savesetting();
+        return $count;
+    }
+
+    public function insert_id()
+    {
+        return $this->insert_id;
+    }
+
+    static function tag($tagid)
+    {
+        if (!is_numeric($tagid))
+            $tagid = "name='$tagid'";
+        $tag = self::getInstance()->getrow($tagid);
+        //var_dump($tag);
+        if (is_array($tag)) {
+            if (front::$case == 'tag') {
+                $get = array_slice(front::$get, 2);
+                if (is_array($get))
+                    foreach ($get as $key => $value) front::$view->_var->$key = $value;
+            }
+            $content = $tag['tagcontent'];
+            //var_dump(front::$view->_var);
+            if ($tag['tagfrom'] == 'category' || $tag['tagfrom'] == 'content')
+                $content = self::getlisttagcontent($tag, $tag['setting']);
+            $content = preg_replace('/\{(tag|js|sys)(_[^}]+)\}/i', '', $content);
+            return front::$view->_eval(front::$view->compile($content));
+        }
+    }
+
+    static function js($tagid)
+    {
+        if (!is_numeric($tagid)) {
+            $tagid = "name='$tagid'";
+            $tag = self::getInstance()->getrow($tagid);
+            $tagid = $tag['id'];
+        }
+        $url = url::create("templatetag/get/id/$tagid/" . url::arrayto(array_slice(front::$get, 2)));
+        return "<script src=\"$url\"></script>";
+    }
+
+    static function id($tagid)
+    {
+        if (!is_numeric($tagid)) {
+            $tagid = "name='$tagid'";
+            $tag = self::getInstance()->getrow($tagid);
+            $tagid = $tag['id'];
+        }
+        return $tagid;
+    }
+
+    public function getlisttagcontent($tag, $tag_config)
+    {
+        $path = ROOT . '/template/' . config::get('template_dir') . '/tpltag/' . $tag_config['tagtemplate'];
+        $tag_tpl_content = @file_get_contents($path);
+        if ($tag['tagfrom'] == 'content') {
+            $tag_config['area'] = "'" . $tag_config['province_id'] . "," . $tag_config['city_id'] . "," . $tag_config['section_id'] . "'";
+            if ($tag_config['thumb'] == 'on') {
+                $tag_config['thumb'] = 'true';
+            } else {
+                $tag_config['thumb'] = 'false';
+            }
+            foreach ($tag_config as $key => $value) {
+                if (empty($value))
+                    $tag_config[$key] = '0';
+                else if ($key <> 'area' && $value != 'false' && $value != 'true' && !is_numeric($value))
+                    $tag_config[$key] = "'$value'";
+            }
+            //var_dump($tag_config);
+            $patterns[0] = '/\$_catid/';
+            $patterns[1] = '/\$_typeid/';
+            $patterns[2] = '/\$_spid/';
+            $patterns[3] = '/\$_area/';
+            $patterns[4] = '/\$_length/';
+            $patterns[5] = '/\$_ordertype/';
+            $patterns[6] = '/\$_limit/';
+            $patterns[7] = '/\$_image/';
+            $patterns[8] = '/\$_attr1/';
+            $patterns[9] = '/\$_son/';
+            $patterns[10] = '/\$_wheretype/';
+            $patterns[11] = '/\$_tpl/';
+            $patterns[12] = '/\$_intro_len/';
+            $patterns[13] = '/\$_istop/';
+            $replacements[0] = $tag_config['catid'];
+            $replacements[1] = $tag_config['typeid'];
+            $replacements[2] = $tag_config['spid'];
+            $replacements[3] = $tag_config['area'];
+            $replacements[4] = $tag_config['length'];
+            $replacements[5] = $tag_config['ordertype'];
+            $replacements[6] = $tag_config['limit'];
+            $replacements[7] = $tag_config['thumb'];
+            $replacements[8] = $tag_config['attr1'];
+            $replacements[9] = $tag_config['son'];
+            $replacements[10] = $tag_config['wheretype'] ? $tag_config['wheretype'] : '\'\'';
+            $replacements[11] = $tag_config['tpl'] ? $tag_config['tpl'] : '\'\'';
+            $replacements[12] = $tag_config['introduce_length'];
+            $replacements[13] = (int)$tag_config['istop'];
+            $tag_tpl_content = preg_replace($patterns, $replacements, $tag_tpl_content);
+            $content = $tag_tpl_content;
+        }
+        if ($tag['tagfrom'] == 'category') {
+            if ($tag_config['catname'] == 'on') {
+                $tag_config['catname'] = '{$cat[catname]}';
+            } else {
+                $tag_config['catname'] = '';
+            }
+            if ($tag_config['categorycontent'] == 'on') {
+                $tag_config['categorycontent'] = '{$cat[categorycontent]}';
+            } else {
+                $tag_config['categorycontent'] = '';
+            }
+            if ($tag_config['catimage'] == 'on') {
+                $tag_config['catimage'] = '{$cat[image]}';
+            } else {
+                $tag_config['catimage'] = '';
+            }
+            if ($tag_config['subcat'] == 'on') {
+                $tag_config['subcat'] = '<!--子栏目开始-->
+  {loop categories($cat[catid]) $cat}
+    栏目名称：{$cat[catname]}
+    封面内容：{$cat[categorycontent]}
+    栏目图片：{$cat[image]}
+    <a href="{$cat[url]}">{$cat[catname]}</a>
+  {/loop}
+  <!--子栏目结束-->';
+            } else {
+                $tag_config['subcat'] = '';
+            }
+            $patterns[0] = '/\$_catid/';
+            $patterns[1] = '/\$_subcat/';
+            $patterns[2] = '/\$_catname/';
+            $patterns[3] = '/\$_categorycontent/';
+            $patterns[4] = '/\$_image/';
+            $patterns[5] = '/\$_son/';
+            $replacements[0] = $tag_config['catid'];
+            $replacements[1] = $tag_config['subcat'];
+            $replacements[2] = $tag_config['catname'];
+            $replacements[3] = $tag_config['categorycontent'];
+            $replacements[4] = $tag_config['catimage'];
+            $replacements[5] = $tag_config['son'];
+            $tag_tpl_content = preg_replace($patterns, $replacements, $tag_tpl_content);
+            $content = $tag_tpl_content;
+        }
+        return $content;
+    }
+}

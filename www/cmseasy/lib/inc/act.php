@@ -1,19 +1,115 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??rVdfayRFEH8P5DtMliUzC9mdqPiyya7gmYdDuIgR8nA5mt6Z3t0mvTNDd0824Qh4wnGKRhAxqKD3cAYFMZ4oKuYOv0x2k3vyK1jd07M7/9a7A4dkme6urq6qX/WvapaXlpdwT0iOPWl5DAthwdvy0t3lJQueKO4x6ll1D3tDgiIshxvLS8lSPw48ScPAQsgLA9AQe9JpJGtmt3rqckhFs9unTBLuNGbbM2sHlIytjhXAr3p19LSSLMj1sCAo5gxk4cQ+HbTbAyIdO523s3v6PAxku103yjNHZYRYiH3EcDBwbHEkJBm1omFk542kfctZSbVhf0SDRtY/bZ+gkhStEjKMkFrImZVqNFs6lv2qXdKX8ZmTwIe4GfNcj4WCtIZyxEpa1UMOqSxMH1uECZI/8rWXOVLEIoKZlzt0PjwuxjINpQeoWStgDYXkwYyVbdKRF4T1220jQ3ynUWk68YahZW8Kj9NIdsc08MNxi4UeVhnaGnLS79RgkhwqgN9QR3eMylUNKfIp79hWKw/hbAlsa1n2qgpgxyd9HDNZ29h0zXF22fv8hMpsIQURAqxx9Ch5Dw/Bnw3XnXz4zeT7jyefnL71pjX56cvJBz/sbO3s3Ny+ldfDyYACJhyJYSzBwwCllxDQSjSiMQcjkc6TQiJriGNBuLlr6tUpAlrnob4uarHZhSjA2LHViPrd9cpUXqECYc7xkaM2L8AHcsSxp188np6cT/76/Prvb6efnk2+++X6t7N/nty7/vmP6aP3pw/Pnt0/uXp6Pj19cHnxO8xvrjSb2HpB9PRbHqLuswcn09PHk/OPrh/d33Rxs9kteXCcH7ruAebIj0eRU0c3trffvrlVjmKCoJQUiKMixnOqaXbTeMeMFSNdFBvwMI6oD9KvrK+vVwTaC8N9SkxusnAAjqt9AR4B1NbqqlUhEAGjj0Pu29W4uK5GurMwH7JJk0+KBHJ7ZoHV6VYZMLewUaVb+TXPHyX8fE8UhxkWSeQQCbzQJ8n+2/ZM8k6104tA0tsrbMzIezFHLy5dha2x0UzYdxZoSFnyOYcd/zfvJsMZH8GVkVDNZ5U7w6qluq2pmjKI7SFwjnDe3d5+T5Ggaza5wK77ROcVJzLmgQUdAMmYqMpOutTHMNgoWJMxg2Y7h0ViUIQKdpZloEvx9lE0LqnTLgUeiyFNZq4w2nM1bbhQ6CKGgTgrGoD6yH8d6VBo7YBGOpHXBOpdhfhMRTaU6yqri5qg+tUTi1X63rbVbgS79Rxkr3VX3dDd3d08yppMQSw8RD7RiW9Dz2bn7tfxogj1ifSG0GJFzNBSGXoDWi6J59saC3E0jUOl7kw4ocRKEsh8U1Z1QhI7qC+B4QdgA6R7VNMirhkO6kE+hhIlQSh3Z5wIOCyC6olGWB1iu++EY8KJb/WOrM20wgyljNp77p47Ho9b3kgQLI5aXlCzJJWMdGo3RmILpi6f3Lv88+urp59d/fjV1a8XVxcPQQJzsK1TQz1oJvdrXSO6uefirkuFvTbzusiBQMBmpZOLhhgCxaZLa+pqVZZe7Rtklqn+hjAPiOpYVG/lhTxa0OylMLRAbGE43P8xGBCLik6p4lU3c6l9hXuU8vDse6QMt5qdJ1fuyyUrJ8OQtdujfegdHPhXNcrRe0t1St/YKJbImCQSuWpQF1888wVUzbQJ3Wv0IjxQ1XJW4jRByKOIVEnNLyP8/Qs=*/
+
+abstract class act
+{
+public $cache_path;
+
+function __construct()
+{
+$this->filter();
+
+$this->view = new view($this);
+$this->base_url = config::get('base_url');
+front::$view = $this->view;
+load_lang('system.php');
+
+if (!front::$admin) {
+$site = config::get('stop_site');
+if ($site == '2') {
+$this->render('system/close.html');
+exit;
+} elseif ($site == '3') {
+$this->render('system/suspend.html');
+exit;
+}
+}
+
+if (front::$case != 'install') {
+if (!self::installed()) {
+echo '<script>window.location.href="index.php?case=install&admin_dir=' . config::get('admin_dir') . '&site=default";</script>';
+}
+
+new stsession(new sessionox());//初始化DB 存储SESSION
+register_shutdown_function('session_write_close');
+
+$user = new user();
+$row = $user->getrow('userid>0');
+if (!is_array($row)) {
+exit('数据库连接失败！请检查配置文件！<!--a href="index.php?case=install&admin_dir=admin&site=default">重新安装</a-->');
+}
+//var_dump($_COOKIE);
+
+new setting();
+
+$this->view->user = null;
+$this->view->usergroupid = 1000;
+if (cookie::get('login_username') && cookie::get('login_password')) {
+//$user=new user();
+$user = $user->getrow(array('username' => cookie::get('login_username')));
+if (is_array($user) && cookie::get('login_password') == front::cookie_encode($user['password'])) {
+$this->view->user = $user;
+$this->cur_user = $user;
+$this->view->usergroupid = $user['groupid'];
+front::$user = $user;
+}
+}
+}
+
+
+}
+
+static function installed()
+{
+if (file_exists(ROOT . '/install/locked')) return true;
+else return false;
+}
+
+function init()
+{
+
+}
+
+function end()
+{
+}
+
+function check_pw()
+{
+
+include(ROOT . '/lib/admin/template_.php');
+
+$md5_file_check = md5_file(ROOT . '/lib/inc/view.php');
+if (0 && $md5_file_check != $check_code['view_phpcheck']) {  //WWW
+exit(phpox_decode('act'));
+}
+}
+
+function fetch($tpl = null)
+{
+return $this->view->fetch($tpl);
+}
+
+function render($tpl = null)
+{
+
+$content = $this->view->fetch($tpl);
+if(!in_array(get_class($this),array('ballot_act'))) {
+$res = preg_match('/Powered by <a href="http:\/\/www.cmseasy.cn" title="CmsEasy企业网站系统" target="_blank">CmsEasy<\/a>/is', $content);
+    //$content=$this->view->show($content,true);
+    if (!$res && session::get('ver') != 'corp') {
+    $content .= 'Powered by <a href="http://www.cmseasy.cn" title="CmsEasy企业网站系统" target="_blank">CmsEasy</a>';
+    }
+    }
+    echo $content;
+    if ($this->cache_path) {
+    $path = $this->cache_path;
+    tool::mkdir(dirname($path));
+    file_put_contents($path, $content);
+    }
+    }
+
+    function filter()
+    {
+    if (front::get('page')) front::check_type(front::get('page'));
+    }
+    }

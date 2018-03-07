@@ -1,19 +1,141 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??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*/
+
+if (!defined('ROOT')) exit('Can\'t Access !');
+
+class attachment_act extends act
+{
+function init()
+{
+$this->view->usergroupid = 1000;
+front::check_type(cookie::get('login_username'), 'safe');
+front::check_type(cookie::get('login_password'), 'safe');
+if (cookie::get('login_username') && cookie::get('login_password')) {
+$user = new user();
+$user = $user->getrow(array('username' => cookie::get('login_username')));
+if (is_array($user) && cookie::get('login_password') == front::cookie_encode($user['password'])) {
+$this->view->user = $user;
+$this->view->usergroupid = $user['groupid'];
+}
+}
+}
+
+function getBrowser()
+{
+$sys = $_SERVER['HTTP_USER_AGENT'];
+if (stripos($sys, "NetCaptor") > 0) {
+$exp = "NetCaptor";
+} elseif (stripos($sys, "Firefox/") > 0) {
+preg_match("/Firefox\/([^;)]+)+/i", $sys, $b);
+$exp = "Mozilla Firefox " . $b[1];
+} elseif (stripos($sys, "MAXTHON") > 0) {
+preg_match("/MAXTHON\s+([^;)]+)+/i", $sys, $b);
+preg_match("/MSIE\s+([^;)]+)+/i", $sys, $ie);
+$exp = $b[0] . " (IE" . $ie[1] . ")";
+} elseif (stripos($sys, "MSIE") > 0) {
+preg_match("/MSIE\s+([^;)]+)+/i", $sys, $ie);
+$exp = "Internet Explorer " . $ie[1];
+} elseif (stripos($sys, "Netscape") > 0) {
+$exp = "Netscape";
+} elseif (stripos($sys, "Opera") > 0) {
+$exp = "Opera";
+} else {
+$exp = lang('unknown_browser');
+}
+return $exp;
+}
+
+function attachment_js_action()
+{
+//front::check_type(front::get('aid'));
+$aid = intval(front::get('aid'));
+$name = archive_attachment($aid, 'intro');
+$path = archive_attachment($aid, 'path');
+$base_url = config::get('base_url');
+if (!$name) $name = preg_replace('%(.*)[\\\\\/](.*)_\d+(\.[a-z]+)$%i', '$2', $path);
+if (!rank::arcget($aid, $this->view->usergroupid, 'down')) {
+$link = "<a id='att' title='$name' href='javascript:alert(\"" . lang('without_authorization_can_ not_download') . "\");'><img src='{$base_url}/images/download.gif' alt='$name'></a>";
+echo tool::text_javascript($link);
+exit;
+} else {
+if (config::get('verifycode')) {
+$link = "<a target='_blank' title='$name' id='att' href='" . url::create('attachment/downfile/aid/' . $aid . '/v/ce') . "'><img src='{$base_url}/images/download.gif' alt='$name'></a>";
+echo tool::text_javascript($link);
+exit;
+} else {
+$link = "<a target='_blank' title='$name' id='att' href='" . url::create('attachment/down/aid/' . $aid) . "'><img src='{$base_url}/images/download.gif' alt='$name'></a>";
+echo tool::text_javascript($link);
+exit;
+}
+}
+}
+
+function downfile_action()
+{
+$base_url = config::get('base_url');
+if (front::post('submit')) {
+if (!session::get('verify') || front::post('verify') <> session::get('verify')) {
+front::flash(lang('verification_code'));
+return;
+} else {
+front::check_type(front::get('aid'));
+$aid = front::get('aid');
+$name = archive_attachment($aid, 'intro');
+$path = archive_attachment($aid, 'path');
+if (!$name) $name = preg_replace('%(.*)[\\\\\/](.*)_\d+(\.[a-z]+)$%i', '$2', $path);
+@cookie::set('allowdown', md5(url::create('attachment/downfile/aid/' . $aid . '/v/ce')));
+if (!rank::arcget($aid, $this->view->usergroupid, 'down'))
+$link = "<br /><br /><br /><br /><br /><p align='center'><a id='att' href='javascript:alert(\"" . lang('without_authorization_can_ not_download') . "\");'><img src='{$base_url}/images/download.jpg' alt='$name' border='0' /><br /><br />" . lang('click_download') . "</a></p>";
+else $link = "<br /><br /><br /><br /><br /><br /><p align='center'><a id='att' href='" . url::create('attachment/down/aid/' . $aid) . "'><img src='{$base_url}/images/download.jpg' alt='$name' border='0' /><br /><br />" . lang('click_download') . "</a></p>";
+echo $link;
+exit;
+}
+}
+}
+
+function down_action()
+{
+if (config::get('verifycode')) {
+if (cookie::get('allowdown') != md5(url::create('attachment/downfile/aid/' . front::get('aid') . '/v/ce'))) {
+header("Location: index.php?case=attachment&act=downfile&aid=" . front::get('aid') . "&v=ce");
+}
+}
+front::check_type(front::get('aid'));
+if (!rank::arcget(front::get('aid'), $this->view->usergroupid, 'down')) {
+$link = "<script>alert(\"" . lang('without_authorization_can_ not_download') . "\");</script>";
+exit($link);
+}
+if (strtolower(substr(archive_attachment(front::get('aid'), 'path'), 0, 4)) == 'http') {
+echo "<script>window.location.href='" . archive_attachment(front::get('aid'), 'path') . "';</script>";
+exit;
+}
+$path = ROOT . '/' . archive_attachment(front::get('aid'), 'path');
+$path = iconv('utf-8', 'gbk//ignore', $path);
+if (!is_readable($path)) {
+header("HTTP/1.1 404 Not Found");
+exit;
+}
+$size = filesize($path);
+$content = file_get_contents($path);
+//$size=strlen($content);
+$name = preg_replace('%(.*)[\\\\\/](.*)_\d+(\.[a-z]+)$%i', '$2$3', $path);
+$name = substr($name, -7, 7);
+$name = 'CmsEasy_file_' . $name;
+header('Content-Type: application/octet-stream');
+header("Content-Length: $size");
+header("Content-Disposition: attachment; filename=\"$name\"");
+header("Content-Transfer-Encoding: binary");
+header('Expires: 0');
+header('Cache-Control: must-revalidate, post-check=0, pre-check=0');
+header('Pragma: public');
+echo $content;
+exit;
+}
+
+function end()
+{
+if (front::$debug)
+$this->render('style/index.html');
+else
+$this->render();
+}
+}

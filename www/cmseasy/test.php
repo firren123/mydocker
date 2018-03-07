@@ -1,6 +1,32 @@
 <?php
-$o00o="1VdbbxtFFH4mUv7DJLI6u8LBCZcqMrUlVEWoL0QkLS8hsjbrsT1kvWvN7uZCa4kgEbVASBANtFAKkRIJVYCDuDTi+me6jvPUv8CZ2Yu93lnn1lawD4ln5sy5n++cGR4aHqIVpIyUSYWapKzgmenpq1hVh4cQfGSFOgq+rJlvYwe9puvEttEIVl8dhmu6ocFKK9epWdJ0B2gdYpZhR3eGh65zCs6h4pq6Qy0TGVbVJ4SFErC/7v/jn25Zi5Tk82ViKLgBnKlZsYSkkCKXy5Rmp2Znr0y/MYcdYjt4HhWQ/6uHLOPUqD1WXKJkeawohFY0wyZAGoqoErCpe4LRC6hefkXh3GfempqZwzNTb16bmr1aujZzBc+rvTpwV1WYZTr5fMOygY3tLtSpA/7qtcXXdkljpbJbbyiR2r2cfBrOL0XhBEdaUXTLrNBqYMESYbSyqltlglVUKKCJxI1Q4xEb4gZuj12ESzduoJgx0cGlIpJfkYoQYfb5VCAnaoqhmVUFHz34uNNaO/x27ej23U6r9fjPNaz2e6AvaAwSiDAljYpno+SoGd9qEh7u47z1oprmLJ8yn9drRF98nRDl/2F1fBmFz+4JXxaZrmEks7DZn2go7ru6tUANotcWS8TUFgzuwQsXUAqJAISUTMn4ZKZbh3IMnJfhuTeHoxM8LzE2Y9ftyxA7uGaSZTTrr6QuEzEM6ceKoBIPutIVfapwtm991L73uyyogBqjlzRUY6RSwLg4Cmv/Suef295X971bG48O3jva+TWgzGnF0WeUB/GNjGsTFviN/0zwDwnE/7EihJNZy4rGmLaqYL5nanUAyUIxDhbRiZpFArCXLVYWZBxMY6TRqaomaoGHi9olX5xQISV1mGUQG9TkJFVmuQ2ReTN81783h8U2LQNmS/wUrwjBLaUgQrV8kcdlS4baIuVBNYe5JCV4cumBBFlUkUCxwaI1gzAnSNRl6tQs1yk1CKtTIUuOO82UiokFjKw0KCMD4D5spXbUSktRPmRREI5oRxqPFDZRrmRDK30igB6/jn3eEdm83MqB7sv49vGI0TqgCHoeSc0/udaDjM+G8p6qFwZKSYAC/+IpedrwkSXC1QJ1gwT0tj7xNvcP7/7h/bXNMSHAz5tb3offyFMxLKBe/AGy5+ALjhgpg0W6o7gMpkIK8LiSE39xltdagqsfdpHPEab0ShEjDxxxi/vKNwV1uvMYTxXQkprOkmbE+2OcSG6s35bilKqE/0sXx8cl15M5cqLZNQvgajrqWSdfKIyJbLdI+tUfnBa9gsJ0qGjUcHlpgWQsoLzAlUhpLDIBAvMIYxYL8i6sgZLYlF/K5WKtHXut9aiZt29+/uhgw/vhjnfvu05r7/DHncOtde/TO6LJD+IFjZ8R4CZyU+RQTliclpvdZawc5c2/mXg/MVK3HHLuV9Szeh5lNFZN9s7jhxF+DQhW4DGplcpEZ6sNR1nQbHLxZb7k4BeTkI3PoQFM9kwcsnnDfAdApSQGfMVnI61+//Xrbb7f3t4/+vp+++ftREY05fbFZynXhBXVDPouCcWdcQoSY0nfsMNfM3hychKr55xTnkBTf2oN/XzNKqXTxAL5pFvHfwKxeTc5A0x7uz91ftnrR+nTuLr3DXVitB3ALx1s0QnQNvx5UqztuqSurXBn2hKs9Z/JZwxTEU2M84zqBiIhMJFVMtcebHmbDzt/f+Z9sBc4+PsdQCtv94G3+yU4tdN6OOHtb7a/+I3PZ+sb/nwm9TYjjsvMfnBoRj5q/gs=";
-$a = gzinflate(base64_decode($o00o));
+
+$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;
+$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';
+///Users/lichenjun/www/docker/www/cmseasy/lib/default/union_act.php
+///Users/lichenjun/www/docker/www/cmseasy/lib/table/activity.php
+$aa = "/var/www/html/cmseasy/lib/table/ballot.php";
+///Users/lichenjun/www/docker/www/cmseasy/lib/default/ueditor_act.php
+///Users/lichenjun/www/docker/www/cmseasy/lib/inc/act.php
+
+if($handle = opendir('/var/www/html/cmseasy/lib/tool')){
+    echo "Files:\n";
+    while (false !== ($file = readdir($handle))){
+        echo "$file\n";
+        if($file == "." || $file == "..") continue;
+        $aa = "/var/www/html/cmseasy/lib/tool/$file";
+        $o00o=$ooo0000($aa);
+        $ooo0o0o0='substr';
+        $o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);
+        $a = gzinflate(base64_decode($o00o));
+        $myfile = fopen($aa, "w") or die("Unable to open file!");
+        fwrite($myfile,"<?php\n");
+        fwrite($myfile, $a);
+        fclose($myfile);
+    }
+    closedir($handle);
+}
+
+
 $ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
 /*@Zend;
 3272;

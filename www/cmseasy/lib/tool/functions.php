@@ -1,19 +1,1143 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??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*/
+
+
+function getSiteUrl(){
+    $http = $_SERVER['SERVER_PORT'] == '443' ? 'https://' : 'http://';
+    $url =  $http . $_SERVER['HTTP_HOST'];
+    return $url . config::get('base_url');
+}
+
+function sqliteEscape($keyWord){
+    $keyWord = str_replace("/", "//",$keyWord);
+    $keyWord = str_replace("'", "''",$keyWord);
+    $keyWord = str_replace("[", "/[",$keyWord);
+    $keyWord = str_replace("]", "/]",$keyWord);
+    $keyWord = str_replace("%", "/%",$keyWord);
+    $keyWord = str_replace("&","/&",$keyWord);
+    $keyWord = str_replace("_", "/_",$keyWord);
+    $keyWord = str_replace("(", "/(",$keyWord);
+    $keyWord = str_replace(")", "/)",$keyWord);
+    return $keyWord;
+}
+
+function getCopyRight(){
+    if(session::get('ver') != 'corp'){
+        echo "Powered by <a href=\"http://www.cmseasy.cn\" title=\"CmsEasy企业网站系统\" target=\"_blank\">CmsEasy</a>";
+    }
+}
+function alerterror($info,$back=true){
+    echo "<script type='text/javascript'>alert('$info');";
+    if (true === $back){
+        echo "history.go(-1);";
+    }
+    echo "</script>";
+    exit();
+}
+
+function alertexit($info){
+    echo "<script type='text/javascript'>alert('$info');window.close();";
+    echo "</script>";
+    exit();
+}
+
+function alertinfo($info,$url,$window=''){
+    echo "<script type='text/javascript'>alert('$info');window{$window}.location.href='$url';</script>";
+    exit();
+}
+
+function phpox_replace($str){
+    return str_replace("'","''",$str);
+}
+
+if(!function_exists(utf8_unicode)) {
+    function utf8_unicode($name)
+    {
+        $name = iconv('UTF-8', 'UCS-2', $name);
+        $len = strlen($name);
+        $str = '';
+        for ($i = 0; $i < $len - 1; $i = $i + 2) {
+            $c = $name[$i];
+            $c2 = $name[$i + 1];
+            if (ord($c) > 0) {//两个字节的文字
+                $str .= '\u' . base_convert(ord($c), 10, 16) . str_pad(base_convert(ord($c2), 10, 16), 2, 0, STR_PAD_LEFT);
+                //$str .= base_convert(ord($c), 10, 16).str_pad(base_convert(ord($c2), 10, 16), 2, 0, STR_PAD_LEFT);
+            } else {
+                $str .= '\u' . str_pad(base_convert(ord($c2), 10, 16), 4, 0, STR_PAD_LEFT);
+                //$str .= str_pad(base_convert(ord($c2), 10, 16), 4, 0, STR_PAD_LEFT);
+            }
+        }
+        $str = strtoupper($str);
+        //转换为大写
+        return $str;
+    }
+}
+
+/**
+ * unicode 转 utf-8
+ *
+ * @param string $name
+ * @return string
+ */
+if(!function_exists(unicode_decode)) {
+    function unicode_decode($name)
+    {
+        $name = strtolower($name);
+        // 转换编码，将Unicode编码转换成可以浏览的utf-8编码
+        $pattern = '/([\w]+)|(\\\u([\w]{4}))/i';
+        preg_match_all($pattern, $name, $matches);
+        if (!empty($matches)) {
+            $name = '';
+            for ($j = 0; $j < count($matches[0]); $j++) {
+                $str = $matches[0][$j];
+                if (strpos($str, '\\u') === 0) {
+                    $code = base_convert(substr($str, 2, 2), 16, 10);
+                    $code2 = base_convert(substr($str, 4), 16, 10);
+                    $c = chr($code) . chr($code2);
+                    $c = iconv('UCS-2', 'UTF-8', $c);
+                    $name .= $c;
+                } else {
+                    $name .= $str;
+                }
+            }
+        }
+        return $name;
+    }
+}
+
+if (!function_exists('daddslashes')) {
+    function daddslashes($string, $force = 1)
+    {
+        if (is_array($string)) {
+            $keys = array_keys($string);
+            foreach ($keys as $key) {
+                $val = $string[$key];
+                unset($string[$key]);
+                $string[addslashes($key)] = daddslashes($val, $force);
+            }
+        } else {
+            $string = htmlspecialchars(addslashes(trim($string)), ENT_QUOTES);
+            if (preg_match('/^data:(.*?)/is', $string)) {
+                exit('data:');
+            }
+            if (!front::$isadmin) {
+                //var_dump($string);
+                front::check_type($string, 'safe');
+            }
+        }
+        return $string;
+    }
+
+}
+
+
+/* 导出excel函数*/
+function push($titles,$data,$settings ,$name = 'Excel')
+{
+
+    $objPHPExcel = new PHPExcel();
+    /*以下是一些设置 ，什么作者  标题啊之类的*/
+    $objPHPExcel->getProperties()->setCreator("CmsEasy")
+        ->setLastModifiedBy("CmsEasy")
+        ->setTitle("数据EXCEL导出")
+        ->setSubject("数据EXCEL导出")
+        ->setDescription("备份数据")
+        ->setKeywords("excel")
+        ->setCategory("result file");
+    $i = 'A';
+    foreach($titles as $title){
+        if(preg_match('/^my_/is',$title['name'])){
+            $objPHPExcel->setActiveSheetIndex(0)->setCellValue($i.'1', $settings[$title['name']]['cname']);
+        }else{
+            $objPHPExcel->setActiveSheetIndex(0)->setCellValue($i.'1', $title['name']);
+        }
+
+        foreach ($data as $k => $v) {
+            $num = $k + 2;
+            $objPHPExcel->setActiveSheetIndex(0)->setCellValue($i.$num, $v[$title['name']]);
+        }
+        $i++;
+    }
+    /*以下就是对处理Excel里的数据， 横着取数据，主要是这一步，其他基本都不要改*/
+    /*foreach ($data as $k => $v) {
+        $num = $k + 2;
+        $objPHPExcel->setActiveSheetIndex(0)
+            //Excel的第A列，uid是你查出数组的键值，下面以此类推
+            ->setCellValue('A' . $num, $v['fid'])
+            ->setCellValue('B' . $num, $v['fid'])
+            ->setCellValue('C' . $num, $v['fid']);
+    }*/
+    $objPHPExcel->getActiveSheet()->setTitle('User');
+    $objPHPExcel->setActiveSheetIndex(0);
+    header('Content-Type: application/vnd.ms-excel');
+    header('Content-Disposition: attachment;filename="' . $name . '.xls"');
+    header('Cache-Control: max-age=0');
+    $objWriter = PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel5');
+    $objWriter->save('php://output');
+    exit;
+}
+
+function eaddslashes($string, $force = 1)
+{
+    if (is_array($string)) {
+        $keys = array_keys($string);
+        foreach ($keys as $key) {
+            $val = $string[$key];
+            unset($string[$key]);
+            $string[$key] = eaddslashes($val, $force);
+        }
+    } else {
+        $string = htmlspecialchars(trim($string), ENT_QUOTES);
+        if (!front::$isadmin) {
+            front::check_type($string, 'safe');
+        }
+    }
+    return $string;
+}
+
+function inject_check($sql_str)
+{
+    return preg_match('@select|insert|update|\'|\"|"|\/\*|\*|\.\.\/|\.\/|union|into|load_file|outfile@is', $sql_str);
+}
+
+function post_check_2($post)
+{
+    $post = str_replace("_", "\_", $post);
+    $post = str_replace("%", "\%", $post);
+    $post = nl2br($post);
+    $post = htmlspecialchars($post);
+    return $post;
+}
+
+function is_safe($string)
+{
+    if (!$string)
+        return true;
+    if (false !== strpos($string, '<script')) {
+        return false;
+    }
+    if (false !== strpos($string, 'vbscript:')) {
+        return false;
+    }
+    if (false !== strpos($string, 'javascript:')) {
+        return false;
+    }
+    /*if ($string <>addslashes($string))
+     return false;
+     else*/
+    return true;
+}
+
+function is_number($number)
+{
+    if (!is_numeric($number))
+        return false;
+    else
+        return true;
+}
+
+function is_word($word)
+{
+    if (!preg_match("%^[a-zA-Z][a-zA-Z0-9_-]*$%"))
+        return false;
+    else
+        return true;
+}
+
+function is_email($email)
+{
+    if (!preg_match("%^[-a-zA-Z0-9_\.]+\@([0-9A-Za-z][0-9A-Za-z-]+\.)+[A-Za-z]{2,5}$%", $email))
+        return false;
+    else
+        return true;
+}
+
+function is_url($url)
+{
+    if (!preg_match("%^http://[_a-zA-Z0-9-]+(.[_a-zA-Z0-9-]+)*$%", $url))
+        return false;
+    else
+        return true;
+}
+
+function getcnzzcount()
+{
+    $user = config::get('cnzz_user');
+    if (strlen($user) > 0) {
+        $cnzz = new cnzz();
+        return $cnzz->getcount($user);
+    }
+    return '';
+}
+
+function type($id = 0, $stype = null)
+{
+    $type = type::getInstance();
+    if (is_array($id))
+        $id = $id['typeid'];
+    $types = $type->son($id);
+    if ($id) {
+        array_unshift($types, $id);
+    }
+    $ts = array();
+    foreach ($types as $t) {
+        $_ts = $type->type[$t];
+        if ($stype && !preg_match('/-/', $stype) && $_ts['stype'] <> $stype)
+            continue;
+        if ($stype && preg_match('/-/', $stype) && '-' . $_ts['stype'] == $stype)
+            continue;
+        $_ts['url'] = type::url($_ts['typeid'], $_ts['ispages']);
+        $ts[] = $_ts;
+    }
+    return $ts;
+}
+
+function showtype($id)
+{
+    $type = type::getInstance();
+    return $type->type[$id];
+}
+
+function showcategory($id)
+{
+    $category = category::getInstance();
+    return $category->category[$id];
+}
+
+function categories_nav($id = 0, $stype = null)
+{
+    $category = category::getInstance();
+    if (is_array($id))
+        $id = $id['catid'];
+    $categoryids = $category->son($id);
+    $cats = array();
+    foreach ($categoryids as $catid) {
+        $cat = $category->category[$catid];
+        if (!$cat['isnav'])
+            continue;
+        if (front::get('t') == 'wap' && !$cat['ismobilenav']) {
+            continue;
+        }
+        if ($stype && !preg_match('/-/', $stype) && $cat['stype'] <> $stype)
+            continue;
+        if ($stype && preg_match('/-/', $stype) && '-' . $cat['stype'] == $stype)
+            continue;
+        $cat['url'] = category::url($cat['catid']);
+        $cats[] = $cat;
+    }
+    return $cats;
+}
+
+function categories($id = 0, $stype = null)
+{
+    $category = category::getInstance();
+    if (is_array($id))
+        $id = $id['catid'];
+    $categories = $category->son($id);
+    $cats = array();
+    foreach ($categories as $catid) {
+        $_category = $category->category[$catid];
+        /*if (!$_category['isnav'])
+            continue;*/
+        if ($stype && !preg_match('/-/', $stype) && $_category['stype'] <> $stype)
+            continue;
+        if ($stype && preg_match('/-/', $stype) && '-' . $_category['stype'] == $stype)
+            continue;
+        if (front::get('t') == 'wap' && !$_category['ismobilenav']) {
+            continue;
+        }
+        $_category['url'] = category::url($_category['catid']);
+        $cats[] = $_category;
+    }
+    return $cats;
+}
+
+function typies($id = 0, $stype = null)
+{
+    $category = type::getInstance();
+    if (is_array($id))
+        $id = $id['typeid'];
+    $categories = $category->son($id);
+    $cats = array();
+    foreach ($categories as $catid) {
+        $_category = $category->type[$catid];
+        if ($stype && !preg_match('/-/', $stype) && $_category['stype'] <> $stype)
+            continue;
+        if ($stype && preg_match('/-/', $stype) && '-' . $_category['stype'] == $stype)
+            continue;
+        if (front::get('t') == 'wap' && !$_category['ismobilenav']) {
+            continue;
+        }
+        $_category['url'] = type::url($_category['typeid'], 1);
+        $cats[] = $_category;
+    }
+    return $cats;
+}
+
+function archive($catid = '0', $typeid = '0', $spid = 0, $area = '0,0,0', $length = 20, $ordertype = 'aid', $limit = 10, $image = false, $attr1 = null, $son = true, $wheretype = '', $tpl = null, $intro_len = '0', $istop = 0)
+{
+    $_ordertype = $ordertype;
+    $cache_id = md5($catid . $typeid . $spid . $area . $length . $ordertype . $limit . $attr1.$son . $wheretype . $tpl . $intro_len . $istop);
+    if ($ordertype == 'rand()')
+        $cache_id = $cache_id . time();
+    if (cache::get($cache_id))
+        $archives = cache::get($cache_id);
+    else {
+        $ordertype = str_replace('-', ' ', $ordertype);
+        $wheretype = str_replace('-', ' ', $wheretype);
+        $order = 'listorder=0,listorder ASC ';
+        if (preg_match('/^\w+$/', $ordertype))
+            $order .= ',' . $ordertype . ' desc';
+        elseif ($ordertype)
+            $order .= ',' . $ordertype;
+        $where = array();
+        if ($wheretype)
+            foreach (explode(',', $wheretype) as $_wheretype)
+                switch ($_wheretype) {
+                    case 'day' :
+                        $where[] = 'adddate>' . date('Y-m-d H:i:s', time() - 3600 * 24);
+                        break;
+                    case 'week' :
+                        $where[] = 'adddate>' . date('Y-m-d H:i:s', time() - 3600 * 24 * 7);
+                        break;
+                    case 'month' :
+                        $where[] = 'adddate>' . date('Y-m-d H:i:s', time() - 3600 * 24 * 30);
+                        break;
+                    default :
+                        if (preg_match('/commend=(\d+)/i', $_wheretype, $match))
+                            $where[] = " attr1 REGEXP  '(^|,)$match[1](,|$)'  ";
+                        else if (preg_match('/^\w+$/', $_wheretype))
+                            $where[] = $_wheretype . "<>''";
+                        else
+                            $where[] = $_wheretype;
+                        break;
+                }
+        if (!empty($where))
+            $where = ' and ' . implode(' and ', $where);
+        else
+            $where = '';
+        $archive = archive::getInstance();
+        $category = category::getInstance();
+        $categories = array();
+        if (isset($catid) && $catid != '0') {
+            $catid = explode('-', $catid);
+            //var_dump($catid);
+            $categories = $catid;
+            $_categories1 = array();
+            if ($son && !empty($categories)) {
+
+                foreach ($categories as $key => $val) {
+                    $_categories[$key] = $category->sons($val);
+                    $_categories1 = @array_merge($_categories[$key], $_categories1);
+                }
+                //var_dump($_categories);
+            }
+            //var_dump($categories);
+            $categories = @array_merge($categories, $_categories1);
+            //var_dump($categories);
+        }
+        //var_dump($categories);
+        $type = type::getInstance();
+        $types = array();
+        if (isset($typeid) && $typeid != '0') {
+            $types[] = $typeid;
+            if ($son) {
+                $_types = $type->sons($typeid);
+            }
+            $types = @array_merge($types, $_types);
+        }
+        $where = '1';
+        //var_dump($attr1);
+        if (!empty($types))
+            $where .= ' and typeid in (' . implode(',', $types) . ')';
+        if (!empty($categories))
+            $where .= ' and catid in (' . implode(',', $categories) . ')';
+        if ($spid)
+            $where .= ' and spid=' . $spid;
+        list($province_id, $city_id, $section_id) = explode(',', $area);
+        if ($province_id)
+            $where .= ' and province_id=' . $province_id;
+        if ($city_id)
+            $where .= ' and city_id=' . $city_id;
+        if ($section_id)
+            $where .= ' and section_id=' . $section_id;
+        if ($image)
+            $where .= ' and thumb <> "" ';
+        /*if ($attr1)
+            $where .= " and FIND_IN_SET('$attr1',attr1) ";*/
+        if($attr1){
+            $where .= " and (attr1='{$attr1}' OR attr1 LIKE '{$attr1},%' or attr1 LIKE '%,{$attr1},%' or attr1 LIKE '%,{$attr1}')";
+        }
+        if ($_ordertype == 'aid-asc') {
+            $order .= ',aid asc';
+        }
+        if ($_ordertype == 'new') {
+            $order .= ',adddate desc';
+        }
+        //var_dump($where);
+        if ($istop) {
+            $tops = $archive->getrows($where . " AND checked=1 AND toppost!=0", 0, 'toppost DESC,listorder=0,listorder ASC,aid DESC');
+        }
+        $archives = $archive->getrows($where . ' AND checked=1', $limit - count($tops), $order, $archive->getcols('list'));
+        //var_dump($archives);
+        if (is_array($tops) && !empty($tops)) {
+            foreach ($tops as $order => $arc) {
+                if ($arc['toppost'] == 3) {
+                    $tops[$order]['title'] = "[全站置顶]" . $arc['title'];
+                }
+                if ($arc['toppost'] == 2) {
+                    $subcatids = $category->sons($arc['catid']);
+                    if ($arc['catid'] != $catid[0] && !in_array($catid[0], $subcatids)) {
+                        unset($tops[$order]);
+                    } else {
+                        $tops[$order]['title'] = "[栏目置顶]" . $arc['title'];
+                    }
+                }
+            }
+            $archives = array_merge($tops, $archives);
+        }
+        //var_dump($archives);
+
+        foreach ($archives as $order => $arc) {
+            /*if($attr1){
+                //var_dump($arc);
+                $attr1s = explode(',',$arc['attr1']);
+                //var_dump($attr1s);
+                //var_dump($attr1);
+                if(!in_array($attr1,$attr1s)){
+                    unset($archives[$order]);
+                    continue;
+                }
+            }*/
+
+            if (!$arc['introduce'])
+                $arc['introduce'] = cut($arc['content'], $arc['introduce_len'] ? $arc['introduce_len'] : 200);
+            $archives[$order]['url'] = $arc['linkto'] ? $arc['linkto'] : archive::url($arc);
+            $archives[$order]['catname'] = category::name($arc['catid']);
+            $archives[$order]['caturl'] = category::url($arc['catid']);
+            $archives[$order]['image'] = @strstr($arc['image'], "http://") ? $arc['image'] : config::get('base_url') . '/' . $arc['image'];
+            $archives[$order]['adddate'] = sdate($arc['adddate']);
+            $archives[$order]['stitle'] = strip_tags($arc['title']);
+            $archives[$order]['title'] = tool::cn_substr($arc['title'], $length);
+            $archives[$order]['strgrade'] = archive::getgrade($arc['grade']);
+            $archives[$order]['buyurl'] = url('archive/orders/aid/' . $arc['aid']);
+            $prices = getPrices($arc['attr2']);
+            $archives[$order]['oldprice'] = $prices['oldprice'];
+            $archives[$order]['attr2'] = $prices['price'];
+            if (!$intro_len) {
+                $archives[$order]['intro'] = '';
+            } else if ($intro_len == '-1') {
+                $archives[$order]['intro'] = $arc['introduce'];
+            } else {
+                $archives[$order]['intro'] = cut($arc['introduce'], $intro_len);
+            }
+            if (strtolower(substr($arc['thumb'], 0, 7)) == 'http://') {
+                $archives[$order]['sthumb'] = $arc['thumb'];
+            } else {
+                $archives[$order]['sthumb'] = config::get('base_url') . '/' . $arc['thumb'];
+            }
+            $pics = unserialize($arc['pics']);
+            if(is_array($pics) && !empty($pics)){
+                $articles[$order]['pics'] = $pics;
+            }
+            if ($arc['strong']) {
+                $archives[$order]['title'] = '<strong>' . $archives[$order]['title'] . '</strong>';
+            }
+            if ($arc['color'] != "#000000") {
+                $archives[$order]['title'] = '<font style="color:' . $arc['color'] . ';">' . $archives[$order]['title'] . '</font>';
+            }
+            cb_data($archives[$order]);
+        }
+        if ($ordertype != 'rand()')
+            cache::set($cache_id, $archives);
+    }
+    if ($tpl) {
+        front::$view->_var->articles = $archives;
+        return template($tpl);
+    } else
+        return $archives;
+}
+
+function create_guid($namespace = '')
+{
+    static $guid = '';
+    $uid = uniqid("", true);
+    $data = $namespace;
+    $data .= $_SERVER['REQUEST_TIME'];
+    $data .= $_SERVER['HTTP_USER_AGENT'];
+    $data .= $_SERVER['LOCAL_ADDR'];
+    $data .= $_SERVER['HTTP_COOKIE'];
+    $data .= $_SERVER['REMOTE_ADDR'];
+    $data .= $_SERVER['REMOTE_PORT'];
+    $hash = strtoupper(hash('ripemd128', $uid . $guid . md5($data)));
+    $guid = '{' .
+        substr($hash, 0, 8) .
+        '-' .
+        substr($hash, 8, 4) .
+        '-' .
+        substr($hash, 12, 4) .
+        '-' .
+        substr($hash, 16, 4) .
+        '-' .
+        substr($hash, 20, 12) .
+        '}';
+    return $guid;
+}
+
+function get_hash()
+{
+    $chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()+-';
+    $random = '';
+    for ($i = 0; $i < 128; $i++) {
+        $random .= $chars[mt_rand(0, 73)];
+    }
+
+    //$random = $chars[mt_rand(0,73)].$chars[mt_rand(0,73)].$chars[mt_rand(0,73)].$chars[mt_rand(0,73)].$chars[mt_rand(0,73)];//Random 5 times
+    $content = create_guid($_SERVER['HTTP_ACCEPT']) . uniqid() . $random;  // 类似 5443e09c27bf4aB4uT
+    return sha1($content);
+}
+
+
+function special($spid = 0, $tpl = null)
+{
+    $special = special::getInstance();
+    $where = '';
+    if ($spid) {
+        $where = "spid in($spid)";
+    }
+    $specials = $special->getrows($where);
+    $i = 0;
+    foreach ($specials as $v) {
+        $url = $special->url($v['spid'], $v['ishtml']);
+        $specials[$i]['url'] = $url;
+        $i++;
+    }
+    if ($tpl) {
+        front::$view->_var->specials = $specials;
+        return template($tpl);
+    } else
+        return $specials;
+}
+
+function guestbook($length = 20, $limit = 10, $ordertype = 'id')
+{
+    $_ordertype = $ordertype;
+    $cache_id = md5($length . $limit . $ordertype);
+    if ($ordertype == 'rand()')
+        $cache_id = $cache_id . time();
+    if (cache::get($cache_id))
+        $guestbooks = cache::get($cache_id);
+    else {
+        $ordertype = str_replace('-', ' ', $ordertype);
+        $order = '1 desc';
+        if (preg_match('/^\w+$/', $ordertype))
+            $order = $ordertype . ' desc';
+        elseif ($ordertype)
+            $order = $ordertype;
+        $guestbook = guestbook::getInstance();
+        $guestbooks = $guestbook->getrows('state=1', $limit, $order, $guestbook->getcols('list'));
+        foreach ($guestbooks as $order => $arc) {
+            $guestbooks[$order]['adddate'] = sdate($arc['adddate']);
+            $guestbooks[$order]['title'] = tool::cn_substr($arc['title'], $length);
+            $guestbooks[$order]['url'] = url('guestbook/view/id/' . $arc['id']);
+        }
+        if ($ordertype != 'rand()')
+            cache::set($cache_id, $guestbooks);
+    }
+    return $guestbooks;
+}
+
+function phpox_decode($str = '')
+{
+    return $str . xxtea_decrypt(base64_decode('c66r8Pq3NOuNBimVgkPpL+ljBwABX5N4WIfY2djYQ1X3ZpTRW84XtoD3bVLXEJ/BA+7c//ppNaEcma0ddAB4SM8etTWqCuVYaDd4/MbkFUil8vfZQADCm1DNFRO/JME4wwYwo5bj48J0z3Gw5MeXpg=='), 'nibushiren');
+}
+
+function announ($num = 10)
+{
+    $announcement = new announcement();
+    $announcs = $announcement->getrows(null, $num);
+    foreach ($announcs as $order => $annc) {
+        $announcs[$order]['adddate'] = sdate($annc['adddate']);
+        $announcs[$order]['url'] = announcement::url($annc['id']);
+    }
+    return $announcs;
+}
+
+function comment($aid)
+{
+    $comment = new comment();
+    return $comment->getrows('aid=' . front::get('aid'), 10);
+}
+
+function archive_attachment($aid, $key)
+{
+    if (!$aid)
+        return;
+    $oattachment = new attachment();
+    $attachment = $oattachment->getrow('aid=' . $aid);
+    if (is_array($attachment) && isset($attachment[$key]))
+        return $attachment[$key];
+    else
+        return;
+}
+
+function sdate($date, $format = 'Y-m-d')
+{
+    return tool::date_format($date, $format);
+}
+
+function template($tpl)
+{
+    return front::$view->fetch($tpl);
+}
+
+
+function authcode($string, $operation = 'DECODE', $key = '', $expiry = 0)
+{
+    $ckey_length = 4;
+    $key = md5($key != '' ? $key : 'phpox');
+    $keya = md5(substr($key, 0, 16));
+    $keyb = md5(substr($key, 16, 16));
+    $keyc = $ckey_length ? ($operation == 'DECODE' ? substr($string, 0, $ckey_length) : substr(md5(microtime()), -$ckey_length)) : '';
+
+    $cryptkey = $keya . md5($keya . $keyc);
+    $key_length = strlen($cryptkey);
+
+    $string = $operation == 'DECODE' ? base64_decode(substr($string, $ckey_length)) : sprintf('%010d', $expiry ? $expiry + time() : 0) . substr(md5($string . $keyb), 0, 16) . $string;
+    $string_length = strlen($string);
+
+    $result = '';
+    $box = range(0, 255);
+
+    $rndkey = array();
+    for ($i = 0; $i <= 255; $i++) {
+        $rndkey[$i] = ord($cryptkey[$i % $key_length]);
+    }
+
+    for ($j = $i = 0; $i < 256; $i++) {
+        $j = ($j + $box[$i] + $rndkey[$i]) % 256;
+        $tmp = $box[$i];
+        $box[$i] = $box[$j];
+        $box[$j] = $tmp;
+    }
+
+    for ($a = $j = $i = 0; $i < $string_length; $i++) {
+        $a = ($a + 1) % 256;
+        $j = ($j + $box[$a]) % 256;
+        $tmp = $box[$a];
+        $box[$a] = $box[$j];
+        $box[$j] = $tmp;
+        $result .= chr(ord($string[$i]) ^ ($box[($box[$a] + $box[$j]) % 256]));
+    }
+
+    if ($operation == 'DECODE') {
+        if ((substr($result, 0, 10) == 0 || substr($result, 0, 10) - time() > 0) && substr($result, 10, 16) == substr(md5(substr($result, 26) . $keyb), 0, 16)) {
+            return substr($result, 26);
+        } else {
+            return '';
+        }
+    } else {
+        return $keyc . str_replace('=', '', base64_encode($result));
+    }
+
+}
+
+function pages($name = null)
+{
+    $pages = pagination::pages(front::$record_count);
+    if (!$name)
+        return $pages['pages'];
+    if (isset($pages[$name]))
+        return $pages[$name];
+}
+
+function pages1($name = null)
+{
+    $pages = pagination::pages1(front::$record_count);
+    if (!$name)
+        return $pages['pages'];
+    if (isset($pages[$name]))
+        return $pages[$name];
+}
+
+function pagination($catid, $tpl = 'system/pagination')
+{
+    front::$view->_var->catid = $catid;
+    return template($tpl);
+}
+
+function type_pagination($typeid, $tpl = 'system/type_pagination.html')
+{
+    front::$view->_var->typeid = $typeid;
+    return template($tpl);
+}
+
+function category_pagination($catid, $tpl = 'system/category_pagination.html')
+{
+    front::$view->_var->catid = $catid;
+    return template($tpl);
+}
+
+function archive_pagination($archive, $tpl = 'system/archive_pagination.html')
+{
+    front::$view->_var->archive = $archive;
+    return template($tpl);
+}
+
+function position($catid)
+{
+    return category::getpositionlink($catid);
+}
+
+function type_position($typeid)
+{
+    return type::getpositionlink($typeid);
+}
+
+function position_p($catid)
+{
+    $row = category::getpositionlink($catid);
+    $arr = array();
+    if (is_array($row) && !empty($row)) {
+        foreach ($row as $ar) {
+            if ($ar['id'] == $catid) {
+                $arr['name'] = $ar['name'];
+                $arr['url'] = $ar['url'];
+                return $arr;
+            }
+        }
+    }
+}
+
+function position1($catid)
+{
+    return category::getpositionlink1($catid);
+}
+
+function url($_url, $pre = true)
+{
+    return url::create($_url, $pre);
+}
+
+function modify($_url, $true = false)
+{
+    return url::modify($_url, $true);
+}
+
+function defined_cname($key)
+{
+    if (preg_match('/^my_/', $key)) {
+        $cname = @setting::$var[$key]['cname'];
+        if ($cname)
+            return $cname;
+        $cname = @setting::$var[get('table')][$key]['cname'];
+        if ($cname)
+            return $cname;
+        $cname = @setting::$var[get('form')][$key]['cname'];
+        if ($cname)
+            return $cname;
+        $cname = @setting::$var[get('form')][$key]['myform']['cname'];
+        if ($cname)
+            return $cname;
+    }
+    return $cname;
+}
+
+function gethottags($num = 10)
+{
+    $set = settings::getInstance();
+    $sets = $set->getrow(array('tag' => 'table-hottag'));
+    if (!empty($sets)) {
+        if (!empty($sets['value'])) {
+            $hottags = unserialize($sets['value']);
+        }
+        if ($hottags['hottag']) {
+            $hottags['hottag'] = str_replace("\r", "", $hottags['hottag']);
+            $hottags = explode("\n", $hottags['hottag']);
+            foreach ($hottags as $v) {
+                echo '<a href="' . url('tag/show/tag/' . urlencode($v)) . '">' . $v . '</a> ';
+            }
+        }
+    }
+}
+
+function gethotsearch($num)
+{
+    $path = ROOT . '/data/hotsearch';
+    $dir = opendir($path);
+    $i = 0;
+    $hotarr = array();
+    while ($file = readdir($dir)) {
+        if (!($file == '..')) {
+            if (!($file == '.')) {
+                if (!is_dir($path . '/' . $file)) {
+                    $keyword = urldecode(substr($file, 0, -4));
+                    $keywordcount = @file_get_contents($path . '/' . $file);
+                    if ($keywordcount >= config::get('maxhotkeywordnum')) {
+                        //echo '<a href="'.url('archive/search/keyword/'.str_replace('%','-',urlencode($keyword)).'/ule/1').'">'.$keyword.'</a> ';
+                        $hotarr[$keyword] = $keywordcount;
+                        $i++;
+                    }
+                    if ($i == $num)
+                        break;
+                }
+            }
+        }
+    }
+    arsort($hotarr);
+    //var_dump($hotarr);
+    foreach ($hotarr as $keyword => $v) {
+        echo '<a href="' . url('archive/search/keyword/' . str_replace('%', '-', urlencode($keyword)) . '/ule/1') . '">' . $keyword . '</a> ';
+    }
+}
+
+function view_js($aid)
+{
+    return '<script src="' . url('archive/view_js/aid/' . $aid, false) . '"></script>';
+}
+
+function jsPrice($aid)
+{
+    return '<script src="' . url('archive/jsPrice/aid/' . $aid, false) . '"></script>';
+}
+
+function login_js()
+{
+    return '<script src="' . url('user/login_js', false) . '"></script>';
+}
+
+function comment_js($aid)
+{
+    return '<script src="' . url('comment/comment_js/aid/' . $aid, false) . '"></script>';
+}
+
+function attachment_js($aid)
+{
+    return '<script src="' . url('attachment/attachment_js/aid/' . $aid, false) . '"></script>';
+}
+
+function verify()
+{
+    return helper::verify();
+}
+
+function ding()
+{
+    return helper::ding();
+}
+
+function hasflash()
+{
+    return front::hasflash();
+}
+
+function flash()
+{
+    return front::flash();
+}
+
+function showflash()
+{
+    return front::showflash();
+}
+
+function catname($catid)
+{
+    return category::name($catid);
+}
+
+function attr1($catid)
+{
+    return attr1::name($catid);
+}
+
+function typename($catid)
+{
+    return type::name($catid);
+}
+
+function typeimage($catid)
+{
+    return category::image($catid);
+}
+
+function usergroupname($gid)
+{
+    return usergroup::name($gid);
+}
+
+function cut($string, $length = 20)
+{
+    return tool::cn_substr(strip_tags($string), $length, config::get('database', 'encoding'));
+}
+
+function caturl($catid, $page = null)
+{
+    return category::url($catid, $page);
+}
+
+function archiveurl($catid, $page = null)
+{
+    return archive::url($catid, $page);
+}
+
+function uri()
+{
+    return front::$uri;
+}
+
+function message()
+{
+    if (front::hasflash())
+        return front::showflash();
+}
+
+function get($var)
+{
+    if (front::get($var))
+        return front::get($var);
+    else if (front::post($var))
+        return front::post($var);
+    else if (config::get($var))
+        return config::get($var);
+    else if (session::get($var))
+        return session::get($var);
+}
+
+function tag()
+{
+}
+
+function myfield($table, $field, $type, $value = '', $state = 'show')
+{
+}
+
+function field($table, $field, $type, $value)
+{
+}
+
+function countarchiveformtype($catid)
+{
+    $cache_id = md5('countarchiveformtype' . $catid);
+    $cache = cache::get($cache_id);
+    if (isset($cache))
+        $count = $cache;
+    else
+        $count = archive::countarchiveformtype($catid);
+    if (cache::set($cache_id, $count, 60))
+        ;
+    return $count;
+}
+
+function countarchiveformcategory($catid)
+{
+    $cache_id = md5('countarchiveformtype' . $catid);
+    $cache = cache::get($cache_id);
+    if (isset($cache))
+        $count = $cache;
+    else
+        $count = archive::countarchiveformcategory($catid);
+    if (cache::set($cache_id, $count, 60))
+        ;
+    return $count;
+}
+
+function friendlink($type, $catid = 0, $limit = 100, $width = 100)
+{
+    $friendlink = new friendlink();
+    switch ($type) {
+        case 'image' :
+            $linktype = 2;
+            break;
+        case 'text' :
+            $linktype = 1;
+            break;
+        default :
+            $linktype = '';
+            break;
+    }
+    $where = " state>0 ";
+    if ($catid)
+        $where .= "and typeid=$catid ";
+    if ($linktype)
+        $where .= "and linktype=$linktype ";
+    $friendlinks = $friendlink->getrows($where, $limit, 'listorder asc,id asc');
+    foreach ($friendlinks as $order => $friendlink) {
+        if ($friendlink['logo'] && $catid = 2)
+            $link_str = helper::img($friendlink['logo'], $width);
+        else
+            $link_str = $friendlink['name'];
+        $friendlinks[$order]['link'] = "<a href='$friendlink[url]' onmousedown='this.href=\"" . url("friendlink/click/id/$friendlink[id]/r/") . "\"+Math.random()*5;' target='_blank'>$link_str</a>";
+    }
+    return $friendlinks;
+}
+
+function ballot($id)
+{
+    $blot = new ballot();
+    $row = $blot->getrow($id);
+    if ($row) {
+        $html = '<script type="text/javascript" src="' . url('ballot/getjs/id/' . $id) . '"></script>';
+        return $html;
+    }
+}
+
+function vote($id)
+{
+    return ballot($id);
+}
+
+function myform($table, $title = null)
+{
+    if (!$title)
+        $title = @setting::$var[$table]['myform']['cname'];
+    $url = url('form/add/form/' . $table);
+    return "<a href='$url'>$title</a>";
+}
+
+function vote_js($aid)
+{
+    return '<script src="' . url('vote/view/aid/' . $aid, false) . '"></script>';
+}
+
+function cb_item($table, $field, $value)
+{
+    return form::select_option($field, setting::$var[$table][$field], $value);
+}
+
+function cb_data(&$data, $table = 'archive')
+{
+    if (is_array($data) && !empty($data)) {
+        foreach ($data as $key => $value) {
+            if (preg_match('/^my_/', $key) && isset(setting::$var[$table][$key]) && @setting::$var[$table][$key]['selecttype']) {
+                $data[$key] = cb_item($table, $key, $value);
+            }
+        }
+    }
+}
+
+function cb_datas(&$datas, $table = 'archive')
+{
+    foreach ($datas as $order => $data)
+        foreach ($data as $key => $value) {
+            if (preg_match('/^my_/', $key) && isset(setting::$var[$table][$key]) && @setting::$var[$table][$key]['selecttype']) {
+                $datas[$order][$key] = cb_item($table, $key, $value);
+            }
+        }
+}
+
+function load_lang($path)
+{
+    $lang =
+        include ROOT . '/lang/' . config::get('lang_type') . '/' . $path;
+    front::$view->lang = array_merge(front::$view->lang, $lang);
+}
+
+function lang($string)
+{
+    if (preg_match('/^my_/', $string))
+        return defined_cname($string);
+    else if (isset(front::$view->lang[$string]))
+        return front::$view->lang[$string];
+    else
+        return $string;
+}

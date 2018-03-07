@@ -1,19 +1,311 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??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*/
+
+if (!defined('ROOT')) exit('Can\'t Access !');
+
+class manage_act extends act
+{
+protected $_table;
+
+function init()
+{
+$user = array();
+$guest = front::get('guest');
+$guestuser = array();
+$this->_user = new user;
+if ($guest == '1' && config::get('opguestadd')) {
+$guestuser = $user = array(
+'userid' => 0,
+'username' => 'Guest',
+'nickname' => lang('tourist'),
+'groupid' => 0,
+'checked' => 1,
+'intro' => 'Guest',
+'point' => '',
+'introducer' => '',
+);
+} else {
+$username = cookie::get('login_username');
+$password = cookie::get('login_password');
+if ($username != '' && $password != '') {
+$guestuser = $user = $this->_user->getrow(array('username' => $username));
+if (front::cookie_encode($user['password']) != $password) {
+$guestuser = $user = array();
+}
+}
+}
+$this->view->guestuser = $guestuser;
+if (!$user && front::$act != 'login' && front::$act != 'register') front::redirect(url::create('user/login'));
+$this->view->user = $user;
+$this->table = front::get('manage');
+if ($this->table <> 'archive'
+&& $this->table <> 'orders'
+&& $this->table <> 'comment'
+&& $this->table <> 'invite'
+&& $this->table <> 'zanlog'
+) {
+exit('PAGE NOT FOUND!');
+}
+$this->_table = new $this->table;
+$this->_table->getFields();
+$this->view->form = $this->_table->get_form();
+$this->_pagesize = config::get('manage_pagesize');
+$this->view->manage = $this->table;
+$this->view->primary_key = $this->_table->primary_key;
+if (!front::get('page')) front::$get['page'] = 1;
+$manage = 'table_' . $this->table;
+$this->manage = new $manage;
+}
+
+
+function commentlist_action()
+{
+$limit = ((front::get('page') - 1) * 20) . ',20';
+$where = "username='" . front::$user['username'] . "'";
+$this->_view_table = $this->_table->getrows($where, $limit, 'adddate desc', $this->_table->getcols('manage'));
+$i = 0;
+$archive = archive::getInstance();
+if (is_array($this->_view_table) && !empty($this->_view_table)) {
+foreach ($this->_view_table as $arr) {
+$news = $archive->getrow($arr['aid']);
+$aurl = $archive->url($news);
+$this->_view_table[$i]['title'] = $news['title'];
+$this->_view_table[$i]['aurl'] = $aurl;
+unset($news);
+$i++;
+}
+}
+//var_dump($this->_view_table);
+$this->view->record_count = $this->_table->record_count;
+}
+
+function zanlist_action()
+{
+$limit = ((front::get('page') - 1) * 20) . ',20';
+$where = "uid='" . front::$user['userid'] . "'";
+$this->_view_table = $this->_table->getrows($where, $limit, 'addtime desc', $this->_table->getcols('manage'));
+$i = 0;
+$archive = archive::getInstance();
+if (is_array($this->_view_table) && !empty($this->_view_table)) {
+foreach ($this->_view_table as $arr) {
+$news = $archive->getrow($arr['aid']);
+$aurl = $archive->url($news);
+$this->_view_table[$i]['title'] = $news['title'];
+$this->_view_table[$i]['aurl'] = $aurl;
+unset($news);
+$i++;
+}
+}
+//var_dump($this->_view_table);
+$this->view->record_count = $this->_table->record_count;
+}
+
+function invitelist_action()
+{
+$limit = ((front::get('page') - 1) * 20) . ',20';
+$where = "ctname='" . front::$user['username'] . "'";
+$this->_view_table = $this->_table->getrows($where, $limit, '1 desc', $this->_table->getcols('manage'));
+$this->view->record_count = $this->_table->record_count;
+}
+
+function list_action()
+{
+$limit = ((front::get('page') - 1) * 20) . ',20';
+$where = "userid={$this->view->user['userid']}";
+$where .= ' and ' . $this->_table->get_where('user_manage');
+//var_dump($where);
+$this->_view_table = $this->_table->getrows($where, $limit, '1 desc', $this->_table->getcols('manage'));
+$this->view->record_count = $this->_table->record_count;
+}
+function guestlist_action()
+{
+echo '<script type="text/javascript">
+    alert("' . lang('submit_complete_wait_for_audit') . '");
+    window.location.href="' . url::create('/manage/guestadd/manage/archive/guest/1') . '";
+</script>';
+}
+
+function orderslist_action()
+{
+include_once ROOT . '/lib/plugins/pay/wxscanpay.php';
+$limit = ((front::get('page') - 1) * 20) . ',20';
+$where = "mid={$this->view->user['userid']}";
+$this->_view_table = $this->_table->getrows($where, $limit, 'adddate desc', $this->_table->getcols('manage'));
+/*if(is_array($this->_view_table) && !empty($this->_view_table)){
+foreach ($this->_view_table as $arr){
+//var_dump($arr['oid']);
+$oidout = array();
+preg_match("/-(.*)-(.*)-(.*)/is",$arr['oid'], $oidout);
+//var_dump($oidout);
+$paytype = $oidout[3];
+if($paytype == 'wxscanpay') {
+$obj = new $paytype();
+$res = $obj->Queryorder($arr['oid']);
+var_dump($res);
+}
+}
+}*/
+$this->view->record_count = $this->_table->record_count;
+}
+
+function add_action()
+{
+if (front::post('submit') && $this->manage->vaild()) {
+$this->manage->filter();
+$this->manage->save_before();
+front::$post['checked'] = 0;
+front::$post['userid'] = $this->view->user['userid'];
+front::$post['username'] = $this->view->user['username'];
+front::$post['author'] = $this->view->user['username'];
+front::$post['adddate'] = date('Y-m-d H:i:s');
+front::$post['ip'] = front::ip();
+$data = array();
+$fieldlimit = $this->_table->getcols(front::$act == 'list' ? 'user_manage' : 'user_modify');
+$fieldlimits = explode(',', $fieldlimit);
+foreach (front::$post as $key => $value) {
+if (preg_match('/(select|union|and|load_file)/i', $value)) {
+//echo $value;
+exit(lang('illegal_parameter'));
+}
+if (in_array($key, $fieldlimits))
+$data[$key] = $value;
+
+}
+
+
+$data = array_merge($data, front::$post);
+unset($data['template']);
+$insert = $this->_table->rec_insert($data);
+if ($insert < 1) {
+front::flash(lang('record_add_failed'));
+} else {
+front::flash(lang('record_add_success'));
+if ($this->table == 'archive')
+front::redirect(url::create('/manage/list/manage/archive/needcheck/1'));
+}
+}
+chkpwf('add_archive', $this->view->user['groupid']);
+//echo 11;
+$this->_view_table = $this->_table->getrow(null, '1 desc',  $this->_table->getcols('user_modify'));
+$this->_view_table['data'] = array();
+}
+
+function guestadd_action()
+{
+//var_dump($this->view->guestuser);
+if ($this->view->guestuser['userid']) {
+echo '<script type="text/javascript">
+    alert("' . lang('jump_to_member_release_page') . '");
+    window.location.href="' . url::create('/manage/add/manage/archive') . '";
+</script>';
+}
+if (front::post('submit') && $this->manage->vaild()) {
+$this->manage->filter();
+$this->manage->save_before();
+//front::$post['title']=addslashes(front::$post['title']);
+front::$post['checked'] = 0;
+front::$post['userid'] = '-999';
+front::$post['username'] = 'guest';
+front::$post['author'] = 'guest';
+front::$post['adddate'] = date('Y-m-d H:i:s');
+front::$post['ip'] = front::ip();
+$data = array();
+$fieldlimit = $this->_table->getcols(front::$act == 'list' ? 'user_manage' : 'user_modify');
+$fieldlimits = explode(',', $fieldlimit);
+foreach (front::$post as $key => $value) {
+if (in_array($key, $fieldlimits))
+$data[$key] = $value;
+}
+$data = array_merge($data, front::$post);
+$insert = $this->_table->rec_insert($data);
+if ($insert < 1) {
+front::flash(lang('record_add_failed'));
+} else {
+front::flash(lang('record_add_success'));
+if ($this->table == 'archive')
+front::redirect(url::create('/manage/guestlist/manage/archive/needcheck/1/guest/1'));
+}
+}
+//$this->_view_table = $this->_table->getrow(null);
+$this->_view_table['data'] = array();
+}
+
+function edit_action()
+{
+$from = front::$from;
+front::check_type(front::get('id'));
+$this->manage->filter();
+$info = $this->_table->getrow(front::get('id'));
+if ($info['userid'] != $this->view->user['userid']) {
+front::flash(lang('record_change_failed_reason_unauthorized'));
+front::refUrl($from);
+//header("Location: " . $from, TRUE, 302);
+exit;
+}
+if ($info['checked']) {
+front::flash(lang('record_change_failed_reason_it_has_passed_the_audit'));
+front::refUrl($from);
+exit;
+}
+
+if (front::post('submit') && $this->manage->vaild()) {
+$this->manage->save_before();
+$data = array();
+$fieldlimit = $this->_table->getcols(front::$act == 'list' ? 'user_manage' : 'user_modify');
+//var_dump($fieldlimit);
+$fieldlimits = explode(',', $fieldlimit);
+foreach (front::$post as $key => $value) {
+if (preg_match('/(select|union|and|\'|"|\))/i', $value)) {
+exit(lang('illegal_parameter'));
+}
+if (in_array($key, $fieldlimits))
+$data[$key] = $value;
+}
+//var_dump($data);exit;
+$update = $this->_table->rec_update($data, front::get('id'));
+if ($update < 1) {
+front::flash(lang('record_add_failed'));
+} else {
+front::flash(lang('record_add_success'));
+$from = session::get('from');
+session::del('from');
+header("Location: " . $from, TRUE, 302);
+exit;
+}
+}
+if (!session::get('from')) session::set('from', front::$from);
+$this->_view_table = $this->_table->getrow(front::get('id'), '1', $this->_table->getcols('modify'));
+}
+
+function delete_action()
+{
+front::check_type(front::get('id'));
+$row = $this->_table->getrow(array('id' => front::get('id')));
+if ($row['mid'] != $this->view->user['userid']) {
+exit('no_permission');
+}
+$delete = $this->_table->rec_delete(front::get('id'));
+if ($delete) front::flash(lang('delete') . lang('success'));
+front::redirect(url::modify('act/list/manage/' . $this->table));
+}
+
+function view($table)
+{
+$this->view->data = $table['data'];
+$this->view->field = $table['field'];
+}
+
+function end()
+{
+if (!isset($this->_view_table)) return;
+if (!isset($this->_view_table['data']))
+$this->_view_table['data'] = $this->_view_table;
+$this->_view_table['field'] = $this->_table->getFields();
+$this->view->fieldlimit = $this->_table->getcols(front::$act == 'list' ? 'user_manage' : 'user_modify');
+$this->view($this->_view_table);
+manage_form::manage($this);
+if (front::$debug)
+$this->render('style/index.html');
+else
+$this->render();
+}
+}

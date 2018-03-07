@@ -1,19 +1,427 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??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*/
+
+
+final class view
+{
+public $_var;
+public $lang = array();
+
+function __construct(act $act)
+{
+$this->_var = new stdClass();
+if (isset($act->style))
+$this->_style = $act->style;
+$this->setTemplate();
+$this->sysVar();
+//new template();
+templatetag::_getVer();
+}
+
+function setTemplate()
+{
+if (front::$admin && !front::$html) {
+$this->_style = config::get('admin_template_dir') ? config::get('admin_template_dir') : 'admin';
+$this->_tpl_ext = '.php';
+} else {
+$this->_style = ltrim(THIS_URL, '/');
+if (!$this->_style || front::$html) {
+$this->_style = config::get('template_dir');
+}
+if (front::$ismobile) {
+$this->_style = config::get('template_mobile_dir');
+}
+if (front::$case == 'user' || front::$case == 'manage'
+|| front::$case == 'union' || (front::$case == 'archive' && front::$act == 'orders')
+|| (front::$case == 'archive' && front::$act == 'payorders')
+|| (front::$case == 'archive' && front::$act == 'email')
+|| (front::$case == 'archive' && front::$act == 'choosepaytype')
+|| front::$case == 'attachment'
+|| front::$case == 'form'
+) {
+$this->_style = config::get('user_template_dir') ? config::get('user_template_dir') : 'user';
+$this->_style .= '/';
+}
+if (front::$ismobile && (front::$case == 'user' || front::$case == 'manage'
+|| front::$case == 'union' || (front::$case == 'archive' && front::$act == 'orders')
+|| (front::$case == 'archive' && front::$act == 'payorders')
+|| (front::$case == 'archive' && front::$act == 'email')
+|| front::$case == 'attachment')
+) {
+$this->_style = config::get('member_template_dir') ? config::get('member_template_dir') : 'user';
+//$this->_style .= '/wap';
+$this->_style .= '/';
+}
+//var_dump($this->_style);
+$this->_tpl_ext = '.html';
+}
+$this->_tpl = front::$case . '/' . front::$act . $this->_tpl_ext;
+}
+
+function archive_tpl_list($type = '')
+{
+$dir = preg_replace('%\/.*%', '', $type);
+$_tpls = front::scan_all(TEMPLATE . '/' . config::get('template_dir') . '/' . $dir, $dir . '/');
+$tpls = array('0' => '继承');
+foreach ($_tpls as $tpl) {
+if (preg_match('/\.htm(l)?$/', $tpl) && !preg_match('/#/', $tpl)) {
+if ($type)
+if (!preg_match("%^$type%", $tpl))
+continue;
+$_tpl = str_replace('.', '_', $tpl);
+$_tpl = help::tpl_name($_tpl);
+if ($_tpl)
+$_tpl = $_tpl . "($tpl)";
+else
+$_tpl = $tpl;
+$tpls[$tpl] = $_tpl;
+}
+}
+
+return $tpls;
+}
+
+function mobile_tpl_list($type = '')
+{
+$dir = preg_replace('%\/.*%', '', $type);
+$_tpls = front::scan_all(TEMPLATE . '/' . config::get('template_mobile_dir') . '/' . $dir, $dir . '/');
+$tpls = array('0' => '继承');
+foreach ($_tpls as $tpl) {
+if (preg_match('/\.htm(l)?$/', $tpl) && !preg_match('/#/', $tpl)) {
+if ($type)
+if (!preg_match("%^$type%", $tpl))
+continue;
+$_tpl = str_replace('.', '_', $tpl);
+$_tpl = help::tpl_name($_tpl);
+if ($_tpl)
+$_tpl = $_tpl . "($tpl)";
+else
+$_tpl = $tpl;
+$tpls[$tpl] = $_tpl;
+}
+}
+return $tpls;
+}
+
+function user_tpl_list($type = '')
+{
+$dir = preg_replace('%\/.*%', '', $type);
+$_tpls = front::scan_all(TEMPLATE . '/' . config::get('template_user_dir') . '/' . $dir, $dir . '/');
+$tpls = array('0' => '继承');
+foreach ($_tpls as $tpl) {
+if (preg_match('/\.htm(l)?$/', $tpl) && !preg_match('/#/', $tpl)) {
+if ($type)
+if (!preg_match("%^$type%", $tpl))
+continue;
+$_tpl = str_replace('.', '_', $tpl);
+$_tpl = help::tpl_name($_tpl);
+if ($_tpl)
+$_tpl = $_tpl . "($tpl)";
+else
+$_tpl = $tpl;
+$tpls[$tpl] = $_tpl;
+}
+}
+return $tpls;
+}
+
+function show($string, $whole = false)
+{
+return $string;
+}
+
+function default_tpl_list()
+{
+return front::scan(TEMPLATE);
+}
+
+function special_tpl_list()
+{
+$_tpls = front::scan_all(TEMPLATE . '/' . config::get('template_dir') . '/special', 'special/');
+//var_dump($_tpls);
+$tpls = array();
+foreach ($_tpls as $tpl) {
+if (preg_match('/\.htm(l)?$/', $tpl) && !preg_match('/#/', $tpl)) {
+$_tpl = str_replace('.', '_', $tpl);
+$_tpl = help::tpl_name($_tpl);
+if ($_tpl)
+$_tpl = $_tpl . "($tpl)";
+else
+$_tpl = $tpl;
+$tpls[$tpl] = $_tpl;
+}
+}
+return $tpls;
+}
+
+function myform_tpl_list()
+{
+$_tpls = front::scan_all(TEMPLATE . '/' . config::get('user_template_dir') . '/myform', 'myform/');
+$tpls = array();
+foreach ($_tpls as $tpl) {
+if (preg_match('/\.htm(l)?$/', $tpl) && !preg_match('/#/', $tpl)) {
+$_tpl = str_replace('.', '_', $tpl);
+$_tpl = help::tpl_name($_tpl);
+if ($_tpl)
+$_tpl = $_tpl . "($tpl)";
+else
+$_tpl = $tpl;
+$tpls[$tpl] = $_tpl;
+}
+}
+return $tpls;
+}
+
+function sysVar()
+{
+$this->base_url = config::get('base_url');
+$this->skin_path = $this->base_url . '/template/' . $this->_style . '/skin';
+$this->skin_url = $this->skin_path;
+$this->template_path = $this->base_url . '/template/' . $this->_style . '';
+$this->admin_url = config::get('base_url') . '/index.php?admin_dir=' . config::get('admin_dir');
+$this->roles = session::get('roles');
+}
+
+function fetch($tpl = null)
+{
+if (!$tpl && get('spid') && front::$case == 'table' && front::$act == 'list') {
+$_tpl = 'table/special/manage.php';
+$tpl = $_tpl;
+}
+if (!$tpl && get('spid') && front::$case == 'table' && front::$act == 'list') {
+$_tpl = 'table/spider/manage.php';
+$tpl = $_tpl;
+}
+
+if (front::$case == 'user' && !$tpl) {
+$_tpl = front::$act . '.html';
+$tpl = $_tpl;
+}
+
+if (front::$case == 'table' && !$tpl && preg_match('/^(htmlrule|import|viewcnzz|send|mail|list|add|edit|setting|show|manage)$/', front::$act) && front::get('table') && front::$admin && preg_match('/^my_/',
+front::get('table'))
+) {
+$_tpl = 'myform/' . front::$act . '.php';
+$tpl = $_tpl;
+} elseif (front::$case == 'table' && !$tpl && preg_match('/^(htmlrule|import|viewcnzz|send|mail|list|add|edit|setting|show|manage)$/', front::$act) && front::get('table') && front::$admin) {
+if (front::$get['table'] == 'category' && front::$act == 'list') {
+if (!chkpower('category_list')) {
+return '无权限操作';
+}
+}
+if (front::$get['table'] == 'archive' && front::$act == 'list') {
+if (!chkpower('archive_list')) {
+return '无权限操作';
+}
+}
+if (front::$get['table'] == 'type' && front::$act == 'list') {
+if (!chkpower('type_list')) {
+return '无权限操作';
+}
+}
+if (front::$get['table'] == 'special' && front::$act == 'list') {
+if (!chkpower('special_list')) {
+return '无权限操作';
+}
+}
+if (front::$get['table'] == 'user' && front::$act == 'list') {
+if (!chkpower('user_list')) {
+return '无权限操作';
+}
+}
+if (front::$get['table'] == 'usergroup' && front::$act == 'list') {
+if (!chkpower('usergroup_list')) {
+return '无权限操作';
+}
+}
+if (front::$get['table'] == 'orders' && front::$act == 'list') {
+if (!chkpower('order_list')) {
+return '无权限操作';
+}
+}
+if (front::$get['table'] == 'ballot' && front::$act == 'list') {
+if (!chkpower('func_ballot_list')) {
+return '无权限操作';
+}
+}
+if (front::$get['table'] == 'comment' && front::$act == 'list') {
+if (!chkpower('func_comment_list')) {
+return '无权限操作';
+}
+}
+if (front::$get['table'] == 'guestbook' && front::$act == 'list') {
+if (!chkpower('func_book_list')) {
+return '无权限操作';
+}
+}
+if (front::$get['table'] == 'announcement' && front::$act == 'list') {
+if (!chkpower('func_announc_list')) {
+return '无权限操作';
+}
+}
+if ($this->table == 'templatetag' && front::get('tagfrom') == 'define' && front::$act == 'list') {
+if (!chkpower('templatetag_list_define')) {
+return '无权限操作';
+}
+}
+if ($this->table == 'templatetag' && front::get('tagfrom') == 'category' && front::$act == 'list') {
+if (!chkpower('templatetag_list_category')) {
+return '无权限操作';
+}
+}
+if ($this->table == 'templatetag' && front::get('tagfrom') == 'content' && front::$act == 'list') {
+if (!chkpower('templatetag_list_content')) {
+return '无权限操作';
+}
+}
+if ($this->table == 'templatetag' && front::get('tagfrom') == 'system' && front::$act == 'list') {
+if (!chkpower('templatetag_list_system')) {
+return '无权限操作';
+}
+}
+if ($this->table == 'templatetag' && front::get('tagfrom') == 'function' && front::$act == 'list') {
+if (!chkpower('templatetag_list_function')) {
+return '无权限操作';
+}
+}
+if (front::$get['table'] == 'linkword' && front::$act == 'list') {
+if (!chkpower('seo_linkword_list')) {
+return '无权限操作';
+}
+}
+if (front::$get['table'] == 'friendlink' && front::$act == 'list') {
+if (!chkpower('seo_friendlink_list')) {
+return '无权限操作';
+}
+}
+
+$_tpl = 'table/' . front::get('table') . '/' . front::$act . '.php';
+if (file_exists(TEMPLATE . '/' . $this->_style . '/' . $_tpl)) {
+$tpl = $_tpl;
+}
+} elseif (front::$case == 'stats' && !$tpl && front::get('table') == 'stats' && front::$act == 'list') {
+if (!chkpower('seo_status_list')) {
+return '无权限操作';
+}
+} elseif (front::$case == 'field' && !$tpl && front::get('table') == 'archive' && front::$act == 'list') {
+if (!chkpower('defined_field_content')) {
+return '无权限操作';
+}
+}
+
+if (!isset($tpl))
+$tpl = $this->_tpl;
+
+if($tpl == 'message/error.html'){
+$file = TEMPLATE . '/' . 'user/'.$tpl;
+}else if($tpl == 'system/close.html'){
+$file = TEMPLATE.'/user/'.$tpl;
+}else if($tpl == 'system/suspend.html'){
+$file = TEMPLATE.'/user/'.$tpl;
+}else {
+$file = TEMPLATE . '/' . $this->_style . '/' . $tpl;
+}
+//var_dump($this->_style);
+if (!file_exists($file)) {
+exit("模板不存在：$file");
+}
+$tFile = preg_replace('/([\w-]+)\.(\w+)$/', '#$1.$2', preg_replace('/\.html?$/ix', '.php', $tpl));
+$cacheFile = ROOT . '/cache/template/' . $this->_style . '/' . $tFile;
+tool::mkdir(dirname($cacheFile));
+
+if (!file_exists($cacheFile) || filemtime($cacheFile) < filemtime($file) || front::$admin && !session::get('passinfo')) {
+$source = $this->compile(file_get_contents($file));
+file_put_contents($cacheFile, $source);
+} else {
+$source = file_get_contents($cacheFile);
+}
+$content = $this->_eval($source, $cacheFile);
+
+if (front::$admin)
+return $this->show($content);
+$rs = config::get('filter_word');
+$rs1 = config::get('filter_x');
+$rs = str_replace('，', ',', $rs);
+$rs1 = str_replace('，', ',', $rs1);
+$rs = explode(',', $rs);
+if (is_array($rs)) {
+foreach ($rs as $k => $v) {
+if (strtolower($v) == 'cmseasy') {
+$rs[$k] = 'liuliwei';
+}
+}
+}
+$rs1 = explode(',', $rs1);
+$content = str_replace($rs, $rs1, $content);
+/*if (is_array($rs))
+foreach ($rs as $rp) {
+if ($rp)
+$content=str_replace(trim($rp),config::get('filter_x'),$content);
+}*/
+return $this->show($content);
+}
+
+function render($tpl = null)
+{
+echo $this->fetch($tpl);
+}
+
+function _eval($content, $file = null)
+{
+foreach ($this as $var => $value) if (!preg_match('/^_/', $var))
+$$var = $value;
+if (is_object($this->_var))
+foreach ($this->_var as $var => $value) $$var = $value;
+ob_start();
+if ($file)
+include $file;
+else
+eval('?' . '>' . trim($content));
+$content = ob_get_contents();
+ob_end_clean();
+$this->_var = new stdClass();
+return $content;
+}
+
+function compile($source)
+{
+$source = admin_system::_pcompile_($source);
+if (front::$act == 'visual') {
+$source = preg_replace('/(\{tag_([^}]+)\})/se', " '<span class=tagedit tagid='.templatetag::id('$2').'>$1</span>' ", $source);
+$source = preg_replace('/(\{js_([^}]+)\})/se', " '<span class=tagedit tagid='.templatetag::id('$2').'>$1</span>' ", $source);
+$source = preg_replace('/(\{tagwap_([^}]+)\})/se', " '<span class=tagedit tagid='.templatetagwap::id('$2').'>$1</span>' ", $source);
+$source = preg_replace('/(\{jswap_([^}]+)\})/se', " '<span class=tagedit tagid='.templatetagwap::id('$2').'>$1</span>' ", $source);
+} else {
+$source = preg_replace('/\{tag_([^}]+)\}/s', '{templatetag::tag(\'$1\')}', $source);
+$source = preg_replace('/\{js_([^}]+)\}/s', '{templatetag::js(\'$1\')}', $source);
+$source = preg_replace('/\{tagwap_([^}]+)\}/s', '{templatetagwap::tag(\'$1\')}', $source);
+$source = preg_replace('/\{jswap_([^}]+)\}/s', '{templatetagwap::js(\'$1\')}', $source);
+}
+$source = preg_replace("/([\n\r]+)\t+/s", "\\1", $source);
+$source = preg_replace("%\/\/\{(.+?)\}%", "", $source);
+$source = preg_replace("/\{template\s+(.+)\}/", "<?php echo template(\\1); ?>", $source);
+$source = preg_replace("/\{=(.+?)\}/", "<?php echo \\1;?>", $source);
+$source = preg_replace("/\{([a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff:]*\(([^{}]*)\))\}/", "<?php echo \\1;?>", $source);
+$source = preg_replace("/\{\\$([a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff:]*\(([^{}]*)\))\}/", "<?php echo \\1;?>", $source);
+$source = preg_replace("/\{(\\$[a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*)\}/", "<?php echo \\1;?>", $source);
+$source = preg_replace_callback("/\{(\\$[a-zA-Z0-9_\[\]\'\"\$\x7f-\xff]+)\}/s", array($this, 'addquote'), $source);
+$source = preg_replace("/\{([A-Z_\x7f-\xff][A-Z0-9_\x7f-\xff]*)\}/s", "<?php echo \\1;?>", $source);
+$source = preg_replace("/\{\\$([a-zA-Z_]+)\.([a-zA-Z_]+)\}/s", "<?php echo \$\\1['\\2'];?>", $source);
+$source = preg_replace("/\{\\$([a-zA-Z_]+)\.(\\$[a-zA-Z_]+)\}/s", "<?php echo \$\\1[\\2];?>", $source);
+$source = preg_replace("/\{\\$([a-zA-Z_]+)\.(\\$[a-zA-Z_]+)\.([a-zA-Z_]+)\}/s", "<?php echo \$\\1[\\2]['\\3'];?>", $source);
+$source = preg_replace('/\{(\\$[a-zA-Z_]+)\.(\\$[a-zA-Z_]+)\|([^,}]+)(.*?)\}/i', '<?php echo \\3(\\1[\\2]\\4);?>', $source);
+$source = preg_replace('/\{(\\$[a-zA-Z_]+)\.([a-zA-Z_]+)\|([^,}]+)(.*?)\}/i', "<?php echo \\3(\\1['\\2']\\4);?>", $source);
+$source = preg_replace('/\{(\\$[a-zA-Z_]+)\|([^,}]+)(.*?)\}/i', "<?php echo \\2(\\1\\3);?>", $source);
+$source = preg_replace("/\\$([a-zA-Z0-9_]+)\[([a-zA-Z0-9_]+)\]/s", "\$\\1['\\2']", $source);
+$source = "<?php defined('ROOT') or exit('Can\'t Access !'); ?>\r\n" . $source;
+return $source;
+}
+
+function addquote($var)
+{
+
+$str = "<?php echo " . str_replace("\\\"", "\"", preg_replace("/\[([a-zA-Z0-9_\-\.\x7f-\xff]+)\]/s", "['\\1']", $var[1])) . ";?>";
+        //var_dump($str);
+        //exit;
+        return $str;
+    }
+}

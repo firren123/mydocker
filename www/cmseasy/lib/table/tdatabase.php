@@ -1,19 +1,180 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??7VhbT+NGFH5H4j8MViTbkOBQUR4SQgW72W4kmlQhvSlQ48QTYq0vYWa8QFd5rir1sS/tW5/6H6r+nVbtU/9Cz4zvzjhLW3a7lbBA2DPnMvOdM985w+bG5sbUtShFzLaYNbEoRviWYd+GEWvi4s2NV5sbCB7KLOZMUc3x4c2f4vbmRjSxCCcuTMTzs9CfMifw0RVmvVhU0yPJ2BJ/nBnSKHZnrVZqEHU6yA9dV8/L8acWLbDDTZriXdPbRZEVU8jHN7FiQXiZvRLMQuKXVWPZZbK7/H5GHBAq2Y1hvLSIaYfeQquxuUPzHmvTwJ85V7Ck6KXVAkuamqCtFmQXBM+cW5CNtcZqNKJetPPYaek0u1tg9YJDpy7sgF67DgOTKwiS4IYDKBbXOCJ4al6HmNxpCuweTxnaRjMSeCjSNz2LMkzQzRwTjLiHjipyQVXKuNfEODdtEWLdrcRlFhBsTedatACLipXopdUl+bAFe70C5wwUFOPLGAxDqQutsepbHuxV11e1+QOIMMcPcXt1Olpl5SIzkcQHhyrnslKejoWoeC8JLYufcbLFavmExC7F9w/XPLiJzqU4byGN4napoN0sZdLUuoBR5fK/DVr/7Qetvz5oY3UahD7LKQxhn2sVqPNV3sFTANh0sX/F5m84OeQUw+Oit/Gtw1ISFiLbN3MHIBMC4Nq74+fZnGGIjQlDseIqO6SsI2eoOkpYqByEeyRAUxr7iri/JubyeDfLIagI836VXDG6B3Kximiu1pMkittGVSWxQhacWC+ianJiXckqCoVSxxwPm67jOUxrFqpEen5jgsiVJqmYQNOcBq750nJDEIunILACyoLWBBYEgIDaXn545ojAQFJgTf2i4TXsxvOG04Bas4toOKGMaDxZDvZN7E8DG2ue/b7Gd6BxCWL5ttaso72meHRdryP4PCh4NhcWm4OP4WAw4sxl8Aw0hGcDMrkhSI5/5ZRYELitlvfCdogGv3w7WmxoF6m70Mqo+ioo/BiBI1UtVFWkOdSMMi8GqJy6MTOiZF6Qo3hdOVQlZ7sdpDwdDj5Go+OT0y7qPUPdz3tnozN0GQldts99RUYlU/DIsPQ0R8GPK8PZ88Fn6Mmwezzqxj4Sy0jRpeQZWTYhcqLfEF/jPRmfcWigzvis1VoEFKhBrGVfrWL1omnBDwQvXAs6QdXo9j/s9bud3Z0PaganFvjNyVfTfAJj3jgkiQS3ZTGbS5n8JuJcrNdJRLqn3ScjaK2eDQcf5aMh26IfejMHuzbNIg1DZjSWML5cL3ae0+Ij1Tr/rEhksQ08zwJFRZauq+FSev2z7nCEev3RIAPh0+PTT7pnWpUJwB8W6ICXZhtuHOgwBxAf2NmpXB9/SrVyXHMuZEDIFxxvEFJL5YRj2TaFW8Qc08xWNLnGYm4BMv21i0nxrVd5WN4Ld72CUfgjbl+MQAujZVo6OsrYfxuo+r39+M9asDkhm4sQbmZAENhnNMe/DZVTNj+DnIwh0fhhzxyugwGUdnbuF7QSkb8GKslQCbm1jMKhy22hxBv/GovVboFgyoCO4gIv6t/fbBfSi310K04v+sVuAVYkiAukxDbEZTvdhnBbYtGtVKcEQ9QJVRiHvEurgXJOoE9UeK+Ymiqp0aSC0AXcTRG0mO0xOmcXr5r15blvOLRS2ceEPIFOpMxVMa9kAxnbC3+c669Xm+Rr0GLE8TSYlLTBfJ47kp6VinZ3KTGTBCcpI+BNUmU5BZaM8XukrEAkKPDM/u2bn37/8ds/f/kBHc5gSbAuNyAddQJNoXpUuz40+OgR+vXrn//47vut+PNwQo7y+C2rMnXyID1todGI/j1R1aAWRONhtZylqfwh2ish+VZ63cdm97HZfcea3XL4Htvdyg6n1EpWtSz/h6744dvcx1412sy72qtW/PtQuqmH7GulbS38/AU=*/
+
+
+class tdatabase extends table
+{
+    static $instance;
+
+    public static function getInstance()
+    {
+        if (self::$instance == null) {
+            $class = get_class();
+            self::$instance = new $class();
+        }
+        return self::$instance;
+    }
+
+    function getTables()
+    {
+        //var_dump($this);
+        $config = config::get('database');
+        $prefix = $config['prefix'];
+        if($config['type'] == 'pdosqlite') {
+            $rows = $this->rec_query("select * from sqlite_master where type='table'");
+            $tables = array();
+            foreach($rows as $row){
+                if (!preg_match("/^$prefix/", $row['name']))
+                    continue;
+                $table = array();
+                $table['name'] = $row['name'];
+                $tables[] = $table;
+            }
+            return $tables;
+        }else{
+            $rows = $this->rec_query("show table status from `" . $config['database'] . "`");
+            $tables = array();
+            foreach($rows as $row){
+                if (!preg_match("/^$prefix/", $row['Name']))
+                    continue;
+                $table = array();
+                $table['name'] = $row['Name'];
+                $table['count'] = $row['Rows'];
+                $table['size'] = $row['Data_length'];
+                $tables[] = $table;
+            }
+            return $tables;
+        }
+        //var_dump($rows);exit;
+
+        /*while ($row = mysqli_fetch_row($rows)) {
+            $prefix = config::get('database', 'prefix');
+            if (!preg_match("/^$prefix/", $row[0]))
+                continue;
+            $table = array();
+            $table['name'] = $row[0];
+            $table['count'] = $row[4];
+            $table['size'] = $row[6];
+            $tables[] = $table;
+        }
+        return $tables;*/
+    }
+
+    function autoBakTablesBags()
+    {
+        set_time_limit(0);
+        $tables = $this->getTables();
+        $tables = array_col_values($tables, 'name');
+        $bagsize = 1;
+        $file = date('Y-m-d-H-i-') . substr(base64_encode(md5(time() . rand(0, 1000000))), 0, 6);
+        $_path = ROOT . "/data/$file/sql-" . $file;
+        tool::mkdir(dirname($_path . '.ext'));
+        $tabledump = '';
+        if (is_array($tables))
+            foreach ($tables as $table) {
+                $tabledump .= "DROP TABLE IF EXISTS `$table`;\n";
+                $create = mysqli_fetch_row($this->query("SHOW CREATE TABLE `$table` "));
+                $create_str = $create[1];
+                if (front::post('mysql4'))
+                    $create_str = preg_replace('/ENGINE=.+?$/', '', $create_str);
+                $tabledump .= $create_str . ";\n";
+            }
+        $bag = 1;
+        if (is_array($tables))
+            foreach ($tables as $table) {
+                $rows = $this->query("SELECT * FROM `$table` ");
+                $numfields = mysqli_num_fields($rows);
+                $numrows = mysqli_num_rows($rows);
+                while ($row = mysqli_fetch_row($rows)) {
+                    $comma = "";
+                    $tabledump .= "INSERT INTO `$table` VALUES(";
+                    for ($i = 0; $i < $numfields; $i++) {
+                        //var_dump($row[$i]);
+                        $tabledump .= $comma . "'" . addslashes($row[$i]) . "'";
+                        //var_dump(addslashes($row[$i]));
+                        $comma = ",";
+                    }
+                    $tabledump .= ");\n";
+                    if (strlen($tabledump) > $bagsize * 1024 * 1024) {
+                        file_put_contents($_path . '-' . $bag . '.sql', $tabledump);
+                        $bag++;
+                        $tabledump = '';
+                    }
+                }
+                $tabledump .= "\n";
+            }
+        if ($tabledump)
+            file_put_contents($_path . '-' . $bag . '.sql', $tabledump);
+    }
+
+    function restoreTables($file)
+    {
+        set_time_limit(0);
+        $database = new tdatabase();
+        $sqlquery = file_get_contents($file);
+        if (!$sqlquery)
+            return;
+        $sqlquery = str_replace("\r", "", $sqlquery);
+        $sqls = preg_split ("/;[ \t]{0,}\n/is", $sqlquery);
+        $nerrCode = "";
+        $i = 0;
+        foreach ($sqls as $q) {
+            $q = trim($q);
+            if ($q == "") {
+                continue;
+            }
+            if ($database->query($q))
+                $i++;
+            else
+                $nerrCode .= "执行： <font color='blue'>$q</font> 出错!</font><br>";
+        }
+    }
+
+    function bakTablesBags()
+    {
+        set_time_limit(0);
+        $tables = front::post('select');
+        $bagsize = front::post('bagsize');
+        if ($bagsize < 1)
+            $bagsize = 1;
+        $file = date('Y-m-d-H-i-') . substr(base64_encode(md5(time() . rand(0, 10000000))), 0, 6);
+        $_path = ROOT . "/data/$file/sql-" . $file;
+        tool::mkdir(dirname($_path . '.ext'));
+        $tabledump = '';
+        if (is_array($tables))
+            foreach ($tables as $table) {
+                $tabledump .= "DROP TABLE IF EXISTS `$table`;\n";
+                $create = mysqli_fetch_row($this->query("SHOW CREATE TABLE `$table` "));
+                $create_str = $create[1];
+                if (front::post('mysql4'))
+                    $create_str = preg_replace('/ENGINE=.+?$/', '', $create_str);
+                $tabledump .= $create_str . ";\n";
+            }
+        $bag = 1;
+        if (is_array($tables)) {
+            foreach ($tables as $table) {
+                $rows = $this->query("SELECT * FROM `$table` ");
+                $numfields = mysqli_num_fields($rows);
+                $numrows = mysqli_num_rows($rows);
+                while ($row = mysqli_fetch_row($rows)) {
+                    //var_dump($row);
+                    $comma = "";
+                    $tabledump .= "INSERT INTO `$table` VALUES(";
+                    for ($i = 0; $i < $numfields; $i++) {
+                        $tabledump .= $comma . "'" . addslashes($row[$i]) . "'";
+                        $comma = ",";
+                    }
+                    $tabledump .= ");\n";
+                    if (strlen($tabledump) > $bagsize * 1024 * 1024) {
+                        file_put_contents($_path . '-' . $bag . '.sql', $tabledump);
+                        $bag++;
+                        $tabledump = '';
+                    }
+                }
+                $tabledump .= "\n";
+            }
+        }
+        //var_dump($tabledump);
+        if ($tabledump)
+            file_put_contents($_path . '-' . $bag . '.sql',$tabledump);
+    }
+}

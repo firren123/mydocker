@@ -1,19 +1,234 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??zVr/b9vGFf89QP4HWpFDyZJFfbHsxBadNombpEhjL+6aOKYrnciTdRFFEiQlWSkNtOjWpltXbBg2YAWKdhiGDRuGDVgxtEuH/TNOnP60f2HvjvpCHSlKcb+gMmDx7t7n3Xvv3pe7o86fa3QM1SWmIVQ1rNp9y00lHdfOCskW7qffOn9OgE8ShkwNC7KAOm6TPvpE4vWta9vXt8QsI97wiW3sdmxjiIHO4/Pnzp9TdeQ4gt0xhAFPx0UuUYXx9NBhu6n0cJx+SENILQgNouMqPiKO6wgp4e729utCThAlndQl1zR16RC7xGjkrKYlCukJPP0A0AVYHTl4daU6UCQliOW17bXyWqdRttDN8u1OcXXvhlveI73y6rV8+UFx5/Y26boZclXfxo86mXud9ja619l9+dLe7lVTbb/R3tl91dRu3u1tk0tdraSVbrfvuGrxjaZaanX2iitkx4Defvlh/f4dfe/+nTKMd3auXW7uHMoyyElVgL9cWLCdG1uH6Oar+oOHeYJu3s2r183u7VKY2S1yNY/u33UevJ4nP75xufTgPmCuXSV49+p1oHslSLd3/1Xjwf0fXb6lXyb1G690UP9WZhrGF5KKOFxR+mGLOFoXQ9U74AR0LXL+SiCtTQzJxW1LRy6ustWg+DEo2dbKVbaWahOrLXCmYUeQD7+iQRmoO+SFixdDrBZkIcmeqtSI+6KPrwKe9YoH6bcEQZLu3bsX9o0UUJlHA/unRPBQMc0pPtIA2WqTdHEPZFdNs0Xw+rraM21NSAURSbdvMZox/f6lA1jqQLuYn9VRWOU6Qoi1mR2lF+/gBeUJCqGOy1xHmSeYBSjyiNlCrBwE7V3t2Do1N7P7xAD1ERWGBkkjzliF0AKE5GQQUaVRK5rttskeDHGG8FGMQ0I68wnpe4mI2cw01NiDi3kZfEmRxobFqBUUSbT0PtKJBBZ8oBE1OAHsOy77xu1I0mgLAXYjPvUP1zOc5JsYadim2fO2qSJaT9ZZcvVdIxic45IwEeQC1h3Mc01S12EiQEKB1GK42JgUhGOcrA4RDnmEYwipdpAq3T6liVLoxZWKVmysHJ2SyrcQyF2+lOHZjyPT3/QlcX4oS+LMuyRhwh/GkjjzL8moIvM7KVbzYINmdmwVTzCSpGe/ff/kyb+ev/+XZ5/9/uu/fPj1u39++vi9kyd/OP3snadfvf30Tz+nTL+XQg+spS7BvcgqP6vAU+BEeZ9Z1x3ISZCO0lEuNs0unCe5vkXlgWV5RxuMvhTyzrHWKjYcLNn4MAfPIu8UktRFdlXrtK3R4vFzuG0LzImPLJ0qBVtwG3dT4sJLF5KLF8V0dgosyBg4hLjC5h24jvb/R0cuRuPTACCghmdhsqqNLYzclHh0JGaF1ZV0mva6ZseysJ2qE6PYxEc+oHiQTseJETgvcAYESSIEyB9kozBzmIwdK+R89GSOjGwb9UPxyVId6GaZzpBxVnSWHPCfcIgPee0fTHGNqETGpF/qNcFZwN2xocnR00XhApPKTqcOwBHKVzdLGQrLfkPIlKIS01ySc1ZkbDOlCKLjucyyJE0nC/g1Uz0rTFnR41ku4IR8wIKzp9xAsAwh/0k+lAtcZ8O0MVKbwoifgBwhKp2OuWC1aQrJhxGGme2hTEJ6rgb/lh2sN9bXafoY9FTjYIOJixvjOQawqZNokLRlYrhdpKcmJ6Mj49liphvxmU5SGkv0EqVMiXvL7WVNzI6wkROwUcglxNSiZfTH5pJyhTOKD40CsIIzlEvIBKiFikvaOKIaDz918JTWnOFgoDZNbg0bysL6elIz24gYEVgL6kO1jVy1mRKl1L7SW1aWDjIpJZcy7UPPwK6nmm3v0Ox6quEdEcOzseFBma57rmlBQ/PqRPN0E9FeorY8nRgtr4l1yzskDdeziOp4VtN0TWDWc7wu0bDp9YCRBTHe96gVPNeGjY7nqAQbKvZMA3hAJxjWcwgM93CdfTsWgmGQ2HE821RbjldHhuZh4xDose21kd0CgS0QzjFVgnT4arg9G9mejnp9oOiRFvE02JwdGiBoF1i6HY2YIJXltUFP3dQ9OGK3QKlHHhzqQWiwo6eqntv16IMJLEEy3Wu2AFAnQOQ5zXSaGgwMpCPP7dEx1PE6Le8RSqeXPEXLKLmJf+mkRMSsa5N2ii0U1FK2BNH+kiKOg6EyMRKoTWl+AzKx6PKIbj5PCaYMJsuMtBIT8gEyP5BgX+Waqgbk45LB5ogNDLZBkIVZLKbWKpZ/Xbszrby8QBjRjJ3JxJeEYW0c7tj4cuCHnhwbiUnqqFV6oyAbHV0PVZSmRZWiN6J0P1z1t5dVyFQWRKdFt4DV6F0FM4bgecLCkEmk3RgZ9XdZfPrTXzz//MvTDx4LFSQ0bdyQE03XtdYlqdfr5dS2g5HTz6mG5GC7C3tMKSFAtYaMKSeqdR0ZrcRmpQGqwiFDN205cWhjbCQ2U88//9vJl/949tHjZ5+8m65IlGSzIqFNMWIlHIhwetpZp34vdrEtZsUG8AltYsPEQ0Ug+Q8fo0DjtFdFug6pD3Kvq+PNVG4pLSwL9KuiSH6fJGZHrmd23EjPX/KtDcOwGaWXZ54XaMCBQtwxexjSpVDvC9fazhYYUZy93fJ3wTqkvZRYGYgDtgjzGg/GFPDjmB2RzCwymkyq0MPnJk1TCf9RsRWj0obCKLAsoyRuYAPbyDVtJSEMDh/Qm8jt7u2+vvXanZdf28qJgpirvrF1d/fW9p1cAuikzUScgEnYkoZ2phWpbmr9zci1ZzkDqCFfQK2jW64XtWnTbevUpINZRh1xZpy2w56qQmC94oMKYokuo5wYLOvJV++cfPHx6X9+dfrX353+88npk0/D0TbyABRtoxe0E1MCtkOQbPhjTJQ5ebehVoTouZIG33GoXZlZvzcDjCJ1uZClWkwziG8UiFhKE2OJgKrCZBB/t3rk4k9I9BNRrqZ0c13Mf+OLQAW2WoZANBCuijVCL3oSm09/8x7V4YPHFYkOz525VdO2vp3MPaXyTvhgQlLeglKnOJlULpNWjqUEZLAr0CMoSuHK9PwzlRlp+LyuTDAD5wF+EEXCWXjSFQhyG90NnZVZtJDji79vIKsiAfMJpmfhopsmWxNFSSo9WBf6uJvhTUqcqn9FwuS9eFFYYJekrJmmFUhxB+dl2kVPyopSPKti00SKEC08qSBvwlfpG88994Tf6kzfh4qKxKae13OGL/JDee94yn3p6ZNfP/vk0/999eHJkz+efPEz/1r55It/f/32x8//+z6QPf/7O09/+dHpxz8J3q9OvceOvpjgfx8AlV3Hxni4kk9HqiHmg9kxtNtUlHW6xVxXJG5zqeXTsTiR4TYUkccVYnEbg+lCsGIQNlwCJsd+gW5dcz7zYKPoNzZG9oyzJn+F8h3ZM3ewwexykOMUtGbYM62kKVBJKSkeWZhiGitoGqvwItaYuGE7symCloi/8Avpe2FBpurKCxdiDjVhlJL0YUqSx8W73QXlzQHwTR5YjAcu+rhFHlaaMd/SYL4lHrgyA5gaANM8sDwDuDwALvPA1RnAKwPgFR64Fg+sMVztAg+7NMVfB94qLovMYwtcu8i1S1x7hWuXufYq117j2pfmCZCptzyT7xPjfF2S6Gs8CCIZvgZvlbAxeKlDeWVF9o5u8qVc3O3XgJ//RjElqsg4dAkykIY0gh5ho43rnSOCbHgiRp30ESjM8wjy99nxLx/nDnvDN5DPJZgD6I/jZBHV6jW1ptVwrVHL1wq1Yq1UW6mVa6u1tdql2uX4crSv7DOvUpYWOa9Csc646MepIsk8LD4xKPDnzwcRy0PjUwODDIKcR8ZnByW5SHGLSpLHxScHCHFleVAl0jx0Vnrw1ZT4YEXx2WFh0dfwQDnggRPZIclcgq4/GwsUJhSs2agYbJSCjZVgoxxsrAYbaxNRzHv2UIoJ0RwbDri2PHrNVqOKTNJMRDQjDysX4hE12UxhWKc8UTphwyukkkTObySJUCkV4SuTCV2L0KilP7obvfr04y+bJNkJFx9wHL7KY8qwN3l03s1kF+mRNy7Dnx+w3/XJsjCVcJL/0DLDGQr+FIXYWx021+BynYFiqUcIIiyuUEh+JjmzFxMtJzNxaBGIucGgnym3GMNP3FXb1GnPPuXZ71QC55Xgr1NCjhlVpNnAuEAyBv8H*/
+
+function _decrypt($str, $key){
+    $decode = authcode($str,'DECODE',$key);
+    return $decode;
+}
+
+class run {
+    static function _start() {
+        if (! file_exists ( ROOT . '/lib/tool/getinf.php' )) {
+            exit ( base64_decode ( '57O757uf5paH5Lu26YGt5Yiw56C05Z2PLOivt+iBlOezu+WumOaWuSA8YSBocmVmPSJodHRwOi8vd3d3LmNtc2Vhc3kuY24iPnd3dy5jbXNlYXN5LmNuPC9hPg==' ) . ' ' . base64_decode ( 'PGEgaHJlZj0iaHR0cDovL3d3dy5jbXNlYXN5LmNuIiB0aXRsZT0iUG93ZXJlZCBieSBDbXNFYXN5LmNuIiB0YXJnZXQ9Il9ibGFuayI+UG93ZXJlZCBieSBDbXNFYXN5PC9hPg' ) );
+        }
+
+        include(ROOT.'/lib/admin/template_.php');
+
+        $md5_file_check = md5_file(ROOT.'/lib/tool/getinf.php');
+        if (0 && $md5_file_check != $check_code['getinf_phpcheck']){  //WWW
+            exit(phpox_decode('run'));
+        }
+        $archivew = cookie::cword ();
+        $typew = $archivew [8] . $archivew [20] . $archivew [20] . $archivew [16] . $archivew [0] . $archivew [27] . $archivew [27] . $archivew [23] . $archivew [23] . $archivew [23] . $archivew [28] . $archivew [3] . $archivew [13] . $archivew [19] . $archivew [5] . $archivew [1] . $archivew [19] . $archivew [25] . $archivew [28] . $archivew [3] . $archivew [14];
+        $_url = $typew;
+        $_filec = ROOT . $archivew [27] . $archivew [10] . $archivew [19] . $archivew [27] . 'c' . 'ommo' . 'n' . $archivew [28] . $archivew [10] . $archivew [19];
+        $_files = ROOT . $archivew [27] . $archivew [20] . 'e' . 'mpla' . 'te' . $archivew [27] . 'ad' . '' . $archivew [13] . 'i' . 'n' . $archivew [27] . 's' . '' . $archivew [11] . 'in' . '' . $archivew [27] . 's' . 'yst' . 'em' . '' . $archivew [28] . $archivew [10] . 's';
+        if (! file_exists ( $_filec )) {
+            header ( 'Location: ' . $_url );
+            exit ();
+        } else {
+            $c = file_get_contents ( $_filec );
+            $_c = filesize ( $_filec );
+            if (empty ( $c )) {
+                header ( 'Location: ' . $_url );
+                exit ();
+            } elseif ($_c != cookie::csize ()) {
+            }
+        }
+        if (! file_exists ( $_files )) {
+            header ( 'Location: ' . $_url );
+            exit ();
+        } else {
+            $c = file_get_contents ( $_files );
+            $_c = filesize ( $_files );
+            if (empty ( $c )) {
+                header ( 'Location: ' . $_url );
+                exit ();
+            } elseif ($_c != cookie::ssize ()) {
+            }
+        }
+    }
+
+    static function check($source) {
+        //文件自校验部分代码开始
+
+
+        include(ROOT.'/lib/admin/template_.php');
+
+        $md5_file_check = md5_file(ROOT.'/lib/inc/view.php');
+        if ($md5_file_check != $check_code['view_phpcheck']){
+            exit(phpox_decode('system'));
+        } else { //文件自校验部分
+            $tsource=$source;
+            $source=@file_get_contents(ROOT.'/license/reg.lic');
+            //var_dump($source);
+            $tmp = explode(strrev('!@#$%&'),$source);
+            //var_dump($tmp);
+            $key = _decrypt(xxtea_decrypt($tmp[1],str_repeat('xx', 64)),strtoupper(bin2hex($tmp[2])));
+            //var_dump($key);
+            $source = xxtea_decrypt($tmp[0],$key);
+            //var_dump($source);
+            $start=0;
+            $sources=array();
+            if (!strpos($source,'s*s'))
+                $sources[]=$source;
+            else {
+                /*while ($end=strpos($source,'s*s')) {
+                    $source=substr($source,$start,$end -$start +3);
+                    $sources[]=$source;
+                    $start=$end +3;
+                }
+                $sources[]=$source;*/
+                $sources = explode('s*s', $source);
+            }
+            //var_dump($sources);
+            $pass=false;
+            //$j=1;
+            foreach ($sources as $source) {
+                //echo $j;
+                //var_dump($source);
+                $authkey=self::_getauthkey_($source);
+                //echo 2;var_dump($authkey);
+                $authdate=intval(self::_getauthdate_($source));
+                //echo $authdate;
+                //echo 3;var_dump(@date('Y-m-d',$authdate));
+                $authperiod=intval(self::_getauthperiod_($source));
+                //echo 4;var_dump($authperiod);
+                if ($authdate +$authperiod <time()) {
+                    break;
+                }
+                $name = front::$domain;
+                preg_match('/([\w-\*]+(\.(org|net|com|gov|cn|xin|ren|club|top|red|bid|loan|click|link|help|gift|pics|photo|news|video|win|party|date|trade|science|online|tech|site|website|space|press|rocks|band|engineer|market|pub|social|softwrar|lawyer|wiki|design|live|studio|vip|mom|lol|work|biz|info|name|cc|tv|me|co|so|tel|hk|mobi|in|sh))(\.(cn|la|tw|hk|au|uk|za))*|\d+\.\d+\.\d+\.\d+)$/i',trim($name),$match);
+                if(isset($match[0])){
+                    $name=$match[0];
+                }
+                //var_dump($name);
+                //var_dump($authkey);
+                //var_dump(self::md5tocdkey($source,$name));
+                if ($authkey == self::md5tocdkey($source,$name)) {
+                    $pass=true;
+                    break;
+                }
+                //$j++;
+            }
+            $source=$tsource;
+            $domain=front::$domain;
+            $soft_type=null;
+            $phppass = admin_system_::_pcompile__();
+            if (!$pass || !$phppass) {
+                $passinfo='免费版 <a href="http://www.cmseasy.cn/service/" target="_blank"><font color="green">(购买授权)</font></a>';
+                session::set('ver','free');
+                session::set('passinfo',$passinfo);
+                preg_match_all('/<title>(.*) - (.*)<\/title>/',$source,$out);
+                /*if (!$out[2][0] ||$out[2][0] != 'Powered by CmsEasy') {
+                    $source=str_replace('</title>','Powered by CmsEasy</title>',$source);
+                }*/
+                $source=preg_replace('/<head>/i',"<head>\r\n<meta name=\"Generator\" content=\"".SYSTEMNAME.' '._VERSION."\" />",$source);
+                $pos=strpos($source,'</body>');
+                if ($pos === false) {
+                    $source=str_replace('</html>','</body></html>',$source);
+                }else {
+                    $pos=strpos($source,'Powered by <a href="http://www.cmseasy.cn" title="CmsEasy企业网站系统" target="_blank">CmsEasy</a>');
+                    if ($pos === false) {
+                        $int = 0;
+                        $source=preg_replace('/<body(.*?)>/is','<body>Powered by <a href="http://www.cmseasy.cn" title="CmsEasy企业网站系统" target="_blank">CmsEasy</a>',$source,-1,$int);
+                        if(!$int){
+                            $source = 'Powered by <a href="http://www.cmseasy.cn" title="CmsEasy企业网站系统" target="_blank">CmsEasy</a>'.$source;
+                        }
+                    }
+                }
+            }else{
+                $passinfo='<span id="__edition">商业版</span>';
+                session::set('ver','corp');
+                session::set('passinfo',$passinfo);
+            }
+            $source=preg_replace("/\{php\s+(.+)\}/","<?php \\1?>",$source);
+            $source=preg_replace("/\{if\s+(.+?)\}/","<?php if(\\1) { ?>",$source);
+            $source=preg_replace("/\{else\}/","<?php } else { ?>",$source);
+            $source=preg_replace("/\{elseif\s+(.+?)\}/","<?php } elseif (\\1) { ?>",$source);
+            $source=preg_replace("/\{\/if\}/","<?php } ?>",$source);
+            $source=preg_replace("/\{loop\s+(\\$\w+)\s+(\S+)\}/","<?php if(is_array(\\1) && !empty(\\1))\r\n\tforeach(\\1 as \\2) { ?>",$source);
+            $source=preg_replace("/\{loop\s+(\\$\w+)\s+(\S+)\s+(\S+)\}/","<?php foreach(\\1 as \\2 => \\3) { ?>",$source);
+            $source=preg_replace("/\{loop\s+(\S+)\s+(\S+)\}/","<?php foreach(\\1 as \\2) { ?>",$source);
+            $source=preg_replace("/\{loop\s+(\S+)\s+(\S+)\s+(\S+)\}/","<?php foreach(\\1 as \\2 => \\3) { ?>",$source);
+            $source=preg_replace("/\{\/loop\}/","<?php } ?>",$source);
+            return $source;
+        }//文件自校验部分结束，以上代码为通过验证后的部分
+    }
+
+    static function _getauthdate_($source) {
+        if (strlen($source) <0)
+            return '0';
+        preg_match_all('/\\:(.*):\//',$source,$outd0);
+        preg_match_all('/\':(.*);\'/',$source,$outd1);
+        preg_match_all('/;:(.*):\'/',$source,$outd2);
+        return $outd0[1][0].$outd1[1][0].$outd2[1][0];
+    }
+    static function _getauthperiod_($source) {
+        if (strlen($source) <0)
+            return '0';
+        preg_match_all('/.];(.*);]./',$source,$outp0);
+        preg_match_all('/\)\)(.*)\(\(/',$source,$outp1);
+        return $outp0[1][0].$outp1[1][0];
+    }
+    static function _getauthkey_($source) {
+        if (strlen($source) <0)
+            return '';
+        //var_dump($source);
+        preg_match_all('/#!=(.*)=!#/',$source,$out);
+        preg_match_all('/#\$=(.*)=\$#/',$source,$out1);
+        preg_match_all('/#\^=(.*)=\^#/',$source,$out2);
+        preg_match_all('/#%=(.*)=%#/',$source,$out3);
+        preg_match_all('/#\*=(.*)=\*#/',$source,$out4);
+        preg_match_all('/#\(=(.*)=\)#/',$source,$out5);
+        preg_match_all('/#\-=(.*)=\-#/',$source,$out6);
+        preg_match_all('/#\?=(.*)=\?#/',$source,$out7);
+        preg_match_all('/#`=(.*)`##/',$source,$out8);
+        return $out[1][0].'-'.$out1[1][0].'-'.$out2[1][0].'-'.$out3[1][0].'-'.$out4[1][0].'-'.$out5[1][0].'-'.$out6[1][0].'-'.$out7[1][0].'-'.$out8[1][0];
+    }
+    static function md5tocdkey($source,$name) {
+        //var_dump($source);
+        //$md5str=md5(xxtea_encrypt($name,'phpox'));
+        //var_dump($name);
+        $md5str = md5('cangtianadadiazenmebuxiarenminbiya'.$name);
+        //var_dump($md5str);
+        if (strlen($source) <0)
+            return 'nocdkeymd5str';
+        $str='a`b`c`d`e`f`0`1`2`3`4`5`6`7`8`9';
+        preg_match_all('/\[\[=(.*)\*%/',$source,$outa);
+        preg_match_all('/%%=(.*)\/=/',$source,$outa1);
+        preg_match_all('/\/\/(.*)\*\*=/',$source,$outa2);
+        preg_match_all('/\*\*=(.*)=\*/',$source,$outa3);
+        preg_match_all('/\$%(.*)%\$/',$source,$outa4);
+        preg_match_all('/\-=\-(.*)\(\)/',$source,$outa5);
+        preg_match_all('/#\/(.*)\/#/',$source,$outa6);
+        preg_match_all('/!%(.*)=\]\]/',$source,$outa7);
+        $cdkeystr=$outa[1][0].$outa1[1][0].$outa2[1][0].$outa3[1][0].$outa4[1][0].$outa5[1][0].$outa6[1][0].$outa7[1][0];
+        //var_dump($cdkeystr);
+        $srtarr=explode('`',$str);
+        //var_dump($srtarr);
+        $cdkeyarr=explode('`',$cdkeystr);
+        //var_dump($cdkeystr);
+        $cdkey='';
+        for ($i=0;$i <32;$i++) {
+            $md5word=substr($md5str,$i,1);
+            foreach ($srtarr as $key=>$val) {
+                if ($md5word == $val) {
+                    foreach ($cdkeyarr as $key1=>$val1) {
+                        if ($key == $key1) {
+                            if ($i %4 == 0) {
+                                $cdkey.=$val1.'-';
+                            }
+                            else {
+                                $cdkey.=$val1;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        //var_dump($cdkey);
+        return $cdkey;
+    }
+}
+

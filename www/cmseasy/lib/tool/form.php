@@ -1,19 +1,456 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??7Txrj9zWdZ9XgP4DRY1FjnZmOLOya2t2ZxTbWkcCYq26u4o/7CgDzpAzQ4lDTkjO7k7lBVygQaymqQO0SJraaY3WQdECaQu0SNwkaP+MtLY+9S/0nPsgL8nLeaxWltF4gR2S93Hued1zzj33khcvXLzQd80wVAZ+ML544dHFCwr8hZEZOX1lMPX6keN7iuNNppFe8syxXVFKh6Y7tZWW4k1dFx79CWlDn8sUAIODf4EdTQNPKREY0ErdonfRbGK3OmpkH0cdVUHQ8ESGgEfHEh7IePhMbqCAYAwFiHO173tR4LtQzFEx2uomHf/k4gV6E1MycizL9l4MKRT2qsQUUVNMTFY6E+h/5AfWi6GKQ3/xdMUEoU6YgW2eG0Ec4FwKZPjGqCSItyk2WwavWiyg0Hbtfmb+wNUyI3MxNSXam9DBblNoZ0iSUkH7CTRwlPHPGSj6JScMbcAQUTqo3y8rV64o3+JPyiWGm4iWiFoNcWNkcD2od9T2l//2m2cfPD790T/XarUtQzL0SRqLZMQWHVF5/31Fl6B2KX4qpzGaeqm2GSpL3W9v7x9okdlzbY0MovXNyB76wUzLE8ergPP8ttkc2tFtD+Tr9W1dBE/ZMe05Vgjt477Vduh7IR/YsbQUTicL0cM5OB81bPHi0AItss3+SKEsVcxQKT1UWm3Q3ZWUofSwo6oZtAjFD5FKOiFyADNANabFtqVoGVAniu2GNoHIlEUgDPVlruRRyYpZj9o2Cexhd2xG/ZGuGfooGrvB1LXfd0LPPITfsd9zXBvuy4YTajCjcSqWpfQIYkbkCPUPEQHH65pBYM6AJRUuMTmIHFssJ0S082zJyFLyKMqsXbKkcxT/DIO1rLWkslXUWkqWyg2NC0trKppWrhWCP8lbOqJBBn1IteWGnVYVuo/AtBw/Z237I7v/ELi0rBcROsS3N0Bt6G1LZTcqSABJzKOpbrlmz3Zji0w69PzjquO5jge2us0cbcaCM79LqFg6FOKtY1S5pV/bMggaaS+V4RhH7eUzTXDaS3KPsYvXLwhTsuBkPC3m4RWvF042xd/iIAbm8NgBU8RjF23t9KOfPPntZ2taYcSSibwohISg+LlQC3qRp8B/dRI4YxPcA967Q2gwJ9gCw26n5T4Hv7AfOJNIcU1vODWHiMMD89CkpSCSixdKuuX3p2Pbi8o1cB3WTOcD6QB2DWCuHZqBMrPN4J3AH7ca16/XN4XCfb+1Ub9Gikq6dpngBeYDkZw4IJRAhxoCZg3L3oEox4xAlWaz6nhctSytglW9aRT53u0xoAh1qlJTBgGEQs1m6dCxj6rtnhna3WngQoVq9P3xGOLRB6Hx4PtTO5gZU8dwsGto9E2w65YZ1CbeUIS8D6EfAI7jm9Of/fL0k7/Pjb3jubOmEgUwlbAmHPlHOx706/nRiDZGkneBmYAmZ8m61tTWKStIk76L9zigdvr5D579/DONFfuhTYuf/uA/nv3sV7QYXNUhK3384yeff3D6yYe0woNCVvGTvxQr+tMgAHHROoWWAT+i0R1gfdg80BqkqbZBL9fo5VV6eY1e/oheXqeXN+jlOr006uzK4DQIoPswzAkOhYEH3OAFbD5RpHYn6HgoNLDzg2ZTXHxKIgSqssXq7d+0B3opsMPihQJUHjTuF4KA4Aqj6XiS4ANeHNu1WBifwF5bMwxQ5q41HU9oj2wUCuB0FmmQ8IKGLPAfOd4QVdQMDsQ29w8ImFysS/BgdWBfFgPYzGInAJAiifULcKRNzo5iuv8qGLJIT2hxoFn2wJy6EUR9udAJu+gOmKW7t+52v7u9u3d7547Sbimvy+NOOViggcSCgT1xzb7dBfvg9sz+QwgLO486N/SD753cXy93TgyIAlWqvUT/1EoRxGywzkLZM6OUw8RGVGyYJLrG1b2xqZVXwKhwvZJaNDIhJcpSKJmMigi9gZZvFXTLCD8VkUf2GGiPjDj0RiSgLJqlcXvukVOaibMfeZVdwqagDGBhQBYSdE1B3IpkPcck0yJZuGZzOnF90+qS1tzqMAc28UNmC8sQWEkKm3zdnp81VLcWY4mPSyOJjV8CjoQ3jdVY2XhZeG6shufGy8Jz72hA8VgN37jby8K7O546q6EMHV4CstFoOu4tjShp/VVgSZfTAp60II9oYnW74Ph07ZWOrteu3ih3ynpnb738Ckl+SEBr9yskyAJ7WlHu7m5/u7u3vd/d2b25vZv1NqKJpT3KJChYK4UkA9VSaJok2y9JVNFeJFWFQZ9COx6wIA8tPbndoMFGKtogLXPps4x00sncM8qlwtCqwEKYLt5kCVtVO5v8SDJgsfgMEN9Bx+ocYaRARWiMn1+EJYhFMNuoZfNRc2REutRi0eCCjTA7ncqhIoxvkFb9rBOjjGu/bJ4rkTXB6EzM55mFs/HfOYc5VCgAulbCqnlcK2Epj4sybJPkcJ2wG0YBhPUs1RFm46z0yPYxWDcL4tSKxvMNYZYAElzyunnAVrYFRXqWToBBsXZwXxM0LknPxjrIiZXpEY+05ykRxo+xjEUnAQvxvO5IQ88UUzJmKruHdmZDpaWN0BIU9Jzh15yIZeQwti1nOiaEkB2C1JyUt3t+gqcALPKDF+X1i2jFVFrkjG1N8QNlQbvF8YuYUTw3CnKDkuXuyHctO5DZuqIUgdBNliaQgRYeW6oG830ORDQdam5/aj6/Uqcrzh5QCHhkdvMy24xp8Xp+hLl8YIYcS9yNyW4XZ3xg5ExC3Gl7vpQLQjm3BAtDafnsimT0M+dSCgZPNl6kPEbFwp7yzbEkV4nX5U4cdOn+RTZxWZDkXyo8SeLD1eKSggAAAoexzneboKSc6hMUOPnEwTOoZF/anpGd6SCUmGHitrHJ/RZDFhYE4X26ChCbSmMHkwDuFe/o9lg0KhtcpIaigOFlLz90RuCZx7wqOGMxkgqSMKpQK2QLyyJtKJFW3SPHikZ4AsL3Bs6QHDTQNaEq5VdZn5HtDEeRvBOtS/fqTyOyGdNS4Bca+r5rYBnNloFJNGHSpno44yHrodX4Xo1pjR0Pfq3uxOnXhs5AyxgtHt6aeJgGeqKr1TBVWHD+wLjqDHQIbSPf9Y/sQA+nPXji2lqvvA7e4xLAGUXRpGkYWllmVhJMab+sTUB7dJZ+V42MJZnT4SQ3pdStS9Wq5RyChsxcsnuKm0xN3JfCjVUDqtpbYv0AFCdquvYg2jy0A1Aq062arjP0sE/kjzfJ5l96+5JuhCXbl4+Ixp2AZPmmbKqEb2qePv7R09/88st//NOnj/+leGsTanyv7zr9h7gPqmuXUWFw88uxj7RybWLinpZeruGeG9gOmiaCNrrGBo0bV6KRE9bQpNVYVY1KOCkX9L2gjqo1rSx3VKOdls78c4LHDYF8zhtSuBqcmQzObHU4xxsyfDZWx0cGZ7Y6nCMJmKOVoYwkUEYLoWSVWDShnum4AtAn//OLp7/6my9+91enf/fJXMUlQ4fmoU3BpFQ5VtQuNtA1bhy1irgdjiFIWVDC40ZOL2f5ouONfKt80VGuhCl9eTOv2IRheXORmJPN2J6kOhYZFwVCXAd9VTOwXXBeh/am4oPFgSZHTSrRTYVMxGajXp8cbyp05rEnywkhcps1Pd+zqUlKS3Y8pMwXjAVwPwz6VCc4QjESSowF1JpuBHXP/uHPvvynD5/+xW9lqoOEVqtCaQFX5EZW4JrAElCaoeNVI38CRAKNKbK2TCVyItKbnUT46Q+f/O7XKZVKTmg0jxzP8o9CyxnqmtgeQghnEIBuwVrEso9rk9HkRt8M7RYmsK+Aw2xNJ5Zjuv7wCpaQGQKMZPbyCvj33ix55qy9MjaPW40rJLcywMMe4JjRHuPZABQXHiN4g17p6BqYTmUU2APA+nLPt2bIp0l7K5yYXspjJMJrE6FSCXIfKEiSqcprlHEgsC0DgcEFwBpmSn6CROK565rew0Y9FpeSqg18goBY1Pfd6nFYfUPBm3DMbsZW9Tq5cYfVRp2cKa4GqLaFZ8DOeLbaaMMqIq2TWo4sjuSrHMlXOZLXOJIbFEfUvxhDioSqPP3w02c//0zhBi5r31SmkCptR6wdXTTzzFrXst1EP1VUCiyyI1vvaB2t0tFSzTsQLPIzRTXQtG3Xxtu3ZrctPdM0VgswkY7n2cGt/Xe/0+poiY50OlpRuIh11LSQZqAzeGl3tE0ugJgk4huYa2CeQQUKeEERYww+6cmvlto7LrHEpJZU8irhlMqSAX5q47gowDeM008/+uLjf3368X9/8fiHTz7/8ye//zQfKD795N+f/uKD//393563nj5ncL4oQOb85EfW2tSxMgUBv0o8aUXjcEDJ4uNHFy+snX78n6d//V9AdtFR1Rj8PHMBgChfE/6xsAKtaC4y7lLxZaLjpBSmzAjPisVhQpYa4rKp925wb702F8OlIvYYgRReIlrM0zBNNR+Yx+8AgffoprCWJgSYjqmOZKlHiw1wubahJUf1yKIRCzVMsWsG4miQgAkXh0bD6IPuW4YmORNGF4zUeKyXwEpcJm07PHLCUdSKdpkjhuM73lBDniXhHJHc3ECO8HctCSsy8OLQYukDiKwjMUeJE8tGNWo2R0LshmDgmZRjIXP/qWo1gmEttpQqd4jnYHCEPfWvv835alIIq6zKl7EmfxjhXhLRPeIMPMkaxTgANOJYTj4tzsudXluYMOOplbn2dm4oS6ciyrkX4OX5JkLo/Ak+QxyjnoO/Xdafku4Zb7rQiVJyz9NXphcAr6L+rexBmQMVj/t/ffzltXkOc55PVLX/H57vjPO48c08PvM8Xj4q/mZCrzyhG99M6KUnNHCGMg3fxdRLDjv4jZvggMmcud0nqYIWbS7GC2I5phSc/D4kDbHz6YzpRBVDbFlCIrYJODHwX2oR0n0lmZM4EUFK6YtlpJiYCLAQoN+p/HWcoyhIwhTrQy6pkUmBSNM3ZAQHwfMkTl/M4nA1iLVgU40ZokmCtyIbxXRTaqWkJiqJBkXeoBlSZZxn81TGNV7DCBGMkWCLMqYol89KGyWQWZFByqSYUmAKcWRGJhaFICupedrIZdGYYYuFOKGzm+bmLqflGhsIIl+mJNTeLE6EnUNYnjt7vsCta/wVRspgTHMayYpJleqhNu+lxkfSHvg6YwiodVOc3SxuS9+MCtPtAV85eH4sposngGD2hU0lYykq0n4DEMiIGGvWIbVDzy05S7gwWx5yDid3NbgrGIHJBqCwEbJujkhtrqsT0jcFg+A5qO7EhDUkEP5IvXvr7t723t7tmyonK7TDEKTTdSydwjkp4AfMgi4az67rjJ2Id3c8p0swYtTAwpa854ItKXPeKmIwAkTVChHW1dqDyXDzKvpA+J14eN8bTxb2RYkSfURtBzg0XTKvG0OUU9Go1+c0/v7UniYUF7TsT8PIH3e5YkJDuSpOAn8I9+G+GQDLENtBSA3LXVZTgHcfP1bhvkXflrWwI9iIt0mhKu1QIEPL7k2HTao08hbUitL9exjm2vUCjFg7tqOoqI035jcUDtyBpkEHdPGUoLtYdYtWLTMxGcT4Uw7L0YPZne7Yt+ymsvfeO5Trtfdu37m581733Z2b27X93Tfv7N19c3f7zv5cUP1pEPqBCOXte7t7O7u1W2/eublIk6wuuD3LtQPEGkr/mBQu1D87CPxA1nUbK+Z0p5mpLpinCUYdGRA3Se3brHKukQK/EkRCd1q8h6Vz+3GVz3XlGj+3d5ZuWjyHaI7ttN+XDbpHy+f2lfCK1sznExWUpDOp4H3lk1Xu6/I+ET8lYR8lmqfLXWFZDu+koDyOB+W1PJAn2UUaSBW0FKMxDBaksZg0VGfBDz8wQvoWhO9GweBkUcFCTeFEAB1uGWMjy+5naUNYieXNBJ486v/op6e//lCNPzVDQnhyl4vpycqumKTzivs2VkrjkCUt7U4/5vX8eRRc9+CJRS+0AzA5EBno6U8RxC0daFZtSI+n85dKEBj91BB7bZkUSI+SJgdUCQbJF5kOi0+eOuvrkrOmomDoQfTMsvphBdw7DKJVclHcxjIRHAonyw0m4CVQzB+aL8R0fR1TAM+Jq+wVkeLsWaxVOGgdjEhHlSQF6/msYDoFyNtlc0v11Xa2ig6tpXGBVXqS2oqX9sJIdHGfymillvd1WHLzxTdJMBXnD5ZJ+KQ5ujhFWJfnCOtnTxJyCNI84YLNuKUyh3V56jApXpA73EhwnJ89XErJM8nCepwtzIh1pbwh5cfCjHCu1eqGX/zUwHln7x1v4KdT92dJ1S+39SxmyVmm/IUlyBcfAVlSk7+SHDgR8Rk0+Q8k7Z1+OTD5spjki2KlAX7BDJuzADt+zn+UKGlbbX+XwcwdVyBvQ6Q+u/K98ayb+uBh1lkKYPdBxj0z2LPJp93eneF3u1ImQ3yfgXNE6P82BD2RfQudPZE9kRqbOiY/QyCcfBCdUwyGrey7eMAjnKbPXQt9aas3LYtvIqFStdfpcdEXNdzetJcarpo9nUr/Fn5qdrqKjgS+n3tNJ5MEZPBSwXwYoVJtbW0p2zv7tJxnVXExQYbm6yT2IGRbYSI4XiaDfr3+yiZLu7xGDnKr8Vd2491HcZiC5C2IhyZFave2b97e39nt3tp5d7t7b/c7qHWPCL0nBvJwrSSmcBPaMBcLS16+HXRvm5w4pSzlW4oZNTenkX+L4L7tpZI3gnaTb1ic8DknEAUMlJgCYPAiOZOFQ+Tzj1GQx+Kkd/YcU7LyoB3FpQctybwMmqw6SHXqhTu2QIrdmo41ZaZ5Z7R0Mzv0A8+PfIYmcKTw8220SYPgAu0qSh1vtSef/5gshrFrMtzJ/wE=*/
+
+
+class form
+{
+    static function input($name, $value = null, $option = null)
+    {
+        return $input = "<input type=\"text\" name=\"$name\" id=\"$name\" value=\"$value\" class=\"form-control\"  $option/>";
+    }
+
+    function hidden($name, $value = null, $option = null)
+    {
+        return $input = "<input type=\"hidden\" name=\"$name\" id=\"$name\" value=\"$value\"  class=\"form-control\" $option/>";
+    }
+
+    static function password($name, $value = null, $option = null)
+    {
+        return $input = "<input type=\"password\" name=\"$name\" id=\"$name\" value=\"$value\"  class=\"form-control\" $option/>";
+    }
+
+    function textarea($name, $value = null, $option = null)
+    {
+        return $input = "<textarea name=\"$name\" id=\"$name\" class=\"form-control textarea\" $option>$value</textarea>";
+    }
+
+    static function select($name, $value, $data, $option = null)
+    {
+        $select = "<select id=\"$name\" name=\"$name\" class=\"form-control select\" $option>";
+        if (!isset($data[0]) && @$data[0] != null) {
+            $select .= "<option value=\"0\">请选择...</option>";
+        }
+        if (@$data[0] == null || (isset($data[0]) && !$data[0]))
+            unset($data[0]);
+        if ($_GET['table'] == 'category') {
+            $category = category::getInstance();
+            $subids = $category->sons($_GET['id']);
+        }
+        if ($_GET['table'] == 'type') {
+            $category = type::getInstance();
+            $subids = $category->sons($_GET['id']);
+        }
+        foreach ($data as $k => $d) {
+            $select .= "<option value=\"$k\"";
+            if ($k == $value) {
+                $select .= ' selected ';
+            } else if (isset($_GET['id']) && ($_GET['table'] == 'category' || $_GET['table'] == 'type') && !preg_match('/(htmlrule|isnav|ismobilenav)/is', $name)) {
+                if ($_GET['id'] == $k || in_array($k, $subids)) {
+                    $select .= ' disabled ';
+                }
+            }
+            $select .= ">$d</option>";
+            //$select.="<option value=\"$k\" ".($k == $value ?'selected': '').">$d</option>";
+        }
+        $select .= "</select>";
+        return $select;
+    }
+
+    function radio($name, $value, $checked = null, $option = null)
+    {
+        $checked = $checked ? 'checked="checked" ' : '';
+        return "<label class=\"checkbox-inline\"><input name=\"$name\" type=\"radio\" id=\"$name\" value=\"$value\" class=\"radio\" $checked $option>	</label>";
+    }
+
+
+    function checkbox($name, $value, $checked = null, $option = null)
+    {
+        $checked = $checked ? 'checked="checked" ' : '';
+        return $input = "<label class=\"checkbox-inline\"><input type=\"checkbox\" name=\"$name\" id=\"$name\" class=\"checkbox\" value=\"$value\" $checked $option>	</label>&nbsp;&nbsp;&nbsp;";
+    }
+
+    function submit($value = '	提交	')
+    {
+        return "<input type=\"submit\" name=\"submit\" value=\"$value\" class=\"btn btn-primary btn-lg\" >";
+    }
+
+    function date($name, $value)
+    {
+        return "<script language=\"javascript\">
+$(document).ready(function()
+	{
+	var yearFrom=1990;
+	var yearTo=2030;
+	$('#$name').datepicker(
+		{
+		dateFormat: 'yy-mm-dd',
+		buttonImage: '" . front::$view->base_url . "/common/js/jquery/ui/images/calendar.png',
+		buttonText: '请选择日期',
+		buttonImageOnly: true,
+		showOn: 'both',
+		yearRange: yearFrom+':'+yearTo,
+		clearText:'清除',
+		closeText:'关闭',
+		prevText:'前一月',
+		nextText:'后一月',
+		currentText:' ',
+		monthNames:['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月']
+	}
+		);
+}
+);
+</script>\r\n" . self::input($name,
+                $value);
+    }
+
+    function doDef($res)
+    {
+        return $res[1];
+    }
+
+    function getform($name, $form, $field, $data)
+    {
+		//var_dump($name);
+        if (get('table') && isset(setting::$var[get('table')][$name]))
+            $form[$name] = setting::$var[get('table')][$name];
+		//var_dump($form[$name]);
+        if (get('form') && isset(setting::$var[get('form')][$name]))
+            $form[$name] = setting::$var[get('form')][$name];
+		//var_dump($form[$name]);
+        if (isset($form[$name]['default'])) {
+            if ((int)PHP_VERSION >= 7) {
+                $form[$name]['default'] = preg_replace_callback('/\{\?([^}]+)\}/', "self::doDef", $form[$name]['default']);
+            } else {
+                $form[$name]['default'] = preg_replace('/\{\?([^}]+)\}/e', "eval('return $1;')", $form[$name]['default']);
+            }
+        }
+        if (!isset($data[$name]) && isset($form[$name]['default']))
+            $data[$name] = @$form[$name]['default'];
+        if (preg_match('/templat/', $name) && empty($data[$name]))
+            $data[$name] = @$form[$name]['default'];
+        //var_dump($field);
+
+        if (@$form[$name]['filetype'] == 'image') {
+            $return = form::upload_image($name, front::post($name) ? front::post($name) : @$data[$name]);
+        } elseif (@$form[$name]['filetype'] == 'file') {
+            $return = form::upload_file($name, front::post($name) ? front::post($name) : @$data[$name]);
+        } elseif (@$form[$name]['filetype'] == 'image1') {
+            $return = form::upload_image1($name, front::post($name) ? front::post($name) : @$data[$name]);
+        } elseif (@$form[$name]['filetype'] == 'image2') {
+            $return = form::upload_image2($name, front::post($name) ? front::post($name) : @$data[$name]);
+        } elseif (@$form[$name]['filetype'] == 'imageSwfupload') {
+            $return = form::upload_imageSwfupload($name, front::post($name) ? front::post($name) : @$data[$name]);
+        } elseif (@$form[$name]['filetype'] == 'image_mui') {
+            $return = form::upload_imagemui($name, front::post($name) ? front::post($name) : @$data[$name]);
+        } elseif (@$form[$name]['filetype'] == 'thumb') {
+            $return = form::upload_thumb($name, front::post($name) ? front::post($name) : @$data[$name]);
+        } elseif (@$form[$name]['selecttype'] == 'select') {
+            preg_match_all('%\((.*?)\)(\S+)%s', $form[$name]['select'], $result, PREG_SET_ORDER);
+            //var_dump($result);
+			$sdata = array();
+            foreach ($result as $res) $sdata[$res[1]] = $res[2];
+			//var_dump($sdata);
+            $return = form::select($name, front::post($name) ? front::post($name) : @$data[$name], $sdata, ' class="form-control select"');
+        } elseif (@$form[$name]['selecttype'] == 'radio') {
+            preg_match_all('/\(([\d\w]+)\)(\S+)/m', $form[$name]['select'], $result, PREG_SET_ORDER);
+            $_res = '';
+            foreach ($result as $res) $_res .= $res[2] . form::radio($name, $res[1], $res[1] == (front::post($name) ? front::post($name) : @$data[$name])) . "";
+            $return = $_res;
+        } elseif (@$form[$name]['selecttype'] == 'checkbox') {
+            preg_match_all('/\(([\d\w]+)\)(\S+)/is', $form[$name]['select'], $result, PREG_SET_ORDER);
+            $_res = '';
+            $values = front::post($name) ? front::$post[$name] : @$data[$name];
+            if (is_string($values))
+                $values = explode(',', $values);
+            if (!$values)
+                $values = array();
+            foreach ($result as $res) $_res .= $res[2] . form::checkbox($name . '[]', $res[1], in_array($res[1], $values)) . "";
+            return $_res;
+        } elseif (@$field[$name]['type'] == 'text') {
+            //var_dump($field);
+            $return = form::textarea($name, front::post($name) ? front::post($name) : @$data[$name], '');
+        }elseif (@$field[$name]['type'] == 'bigtext') {
+            //var_dump($field);
+            $return = form::textarea($name, front::post($name) ? front::post($name) : @$data[$name], '');
+        } elseif (@$field[$name]['type'] == 'mediumtext' || $form[$name]['type'] == 'mediumtext') {
+            //var_dump($field);
+            $return = form::ueditor($name, front::post($name) ? front::post($name) : @$data[$name]);
+        } elseif (@$field[$name]['type'] == 'datetime' or @$field[$name]['type'] == 'date') {
+            $return = form::date($name, front::post($name) ? front::post($name) : @$data[$name]);
+        } else {
+            $placeholder = '';
+            if (isset($form[$name]['placeholder'])) {
+                $placeholder = 'placeholder="' . $form[$name]['placeholder'] . '"';
+            }
+            $return = form::input($name, front::post($name) ? front::post($name) : @$data[$name], $placeholder);
+        }
+
+        if ($field[$name]['notnull'])
+            $return .= "";
+        if (@$form[$name]['tips']) {
+            if ((int)PHP_VERSION >= 7) {
+                $tips = preg_replace_callback('/\{\?([^}]+)\}/', "self::doDef", $form[$name]['tips']);
+            } else {
+                $tips = preg_replace('/\{\?([^}]+)\}/e', "eval('return $1;')", $form[$name]['tips']);
+            }
+
+
+            $return .= "" . $tips;
+        }
+        return $return;
+    }
+
+    static function select_option($name, $form, $value)
+    {
+        preg_match_all('/\(([\d\w]+)\)(\S+)/im', $form['select'], $result, PREG_SET_ORDER);
+        $values = explode(',', trim($value, ','));
+        $res = array();
+        foreach ($values as $key => $rs) {
+            //$res[$key]=$result[$rs][2];
+            foreach ($result as $a => $b) {
+                if ($b[1] == $rs) {
+                    $res[$key] = $b[2];
+                }
+            }
+        }
+        return implode(',', $res);
+    }
+
+    static function upload_thumb($name, $value)
+    {
+        $thumb_width = config::get('thumb_width');
+        $thumb_height = config::get('thumb_height');
+        $cut_url = url('tool/cut_image', false);
+        $img_url = './images/admin/add_pic.gif';
+        if (front::$act == 'edit' && $value) {
+            /*if(strtolower(substr($value,0,7)) != 'http://'){
+                $img_url = $value;
+            }else{
+                $img_url = $value;
+            }*/
+            $img_url = $value;
+        }
+        $res = "<!--div style=\"clear:both\"></div><div style=\"float:left;vertical-align:bottom;\">
+<input type=\"button\" name=\"{$name}cut\" id=\"{$name}cut\" value=\"手工裁剪\" class=\"btn btn-primary\" onclick=\"$('#cut_preview').parent().show();image_cut('{$name}_preview',this.form.{$name}.value,this.form.thumb_width.value,this.form.thumb_height.value)\"/>
+            <input type=\"hidden\" name=\"x1\" value=\"\" id=\"x1\" />
+            <input type=\"hidden\" name=\"y1\" value=\"\" id=\"y1\" />
+            <input type=\"hidden\" name=\"x2\" value=\"\" id=\"x2\" />
+            <input type=\"hidden\" name=\"y2\" value=\"\" id=\"y2\" />
+            <input type=\"hidden\" name=\"w\" value=\"\" id=\"w\" />
+            <input type=\"hidden\" name=\"h\" value=\"\" id=\"h\" />
+            <input type=\"button\" name=\"upload_thumbnail\" value=\"保存结果\" class=\"btn btn-primary\" id=\"save_thumb\" onclick=\"image_cut_save('$cut_url',$('#$name').val(),this.form.x1.value,this.form.y1.value,this.form.x2.value,this.form.y2.value,this.form.w.value,this.form.h.value);\"/>
+                </div><div style=\"clear:both;\"></div>
+           <div style=\"float:left; position:relative; overflow:hidden; width:100px; height:100px;display:none;\">
+            <img id=\"cut_preview\" src=\"\" style=\"position: relative;\" alt=\"预览区\" />
+            </div-->
+        <div style=\"clear:both\"></div><div style=\"clear:both;float:left;margin-top:10px;\">
+        <a title=\"选择文件\" onclick=\"javascript:windowsdig('选择文件','iframe:index.php?case=file&act=updialog&fileinputid={$name}&getbyid={$name}_preview&max=1&checkfrom=picshow','900px','480px','iframe')\" href=\"#body\"><p><span id=\"{$name}_preview\"><img src=\"$img_url\" style=\"width:150px;\" /></span></p></a>
+          </div><div class=\"blank10\"></div> <div class=\"row\"><div class=\"col-xs-8 col-sm-8 col-md-9 col-lg-10 text-right\"><input name=\"$name\"  id=\"$name\" value=\"$value\"  class=\"form-control\" />" .
+            '</div><div class="col-xs-4 col-sm-4 col-md-3 col-lg-2 text-left"><input value=" 删除 " class="btn btn-primary" title="删除" id="' . $name . '_del" onclick="pics_delete(\'\',\'' . $name . '\');document.getElementById(\'' . $name . '_preview\').innerHTML=\'<img src=\\\'images/admin/add_pic.gif\\\' width=\\\'150\\\'>\';" value="删除" type="button" name="delbutton" class="btn btn-primary" /></div></div>';
+
+        $res .= '</div>';
+        return $res;
+    }
+
+    static function upload_image($name, $value)
+    {
+        //栏目图片上传
+        $res = "地址：<input name=\"$name\"  id=\"$name\" value=\"$value\"  class=\"form-control\" />";
+        if (front::$act == 'edit' && $value) {
+            $img_url = $value;
+            $res .= "<script>image_preview('$name','$img_url');</script>
+	更改：";
+        }
+        $res .= "<div class=\"blank10\"></div>
+	上传：<input type=\"file\" name=\"{$name}_upload\" id=\"{$name}_upload\" onchange=\"image_preview('$name',this.value,1);\"/>
+	<div class=\"blank10\"></div><input type=\"button\" name=\"{$name}upload\"  id=\"{$name}upload\" onclick=\"return ajaxFileUpload('{$name}_upload','" . url('tool/upload/site/' . front::get('site') . '/type/thumb/cut/1/catid/',
+                false) . '\'+$(\'#catid\').val()' . ",'#{$name}_loading');\" value=\"上传\" class=\"btn btn-primary\" />
+		<img id=\"{$name}_loading\" src=\"" . front::$view->base_url . "/common/js/loading.gif\" style=\"display:none;\">";
+        $res .= '<div class="blank10"></div><span id="'.$name.'_preview"></span>';
+        return $res;
+    }
+
+    static function upload_imagemui($name, $value)
+    {
+        //栏目图片上传
+        $res = "地址：<input name=\"$name\"  id=\"$name\" value=\"$value\"  class=\"form-control\" />";
+        $img_url = './images/admin/add_pic.gif';
+        if (front::$act == 'edit' && $value) {
+            $img_url = $value;
+        }
+        $res .= "<div class=\"blank10\"></div>
+	<a title=\"选择文件\" onclick=\"javascript:windowsdig('选择文件','iframe:index.php?case=file&act=updialog&fileinputid={$name}&getbyid={$name}_preview&max=1&checkfrom=picshow','900px','480px','iframe')\" href=\"#body\"><p><img src=\"{$img_url}\" id=\"{$name}_preview\"/></p></a>";
+        $res .= '</div>';
+        return $res;
+    }
+
+    static function upload_image3($name, $value)
+    {
+        $res = "<div class=\"blank10\"></div><span id=\"{$name}_preview\"></span>
+	<br>
+	地址：<input name=\"$name\"  id=\"$name\" value=\"$value\" size=\"50\"/>";
+        if (front::$act == 'edit' && $value) {
+            $res .= "<script>image_preview('$name','$value');</script>
+	";
+        }
+        $res .= "<br>
+	上传：<input type=\"file\" name=\"{$name}_upload\" id=\"{$name}_upload\" style=\"width:400px\" onchange=\"image_preview('$name',this.value,1)\"/>
+	&nbsp;&nbsp;<input type=\"button\" name=\"{$name}upload\"  id=\"{$name}upload\" onclick=\"return ajaxFileUpload('{$name}_upload','" . url('tool/upload3/site/' . front::get('site'),
+                false) . "','#{$name}_loading');\" value=\"上传\" class=\"btn btn-primary\" />
+		<img id=\"{$name}_loading\" src=\"" . front::$view->base_url . "/common/js/loading.gif\" style=\"display:none;\">";
+        return $res;
+    }
+
+    static function upload_image1($name, $value)
+    {
+        $res = "<div class=\"blank10\"></div><span id=\"{$name}_preview\"></span>
+	<br>
+	地址：<input name=\"$name\"  id=\"$name\" value=\"$value\" size=\"50\"/>";
+        if (front::$act == 'edit' && $value) {
+            $res .= "<script>image_preview('$name','$value');</script>
+	更改：";
+        }
+        $res .= "<br>
+	上传：<input type=\"file\" name=\"{$name}_upload\" id=\"{$name}_upload\" style=\"width:400px\" onchange=\"image_preview('$name',this.value,1)\"/>
+	&nbsp;&nbsp;<input type=\"button\" name=\"{$name}upload\"  id=\"{$name}upload\" onclick=\"return ajaxFileUpload('{$name}_upload','" . url('tool/upload1/site/' . front::get('site'),
+                false) . "','#{$name}_loading');\" value=\"上传\" class=\"btn btn-primary\" />
+		<img id=\"{$name}_loading\" src=\"" . front::$view->base_url . "/common/js/loading.gif\" style=\"display:none;\">";
+        return $res;
+    }
+
+    static function getuploadhtml($i, $name, $purl, $value)
+    {
+        $cname = $name;
+        $name = $name . $i;
+        $res = '<div id="' . $name . '_up"><span id="' . $name . '_preview"></span><br><br>地址：<input name="' . $name . '" id="' . $name . '" value="' . $value . '" size="50"/> <input type="button" id="' . $name . '_del" class=\"btn btn-primary\" name="delbutton" value="删除" onclick="pics_delete(' . $i . ',\'' . $cname . '\');" style="display:;"><br><br>';
+        $res .= "<script>image_preview('{$name}','$value');</script>更改：";
+        $res .= '<input type="file" name="' . $name . '_upload" id="' . $name . '_upload" style="width:400px" onchange="image_preview(\'' . $name . '\',this.value,1)"/>&nbsp;&nbsp;<input type="button" name="' . $name . 'upload" id="' . $name . 'upload' . $i . '" onclick="return ajaxFileUpload2(\'' . $name . '_upload\',\'' . $purl . '\',\'#' . $cname . '_loading\');" value="上传" class="btn btn-primary" /></div>';
+        return $res;
+    }
+
+    static function upload_imageSwfupload($name, $value)
+    {
+        $res = '<script type="text/javascript">';
+        $res .= '$(document).ready(function(){';
+        $res .= 'var swfu_' . $name . ';';
+        $res .= 'var settings_' . $name . ' = {';
+        $res .= 'callback_data_des: "' . $name . '",';
+        $res .= 'flash_url : "' . config::get('base_url') . '/common/swfupload/swfupload.swf",';
+        $res .= 'upload_url: "' . url('tool/uploadimage/site/' . front::get('site'), false) . '",';
+        $res .= 'post_params: {"PHPSESSID" : "' . session_id() . '"},';
+        $res .= 'file_size_limit : "' . ini_get('upload_max_filesize') . 'B",';
+        $res .= 'file_types : "*.jpg;*.gif;*.png;*.bmp",';
+        $res .= 'file_types_description : "图片",';
+        $res .= 'file_upload_limit : 100,';
+        $res .= 'file_queue_limit : 0,';
+        $res .= 'custom_settings : {';
+        $res .= 'progressTarget : "fsUploadProgress",';
+        $res .= 'cancelButtonId : "btnCancel"';
+        $res .= '},';
+        $res .= 'debug: false,';
+        $res .= 'button_width: "39",';
+        $res .= 'button_height: "18",';
+        $res .= 'button_placeholder_id: "spanButtonPlaceHolder_' . $name . '",';
+        $res .= 'button_disabled : false,';
+        $res .= 'button_window_mode: SWFUpload.WINDOW_MODE.TRANSPARENT,';
+        $res .= 'button_cursor: SWFUpload.CURSOR.HAND,';
+        $res .= 'file_queued_handler : fileQueued,';
+        $res .= 'file_queue_error_handler : fileQueueError,';
+        $res .= 'file_dialog_complete_handler : fileDialogComplete,';
+        $res .= 'upload_start_handler : uploadStart,';
+        $res .= 'upload_progress_handler : uploadProgress,';
+        $res .= 'upload_error_handler : uploadError,';
+        $res .= 'upload_success_handler : uploadSuccess,';
+        $res .= 'upload_complete_handler : uploadComplete,';
+        $res .= 'queue_complete_handler : queueComplete';
+        $res .= '};';
+        $res .= 'swfu_' . $name . ' = new SWFUpload(settings_' . $name . ');';
+        $res .= '});';
+        $res .= '</script>';
+        $res .= '<div id="img_upload">';
+        $res .= '<input type="text" name="' . $name . '" id="' . $name . '" class="upload_text" value="' . $value . '" />';
+        $res .= '<span style="float:left;" id="spanButtonPlaceHolder_' . $name . '"></span>';
+        $res .= '<input id="btnCancel" type="button" value="取消" disabled="disabled" style="display:none;" />';
+        $res .= '</div>';
+        return $res;
+    }
+
+    static function upload_image2($name, $value)
+    {
+        $res = "<div id=\"uploadarea\">";
+        if (front::$act == 'edit' && $value) {
+            $pics = unserialize($value);
+            $i = -1;
+            if (is_array($pics) && !empty($pics)) {
+                foreach ($pics as $k => $v) {
+                    $i++;
+                    $res .= form::getuploadhtml($k, 'pics', url('tool/upload2/site/' . front::get('site'), false), $v);
+                }
+                $i++;
+            }
+            $res .= form::getuploadhtml(++$i, 'pics', url('tool/upload2/site/' . front::get('site'), false), '');
+        } else {
+            $res .= "<div id=\"pics0_up\"><span id=\"{$name}0_preview\"></span><input name=\"{$name}0\"  id=\"{$name}0\" value=\"$value\"  class=\"form-control\" /> <input type=\"button\" id=\"{$name}0_del\" name=\"delbutton\" value=\"删除\" onclick=\"pics_delete('0','{$name}');\" class=\"btn btn-primary\" style=\"display:none;\">";
+            $res .= "<input type=\"file\" name=\"{$name}0_upload\" id=\"{$name}0_upload\" style=\"width:400px\" onchange=\"image_preview('{$name}0',this.value,1)\"/>
+<div class=\"blank10\"></div>
+<input type=\"button\" name=\"{$name}0upload\"  id=\"{$name}0upload\" onclick=\"return ajaxFileUpload2('{$name}0_upload','" . url('tool/upload2/site/' . front::get('site'), false) . "','#{$name}0_loading','{$name}');\" value=\"上传\" class=\"btn btn-primary\" /></div>";
+        }
+        $res .= "</div>";
+        return $res;
+    }
+
+    static function upload_file($name, $value)
+    {
+        $res = "<div class=\"blank10\"></div><span id=\"{$name}_info\"></span>
+	<input name=\"$name\"  id=\"$name\" value=\"$value\" class=\"form-control\" />";
+        $res .= "<br><br>
+	<input type=\"file\" name=\"{$name}_upload\" id=\"{$name}_upload\" style=\"width:400px\" />
+	<div class=\"blank10\"></div>
+<input type=\"button\" name=\"{$name}upload\"  id=\"{$name}upload\" onclick=\"return ajaxFileUpload('{$name}_upload','" . url('tool/upload_file/site/' . front::get('site'), false) . "','#{$name}_loading');\" value=\"上传\" class=\"btn btn-primary\" />
+		<img id=\"{$name}_loading\" src=\"" . front::$view->base_url . "/common/js/loading.gif\" style=\"display:none;\">";
+        return $res;
+    }
+
+    static function editor($name, $value = '')
+    {
+        $fckeditor = new fckeditor($name);
+        $fckeditor->Value = $value;
+        /*if(preg_match('/^my_/is', $name)){
+            $fckeditor->ToolbarSet = "MyForm";
+        }*/
+        return $fckeditor->CreateHtml() . "
+		<br>
+	<a href=\"javascript:;\" class=\"fckeditor_height_add_sub\" onclick=\"javascript:heightAdd('$name');\">+</a>
+	<a href=\"javascript:;\" class=\"fckeditor_height_add_sub\" onclick=\"javascript:heightSub('$name');\">-</a>
+                ";
+    }
+
+    static function ueditor($name, $value = '')
+    {
+        $root = config::get('base_url') . '/ueditor';
+        $str = <<< EOT
+    <script id="$name" name="$name" type="text/plain" style="width:90%;height:500px;">$value</script>
+    <script type="text/javascript">
+	window.UEDITOR_HOME_URL = "{$root}/";
+	$(function(){
+        var ue_$name = UE.getEditor('$name',{
+            autoHeightEnabled : false
+        });
+	});
+    </script>
+EOT;
+        return $str;
+    }
+
+    static function arraytoselect($array)
+    {
+        $res = '';
+        if (is_array($array) && !empty($array))
+            foreach ($array as $key => $value) $res .= "($key)$value ";
+        return $res;
+    }
+
+    static function yesornotoarray($str)
+    {
+        return array(1 => $str, 0 => '不' . $str);
+    }
+}

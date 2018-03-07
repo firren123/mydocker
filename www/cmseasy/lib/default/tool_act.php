@@ -1,19 +1,434 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
+
+if (!defined('ROOT'))
+exit('Can\'t Access !');
+
+class tool_act extends act
+{
+
+function init()
+{
+}
+
+function index_action()
+{
+}
+
+function geetest_action()
+{
+require_once ROOT . '/lib/plugins/geetestlib.php';
+$GtSdk = new GeetestLib();
+$return = $GtSdk->register();
+if ($return) {
+$_SESSION['gtserver'] = 1;
+$result = array(
+'success' => 1,
+'gt' => config::get('gee_id'),
+'challenge' => $GtSdk->challenge
+);
+echo json_encode($result);
+} else {
+
+$_SESSION['gtserver'] = 0;
+$rnd1 = md5(rand(0, 100));
+$rnd2 = md5(rand(0, 100));
+$challenge = $rnd1 . substr($rnd2, 0, 2);
+$result = array(
+'success' => 0,
+'gt' => config::get('gee_id'),
+'challenge' => $challenge
+);
+$_SESSION['challenge'] = $result['challenge'];
+echo json_encode($result);
+}
+exit;
+}
+
+function verify_action()
+{
+echo verify::show();
+}
+
+public function smscode_action()
+{
+$mobile = front::$post['mobile'];
+if (!$mobile) {
+$username = front::$post['username'];
+$user_obj = new user();
+$user = $user_obj->getrow(array('username' => $username));
+$mobile = $user['tel'];
+}
+if (!preg_match('/^1([0-9]+){5,}$/is', $mobile)) {
+exit(lang('phone_number_format_is_wrong'));
+}
+$func = 'chkcode';
+$smsCode = new SmsCode();
+$smsCode->getCode();
+$content = $smsCode->getTemplate($func);
+if ($rs = sendMsg($mobile, $content) == 0) {
+exit(lang('successfully_sent_please_check'));
+} else {
+exit(lang('sms_send_failure'));
+}
+}
+
+function qrcode_action()
+{
+require_once(ROOT . '/lib/plugins/phpqrcode/qrlib.php');
+$url = $_GET['data'];
+if ($url) {
+$url = htmlspecialchars_decode(urldecode($url));
+//var_dump($url);
+} else {
+$url = $_SERVER['HTTP_REFERER'];
+}
+QRcode::png($url);
+}
+
+function wxqrcode_action()
+{
+$url = $_GET['data'];
+$url = htmlspecialchars_decode(urldecode($url));
+require_once(ROOT . '/lib/plugins/phpqrcode/qrlib.php');
+QRcode::png($url);
+}
+
+function upload_action()
+{
+$res = array();
+$uploads = array();
+if (is_array($_FILES)) {
+$upload = new upload();
+foreach ($_FILES as $name => $file) {
+if (!$file['name'] || !preg_match('/\.(jpg|gif|png|bmp)$/', $file['name'])) {
+continue;
+}
+$uploads[$name] = $upload->run($file);
+$res[$name]['name'] = '';
+if (config::get('base_url') == '/') {
+$res[$name]['name'] = '/' . $uploads[$name];
+} else {
+$res[$name]['name'] = config::get('base_url') . '/' . $uploads[$name];
+}
+if (empty($uploads[$name])) {
+$res['error'] = $name . lang('upload_failed');
+break;
+}
+$path = $upload->save_path;
+chmod($path, 0644);
+$catid = get('catid');
+$type = get('type');
+if ($type == 'thumb' && !get('cut')) {
+$thumb = new thumb();
+$thumb->set($path, 'file');
+if ($catid)
+$thumb->create($path, category::getwidthofthumb($catid), category::getheightofthumb($catid));
+else
+$thumb->create($path, config::get('thumb_width'), config::get('thumb_height'));
+}
+$_name = str_replace('_upload', '', $name);
+$res[$name]['code'] = "
+if(document.form1) {
+//document.form1.$_name.value=data[key].name;
+$('#$_name').val(data[key].name);
+}
+else
+$('#$_name').val(data[key].name);
+image_preview('$_name',data[key].name);
 ";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??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*/
+}
+}
+echo json::encode($res);
+}
+
+function upload_thumb_action()
+{
+$res = array();
+$uploads = array();
+if (is_array($_FILES)) {
+$upload = new upload();
+foreach ($_FILES as $name => $file) {
+if (!$file['name'] || !preg_match('/\.(jpg|gif|png|bmp)$/', $file['name'])) {
+continue;
+}
+$uploads[$name] = $upload->run($file);
+if (empty($uploads[$name])) {
+$res['error'] = $name . lang('upload_failed');
+break;
+}
+$res[$name]['name'] = $uploads[$name];
+$path = $upload->save_path;
+chmod($path, 0644);
+$thumb = new thumb();
+$thumb->set($path, 'file');
+$catid = get('catid');
+$type = get('type');
+if ($catid)
+$thumb->create($path, category::getwidthofthumb($catid), category::getheightofthumb($catid));
+else
+$thumb->create($path, config::get('thumb_width'), config::get('thumb_height'));
+$_name = str_replace('_upload', '', $name);
+$res[$name]['code'] = "
+document.form1.$_name.value=data[key].name;
+image_preview('$_name',data[key].name);
+";
+}
+}
+echo json::encode($res);
+}
+
+function upload3_action()
+{
+$res = array();
+$uploads = array();
+if (is_array($_FILES)) {
+$upload = new upload();
+foreach ($_FILES as $name => $file) {
+if (!$file['name'] || !preg_match('/\.(jpg|gif|png|bmp)$/', $file['name'])) {
+continue;
+}
+$uploads[$name] = $upload->run($file);
+$res[$name]['name'] = front::$view->base_url . '/' . $uploads[$name];
+$path = $upload->save_path;
+chmod($path, 0644);
+$thumb = new thumb();
+$thumb->set($path, 'file');
+$thumb->create($path, config::get('slide_width'));
+$_name = str_replace('_upload', '', $name);
+$res[$name]['code'] = "document.config_form.$_name.value=data[key].name;image_preview('$_name',data[key].name);";
+}
+}
+echo json::encode($res);
+}
+
+function upload1_action()
+{
+$res = array();
+$uploads = array();
+if (is_array($_FILES)) {
+$upload = new upload();
+foreach ($_FILES as $name => $file) {
+if (!$file['name'] || !preg_match('/\.(jpg|gif|png|bmp)$/', $file['name'])) {
+continue;
+}
+$uploads[$name] = $upload->run($file);
+$res[$name]['name'] = $uploads[$name];
+$path = $upload->save_path;
+chmod($path, 0644);
+$_name = str_replace('_upload', '', $name);
+$res[$name]['code'] = "document.form1.$_name.value=data[key].name;image_preview('$_name',data[key].name);";
+}
+}
+echo json::encode($res);
+}
+
+function upload2_action()
+{
+$res = array();
+$uploads = array();
+if (is_array($_FILES)) {
+$upload = new upload();
+foreach ($_FILES as $name => $file) {
+if (!$file['name'] || !preg_match('/\.(jpg|gif|png|bmp)$/', $file['name'])) {
+continue;
+}
+$uploads[$name] = $upload->run($file);
+$res[$name]['name'] = $uploads[$name];
+$path = $upload->save_path;
+chmod($path, 0644);
+$_name = str_replace('_upload', '', $name);
+$res[$name]['code'] = "document.form1.$_name.value=data[key].name;image_preview('$_name',data[key].name);";
+}
+}
+echo json::encode($res);
+}
+
+function upload_file_action()
+{
+$res = array();
+$uploads = array();
+if (is_array($_FILES)) {
+$upload = new upload();
+$upload->dir = 'attachment';
+$upload->type = explode(',', config::get('upload_filetype'));
+$_file_type = str_replace(',', '|', config::get('upload_filetype'));
+foreach ($_FILES as $name => $file) {
+if (!$file['name'] || !preg_match('/\.(' . $_file_type . ')$/', $file['name']))
+continue;
+$uploads[$name] = $upload->run($file);
+$res[$name]['name'] = $uploads[$name];
+$_name = str_replace('_upload', '', $name);
+/*
+$res[$name]['code']="
+document.form1.$_name.value=data[key].name;
+";*/
+$res[$name]['code'] = "$('#$_name').val(data[key].name);image_preview('$_name',data[key].name);";
+
+}
+}
+echo json::encode($res);
+}
+
+function uploadfile_action()
+{
+$res = array();
+$uploads = array();
+if (is_array($_FILES)) {
+$upload = new upload();
+$upload->dir = 'attachment';
+$upload->max_size = config::get('upload_max_filesize') * 1024 * 1024;
+$attachment = new attachment();
+$_file_type = str_replace(',', '|', config::get('upload_filetype'));
+$upload->type = explode('|', $_file_type);
+foreach ($_FILES as $name => $file) {
+$res[$name]['size'] = ceil($file['size'] / 1024);
+if ($file['size'] > $upload->max_size) {
+$res[$name]['code'] = "alert('" . lang('attachment_exceeding_the_upper_limit') . "(" . ceil($upload->max_size / 1024) . "K)！');";
+break;
+}
+if (!front::checkstr(@file_get_contents($file['tmp_name']))) {
+$res[$name]['code'] = lang('upload_failed_attachment_is_not_verified');
+break;
+}
+if (!$file['name'] || !preg_match('/\.(' . $_file_type . ')$/', $file['name']))
+continue;
+$uploads[$name] = $upload->run($file);
+if (!$uploads[$name]) {
+$res[$name]['code'] = "alert('" . lang('attachment_save_failed') . ");";
+break;
+}
+$res[$name]['name'] = $uploads[$name];
+$res[$name]['type'] = $file['type'];
+$attachment->rec_insert(array('path' => $uploads[$name], 'intro' => front::post('attachment_intro'), 'adddate' => date('Y-m-d H:i:s')));
+$res[$name]['id'] = $attachment->insert_id();
+$rname = preg_replace('%(.*)[\\\\\/](.*)_\d+(\.[a-z]+)$%i', '$2$3', $uploads[$name]);
+$res[$name]['code'] = "
+document.form1.attachment_id.value=data[key].id;
+if(!document.form1.attachment_intro.value) {
+document.form1.attachment_intro.value='$rname';
+}
+document.form1.attachment_path.value=data[key].name;
+get('attachment_path_i').innerHTML=data[key].name;
+get('file_info').innerHTML=lang('attachment_has_been_saved_size')+data[key].size+'K ';
+";
+session::set('attachment_id', $res[$name]['id']);
+}
+}
+echo json::encode($res);
+}
+
+function uploadimage_action()
+{
+$res = array();
+$uploads = array();
+if (is_array($_FILES)) {
+$upload = new upload();
+$upload->dir = 'images';
+$upload->max_size = config::get('upload_max_filesize') * 1024 * 1024;
+$attachment = new attachment();
+$_file_type = str_replace(',', '|', config::get('upload_filetype'));
+foreach ($_FILES as $name => $file) {
+$res[$name]['size'] = ceil($file['size'] / 1024);
+if ($file['size'] > $upload->max_size) {
+$res[$name]['code'] = "alert('" . lang('attachment_exceeding_the_upper_limit') . "(" . ceil($upload->max_size / 1024) . "K)！');";
+break;
+}
+if (!front::checkstr(file_get_contents($file['tmp_name']))) {
+$res[$name]['code'] = lang('upload_failed_attachment_is_not_verified');
+break;
+}
+if (!$file['name'] || !preg_match('/\.(' . $_file_type . ')$/', $file['name']))
+continue;
+$uploads[$name] = $upload->run($file);
+if (!$uploads[$name]) {
+$res[$name]['code'] = "alert('" . lang('attachment_save_failed') . "');";
+break;
+}
+$res[$name]['name'] = $uploads[$name];
+$res[$name]['type'] = $file['type'];
+$rname = preg_replace('%(.*)[\\\\\/](.*)_\d+(\.[a-z]+)$%i', '$2$3', $uploads[$name]);
+$res[$name]['code'] = "
+document.form1.attachment_id.value=data[key].id;
+if(!document.form1.attachment_intro.value) {
+document.form1.attachment_intro.value='$rname';
+}
+get('attachment_path').innerHTML=data[key].name;
+get('file_info').innerHTML=lang('attachment_has_been_saved_size')+data[key].size+'K ';
+";
+if (substr(config::get('base_url'), -1, 1) != '/') {
+$ex = '/';
+}
+$str = config::get('base_url') . $ex . $uploads[$name];
+echo $str;
+return;
+}
+}
+echo json::encode($res);
+}
+
+function uploadimage2_action()
+{
+$res = array();
+$uploads = array();
+if (is_array($_FILES)) {
+$upload = new upload();
+$upload->dir = 'images';
+$upload->max_size = config::get('upload_max_filesize') * 1024 * 1024;
+$attachment = new attachment();
+$_file_type = str_replace(',', '|', config::get('upload_filetype'));
+foreach ($_FILES as $name => $file) {
+$res[$name]['size'] = ceil($file['size'] / 1024);
+if ($file['size'] > $upload->max_size) {
+$res[$name]['code'] = "alert('" . lang('attachment_exceeding_the_upper_limit') . "(" . ceil($upload->max_size / 1024) . "K)！');";
+break;
+}
+if (!front::checkstr(file_get_contents($file['tmp_name']))) {
+$res[$name]['code'] = lang('upload_failed_attachment_is_not_verified');
+break;
+}
+if (!$file['name'] || !preg_match('/\.(' . $_file_type . ')$/', $file['name']))
+continue;
+$uploads[$name] = $upload->run($file);
+if (!$uploads[$name]) {
+$res[$name]['code'] = "alert('" . lang('attachment_save_failed') . "');";
+break;
+}
+$res[$name]['name'] = $uploads[$name];
+$res[$name]['type'] = $file['type'];
+$rname = preg_replace('%(.*)[\\\\\/](.*)_\d+(\.[a-z]+)$%i', '$2$3', $uploads[$name]);
+$res[$name]['code'] = "
+document.form1.attachment_id.value=data[key].id;
+if(!document.form1.attachment_intro.value) {
+document.form1.attachment_intro.value='$rname';
+}
+get('attachment_path').innerHTML=data[key].name;
+get('file_info').innerHTML=lang('attachment_has_been_saved_size')+data[key].size+'K ';
+";
+/*if(substr(config::get('base_url'),-1,1) != '/'){
+$ex = '/';
+}*/
+$str = config::get('site_url') . $uploads[$name];
+echo $str;
+return;
+}
+}
+echo json::encode($res);
+}
+
+function cut_image_action()
+{
+die("request error");
+}
+
+function deleteattachment_action()
+{
+$attachment = new attachment();
+$id = intval(front::get('id'));
+$attachment->del($id);
+}
+
+function ding_action()
+{
+echo tool::text_javascript('null');
+}
+}

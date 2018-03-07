@@ -1,19 +1,477 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??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*/
+
+class type extends table
+{
+    static $me;
+
+    function getcols($act)
+    {
+        if ($act == 'modify')
+            return 'typeid,parentid,listorder,typename,subtitle,htmldir,template,listtemplate,showtemplate,ishtml,isshow,ispages,includecatarchives,linkto,htmlrule,listhtmlrule,showhtmlrule,image,description,keyword,stype,thumb,thumb_width,thumb_height';
+        else return 'typeid,typename,subtitle,htmldir,isshow,ispages,linkto,stype,listorder';
+    }
+
+    function get_form()
+    {
+        return array(
+            'parentid' => array(
+                'selecttype' => 'select',
+                'select' => form::arraytoselect(type::option(0, 'isnotlast')),
+                'default' => get('parentid'),
+            ),
+            'thumb' => array(
+                'filetype' => 'thumb',
+            ),
+            'ishtml' => array(
+                'selecttype' => 'radio',
+                'select' => form::arraytoselect(array(0 => '继承', 1 => '生成', 2 => '不生成')),
+                'default' => 0,
+            ),
+            'isshow' => array(
+                'selecttype' => 'radio',
+                'select' => form::arraytoselect(array(1 => '正常显示', 0 => '禁用')),
+                'default' => 1,
+            ),
+            'ispages' => array(
+                'selecttype' => 'radio',
+                'select' => form::arraytoselect(array(1 => '分页', 0 => '单页')),
+                'default' => 1,
+            ),
+            'includecatarchives' => array(
+                'selecttype' => 'radio',
+                'select' => form::arraytoselect(array(1 => '包含', 0 => '不包含')),
+                'default' => 1,
+            ),
+            'stype' => array(//'tips'=>"&nbsp;被调用的格式 type(\$typeid,'标记')",
+            ),
+            'htmlrule' => array(
+                //'tips'=>" 默认：{?type::gethtmlrule(get('id'))}",
+                'selecttype' => 'select',
+                'select' => form::arraytoselect(getTypeHtmlRule('type')),
+                'default' => '',
+            ),
+            'listhtmlrule' => array(
+                //'tips'=>" 默认：{?type::gethtmlrule(get('id'),'listhtmlrule')}",
+                'selecttype' => 'select',
+                'select' => form::arraytoselect(getTypeHtmlRule('type')),
+                'default' => '',
+            ),
+            'showhtmlrule' => array(//'tips'=>" 默认：{?type::gethtmlrule(get('id'),'showhtmlrule')}",
+            ),
+            'image' => array(
+                'filetype' => 'imageSwfupload',
+            ),
+            'template' => array(
+                'selecttype' => 'select',
+                'select' => form::arraytoselect(front::$view->archive_tpl_list('type/list')),
+                'default' => "{?type::gettemplate(get('id'),'listtemplate',false)}",
+                //'tips'=>" 默认：{?type::gettemplate(get('id'))}",
+            ),
+            'listtemplate' => array(
+                'selecttype' => 'select',
+                'select' => form::arraytoselect(front::$view->archive_tpl_list('type/list')),
+                'default' => "{?type::gettemplate(get('id'),'listtemplate',false)}",
+                //'tips'=>" 默认：{?type::gettemplate(get('id'),'listtemplate')}",
+            ),
+            'typecontent'=>array(
+                'type'=>'mediumtext',
+            ),
+        );
+    }
+
+    public static function getInstance()
+    {
+        if (!self::$me) {
+            $class = new type();
+            $class->init();
+            self::$me = $class;
+        }
+        return self::$me;
+    }
+
+    function init()
+    {
+        $_type = $this->getrows(null, 1000, '`listorder` desc,1');
+        $type = array();
+        foreach ($_type as $one) {
+            if (!front::$admin && !$one['isshow']) continue;
+            $type[$one['typeid']] = $one;
+        }
+        $this->type = $type;
+        $parent = array();
+        foreach ($type as $one) {
+            $parent[$one['typeid']] = $one['parentid'];
+        }
+        $this->parent = $parent;
+        $this->tree = new tree($parent);
+    }
+
+    function son($id)
+    {
+        if (!isset($this->tree)) $this->init();
+        return $this->tree->get_son($id);
+    }
+
+    function sons($id)
+    {
+        if (!isset($this->tree)) $this->init();
+        $sons = array();
+        $this->tree->get_sons($id, $sons);
+        return $sons;
+    }
+
+    function hasson($id)
+    {
+        return self::getInstance()->tree->has_son($id);
+    }
+
+    function getparents($id, $up = true)
+    {
+        if (!isset($this->tree)) $this->init();
+        return $this->tree->get_parents($id);
+    }
+
+    function getparent($id)
+    {
+        if (isset($this->tree->parent[$id])) return $this->tree->parent[$id];
+        else return false;
+    }
+
+    function getposition($id)
+    {
+        if (!isset($this->tree)) $this->init();
+        $position = $this->tree->get_parents($id);
+        return $position;
+    }
+
+    function getposition1($id)
+    {
+        if (!isset($this->tree)) $this->init();
+        $position = $this->tree->get_parents1($id);
+        return $position;
+    }
+
+    static function gettopparent($id)
+    {
+        $position = self::getInstance()->getposition($id);
+        return $position[count($position) - 1];
+    }
+
+    static function getparentsid($id, $up = true)
+    {
+        $category = self::getInstance();
+        if (!isset($category->tree)) $category->init();
+        return $category->tree->get_parents($id);
+    }
+
+    function htmlpath($id)
+    {
+        if (!isset($this->tree)) $this->init();
+        $positions = $this->tree->get_parents($id);
+        $path = array();
+        foreach ($positions as $_id) {
+            if ($_id && isset($this->type[$_id])) $path[] = $this->type[$_id]['htmldir'];
+        }
+        return implode('/', $path);
+    }
+
+    static function option($typeid = 0, $tag = 'all', &$option = array(0 => '请选择...'), &$level = 0)
+    {
+        $type = self::getInstance();
+        if (is_array($type->son($typeid))) foreach ($type->son($typeid) as $_typeid) {
+            if (!self::check($_typeid, $tag)) continue;
+            $strpre = $level > 0 ? str_pad('', $level * 12, '&nbsp;') . '└&nbsp;' : '';
+            $option[$_typeid] = $strpre . $type->type[$_typeid]['typename'];
+            if (is_array($type->son($_typeid))) {
+                $level++;
+                self::option($_typeid, $tag, $option, $level);
+                $level--;
+            }
+        }
+        return $option;
+    }
+
+    static function name($typeid)
+    {
+        $type = self::getInstance();
+        if (isset($type->type[$typeid]['typename'])) {
+            return $type->type[$typeid]['typename'];
+        } else {
+            return '';
+        }
+    }
+
+    static function image($typeid)
+    {
+        $type = self::getInstance();
+        if (isset($type->type[$typeid]['image'])) return config::get('base_url') . '/' . $type->type[$typeid]['image'];
+        else return '';
+    }
+
+    static function url($typeid, $page = null)
+    {
+        //var_dump($typeid);
+        if (front::$get['t'] == 'wap') {
+            if (config::get('wap_type_html')) {
+                $type = self::getInstance();
+                $rule = type::gethtmlrule($typeid, 'listhtmlrule');
+                $rule = str_replace('{$caturl}', $type->htmlpath($typeid), $rule);
+                $rule = str_replace('{$catid}', $typeid, $rule);
+                $rule = str_replace('{$dir}', $type->type[$typeid]['htmldir'], $rule);
+                if ($page) {
+                    $rule = str_replace('{$page}', $page, $rule);
+                } else {
+                    $rule = preg_replace('/(type_.*?)\.html$/', 'index.html', $rule);
+                }
+                $rule = preg_replace('%/\.html$%', '/index.html', $rule);
+                $rule = preg_replace('/[\(\)]/', '', $rule);
+                $rule = preg_replace('%[\\/]index\.htm(l)?%', '', $rule);
+                $rule = rtrim($rule, '/');
+                $rule = trim($rule, '\\');
+                $sp = substr(config::get('base_url'), -1, 1) == '/' ? '' : '/';
+                return config::get('base_url') . $sp . 'type_wap/' . $rule;
+            } else {
+                return url('type/list/t/wap/typeid/' . $typeid . ($page ? '/page/' . $page : ''));
+            }
+        }
+
+        if (!type::getishtml($typeid) && !front::$rewrite) {
+            return url('type/list/typeid/' . $typeid . ($page ? '/page/' . $page : ''));
+        } else if (front::$rewrite) {
+            $sp = substr(config::get('base_url'), -1, 1) == '/' ? '' : '/';
+            return config::get('base_url') . $sp . 'typelist_' . $typeid . '_' . $page . '.htm';
+        } else {
+            $type = self::getInstance();
+            $rule = type::gethtmlrule($typeid, 'listhtmlrule');
+            $rule = str_replace('{$caturl}', $type->htmlpath($typeid), $rule);
+            $rule = str_replace('{$catid}', $typeid, $rule);
+            $rule = str_replace('{$dir}', $type->type[$typeid]['htmldir'], $rule);
+            if ($page) $rule = str_replace('{$page}', $page, $rule);
+            else $rule = preg_replace('/(type_.*?)\.html$/', 'index.html', $rule);
+            //else $rule=preg_replace('/(^\/.*?\.html)/',"/index.html",$rule);
+            $rule = preg_replace('%/\.html$%', '/index.html', $rule);
+            $rule = preg_replace('/[\(\)]/', '', $rule);
+            $rule = preg_replace('%[\\/]index\.htm(l)?%', '', $rule);
+            $rule = rtrim($rule, '/');
+            $rule = trim($rule, '\\');
+            $sp = substr(config::get('base_url'), -1, 1) == '/' ? '' : '/';
+            return config::get('base_url') . $sp . 'type/' . $rule;
+        }
+    }
+
+    static function getpositionlink($typeid)
+    {
+        $type = self::getInstance();
+        if (!isset($type->type[$typeid])) return;
+        $position = $type->getposition($typeid);
+        $links = array();
+        if (!$typeid) return $links;
+        foreach ($position as $order => $id) {
+            $links[$order]['id'] = $id;
+            $links[$order]['name'] = @$type->type[$id]['typename'];
+            $links[$order]['url'] = self::url($id);
+        }
+        return $links;
+    }
+
+    static function getpositionhtml($typeid)
+    {
+        $s = ' &gt; ';
+        $html = '';
+        foreach (self::getpositionlink($typeid) as $link) {
+            $html .= "<a href=\"$link[url]\">$link[name]</a>" . $s;
+        }
+        return preg_replace("%$s$%", '', $html);
+    }
+
+    static function getpositionlink1($typeid)
+    {
+        $type = self::getInstance();
+        if (!isset($type->type[$typeid])) return;
+        $position = $type->getposition($typeid);
+        $links = array();
+        if (!$typeid) return $links;
+        foreach ($position as $order => $id) {
+            $links['id'] = $id;
+            $links['name'] = @$type->type[$id]['typename'];
+            $links['url'] = self::url($id);
+            break;
+        }
+        return $links;
+    }
+
+    static function getpositionlink2($typeid)
+    {
+        $type = self::getInstance();
+        if (!isset($type->type[$typeid])) return;
+        $position = $type->getposition1($typeid);
+        $links = array();
+        if (!$typeid) return $links;
+        foreach ($position as $order => $id) {
+            $links[$order]['id'] = $id;
+            $links[$order]['name'] = @$type->type[$id]['typename'];
+            $links[$order]['url'] = self::url($id);
+        }
+        return $links;
+    }
+
+    static function gettemplate($typeid, $tag = 'listtemplate', $up = true)
+    {
+        if (!$typeid && front::get('parentid')) $typeid = front::get('parentid');
+        $type = self::getInstance();
+        if (@$type->type[$typeid]['template'] && $tag == 'listtemplate') return $type->type[$typeid]['template'];
+        if (@$type->type[$typeid][$tag]) return $type->type[$typeid][$tag];
+        if (!$up) return;
+        $parents = $type->getparents($typeid, true);
+        ksort($parents);
+        foreach ($parents as $pid) {
+            if ($pid == $typeid) continue;
+            if (@$type->type[$pid][$tag]) return $type->type[$pid][$tag];
+        }
+        $default = array(
+            'listtemplate' => 'type/list.html',
+        );
+        if (isset($default[$tag])) return $default[$tag];
+    }
+
+    static function gethtmlrule($typeid, $tag = 'listhtmlrule')
+    {
+        if (!$typeid && front::get('parentid')) $typeid = front::get('parentid');
+        $type = self::getInstance();
+        //var_dump($typeid);
+        //var_dump($type->type);exit;
+        if (@$type->type[$typeid]['htmlrule'] && $tag == 'listhtmlrule') return $type->type[$typeid]['htmlrule'];
+        $parents = $type->getparents($typeid, true);
+        ksort($parents);
+        foreach ($parents as $pid) {
+            if ($pid == $typeid) continue;
+            if (@$type->type[$pid][$tag]) return $type->type[$pid][$tag];
+        }
+        $default = array(
+            'listhtmlrule' => '{$caturl}/type_{$page}.html',
+            'showhtmlrule' => '{$caturl}/show_{$aid}(_{$page}).html',
+        );
+        if (isset($default[$tag])) return $default[$tag];
+    }
+
+    static function getWapishtml($typeid)
+    {
+        $type = self::getInstance();
+        if (@$type->type[$typeid]['ishtml'] == '1') return true;
+        if (@$type->type[$typeid]['ishtml'] == '2') return false;
+        $parents = $type->getparents($typeid, true);
+        ksort($parents);
+        foreach ($parents as $pid) {
+            if ($pid == $typeid) continue;
+            if (@$type->type[$pid]['ishtml'] == '1') return true;
+            if (@$type->type[$pid]['ishtml'] == '2') return false;
+        }
+        if (config::get('wap_type_html') == '1') return true;
+        return false;
+    }
+
+    static function getishtml($typeid)
+    {
+        $type = self::getInstance();
+        if (@$type->type[$typeid]['ishtml'] == '1') return true;
+        if (@$type->type[$typeid]['ishtml'] == '2') return false;
+        $parents = $type->getparents($typeid, true);
+        ksort($parents);
+        foreach ($parents as $pid) {
+            if ($pid == $typeid) continue;
+            if (@$type->type[$pid]['ishtml'] == '1') return true;
+            if (@$type->type[$pid]['ishtml'] == '2') return false;
+        }
+        if (config::get('list_page_php') == '1') return true;
+        if (config::get('list_page_php') == '2') return false;
+        return false;
+    }
+
+    static function getarcishtml($arc)
+    {
+        if (config::get('show_page_php') == '1') return true;
+        if (config::get('show_page_php') == '2') return false;
+        if ($arc['ishtml']) return true;
+        if (self::getishtml($arc['typeid'])) return true;
+        return false;
+    }
+
+    static function getattr($typeid, $attr)
+    {
+        $type = self::getInstance();
+        if (@$type->type[$typeid][$attr]) return $type->type[$typeid][$attr];
+        $parents = $type->getparents($typeid, true);
+        ksort($parents);
+        foreach ($parents as $pid) {
+            if ($pid == $typeid) continue;
+            if (@$type->type[$pid][$attr]) return $type->type[$typeid][$attr];
+        }
+        return false;
+    }
+
+    static function getwidthofthumb($typeid)
+    {
+        $width = self::getattr($typeid, 'thumb_width');
+        if (!$width) $width = config::get('thumb_width');
+        return $width;
+    }
+
+    static function getheightofthumb($typeid)
+    {
+        $height = self::getattr($typeid, 'thumb_height');
+        if (!$height) $height = config::get('thumb_height');
+        return $height;
+    }
+
+    static function gettypedata($_typeid = 0, &$data = array(), &$level = 0)
+    {
+        $type = self::getInstance();
+        $types = $type->son($_typeid);
+        foreach ($types as $typeid) {
+            $info_ = $type->type[$typeid];
+            $strpre = $level > 0 ? str_pad('', $level * 12, '&nbsp;') . '└&nbsp;' : '';
+            $info_['typename'] = $strpre . $info_['typename'] . '<font color="Blue">' . (self::check($typeid, 'islast') ? ('(' . countarchiveformtype($typeid) . ')') : '') . '</font>';
+            $info_['level'] = $level;
+            $data[] = $info_;
+            if (is_array($type->son($typeid))) {
+                $level++;
+                self::gettypedata($typeid, $data, $level);
+                $level--;
+            }
+        }
+        return $data;
+    }
+
+    static function check($typeid, $tag = 'isnotlast')
+    {
+        return true;
+        $_type = self::getInstance();
+        $type = $_type->type[$typeid];
+        if ($tag == 'islast' && !$type['islast']) return false;
+        if ($tag == 'isnotlast' && $type['islast']) return false;
+        if ($tag == 'tolast') {
+            if ($_type->type[$typeid]['islast']) return true;
+            $sons = $_type->sons($typeid);
+            foreach ($sons as $tid) {
+                if ($_type->type[$tid]['islast']) return true;
+            }
+            return false;
+        }
+        return true;
+    }
+
+    static function htmlcache($typeid)
+    {
+    }
+
+    static function listdata($parentid = 0, $limit = 10, $order = 'typeid asc', $where = null, $includeson = true)
+    {
+        $type = new type();
+        $where = 'parentid=' . ($parentid ? $parentid : '0') . ($where ? ' and ' . $where : '');
+        $types = $type->getrows($where, $limit, $order);
+        foreach ($types as $order => $type) {
+            $types[$order]['url'] = type::url($type['typeid']);
+        }
+        return $types;
+    }
+}
