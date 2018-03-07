@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>cmseasy免费企业网站程序是国内首款免费营销型的企业网站系统</title>
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+<meta name="keywords" content="企业网站程序,企业网站源码,cmseasy" />
+<meta name="description" content="cmseasy是一款基于 PHP+Mysql 架构的网站内容管理系统，也是一个 PHP 开发平台。 采用模块化方式开发，功能易用便于扩展，可面向大中型站点提供重量级网站建设解决方案。" />
+<meta name="author" content="CmsEasy Team" />
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<link href="/template/default_bootstrap/skin/css/bootstrap.min.css" rel="stylesheet">
+<link href="data:text/css;charset=utf-8," data-href="/template/default_bootstrap/skin/css/bootstrap-theme.min.css" rel="stylesheet" id="bs-theme-stylesheet">
+<link href="/template/default_bootstrap/skin/css/style.css" rel="stylesheet">
+<link href="/template/default_bootstrap/skin/css/bootstrap-submenu.css" rel="stylesheet">
+<script src="/template/default_bootstrap/skin/js/jquery.min.js"></script>
+</head>
+<body>
+ 
+<!-- nav -->
+<nav class="navbar navbar-default navbar-fixed-top">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+<span class="sr-only">CmsEasy 企业营销型管理系统</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+
+
+<div class="top-nav-right navbar-right">
+<ul>
+<li id="fat-menu" class="dropdown">
+<a class="dropdown-toggleglyphicon glyphicon glyphicon-globe" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"></a>
+<ul class="dropdown-menu" aria-labelledby="drop3">
+<li><a id="StranLink" name="StranLink">繁體</a></li><li><a href="http://hk.cmseasy.com/" target="_blank">香港网站</a></li>
+<li><a href="http://test.cmseasy.cn/" target="_blank">公司网站</a></li>
+</ul>
+</li>
+<li class="glyphicon glyphicon-shopping-cart nav-shopping"><a href="/index.php?case=archive&act=orders" target="_blank"></a></li><li class="glyphicon glyphicon-search" data-toggle="modal" data-target=".bs-example-modal-lg-search" aria-hidden="true"></li>
+</ul>
+</div>
+<!-- logo -->
+<a href="/" class="navbar-brand text-center"><img src="/images/logo.png" class="img-responsive" alt="CmsEasy 企业营销型管理系统" /></a>
+<!-- logo end -->
+</div>
+
+<div id="navbar" class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li class="oen active"><a href="/">网站首页</a></li>
+<li class="oen dropdown">
+<a href="/index.php?case=archive&act=list&catid=1" data-toggle="dropdown" data-submenu="">关于我们<span class="caret"></span></a>
+<ul class="two dropdown-menu">
+<li>
+<a title="企业文化" href="/index.php?case=archive&act=list&catid=4">企业文化</a>
+</li>
+<li>
+<a title="职位招聘" href="/index.php?case=archive&act=list&catid=7">职位招聘</a>
+</li>
+<li>
+<a title="公司荣誉" href="/index.php?case=archive&act=list&catid=11">公司荣誉</a>
+</li>
+<li>
+<a title="发展历程" href="/index.php?case=archive&act=list&catid=12">发展历程</a>
+</li>
+</ul>
+</li>
+<li class="oen dropdown">
+<a href="/index.php?case=archive&act=list&catid=2" data-toggle="dropdown" data-submenu="">企业新闻<span class="caret"></span></a>
+<ul class="two dropdown-menu">
+<li>
+<a title="公司动态" href="/index.php?case=archive&act=list&catid=9">公司动态</a>
+</li>
+<li>
+<a title="行业新闻" href="/index.php?case=archive&act=list&catid=13">行业新闻</a>
+</li>
+</ul>
+</li>
+<li class="oen dropdown">
+<a href="/index.php?case=archive&act=list&catid=3" data-toggle="dropdown" data-submenu="">产品中心<span class="caret"></span></a>
+<ul class="two dropdown-menu">
+<li>
+<a title="文档下载" href="/index.php?case=archive&act=list&catid=6">文档下载</a>
+</li>
+<li>
+<a title="产品运营" href="/index.php?case=archive&act=list&catid=8">产品运营</a>
+</li>
+<li>
+<a title="产品设计" href="/index.php?case=archive&act=list&catid=10">产品设计</a>
+</li>
+</ul>
+</li>
+<li class="oen">
+<a href="/index.php?case=archive&act=list&catid=5">联系我们</a>
+</li>
+<li class="oen">
+<a href="/index.php?case=archive&act=list&catid=14">案例展示</a>
+</li>
+</ul>
+
+</div>
+</div>
+</nav>
+
+
+
+
+
+
+<script type="text/javascript">
+    //<!CDATA[
+        var bodyBgs = [];
+        bodyBgs[0] = "/images/banner/s1.jpg";
+        bodyBgs[1] = "/images/banner/s2.jpg";
+        bodyBgs[2] = "/images/banner/s3.jpg";
+        bodyBgs[3] = "/images/banner/s4.jpg";
+        bodyBgs[4] = "/images/banner/s5.jpg";
+        var randomBgIndex = Math.round( Math.random() * 4 );
+    //输出随机的背景图
+        document.write('<style>.banner{background:url(' + bodyBgs[randomBgIndex] + ') no-repeat 50% bottom}</style>');
+    //]]>
+</script>
+<section>
+<div class="banner" style="height:160px;">
+</div>
+</section>
+
+<div class="container">
+
+<div class="blank30"></div>
+
+<div class="t_1">
+<div>
+<h3>网站地图</h3>
+<p>Site Map</p>
+</div>
+</div>
+
+
+
+<div class="blank30"></div>
+
+<!-- 正文 -->
+<a href="/index.php?case=archive&act=list&catid=1" target="_blank">关于我们</a><br />
+<a href="/index.php?case=archive&act=list&catid=4" target="_blank">&nbsp;&nbsp;└&nbsp;企业文化</a><br />
+<a href="/index.php?case=archive&act=list&catid=7" target="_blank">&nbsp;&nbsp;└&nbsp;职位招聘</a><br />
+<a href="/index.php?case=archive&act=list&catid=11" target="_blank">&nbsp;&nbsp;└&nbsp;公司荣誉</a><br />
+<a href="/index.php?case=archive&act=list&catid=12" target="_blank">&nbsp;&nbsp;└&nbsp;发展历程</a><br />
+<a href="/index.php?case=archive&act=list&catid=2" target="_blank">企业新闻</a><br />
+<a href="/index.php?case=archive&act=list&catid=9" target="_blank">&nbsp;&nbsp;└&nbsp;公司动态</a><br />
+<a href="/index.php?case=archive&act=list&catid=13" target="_blank">&nbsp;&nbsp;└&nbsp;行业新闻</a><br />
+<a href="/index.php?case=archive&act=list&catid=3" target="_blank">产品中心</a><br />
+<a href="/index.php?case=archive&act=list&catid=6" target="_blank">&nbsp;&nbsp;└&nbsp;文档下载</a><br />
+<a href="/index.php?case=archive&act=list&catid=8" target="_blank">&nbsp;&nbsp;└&nbsp;产品运营</a><br />
+<a href="/index.php?case=archive&act=list&catid=10" target="_blank">&nbsp;&nbsp;└&nbsp;产品设计</a><br />
+<a href="/index.php?case=archive&act=list&catid=5" target="_blank">联系我们</a><br />
+<a href="/index.php?case=archive&act=list&catid=14" target="_blank">案例展示</a><br />
+<div class="blank20"></div>
+
+
+<div class="blank30"></div>
+
+</div>
+
+
+<div class="clearfix"></div>
+<!--foot -->
+<footer>
+<div class="foot">
+<div class="container">
+
+
+<h5 class="col-lg-10">cmseasy是一款基于 PHP+Mysql 架构的网站内容管理系统，也是一个 PHP 开发平台。 采用模块化方式开发，功能易用便于扩展，可面向大中型站点提供重量级网站建设解决方案。</h5>
+
+<div class="col-md-7 foot-nav">
+<div class="row">
+<div class="col-sm-4">
+<dl>
+<dt><a href="/index.php?case=archive&act=list&catid=1" title="关于我们">关于我们</a><b></b></dt>
+<dd><a href="/index.php?case=archive&act=list&catid=4" title="企业文化" target="_blank">企业文化</a></dd>
+<dd><a href="/index.php?case=archive&act=list&catid=7" title="职位招聘" target="_blank">职位招聘</a></dd>
+<dd><a href="/index.php?case=archive&act=list&catid=11" title="公司荣誉" target="_blank">公司荣誉</a></dd>
+<dd><a href="/index.php?case=archive&act=list&catid=12" title="发展历程" target="_blank">发展历程</a></dd>
+</dl>
+</div>
+<div class="col-sm-4">
+<dl>
+<dt><a href="/index.php?case=archive&act=list&catid=3" title="产品中心">产品中心</a><b></b></dt>
+<dd><a href="/index.php?case=archive&act=list&catid=6" title="文档下载" target="_blank">文档下载</a></dd>
+<dd><a href="/index.php?case=archive&act=list&catid=8" title="产品运营" target="_blank">产品运营</a></dd>
+<dd><a href="/index.php?case=archive&act=list&catid=10" title="产品设计" target="_blank">产品设计</a></dd>
+</dl>
+</div>
+<div class="col-sm-4">
+<dl>
+<dt><a href="/index.php?case=archive&act=list&catid=2" title="企业新闻">企业新闻</a><b></b></dt>
+<dd><a href="/index.php?case=archive&act=list&catid=9" title="公司动态" target="_blank">公司动态</a></dd>
+<dd><a href="/index.php?case=archive&act=list&catid=13" title="行业新闻" target="_blank">行业新闻</a></dd>
+</dl>
+</div>
+</div>
+</div>
+
+<div class="col-md-5 fweixin">
+<div class="row">
+
+<p><img src="/images/w.gif" onerror='this.src="/images/nopic.gif"' /></p>
+<p>关注<br>官方微信</p>
+
+</div>
+</div>
+
+
+
+
+<div class="copyright">
+<p>地 址：某某股份有限公司&nbsp;&nbsp;邮 箱：yisa613@qq.com&nbsp;&nbsp;电 话：888-88888888&nbsp;&nbsp;传 真：888-88888888</p>
+<p>
+Copyright ©<a href="http://www.cms.top/" target="_blank">CmsEasy 企业营销型管理系统</a>,Inc.All rights reserved.&nbsp;&nbsp;<a href="/sitemap.html" target="_blank">网站地图</a>&nbsp;&nbsp;<a rel="nofollow" href="http://www.miibeian.gov.cn/" rel="nofollow" target="_blank">京ICP备88888888号</a>
+</p>
+<p>
+&nbsp;&nbsp;<script src="/index.php?case=user&act=login_js"></script>&nbsp;&nbsp;Powered by <a href="http://www.cmseasy.cn" title="CmsEasy企业网站系统" target="_blank">CmsEasy</a>&nbsp;&nbsp;<a rel="nofollow" title="留言" href="/index.php?case=guestbook&act=index" target="_blank">留言</a>&nbsp;&nbsp;<a href="/index.php?case=archive&act=rss&catid=">Rss</a></a>
+</p>
+<p>热门关键词： </p></div>
+
+
+
+
+
+
+
+</div>
+</div>
+</footer>
+<!-- foot end --><div class="home-links">
+<div class="hr"></div>
+<div class="container">
+<div class="col-xs-12 col-sm-12 col-md-2 col-lg-1 home-links-left">
+友情链接：
+</div>
+<div class="col-xs-12 col-sm-12 col-md-10 col-lg-11">
+<div class="links-logo">
+<a href="http://www.cmseasy.cn" title="易通免费企业CMS"><img src="http://www.cmseasy.cn/logo.gif"width="88" height="31" /></a>
+</div>
+<div class="links-a">
+<a href="http://www.cmseasy.org" target="_blank">CmsEasy论坛</a>/
+<a href="http://www.cmseasy.net" target="_blank">九州易通科技有限公司</a>/
+
+</div>
+</div>
+</div><!-- /container -->
+</div><!-- /home-links -->
+
+
+<!-- search -->
+<div class="container-fluid">
+
+<div class="modal fade bs-example-modal-lg-search" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<div class="blank5"></div>
+      </div>
+<div class="row">
+
+<form name='search' action="/index.php?case=archive&act=search" onsubmit="search_check();" method="post">
+<div class="col-lg-1"></div>
+<div class="col-lg-10">
+<div class="input-group">
+
+<input type="text" name="keyword" class="form-control" placeholder="请输入查询信息！">
+<span class="input-group-btn">
+<button class="btn btn-default" name='submit' type="submit">Go!</button>
+</span>
+
+</div>
+</div>
+<div class="col-lg-1"></div>
+</form>
+
+</div>
+</div>
+</div>
+
+</div>
+<!-- search end -->
+
+
+
+<div class="servers">
+<!--[if (gte IE 7)|!(IE)]><!-->
+<!-- 在线客服 -->
+
+
+
+<style type="text/css">
+.izl-rmenu{position:fixed; left:0; margin-right:20px; bottom:0px; padding-bottom:0px;  z-index:999; }
+.izl-rmenu .sbtn{width:72px; height:73px; margin-bottom:1px; cursor:pointer; position:relative;}
+
+
+
+.izl-rmenu .btn-qq{background:url(/template/default_bootstrap/skin/images/servers/metro_color/r_qq.png) 0px 0px no-repeat; background-color:#6da9de;color:#FFF;}
+.izl-rmenu .btn-qq:hover{background-color:#488bc7;color:#FFF;}
+.izl-rmenu .btn-qq .qq{background-color:#488bc7; position:absolute; width:160px; right:-160px; top:0px; line-height:73px; color:#FFF; font-size:18px; text-align:center; display:none;}
+.izl-rmenu .btn-qq a {color:#FFF;font-size:14px;}
+
+.izl-rmenu .btn-wx{background:url(/template/default_bootstrap/skin/images/servers/metro_color/r_wx.png) 0px 0px no-repeat; background-color:#78c340;}
+.izl-rmenu .btn-wx:hover{background-color:#58a81c;}
+.izl-rmenu .btn-wx .pic{position:absolute; right:-160px; top:0px; display:none;width:140px;height:140px;}
+
+.izl-rmenu .btn-phone{height:73px;line-height:73px;height:73px;line-height:73px;background:url(/template/default_bootstrap/skin/images/servers/metro_color/r_phone.png) 0px 0px no-repeat; background-color:#fbb01f;}
+.izl-rmenu .btn-phone:hover{background-color:#ff811b;}
+.izl-rmenu .btn-phone .phone{background-color:#ff811b; position:absolute; width:160px; right:-160px; top:0px; line-height:36px; color:#FFF; font-size:16px; text-align:center; display:none;}
+
+.izl-rmenu .btn-ali{background:url(/template/default_bootstrap/skin/images/servers/metro_color/r_ali.png) 0px 0px no-repeat; background-color:#B8860B;}
+.izl-rmenu .btn-ali:hover{background-color:#808000;}
+.izl-rmenu a.btn-ali,.izl-rmenu a.btn-ali:visited{background:url(/template/default_bootstrap/skin/images/servers/metro_color/r_ali.png) 0px 0px no-repeat; background-color:#B8860B; text-decoration:none; display:block;}
+
+
+.izl-rmenu .btn-wangwang{background:url(/template/default_bootstrap/skin/images/servers/metro_color/r_wangwang.png) 0px 0px no-repeat; background-color:#FFD700;}
+.izl-rmenu .btn-wangwang:hover{background-color:#DAA520;}
+.izl-rmenu a.btn-wangwang,.izl-rmenu a.btn-wangwang:visited{background:url(/template/default_bootstrap/skin/images/servers/metro_color/r_wangwang.png) 0px 0px no-repeat; background-color:#FFD700; text-decoration:none; display:block;}
+
+.izl-rmenu .btn-msn{background:url(/template/default_bootstrap/skin/images/servers/metro_color/r_msn.png) 0px 0px no-repeat; background-color:#FF69B4;}
+.izl-rmenu .btn-msn:hover{background-color:#8B008B;}
+.izl-rmenu a.btn-msn,.izl-rmenu a.btn-skype:visited{background:url(/template/default_bootstrap/skin/images/servers/metro_color/r_msn.png) 0px 0px no-repeat; background-color:#FF69B4; text-decoration:none; display:block;}
+
+.izl-rmenu .btn-skype{background:url(/template/default_bootstrap/skin/images/servers/metro_color/r_skype.png) 0px 0px no-repeat; background-color:#FF69B4;}
+.izl-rmenu .btn-skype:hover{background-color:#8B008B;}
+.izl-rmenu a.btn-skype,.izl-rmenu a.btn-skype:visited{background:url(/template/default_bootstrap/skin/images/servers/metro_color/r_skype.png) 0px 0px no-repeat; background-color:#FF69B4; text-decoration:none; display:block;}
+
+.izl-rmenu .btn-web{background:url(/template/default_bootstrap/skin/images/servers/metro_color/r_web.png) 0px 0px no-repeat; background-color:#008a46;}
+.izl-rmenu .btn-web:hover{background-color:#00663a;}
+.izl-rmenu a.btn-web,.izl-rmenu a.btn-web:visited{background:url(/template/default_bootstrap/skin/images/servers/metro_color/r_web.png) 0px 0px no-repeat; background-color:#008a46; text-decoration:none; display:block;}
+
+
+.izl-rmenu .btn-top{background:url(/template/default_bootstrap/skin/images/servers/metro_color/r_top.png) 0px 0px no-repeat; background-color:#666666; display:none;}
+.izl-rmenu .btn-top:hover{background-color:#444;}
+</style>
+
+<script language="javascript" type="text/javascript">
+$(function(){
+var tophtml="<div id=\"izl_rmenu\" class=\"izl-rmenu\"><div class=\"sbtn btn-qq\"><div class=\"qq\"><a rel=\"nofollow\" target=\"_blank\" href=\"tencent://Message/?Uin=888888&websiteName=http://www.cms.top/=&Menu=yes\">客服一</a><br /><a rel=\"nofollow\" target=\"_blank\" href=\"tencent://Message/?Uin=888888&websiteName=http://www.cms.top/=&Menu=yes\">客服二</a></div></div><a rel=\"nofollow\" href=\"http://amos.im.alisoft.com/msg.aw?v=2&uid=cmseasy&site=cntaobao&s=1&charset=utf-8\" target=\"_blank\" class=\"sbtn btn-wangwang\"></a><a rel=\"nofollow\" target=\"_blank\" href=\"http://web.im.alisoft.com/msg.aw?v=2&uid=cmseasy&site=cnalichn&s=10\" class=\"sbtn btn-ali\"></a><a rel=\"nofollow\" target=\"_blank\" href=\"skype:admin@admin.com?call\" target=\"_blank\" class=\"sbtn btn-skype\"></a><div class=\"sbtn btn-wx\"><img class=\"pic\" src=\"/images/w.gif\" onclick=\"window.location.href=\'http:\'\"/></div><div class=\"sbtn btn-phone\"><div class=\"phone\">888-88888888</div></div><div class=\"sbtn btn-top\"></div></div>";
+$("#top").html(tophtml);
+$("#izl_rmenu").each(function(){
+$(this).find(".btn-qq").mouseenter(function(){
+$(this).find(".qq").fadeIn("fast");
+});
+$(this).find(".btn-qq").mouseleave(function(){
+$(this).find(".qq").fadeOut("fast");
+});
+$(this).find(".btn-wx").mouseenter(function(){
+$(this).find(".pic").fadeIn("fast");
+});
+$(this).find(".btn-wx").mouseleave(function(){
+$(this).find(".pic").fadeOut("fast");
+});
+$(this).find(".btn-phone").mouseenter(function(){
+$(this).find(".phone").fadeIn("fast");
+});
+$(this).find(".btn-phone").mouseleave(function(){
+$(this).find(".phone").fadeOut("fast");
+});
+$(this).find(".btn-top").click(function(){
+$("html, body").animate({
+"scroll-top":0
+},"fast");
+});
+});
+var lastRmenuStatus=false;
+$(window).scroll(function(){//bug
+var _top=$(window).scrollTop();
+if(_top>200){
+$("#izl_rmenu").data("expanded",true);
+}else{
+$("#izl_rmenu").data("expanded",false);
+}
+if($("#izl_rmenu").data("expanded")!=lastRmenuStatus){
+lastRmenuStatus=$("#izl_rmenu").data("expanded");
+if(lastRmenuStatus){
+$("#izl_rmenu .btn-top").slideDown();
+}else{
+$("#izl_rmenu .btn-top").slideUp();
+}
+}
+});
+});
+</script>
+<div id="top"></div><![endif]-->
+<!-- 短信 -->
+</div>
+
+<div class="servers-wap">
+
+<style type="text/css">
+
+
+
+#plug-wrap {
+    position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0);
+    z-index:800;
+}
+.top_bar {
+    position:fixed;
+    bottom:0;
+    right:0px;
+    z-index:900;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: Helvetica, Tahoma, Arial, Microsoft YaHei, sans-serif;
+}
+.plug-menu {
+    -webkit-appearance:button;
+    display:inline-block;
+    width:36px;
+    height:36px;
+    border-radius:36px;
+    position: absolute;
+    bottom:17px;
+    right: 17px;
+    z-index:999;
+    box-shadow: 0 0 0 4px #FFFFFF, 0 2px 5px 4px rgba(0, 0, 0, 0.25);
+   
+    -webkit-transition: -webkit-transform 200ms;
+    -webkit-transform:rotate(1deg);
+    color:#fff;
+    background-image:url('/template/default_bootstrap/skin/images/wao/plug.png');
+    background-repeat: no-repeat;
+    -webkit-background-size: 80% auto;
+    background-size: 80% auto;
+    background-position: center center;
+}
+.plug-menu:before {
+    font-size:20px;
+    margin:9px 0 0 9px;
+}
+.plug-menu:checked {
+    -webkit-transform:rotate(135deg);
+}
+.top_menu>li {
+    width: 32px;
+    height:32px;
+    border-radius:32px;
+    box-shadow: 0 0 0 3px #FFFFFF, 0 2px 5px 3px rgba(0, 0, 0, 0.25);
+    
+    position:absolute;
+    bottom:0;
+    right:0;
+    margin-bottom: 20px;
+    margin-right:20px;
+    z-index:900;
+    -webkit-transition: -webkit-transform 200ms;
+}
+.top_menu>li a {
+    color:#fff;
+    font-size:20px;
+    display: block;
+    height: 100%;
+    line-height: 33px;
+    text-align: center;
+}
+.top_menu>li>a label{
+display:none;
+}
+.top_menu>li a img {
+display: block;
+width: 22px;
+height: 22px;
+text-indent: -999px;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-top: -11px;
+margin-left: -11px;
+}
+.top_menu>li.on:nth-of-type(1) {
+-webkit-transform: translate(-0, -100px) rotate(720deg);
+}
+.top_menu>li.on:nth-of-type(2) {
+-webkit-transform: translate(-47px, -81px) rotate(720deg);
+}
+.top_menu>li.on:nth-of-type(3) {
+-webkit-transform: translate(-81px, -45px) rotate(720deg);
+}
+.top_menu>li.on:nth-of-type(4) {
+-webkit-transform: translate(-100px, 0) rotate(720deg);
+}
+ 
+#sharemcover {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.7);
+display: none;
+z-index: 20000;
+}
+#sharemcover img {
+position: fixed;
+right: 18px;
+top: 5px;
+width: 260px;
+height: 180px;
+z-index: 20001;
+border:0;
+}
+
+</style>
+<div class="top_bar" style="-webkit-transform:translate3d(0,0,0)">
+<nav>
+     <ul id="top_menu" class="top_menu">
+      <input type="checkbox" id="plug-btn" class="plug-menu themeStyle" style="background-image:url('/template/default_bootstrap/skin/images/wap/plug.png');border:0px;">
+       <li class="themeStyle out" style="background:"> 
+  <a href="tel:888-88888888"><img src="/template/default_bootstrap/skin/images/wap/plugmenu1.png"><label>电 话</label></a>
+  </li>
+  <li class="themeStyle out" style="background:">
+<a href="sms:18888888888"><img src="/template/default_bootstrap/skin/images/wap/plugmenu3.png"><label>短信</label></a>
+</li>
+<li class="themeStyle out" style="background:">
+<a href="http://wpa.qq.com/msgrd?v=3&uin=888888&site=qq&menu=yes" id="btn_fenxiang"><img src="/template/default_bootstrap/skin/images/wap/plugmenu5.png"><label>QQ号码</label></a>
+</li>   
+<li class="themeStyle out" style="background:">
+<a href="/index.php?case=guestbook&act=index"><img src="/template/default_bootstrap/skin/images/wap/plugmenu6.png"><label>留言</label></a>
+</li>
+
+
+</ul>
+  </nav>
+</div>
+
+<div id="plug-wrap" style="display: none;" ></div>
+<script>
+$(function(){
+        $(".plug-menu").click(function(){
+        var li = $(this).parents('ul').find('li');
+        if(li.attr("class") == "themeStyle on"){
+                li.removeClass("themeStyle on");
+                li.addClass("themeStyle out");
+        }else{
+                li.removeClass("themeStyle out");
+                li.addClass("themeStyle on");
+        }
+        });
+});
+</script>  
+</div>
+
+<script type="text/javascript" src="/js/common.js"></script>
+
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+
+
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"slide":{"type":"slide","bdImg":"6","bdPos":"right","bdTop":"100"},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+
+
+
+<!-- Bootstrap core Javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+
+<script src="/template/default_bootstrap/skin/js/bootstrap.min.js"></script>
+<!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+<script src="/template/default_bootstrap/skin/js/holder.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="/template/default_bootstrap/skin/js/ie10-viewport-bug-workaround.js"></script>
+<script src="/template/default_bootstrap/skin/js/bootstrap-submenu.js"></script>
+<script src="/template/default_bootstrap/skin/js/docs.js"></script>
+<!--[if lt IE 9]><!-->
+<script src="/template/default_bootstrap/skin/js/ie/html5shiv.min.js"></script>
+<script src="/template/default_bootstrap/skin/js/ie/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript">
+<!--
+$(function () {
+    $(".dropdown").mouseover(function () {
+        $(this).addClass("open");
+    });
+
+    $(".dropdown").mouseleave(function(){
+        $(this).removeClass("open");
+    })
+
+})
+//-->
+</script>
+<link rel="stylesheet" href="/template/default_bootstrap/skin/css/animate.min.css" />
+<script src="/template/default_bootstrap/skin/js/wow.min.js"></script>
+<script>
+if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+new WOW().init();
+};
+</script>
+<script type="text/javascript">
+<!--
+$(document).ready(function(){
+$(window).scroll(function() {
+var top = $(".demo-box").offset().top; //获取指定位置
+var scrollTop = $(window).scrollTop();  //获取当前滑动位置
+if(scrollTop > top){                 //滑动到该位置时执行代码
+$(".navbar").addClass("active");
+}else{
+$(".navbar").removeClass("active");
+}
+});
+});
+//-->
+</script>
+<script language=javascript> 
+<!-- 
+window.onerror=function(){return true;} 
+// --> 
+</script> 
+<script type="text/javascript">
+$('#bootstrap-touch-slider').bsTouchSlider();
+</script>
+
+
+
+
+</body>
+</html>
