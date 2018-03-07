@@ -1,19 +1,216 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??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*/
+
+
+if (!defined('ROOT')) exit('Can\'t Access !');
+
+class field_admin extends admin
+{
+    function init()
+    {
+        $this->table = front::get('table');
+        if (preg_match('/^my_/', $this->table)) {
+            //form_admin::init();
+            $this->_table = new defind($this->table);
+        } else $this->_table = new $this->table;
+        $this->view->form = $this->_table->get_form_field();
+        $_fields = array();
+        $fields = $this->_table->getFields();
+        foreach ($fields as $_field) {
+            if (preg_match('/^my_/', $_field['name']))
+                $_fields[$_field['name']] = $_field;
+        }
+        $this->_fields = $_fields;
+        $this->view->table = $this->table;
+        $this->view->primary_key = $this->_table->primary_key;
+    }
+
+    function list_action()
+    {
+        if ($this->table == 'user') {
+            chkpw('defined_field_user');
+        }
+        $this->view->fields = $this->_fields;
+    }
+
+    function add_action()
+    {
+        if ($this->table == 'user') {
+            chkpw('defined_field_user_add');
+        }
+        if ($this->table == 'archive') {
+            chkpw('defined_field_content_add');
+        }
+        if (front::post('submit') && $this->check_myfield()) {
+            if (strpos(front::$post['name'], '.') !== FALSE) {
+                front::flash('字段名称不能含"."！');
+                return;
+                //var_dump(front::$post);exit;
+            }
+            //$txt_type = 'varchar';
+
+            //if (config::get('database', 'type') == 'pdosqlite') {
+            $txt_type = 'text';
+            $db_type = 'text';
+            if (front::post('type') == 'int') {
+                $db_type = 'INTEGER';
+            }
+            //}
+            if (front::$post['type'] == '_image') {
+                front::$post['filetype'] = 'image';
+                front::$post['type'] = $txt_type;
+                front::$post['len'] = 100;
+                front::$post['selecttype'] = null;
+            } elseif (front::$post['type'] == '_file') {
+                front::$post['filetype'] = 'file';
+                front::$post['type'] = $txt_type;
+                front::$post['len'] = 100;
+                front::$post['selecttype'] = null;
+            } else {
+                if (front::$post['selecttype']) {
+                    front::$post['type'] = $txt_type;
+                    if (front::$post['selecttype'] == 'checkbox') front::$post['len'] = 100;
+                    else front::$post['len'] = 10;
+                }
+                front::$post['filetype'] = null;
+            }
+            front::$post['len'] = front::$post['type'] == $txt_type ? min(front::$post['len'], 255) : (front::$post['type'] == 'int' ? min(front::$post['len'], 11) : 0);
+            if (front::$post['type'] == 'text' || front::$post['type'] == 'mediumtext' || front::$post['type'] == 'datetime')
+                front::$post['len'] = 0;
+            $option = $db_type . (front::post('len') > 0 ? '(' . front::post('len') . ')' : '');
+            $option .= front::post('isnotnull') ? ' not null' : ' null';
+            $add = $this->_table->query("ALTER TABLE `{$this->_table->name}` ADD COLUMN `" . front::post('name') . "` $option");
+            //var_dump("ALTER TABLE `{$this->_table->name}` ADD COLUMN `" . front::post('name') . "` $option");
+            //var_dump($add);
+            //exit;
+            if (FALSE  === $add) {
+                front::flash('字段添加失败！');
+            } else {
+                foreach (front::$post as $k => $n) if (!preg_match('/submit/', $k)) {
+                    setting::$_var[$this->table][front::post('name')][$k] = $n;
+                }
+                setting::save();
+                front::flash('字段添加成功！');
+                front::redirect(url::modify('act/list', true));
+            }
+        }
+    }
+
+    function edit_action()
+    {
+        if ($this->table == 'user') {
+            chkpw('defined_field_user_edit');
+        }
+        if ($this->table == 'archive') {
+            chkpw('defined_field_content_edit');
+        }
+        if (front::post('submit') && $this->check_myfield()) {
+
+            //$txt_type = 'varchar';
+            //if (config::get('database', 'type') == 'pdosqlite') {
+            $txt_type = 'text';
+            $db_type = 'text';
+            if (front::post('type') == 'int') {
+                $db_type = 'INTEGER';
+            }
+            //}
+
+            if (front::$post['type'] == '_image') {
+                front::$post['filetype'] = 'image';
+                front::$post['type'] = $txt_type;
+                front::$post['len'] = 100;
+                front::$post['selecttype'] = null;
+            } elseif (front::$post['type'] == '_file') {
+                front::$post['filetype'] = 'file';
+                front::$post['type'] = $txt_type;
+                front::$post['len'] = 100;
+                front::$post['selecttype'] = null;
+            } else {
+                if (front::$post['selecttype']) {
+                    front::$post['type'] = $txt_type;
+                    if (front::$post['selecttype'] == 'checkbox') front::$post['len'] = 100;
+                    else front::$post['len'] = 10;
+                }
+                front::$post['filetype'] = null;
+            }
+            if (front::$post['type'] == 'text' || front::$post['type'] == 'mediumtext' || front::$post['type'] == 'datetime')
+                front::$post['len'] = 0;
+            //$option = $db_type . (front::post('len') > 0 ? '(' . front::post('len') . ')' : '');
+            //$option .= front::post('isnotnull') ? ' not null' : ' null';
+
+            if (!front::$post['issearch']) {
+                front::$post['issearch'] = 0;
+            }
+            if (!front::$post['isnotnull'])
+                front::$post['isnotnull'] = 0;
+            if ($this->table == 'user') {
+                if (!front::$post['showinreg'])
+                    front::$post['showinreg'] = 0;
+            }
+            foreach (front::$post as $k => $n) if (!preg_match('/submit/', $k)) {
+                setting::$_var[$this->table][front::post('name')][$k] = $n;
+            }
+            setting::save();
+            front::flash('字段修改成功！');
+            front::redirect(url::modify('act/list', true));
+            //}
+        }
+        $this->view->data = setting::$var[$this->table][front::get('name')];
+        $this->view->field = $this->_fields[front::get('name')];
+    }
+
+    function delete_action()
+    {
+        if ($this->table == 'user') {
+            chkpw('defined_field_user_del');
+        }
+        if ($this->table == 'archive') {
+            chkpw('defined_field_content_del');
+        }
+        if (!preg_match('/^my_.+/', front::get('name'))) {
+            front::flash('字段名称不正确！');
+        }
+        $delete = $this->_table->query("ALTER TABLE `{$this->_table->name}` DROP `" . front::get('name') . "`");
+        if (!$delete) {
+            front::flash('字段删除失败！');
+        } else {
+            unset(setting::$var[$this->table][front::get('name')]);
+            setting::save();
+            front::flash('字段删除成功！');
+            front::redirect(url::modify('act/list', true));
+        }
+    }
+
+    function batch_action()
+    {
+        if (is_array(front::$post['select']) && !empty(front::$post['select'])) {
+            foreach (front::$post['select'] as $v) {
+                if (!preg_match('/^my_.+/', $v)) {
+                    front::flash('字段名称不正确！');
+                }
+                $delete = $this->_table->query("ALTER TABLE `{$this->_table->name}` DROP `" . $v . "`");
+                if (!$delete) {
+                    front::flash('字段删除失败！');
+                } else {
+                    unset(setting::$var[$this->table][$v]);
+                    setting::save();
+                    front::flash('字段删除成功！');
+                    front::redirect(url::modify('act/list', true));
+                }
+            }
+        }
+    }
+
+    private function check_myfield()
+    {
+        if (!preg_match('/^my_.+/', front::post('name'))) {
+            front::flash('字段名格式必须是是"my_abc"！');
+            return false;
+        }
+        return true;
+    }
+
+    function end()
+    {
+        $this->render('index.php');
+    }
+}

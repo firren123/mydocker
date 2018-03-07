@@ -1,19 +1,227 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??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*/
+
+if (!defined('ROOT')) exit('Can\'t Access !');
+
+class union_admin extends admin
+{
+protected $_table;
+
+function init()
+{
+$this->table = front::get('table');
+if (preg_match('/^my_/', $this->table)) {
+form_admin::init();
+$this->_table = new defind($this->table);
+} else $this->_table = new $this->table;
+$this->_table->getFields();
+$this->view->form = $this->_table->get_form();
+$this->tname = lang($this->table);
+$this->_pagesize = config::get('manage_pagesize');
+$this->view->table = $this->table;
+$this->view->primary_key = $this->_table->primary_key;
+if (!front::get('page')) front::$get['page'] = 1;
+$this->Exc = $this->table == 'templatetag' ? true : false;
+$manage = 'table_' . $this->table;
+if (preg_match('/^my_/', $this->table)) $manage = 'table_form';
+$this->manage = new $manage;
+}
+
+function list_action()
+{
+chkpw('union_list');
+$set1 = settings::getInstance();
+$sets1 = $set1->getrow(array('tag' => 'table-' . $this->table));
+$setsdata1 = unserialize($sets1['value']);
+$this->view->settings = $setsdata1;
+$where = null;
+$ordre = '`userid` DESC';
+$limit = ((front::get('page') - 1) * $this->_pagesize) . ',' . $this->_pagesize;
+$this->_view_table = $this->_table->getrows($where, $limit, $ordre, $this->_table->getcols('manage'));
+$this->view->record_count = $this->_table->record_count;
+$this->_view_user = new user;
+foreach ($this->_view_table as $key => $val) {
+$userunion = $this->_view_user->getrow(array('userid' => $val['userid']));
+$val['point'] = $userunion['point'];
+$this->_view_table[$key] = $val;
+}
+}
+
+function settle_action()
+{
+$this->_view_user = new user;
+if (front::post('submit') && $this->manage->vaild()) {
+$this->manage->filter($this->Exc);
+$this->manage->edit_before();
+$this->manage->save_before();
+$union_payarr = array();
+$union_payarr['expendamount'] = front::$post['settleexpendamount'] = round(floatval(front::$post['settleexpendamount']), 2);
+$union_payarr['amount'] = front::$post['settleamount'] = round(front::$post['settleexpendamount'] * front::$post['profitmargin'] / 100, 2);
+$union_payarr['userid'] = front::$post['userid'] = front::get('id');
+$union_payarr['inputer'] = front::$post['inputer'] = $this->view->user['username'];
+$union_payarr['addtime'] = front::$post['addtime'] = time();
+$union_payarr['ip'] = front::$post['ip'] = front::ip();
+$union_payarr['payaccount'] = front::$post['payaccount'];
+$union_payarr['profitmargin'] = front::$post['profitmargin'];
+$union_pay = new union_pay();
+$insert = $union_pay->rec_insert($union_payarr);
+$unionarr = array();
+$unionarr['totalexpendamount'] = '[totalexpendamount+' . front::$post['settleexpendamount'] . ']';
+$unionarr['totalpayamount'] = '[totalpayamount+' . front::$post['settleamount'] . ']';
+$unionarr['lastpayamount'] = front::$post['settleamount'];
+$unionarr['lastpaytime'] = time();
+$unionarr['settleexpendamount'] = '[settleexpendamount-' . front::$post['settleexpendamount'] . ']';
+$this->_table->rec_update($unionarr, front::get('id'));
+$this->_view_user->rec_update(array('point' => '[point-' . front::$post['settleexpendamount'] . ']'), front::get('id'));
+front::flash("{$this->tname}完成操作！");
+front::redirect(url::modify('act/list/table/' . $this->table));
+}
+$userunion = $this->_view_user->getrow(array('userid' => front::get('id')));
+$this->_table1 = new union();
+$this->_view_table = $this->_table1->getrow(array('userid' => front::get('id')));
+$this->_view_table = $this->_view_table + $userunion;
+}
+
+function pay_action()
+{
+chkpw('union_pay');
+$this->_view_user = new user;
+$this->_union_pay = new union_pay();
+$where = null;
+$ordre = '`payid` DESC';
+$limit = ((front::get('page') - 1) * $this->_pagesize) . ',' . $this->_pagesize;
+$this->_view_table = $this->_union_pay->getrows($where, $limit, $ordre);
+foreach ($this->_view_table as $key => $val) {
+$userunion = $this->_view_user->getrow(array('userid' => $val['userid']));
+$val['username'] = $userunion['username'];
+$this->_view_table[$key] = $val;
+}
+$this->view->record_count = $this->_union_pay->record_count;
+}
+
+function visit_action()
+{
+chkpw('union_visit');
+$this->_union_visit = new union_visit();
+$where = null;
+$ordre = '`visitid` DESC';
+$limit = ((front::get('page') - 1) * $this->_pagesize) . ',' . $this->_pagesize;
+$this->_view_table = $this->_union_visit->getrows($where, $limit, $ordre);
+$this->view->record_count = $this->_union_visit->record_count;
+}
+
+function reguser_action()
+{
+chkpw('union_reguser');
+$this->_view_user = new user;
+$where = 'introducer>0';
+$ordre = '`userid` DESC';
+$limit = ((front::get('page') - 1) * $this->_pagesize) . ',' . $this->_pagesize;
+$this->_view_table = $this->_view_user->getrows($where, $limit, $ordre, $this->_view_user->getcols('manage'));
+foreach ($this->_view_table as $key => $val) {
+$userunion = $this->_view_user->getrow(array('userid' => $val['introducer']));
+$val['introducerusername'] = $userunion['username'];
+$this->_view_table[$key] = $val;
+}
+$this->view->record_count = $this->_view_user->record_count;
+}
+
+function config_action()
+{
+chkpw('union_config');
+/*function str_replace_once($needle,$replace,$haystack) {
+$pos = @strpos($haystack,$needle);
+if ($pos === false) {
+return $haystack;
+}
+return substr_replace($haystack,$replace,$pos,strlen($needle));
+}*/
+if (front::post('submit') && $this->manage->vaild()) {
+$this->manage->filter($this->Exc);
+$this->manage->add_before($this);
+$this->manage->save_before();
+$path = ROOT . '/config/union.php';
+$content = file_get_contents($path);
+foreach (front::$post['setting'] as $key => $val) {
+$content = preg_replace("/'$key'=>'(.*?)',/is", "'$key'=>'$val',", $content);
+//preg_match_all("/'".$key."'=>'(.*?)',/isu",$content,$out);
+//var_dump($out);
+//$content = str_replace_once($out[1][0],$val,$content);
+}
+//exit;
+file_put_contents(ROOT . '/config/union.tmp.php', $content);
+if ($_GET['site'] != 'default') {
+set_time_limit(0);
+$ftp = new nobftp();
+$ftpconfig = config::get('website');
+$ftp->connect($ftpconfig['ftpip'], $ftpconfig['ftpuser'], $ftpconfig['ftppwd'], $ftpconfig['ftpport']);
+$ftperror = $ftp->returnerror();
+if ($ftperror) {
+exit($ftperror);
+} else {
+$ftp->nobchdir($ftpconfig['ftppath']);
+$ftp->nobput($ftpconfig['ftppath'] . '/config/union.php', ROOT . '/config/union.tmp.php');
+}
+} else {
+file_put_contents($path, $content);
+}
+unset($content);
+front::flash("{$this->tname}完成操作！");
+front::redirect(url::modify('act/config/table/' . $this->table));
+}
+$path = ROOT . '/config/union.php';
+$config = include $path;
+$this->_view_table = $config;
+}
+
+function edit_action()
+{
+if (front::post('submit') && $this->manage->vaild()) {
+$this->manage->filter($this->Exc);
+$this->manage->edit_before();
+$this->manage->save_before();
+$update = $this->_table->rec_update(front::$post, front::get('id'));
+if ($update < 1) {
+front::flash("{$this->tname}修改失败！");
+} else {
+$this->manage->save_after(front::get('id'));
+$info = '';
+front::flash("{$this->tname}修改成功！$info");
+$from = session::get('from');
+session::del('from');
+if (!front::post('onlymodify')) front::redirect(url::modify('act/list', true));
+}
+}
+if (!session::get('from')) session::set('from', front::$from);
+if (!front::get('id')) exit("PAGE_NOT FOUND!");
+$this->_view_table = $this->_table->getrow(front::get('id'), '1', $this->_table->getcols('modify'));
+if (!is_array($this->_view_table)) exit("PAGE_NOT FOUND!");
+$this->manage->view_before($this->_view_table);
+}
+
+function delete_action()
+{
+$this->manage->delete_before(front::get('id'));
+$delete = $this->_table->rec_delete(front::get('id'));
+if ($delete) front::flash("删除{$this->tname}成功！");
+front::redirect(url::modify('act/list/table/' . $this->table . '/bid/' . session::get('bid')));
+}
+
+function view($table)
+{
+$this->view->data = $table['data'];
+$this->view->field = $table['field'];
+}
+
+function end()
+{
+if (!isset($this->_view_table)) return;
+if (!isset($this->_view_table['data'])) $this->_view_table['data'] = $this->_view_table;
+$this->_view_table['field'] = $this->_table->getFields();
+$this->view->fieldlimit = $this->_table->getcols(front::$act == 'list' ? 'manage' : 'modify');
+$this->view($this->_view_table);
+if (front::post('onlymodify')) $this->render();
+else
+if (front::get('main')) $this->render();
+else $this->render('index.php');
+}
+}

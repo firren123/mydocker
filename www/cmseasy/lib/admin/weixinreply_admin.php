@@ -1,19 +1,222 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??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*/
+
+class weixinreply_admin extends admin{
+
+public $db_weixinreply = null;
+
+function init(){
+$this->db_weixinreply = new weixinreply();
+}
+
+function end() {
+$this->render('index.php');
+}
+
+function list_action(){
+$wid = intval(front::$get['id']);
+$where = "wid='$wid' AND id!=1 AND id!=2";
+$ordre='id asc';
+$this->view->data = $this->db_weixinreply->getrows($where,'',$ordre,'*');
+}
+
+
+function added_action(){
+if (front::post('submit')) {
+$post = front::$post;
+$post['addtime'] = date('Y-m-d H:i:s');
+$post['msgtype'] = 1;
+$post['id'] = 1;
+//var_dump(front::$post);exit;
+$imgtext = "";
+if(is_array(front::$post['twname']) && !empty(front::$post['twname'])){
+$i = 0;
+foreach(front::$post['twname'] as $twname){
+if(!$twname) continue;
+$imgtext .= $twname.'*'.front::$post['twurl'][$i].'*'.front::$post['pic'][$i].'|';
+$i++;
+}
+}
+if($imgtext) $post['imgtext'] = substr($imgtext,0,-1);
+if($this->db_weixinreply->rec_replace($post)) {
+//$id = $this->db_weixinmenu->insert_id();
+front::refresh(url('weixinreply/added/wid/'.$post['wid'], true));
+}else{
+alerterror('添加失败');
+}
+}
+$wid = intval(front::$get['wid']);
+$row = $this->db_weixinreply->getrow(array('wid'=>$wid,'msgtype'=>1));
+$this->view->data = $row;
+}
+
+
+function msged_action(){
+if (front::post('submit')) {
+$post = front::$post;
+$post['addtime'] = date('Y-m-d H:i:s');
+$post['msgtype'] = 2;
+$post['id'] = 2;
+//var_dump(front::$post);exit;
+$imgtext = "";
+if(is_array(front::$post['twname']) && !empty(front::$post['twname'])){
+$i = 0;
+foreach(front::$post['twname'] as $twname){
+if(!$twname) continue;
+$imgtext .= $twname.'*'.front::$post['twurl'][$i].'*'.front::$post['pic'][$i].'|';
+$i++;
+}
+}
+if($imgtext) $post['imgtext'] = substr($imgtext,0,-1);
+if($this->db_weixinreply->rec_replace($post)) {
+//$id = $this->db_weixinmenu->insert_id();
+front::refresh(url('weixinreply/msged/wid/'.$post['wid'], true));
+}else{
+alerterror('添加失败');
+}
+}
+$wid = intval(front::$get['wid']);
+$row = $this->db_weixinreply->getrow(array('wid'=>$wid,'msgtype'=>2));
+$this->view->data = $row;
+}
+
+function addtuwen_action(){
+$num = intval(front::$post['num']);
+include('data/weixinimg.php');
+exit;
+}
+
+function getsubmenu($pid){
+$where = array('pid'=>$pid);
+$ordre='sort=0,`sort` ASC';
+return $this->db_weixinmenu->getrows($where,'',$ordre,'*');
+}
+
+function add_action(){
+if (front::post('submit')) {
+$post = front::$post;
+$post['addtime'] = date('Y-m-d H:i:s');
+$post['msgtype'] = 3;
+$imgtext = "";
+if(is_array(front::$post['twname']) && !empty(front::$post['twname'])){
+$i = 0;
+foreach(front::$post['twname'] as $twname){
+if(!$twname) continue;
+$imgtext .= $twname.'*'.front::$post['twurl'][$i].'*'.front::$post['pic'][$i].'|';
+$i++;
+}
+}
+if($imgtext) $post['imgtext'] = substr($imgtext,0,-1);
+if($this->db_weixinreply->rec_insert($post)) {
+//$id = $this->db_weixinmenu->insert_id();
+front::refresh(url('weixinreply/list/id/'.$post['wid'], true));
+}else{
+alerterror('添加失败');
+}
+}
+}
+
+function edit_action(){
+if (front::post('submit')) {
+$post = front::$post;
+//var_dump(front::$post);exit;
+$imgtext = "";
+if(is_array(front::$post['twname']) && !empty(front::$post['twname'])){
+$i = 0;
+foreach(front::$post['twname'] as $twname){
+if(!$twname) continue;
+$imgtext .= $twname.'*'.front::$post['twurl'][$i].'*'.front::$post['pic'][$i].'|';
+$i++;
+}
+}
+if($imgtext) $post['imgtext'] = substr($imgtext,0,-1);
+if($this->db_weixinreply->rec_update($post,intval($post['id']))) {
+//$id = $this->db_weixinmenu->insert_id();
+front::refresh(url('weixinreply/list/id/'.$post['wid'], true));
+}else{
+alerterror('修改失败');
+}
+}
+$id = intval(front::$get['id']);
+$this->view->data = $this->db_weixinreply->getrow($id);
+}
+
+function del_action(){
+$id = intval(front::$get['id']);
+$wid = intval(front::$get['wid']);
+if($this->db_weixinreply->rec_delete($id)){
+front::refresh(url('weixinreply/list/id/'.$wid, true));
+}else{
+alerterror('删除失败');
+}
+}
+
+function hasSub($id){
+$num = $this->db_weixinmenu->rec_count("pid='$id'");
+return $num;
+}
+
+function getKey($arr){
+return 'V1001_'.$arr['id'];
+}
+
+function push_action(){
+$wid = intval(front::$get['wid']);
+$row = $this->db_weixinmenu->getrows(array('wid'=>$wid),'','sort=0,sort asc');
+$buttons = array();
+if(is_array($row) && !empty($row)){
+foreach($row as $arr){
+//var_dump($arr);exit;
+if($arr['pid'] == 0){ //如果是一级菜单
+if($arr['typeid'] == 1 && $this->hasSub($arr['id'])){ //如果类型是菜单并且有子菜单
+$buttons['button'][$arr['id']]['name'] = $arr['name'];
+//var_dump($buttons);exit;
+}else{ //如果没有子菜单
+
+$buttons['button'][$arr['id']]['name'] = $arr['name'];
+if($arr['typeid'] == 2){
+$buttons['button'][$arr['id']]['url'] = $arr['url'];
+$buttons['button'][$arr['id']]['type'] = 'view';
+}else {
+$buttons['button'][$arr['id']]['key'] = $this->getKey($arr);
+$buttons['button'][$arr['id']]['type'] = 'click';
+}
+}
+}else{
+$buttons['button'][$arr['pid']]['sub_button'][$arr['id']]['name'] = $arr['name'];
+if($arr['typeid'] == 2){
+$buttons['button'][$arr['pid']]['sub_button'][$arr['id']]['url'] = $arr['url'];
+$buttons['button'][$arr['pid']]['sub_button'][$arr['id']]['type'] = 'view';
+}else {
+$buttons['button'][$arr['pid']]['sub_button'][$arr['id']]['key'] = $this->getKey($arr);
+$buttons['button'][$arr['pid']]['sub_button'][$arr['id']]['type'] = 'click';
+}
+}
+}
+}
+//var_dump($row);
+//var_dump($buttons);
+$buttons['button'] = array_merge($buttons['button']);
+if(is_array($buttons['button']) && !empty($buttons['button'])){
+foreach($buttons['button'] as $k => $tmp){
+if(is_array($tmp['sub_button']) && !empty($tmp['sub_button'])){
+$buttons['button'][$k]['sub_button'] = array_merge($tmp['sub_button']);
+}
+}
+}
+$data['body'] = json_encode($buttons);
+$data['body'] = preg_replace("#\\\u([0-9a-f]{4})#ie", "iconv('UCS-2BE', 'UTF-8', pack('H4', '\\1'))", $data['body']);
+//var_dump($data['body']);
+$weixin = new weixin();
+$access_token = $weixin->getAccessToken($wid);
+$url = 'https://api.weixin.qq.com/cgi-bin/menu/create?access_token='.$access_token;
+$res = $weixin->PostJsonData($url,$data['body']);
+//var_dump($res);
+if($res['errcode']){
+alerterror($res['errmsg']);
+}else{
+alertinfo('发布成功',url('weixinmenu/list/id/'.$wid, true));
+}
+exit;
+}
+
+}

@@ -1,19 +1,193 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??7VlPb9RGFL8j8R1MsBgbvOuw4tBmtVSUUqFyqQQcUBItjj3JTrNrm/E4myiNVLUXSlVBJSpRiVIq0fZEK6qqhXLgy2QD/RadGdu7Y3tm7c1GlSrhy9qe9//93pu34+PHjh9z+04UaUOItpE/gH7cdbwB8jW4TaDvRRp/2j1OCTV6hfFaH7ma7q11JxxaR/Pjfr+dEa3HvktQ4GvIR8Qwd5O37NJJD0WN8yVuOBQMMMx2wrFXEkgtMkytLBDTBYgNgOjPdjPshUAto48i0nX4fc42tK4Z6zjwydJSGETEAFG8NkAEmDmFCaWBoq6DsbOTceiMZRlEASZg1dROndJOwEFIFOtmQSC3L8DQcXualENzIk1HntY5r+lbTr9k0bT4sui43Tj0HAKNxOhEauc8l2VRwVm0xGscOeFFvSj4zgBOi0K6PkMUEo6jjgKXOmcUnD7EBPnrgQH2X30/evrg4Pa90Z0fgBXjvgEm+m0GOxt5NmjmXRsiD6xaGsExNEUDBD36kDlNq4lQS8eR2YCUmzGLXPqwBzGkxKmLTDr1kP5YIOT3iznyAHsYdjgeOovWTfZ7U7tw9SJol2psC8EhDapDHCpeHmJqEg6GkZFYYQFgJQoscHpKQTqeR+Ih9GVFqfvxoOx6Cop4kHce+W4/9qABmJF2YhgabOT6AbvgNiJKa6gPrPBZH9JpxHLGFIKbBJRTzRpTDEmM/aMO43xtjYeVeidGuS0hWQYsY4hXZEfjBQVuNAYNT7u8hJYiUCwj295ycNeLB2EugWZbyMNYAc0XoVsPFbyw0K7bcMiwquWMKWRNR0dU3aKk+NNupJDF21HyIJOamnwiI9FcKgT5MZQoyrne7GRimzThzaJy2ljA6rKOViWrIXKztU+BUs+ZM/JGN+WROpLZZ2YoSJ85CiioIoLHNNai1ThbxAGToezMyI9oIzUSZEg7u23z3q+omYS/izxD1sXTKGG4jmHUM9S9uaIp88jAfgQl9vGdAGIc0Dnk4K+XozuPR0+evfnjp1I9CKHdUw46HppzSKlRzW8L821hZjKqRiYu2kr34UwPGz7+/8W6/+rXg/svahdrkqraA9mMw5MhzKHltuDBvnRKmmE+VJIOFaZLMEHNgJMxOh2DqN25YWwaqFIBnKeQnfrZZ0OtZG6WZFzM9uj243++eyLJtrIX95zoarzGjS1Ppmof3SD2ibFAo9MBlBcsiMqy+Y8KmTaJXoE7hk7DLCpOWcGVSzdoEOhikmWlmDCOelLQzAIFiszKqX/KXw42w2YDMfuhHdrNBV9fiwkJ/Gg8XBegNN5fmCXibsKfSxhKtwduNtsMCiHMLmED5CSyjS/DMg8084d2VbopmbuUe/Tz5wePHh48+G3/+Wev//7lzd2Ho6+/VW44iQiyE8JMylnmSBrUDGXjhJqCitfPXo4efUUVJSpGL/7cf37/4OGXo6f3pikVI7sMkhu2DY11rI7/Wne05G3yqNihMii0Do8Fwb9KUEhimMNBqwiElnSKEC8RGa0MGq0qrjpxpBttN7fSkoe4VSPGgsMpi4iaWubOaTKfZSYW88caBs+plXnJ1QK2X6rmJPHi3V51DnSElm3CnSQeCeqF1tyahtgjj4vbR+5mrcBMJ5myPGVJ7JepN8qeyUXxvXjSKH//Md+z/ruuJW2/lYVUZYVYJfWKpEpi/QqohfwqdWpYV6G6viOVkFUATvJaNc2zyz59JDtTOPvWpAxFqKrsQ8F4dgjPYdhsyJ5DUT3AV4J9DgsOVwNH4vLU0tg7bc9yGCDcim2ajcdt+VKugxuyaXziXDaXdwcQb0CjTKCc18uU4tBWXlXO8mWb2Pi2yb8GkUEoK4ScIZQmn5WcIeVVVWXJMr9ZSHgxXGXpMx30iCcP7AyBqg68BLWfRIHfhb4beFDIqJo+xHCji2HYd1xoLJxcWVmJjeXFxrtOY31199yeeRLBBUtbQG7gbxng+sWrjdb7l4ClgevXPmy8Q29Cx900wOVz7N3KyllgmpQ+p0WFNxWNnrTp3HfgPBwd14VR1CXBJmRkKQOv1Qt86RpbMVg3z/HRvsXKrEdIGC3ZthOiZsLavHWr6QYD291AjTXk2/xowaVAI/A9UVmH/cMWnmt5VhiIdAwj0eiPg4h8RLP2AWUymIlWrehRKcXjFfpqGUCMWfIpo/rQY0w5iDbyGpSnJcknzdHdb0bPv6j+pKk6i5ncFr+57f0L*/
+
+class weixinmenu_admin extends admin{
+
+public $db_weixinmenu = null;
+
+function init(){
+$this->db_weixinmenu = new weixinmenu();
+}
+
+function end() {
+$this->render('index.php');
+}
+
+function list_action(){
+if (front::post('submit')) {
+if(is_array(front::$post['sort']) && !empty(front::$post['sort'])){
+foreach (front::$post['sort'] as $id => $val) {
+$this->db_weixinmenu->rec_update(array('sort'=>$val),$id);
+}
+
+}
+if(is_array(front::$post['name']) && !empty(front::$post['name'])){
+foreach (front::$post['name'] as $id => $val) {
+$this->db_weixinmenu->rec_update(array('name'=>$val),$id);
+}
+
+}
+alertinfo('保存成功',url('weixinmenu/list/id/'.front::$post['wid'], true));
+}
+$wid = intval(front::$get['id']);
+$where = array('wid'=>$wid,'pid'=>0);
+$ordre='sort=0,`sort` ASC';
+$this->view->data = $this->db_weixinmenu->getrows($where,'',$ordre,'*');
+}
+
+function addtuwen_action(){
+$num = intval(front::$post['num']);
+include('data/weixinimg.php');
+exit;
+}
+
+function getsubmenu($pid){
+$where = array('pid'=>$pid);
+$ordre='sort=0,`sort` ASC';
+return $this->db_weixinmenu->getrows($where,'',$ordre,'*');
+}
+
+function add_action(){
+if (front::post('submit')) {
+$post = front::$post;
+$post['addtime'] = date('Y-m-d H:i:s');
+//var_dump(front::$post);exit;
+$imgtext = "";
+if(is_array(front::$post['twname']) && !empty(front::$post['twname'])){
+$i = 0;
+foreach(front::$post['twname'] as $twname){
+if(!$twname) continue;
+$imgtext .= $twname.'*'.front::$post['twurl'][$i].'*'.front::$post['pic'][$i].'|';
+$i++;
+}
+}
+if($imgtext) $post['imgtext'] = substr($imgtext,0,-1);
+if($this->db_weixinmenu->rec_insert($post)) {
+//$id = $this->db_weixinmenu->insert_id();
+front::refresh(url('weixinmenu/list/id/'.$post['wid'], true));
+}else{
+alerterror('添加失败');
+}
+}
+}
+
+function edit_action(){
+if (front::post('submit')) {
+$post = front::$post;
+//var_dump(front::$post);exit;
+$imgtext = "";
+if(is_array(front::$post['twname']) && !empty(front::$post['twname'])){
+$i = 0;
+foreach(front::$post['twname'] as $twname){
+if(!$twname) continue;
+$imgtext .= $twname.'*'.front::$post['twurl'][$i].'*'.front::$post['pic'][$i].'|';
+$i++;
+}
+}
+if($imgtext) $post['imgtext'] = substr($imgtext,0,-1);
+if($this->db_weixinmenu->rec_update($post,intval($post['id']))) {
+//$id = $this->db_weixinmenu->insert_id();
+front::refresh(url('weixinmenu/list/id/'.$post['wid'], true));
+}else{
+alerterror('修改失败');
+}
+}
+$id = intval(front::$get['id']);
+$this->view->data = $this->db_weixinmenu->getrow($id);
+}
+
+function del_action(){
+$id = intval(front::$get['id']);
+$wid = intval(front::$get['wid']);
+$this->db_weixinmenu->rec_delete(array('pid'=>$id));
+if($this->db_weixinmenu->rec_delete($id)){
+front::refresh(url('weixinmenu/list/id/'.$wid, true));
+}else{
+alerterror('删除失败');
+}
+}
+
+function hasSub($id){
+$num = $this->db_weixinmenu->rec_count("pid='$id'");
+return $num;
+}
+
+function getKey($arr){
+return 'KEY'.$arr['id'];
+}
+
+function push_action(){
+$wid = intval(front::$get['wid']);
+$row = $this->db_weixinmenu->getrows(array('wid'=>$wid,'pid'=>0),'','sort=0,sort asc');
+$buttons = array();
+if(is_array($row) && !empty($row)){
+foreach($row as $arr){
+//var_dump($arr);exit;
+if($arr['pid'] == 0){ //如果是一级菜单
+if($arr['typeid'] == 1 && $this->hasSub($arr['id'])){ //如果类型是菜单并且有子菜单
+$buttons['button'][$arr['id']]['name'] = $arr['name'];
+$row2 = $this->db_weixinmenu->getrows(array('wid'=>$wid,'pid'=>$arr['id']),'','sort=0,sort asc');
+if(is_array($row2) && !empty($row2)){
+foreach($row2 as $arr2){
+$buttons['button'][$arr['id']]['sub_button'][$arr2['id']]['name'] = $arr2['name'];
+if($arr2['typeid'] == 2){
+$buttons['button'][$arr['id']]['sub_button'][$arr2['id']]['url'] = $arr2['url'];
+$buttons['button'][$arr['id']]['sub_button'][$arr2['id']]['type'] = 'view';
+}else {
+$buttons['button'][$arr['id']]['sub_button'][$arr2['id']]['key'] = $this->getKey($arr2);
+$buttons['button'][$arr['id']]['sub_button'][$arr2['id']]['type'] = 'click';
+}
+}
+}
+//var_dump($buttons);exit;
+}else{ //如果没有子菜单
+
+$buttons['button'][$arr['id']]['name'] = $arr['name'];
+if($arr['typeid'] == 2){
+$buttons['button'][$arr['id']]['url'] = $arr['url'];
+$buttons['button'][$arr['id']]['type'] = 'view';
+}else {
+$buttons['button'][$arr['id']]['key'] = $this->getKey($arr);
+$buttons['button'][$arr['id']]['type'] = 'click';
+}
+}
+}else{
+/*$row2 = $this->db_weixinmenu->getrows(array('wid'=>$wid,'pid'=>$arr['pid']),'','sort=0,sort asc');
+$buttons['button'][$arr['pid']]['sub_button'][$arr['id']]['name'] = $arr['name'];
+if($arr['typeid'] == 2){
+$buttons['button'][$arr['pid']]['sub_button'][$arr['id']]['url'] = $arr['url'];
+$buttons['button'][$arr['pid']]['sub_button'][$arr['id']]['type'] = 'view';
+}else {
+$buttons['button'][$arr['pid']]['sub_button'][$arr['id']]['key'] = $this->getKey($arr);
+$buttons['button'][$arr['pid']]['sub_button'][$arr['id']]['type'] = 'click';
+}*/
+}
+}
+}
+//var_dump($row);
+//var_dump($buttons);exit();
+$buttons['button'] = array_merge($buttons['button']);
+if(is_array($buttons['button']) && !empty($buttons['button'])){
+foreach($buttons['button'] as $k => $tmp){
+if(is_array($tmp['sub_button']) && !empty($tmp['sub_button'])){
+$buttons['button'][$k]['sub_button'] = array_merge($tmp['sub_button']);
+}
+}
+}
+$data['body'] = json_encode($buttons);
+$data['body'] = preg_replace("#\\\u([0-9a-f]{4})#ie", "iconv('UCS-2BE', 'UTF-8', pack('H4', '\\1'))", $data['body']);
+//var_dump($data['body']);
+$weixin = new weixin();
+$access_token = $weixin->getAccessToken($wid);
+$url = 'https://api.weixin.qq.com/cgi-bin/menu/create?access_token='.$access_token;
+//var_dump($data['body']);exit;
+$res = $weixin->PostJsonData($url,$data['body']);
+//var_dump($res);
+if($res['errcode']){
+alerterror($res['errmsg']);
+}else{
+alertinfo('发布成功',url('weixinmenu/list/id/'.$wid, true));
+}
+exit;
+}
+
+}

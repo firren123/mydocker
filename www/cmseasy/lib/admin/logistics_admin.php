@@ -1,19 +1,188 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??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*/
+
+if (!defined('ROOT')) exit('Can\'t Access !');
+class logistics_admin extends admin {
+protected $_table;
+function init() {
+$this->table=front::get('table');
+if (preg_match('/^my_/',$this->table)) {
+form_admin::init();
+$this->_table=new defind($this->table);
+}
+else $this->_table=new $this->table;
+$this->_table->getFields();
+$this->view->form=$this->_table->get_form();
+$this->tname=lang($this->table);
+if($this->table=='logistics')
+$this->tname='配货方式';
+$this->_pagesize=config::get('manage_pagesize');
+$this->view->table=$this->table;
+$this->view->primary_key=$this->_table->primary_key;
+if (!front::get('page')) front::$get['page']=1;
+$this->Exc=$this->table == 'templatetag'?true : false;
+$manage='table_'.$this->table;
+if (preg_match('/^my_/',$this->table)) $manage='table_form';
+$this->manage=new $manage;
+}
+function list_action() {
+chkpw('order_logistics');
+$set1=settings::getInstance();
+$sets1=$set1->getrow(array('tag'=>'table-'.$this->table));
+$setsdata1=unserialize($sets1['value']);
+$this->view->settings=$setsdata1;
+$where=null;
+$ordre='`id` DESC';
+$limit=((front::get('page') -1) * $this->_pagesize).','.$this->_pagesize;
+$this->_view_table=$this->_table->getrows($where,$limit,$ordre,'*');
+}
+function add_action() {
+if (front::post('submit') &&$this->manage->vaild()) {
+$this->manage->filter($this->Exc);
+$this->manage->add_before($this);
+$this->manage->save_before();
+$insert=$this->_table->rec_insert(front::$post);
+$_insertid = $this->_table->insert_id();
+if ($insert <1) {
+front::flash("{$this->tname}添加失败！");
+}
+else {
+$this->manage->save_after($_insertid);
+$info='';
+front::flash("{$this->tname}添加成功！$info");
+front::refresh(url::modify('act/list',true));
+}
+}
+$this->_view_table=array();
+$this->_view_table['data']=array();
+}
+function edit_action() {
+if (front::post('submit') &&$this->manage->vaild()) {
+$this->manage->filter($this->Exc);
+$this->manage->edit_before();
+$this->manage->save_before();
+$update=$this->_table->rec_update(front::$post,front::get('id'));
+if ($update <1) {
+front::flash("{$this->tname}修改失败！");
+}
+else {
+$this->manage->save_after(front::get('id'));
+$info='';
+front::flash("{$this->tname}修改成功！$info");
+$from=session::get('from');
+session::del('from');
+if (!front::post('onlymodify')) front::redirect(url::modify('act/list',true));
+}
+}
+if (!session::get('from')) session::set('from',front::$from);
+if (!front::get('id')) exit("PAGE_NOT FOUND!");
+$this->_view_table=$this->_table->getrow(front::get('id'),'1',$this->_table->getcols('modify'));
+if (!is_array($this->_view_table)) exit("PAGE_NOT FOUND!");
+$this->manage->view_before($this->_view_table);
+}
+function show_action() {
+front::check_type(front::$get['id']);
+$this->_view_table=$this->_table->getrow(front::$get['id'],1,'1 desc',$this->_table->getcols('modify'));
+}
+function batch_action() {
+if (front::post('batch') &&front::post('select')) {
+$select=implode(',',front::post('select'));
+$select=$this->_table->primary_key.' in ('.$select.')';
+if (front::post('batch') == 'check') {
+$check=$this->_table->rec_update(array('checked'=>1),$select);
+if ($check >0) front::flash("{$this->tname}审核完成！");
+else front::flash("没有{$this->tname}被审核！");
+}
+elseif (front::post('batch') == 'move'&&front::post('typeid')) {
+if (in_array(front::post('typeid'),front::post('select'))) front::flash("不能移动到本分类下！");
+else {
+$check=$this->_table->rec_update(array('parentid'=>front::post('typeid')),$select);
+if ($check >0) front::flash("分类移动成功！");
+else front::flash("没有分类被移动！");
+}
+}
+elseif (front::post('batch') == 'move'&&front::post('catid')) {
+if (in_array(front::post('catid'),front::post('select'))) front::flash("不能移动到本栏目下！");
+else {
+$check=$this->_table->rec_update(array('parentid'=>front::post('catid')),$select);
+if ($check >0) front::flash("栏目移动成功！");
+else front::flash("没有栏目被移动！");
+}
+}
+elseif (front::post('batch') == 'movelist'&&front::post('catid')) {
+$check=$this->_table->rec_update(array('catid'=>front::post('catid')),$select);
+if ($check >0) front::flash("移动成功！");
+else front::flash("没有内容被移动！");
+}
+elseif (front::post('batch') == 'recommend'&&front::post('attr1')) {
+$check=$this->_table->rec_update(array('attr1'=>front::post('attr1')),$select);
+if ($check >0) front::flash("设置推荐成功！");
+else front::flash("没有内容被设置！");
+}
+elseif (front::post('batch') == 'deletestate') {
+$deletestate=$this->_table->rec_update(array('state'=>-1),$select);
+if ($deletestate >0) front::flash("{$this->tname}已被移到回收站！");
+else front::flash("没有{$this->tname}被移到回收站！");
+}
+elseif (front::post('batch') == 'restore') {
+$deletestate=$this->_table->rec_update(array('state'=>0),$select);
+if ($deletestate >0) front::flash("{$this->tname}已被还原！");
+else front::flash("没有{$this->tname}被还原！");
+}
+elseif (front::post('batch') == 'delete') {
+foreach (front::post('select') as $id) {
+$this->manage->delete_before($id);
+}
+$delete=$this->_table->rec_delete($select);
+if ($delete >0) front::flash("成功删除{$this->tname}！");
+else front::flash("没有{$this->tname}被删除！");
+}
+elseif (front::post('batch') == 'addtospecial') {
+$add=$this->_table->rec_update(array('spid'=>front::post('spid')),$select);
+}
+elseif (front::post('batch') == 'removefromspecial') {
+$add=$this->_table->rec_update(array('spid'=>null),$select);
+}
+}
+if (front::post('batch') == 'listorder') {
+$orders=front::post('listorder');
+if (is_array($orders)) foreach ($orders as $id=>$order) {
+$this->_table->rec_update(array('listorder'=>$order),$id);
+}
+}
+front::redirect(front::$from);
+}
+function delete_action() {
+$this->manage->delete_before(front::get('id'));
+$delete=$this->_table->rec_delete(front::get('id'));
+if ($delete) front::flash("删除{$this->tname}成功！");
+front::redirect(url::modify('act/list/table/'.$this->table.'/bid/'.session::get('bid')));
+}
+function setting_action() {
+$this->_view_table=false;
+$set=settings::getInstance();
+$sets=$set->getrow(array('tag'=>'table-'.$this->table));
+$data=unserialize($sets['value']);
+if (front::post('submit')) {
+$var=front::$post;
+unset($var['submit']);
+$set->rec_replace(array('value'=>serialize($var),'tag'=>'table-'.$this->table,'array'=>var_export($var,true)));
+front::flash("{$this->tname}配置成功！");
+}
+$this->view->settings=$data;
+}
+function view($table) {
+$this->view->data=$table['data'];
+$this->view->field=$table['field'];
+}
+function end() {
+if (!isset($this->_view_table)) return;
+if (!isset($this->_view_table['data'])) $this->_view_table['data']=$this->_view_table;
+$this->_view_table['field']=$this->_table->getFields();
+$this->view->fieldlimit=$this->_table->getcols(front::$act == 'list'?'manage': 'modify');
+$this->view($this->_view_table);
+if (front::post('onlymodify')) $this->render();
+else
+if (front::get('main')) $this->render();
+else $this->render('index.php');
+}
+}

@@ -1,19 +1,35 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??fVRNb9NAFDwTKf9hG0XaXeQE9eqokVCbnkCRSm+AHNd+jlds1u7uukmpegQhTr1VnBASXDlz49c0Ff+C549Ejh3wxc57szNvZ2fT7XQ7IiLsIIRIKAgZPZtOzynnBFbCMnrsqzfUkudBAMaQA8pH3U4gffz2w4VQMpkbr/hCvAUVVnVy0+0QfFKdWAgshKTvWf9CwqisR5kKrEgUEQpV+AaeP30bCzMYl3ByRBQsCVyBQtjoH6jBeA72VIAMzT6QVf4iZ6KPP7893n1c3/94+H1P95Cl/hyMeJ9jg0RFYu66SMzowlfY2bZpXaMwL9KJshU4R+X+VbU+Fl+XxbfIe1gtvS1fDTcufBvEnl/8YPymrsIqvjQxKFIAKSdHuKsQJFiUrMGLTZlLiYK9k8mLyfmEnJ5NX5JZb7izsdBH/3wD1CE01ZiAFeXDXuH2rDdq8O06fpmBvma5CG8Ai+Wui9FgtPR6/evDny/fqUPXn+4ePn+lzRXV1nAADSZmmZauu0hCEV0zimY8K/2njtUZ8Pri2/+ZWZ3axs1Nxp4E8bt0yWiO83IDvG2SdwbrL2PQRQAzKev1RIdFnc5EOCMnk1fHO1mSYiEsthlrp4IMDjl52sobH6I3w2a1HdArAcvBOJ8Z+ds3QCdLw8qxnXIMpxzWaWODRJpNsCnfc2lKLQ0BMnhBkinb1qx3d3LdOAn8X9h7xzU2QDMq8LUapnG6PQCkuf0L*/
+
+if (!defined('ROOT')) exit('Can\'t Access !');
+class adminlogs_admin extends admin {
+protected $_table;
+function init() {
+$this->_table = new event();
+$this->_table->getFields();
+$this->tname = '管理日志';
+$this->_pagesize = config::get('manage_pagesize');
+if (!front::get('page')) front::$get['page'] = 1;
+}
+
+function batch_action(){
+if(front::post('batch') == 'delete'){
+$sql = "DELETE FROM `".config::get('database', 'prefix')."event`";
+$this->_table->query($sql);
+event::log('日志清除','成功');
+front::refresh(url::modify('act/manage',true));
+}
+}
+
+function manage_action() {
+chkpw('func_data_adminlogs');
+$where = null;
+$ordre = '`id` DESC';
+$limit = ((front::get('page') -1) * $this->_pagesize).','.$this->_pagesize;
+$this->view->data = $this->_table->getrows($where,$limit,$ordre,$this->_table->getcols('manage'));
+$this->view->record_count = $this->_table->record_count;
+}
+
+function end() {
+$this->render('index.php');
+}
+}

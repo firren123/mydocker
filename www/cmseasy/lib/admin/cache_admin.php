@@ -1,19 +1,921 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??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*/
+
+if (!defined('ROOT'))
+exit('Can\'t Access !');
+
+class cache_admin extends admin
+{
+
+public $archive;
+
+function init()
+{
+header('Cache-control: private, must-revalidate');
+front::$admin = false;
+front::$html = true;
+}
+
+function make_index_action()
+{
+$servip = gethostbyname($_SERVER['SERVER_NAME']);
+if ($servip == front::ip() && front::get('ishtml') == 1) {
+
+} else {
+chkpw('cache_index');
+}
+$case = 'index';
+$act = 'index';
+$_GET = array('case' => $case, 'act' => $act);
+$front = new front();
+front::$admin = false;
+front::$html = true;
+$case = $case . '_act';
+$case = new $case();
+$case->init();
+$method = $act . '_action';
+$view = $case->view;
+file_put_contents(ROOT . '/index.html', $case->fetch());
+front::flash(lang('generation_of_home'));
+front::redirect(front::$from);
+}
+
+function make_special_action()
+{
+chkpw('cache_special');
+header('Cache-control: private, must-revalidate');
+@set_time_limit(0);
+if (!front::post('submit'))
+return;
+$speciaid = intval(front::$post['specialid']);
+$special = new special();
+$specials = $special->getrow($speciaid);
+if (!$specials['ishtml']) {
+front::flash(lang('none_of_the_generated_HTML'));
+return;
+}
+$archive_all = new archive();
+$archive_num = $archive_all->rec_count('spid=' . $speciaid . ' and checked=1 and `state`=1');
+$pagesize = config::get('list_pagesize');
+if (!$archive_num) $archive_num = 1;
+$cpage = ceil($archive_num / $pagesize);
+$j = 0;
+for ($i = 1; $i <= $cpage; $i++) {
+$path = 'special/' . $speciaid . '/list_' . $i . '.html';
+tool::mkdir(dirname($path));
+$data = file_get_contents(config::get('site_url') . 'index.php?case=special&act=show&spid=' . $speciaid . '&page=' . $i);
+if (file_put_contents($path, $data)) {
+$j++;
+}
+}
+if ($j > 0) {
+
+$path = 'special/' . $speciaid . '/index.html';
+tool::mkdir(dirname($path));
+$data = file_get_contents(config::get('site_url') . 'index.php?case=special&act=show&spid=' . $speciaid . '&page=1');
+if (file_put_contents($path, $data)) {
+//front::flash("成功生成html <b>1</b> 页！");
+}
+front::flash(lang('generate_html') . " <b>$j</b> " . lang('npage') . "！");
+}
+}
+
+function make_area_action()
+{
+chkpw('cache_area');
+header('Cache-control: private, must-revalidate');
+@set_time_limit(0);
+
+if (!front::post('submit'))
+return;
+if (!config::get('area_html')) {
+front::flash(lang('none_of_the_generated_HTML'));
+return;
+}
+$archive_all = new archive();
+
+if (front::post('province_id')) {
+$where = 'checked=1 and `state`=1';
+$where .= ' and province_id=' . front::post('province_id');
+$archive_num = $archive_all->rec_count($where);
+$pagesize = config::get('list_pagesize');
+$cpage = ceil($archive_num / $pagesize);
+$j = 0;
+for ($i = 1; $i <= $cpage; $i++) {
+$path = 'area/province/' . intval(front::post('province_id')) . '_list_' . $i . '.html';
+tool::mkdir(dirname($path));
+$data = file_get_contents(config::get('site_url') . 'index.php?case=area&act=list&province_id=' . intval(front::post('province_id')) . '&city_id=' . intval(front::post('city_id')) . '&section_id=' . intval(front::post('section_id')) . '&page=' . $i);
+if (file_put_contents($path, $data)) {
+$j++;
+}
+}
+if ($j > 0) {
+front::flash(lang('generate_html') . " <b>$j</b> " . lang('npage') . "！");
+} else {
+front::flash(lang('none_of_the_generated_HTML'));
+}
+}
+if (front::post('city_id')) {
+$where = 'checked=1 and `state`=1';
+$where .= ' and city_id=' . front::post('city_id');
+$archive_num = $archive_all->rec_count($where);
+$pagesize = config::get('list_pagesize');
+$cpage = ceil($archive_num / $pagesize);
+$j = 0;
+for ($i = 1; $i <= $cpage; $i++) {
+$path = 'area/city/' . intval(front::post('city_id')) . '_list_' . $i . '.html';
+tool::mkdir(dirname($path));
+$data = file_get_contents(config::get('site_url') . 'index.php?case=area&act=list&province_id=' . intval(front::post('province_id')) . '&city_id=' . intval(front::post('city_id')) . '&section_id=' . intval(front::post('section_id')) . '&page=' . $i);
+if (file_put_contents($path, $data)) {
+$j++;
+}
+}
+if ($j > 0) {
+front::flash(lang('generate_html') . " <b>$j</b> " . lang('npage') . "！");
+} else {
+front::flash(lang('none_of_the_generated_HTML'));
+}
+}
+if (front::post('section_id')) {
+$where = 'checked=1 and `state`=1';
+$where .= ' and section_id=' . front::post('section_id');
+$archive_num = $archive_all->rec_count($where);
+$pagesize = config::get('list_pagesize');
+$cpage = ceil($archive_num / $pagesize);
+$j = 0;
+for ($i = 1; $i <= $cpage; $i++) {
+$path = 'area/section/' . intval(front::post('section_id')) . '_list_' . $i . '.html';
+tool::mkdir(dirname($path));
+$data = file_get_contents(config::get('site_url') . 'index.php?case=area&act=list&province_id=' . intval(front::post('province_id')) . '&city_id=' . intval(front::post('city_id')) . '&section_id=' . intval(front::post('section_id')) . '&page=' . $i);
+if (file_put_contents($path, $data)) {
+$j++;
+}
+}
+if ($j > 0) {
+front::flash(lang('generate_html') . " <b>$j</b> " . lang('npage') . "！");
+} else {
+front::flash(lang('none_of_the_generated_HTML'));
+}
+}
+}
+
+function make_tag_action()
+{
+chkpw('cache_tag');
+header('Cache-control: private, must-revalidate');
+set_time_limit(0);
+if (!front::$get['tag']) {
+front::$get['tag'] = front::$post['tag'];
+}
+if (!front::$get['submit']) {
+front::$get['submit'] = front::$post['submit'];
+}
+$otag = new tag();
+$tags = $otag->getrows("", 0);
+//var_dump($tags);
+$tags = $this->view->hottags = array_to_hashmap($tags, 'tagid', 'tagname');
+
+if (!front::get('submit'))
+return;
+if (!config::get('tag_html') || !front::$get['tag']) {
+front::flash(lang('none_of_the_generated_HTML'));
+front::redirect(front::$from);
+return;
+}
+$tagid = front::$get['tag'];
+$tag = $tags[$tagid];
+$pinyin = pinyin::get($tag);
+
+$arctag = new arctag();
+$archive_num = $arctag->rec_count('tagid=' . $tagid);
+
+front::$record_count = $archive_num;
+$pagesize = config::get('list_pagesize');
+front::$pages = $pagesize;
+$cpage = ceil($archive_num / $pagesize);
+$j = 0;
+
+for ($i = 1; $i <= $cpage; $i++) {
+$path = 'tags/' . $pinyin . '_' . $tagid . '_' . $i . '.html';
+tool::mkdir(dirname($path));
+
+$data = file_get_contents(getSiteUrl() . '/index.php?case=tag&act=show&tag=' . urlencode($tag) . '&page=' . $i);
+if (file_put_contents($path, $data)) {
+$j++;
+}
+}
+if ($j > 0) {
+front::flash(lang('generate_html') . " <b>$j</b> " . lang('npage') . "！");
+front::redirect(front::$from);
+} else {
+front::flash(lang('none_of_the_generated_HTML'));
+front::redirect(front::$from);
+}
+}
+
+function make_type_action()
+{
+chkpw('cache_type');
+header('Cache-control: private, must-revalidate');
+@set_time_limit(0);
+if (!front::post('submit'))
+return;
+
+$case = 'type';
+$act = 'list';
+$_GET = array('case' => $case, 'act' => $act);
+$front = new front();
+front::$admin = false;
+front::$html = true;
+front::$rewrite = false;
+$case = $case . '_act';
+$case = new $case();
+$case->init();
+$method = $act . '_action';
+$totalpage = 100;
+$time_start = time::getTime();
+
+$type = type::getInstance();
+$typeid = front::post('typeid');
+if ($typeid && !$type->getishtml($typeid)) {
+front::flash(lang('none_of_the_generated_HTML'));
+return;
+}
+if ($typeid) {
+$arrtype = $type->getrows($typeid);
+} else {
+$arrtype = $type->getrows('', 0);
+}
+$cpage = 0;
+if (is_array($arrtype) && !empty($arrtype)) {
+foreach ($arrtype as $v) {
+if (!$type->getishtml($v['typeid'])) {
+continue;
+}
+$types = array();
+$types = $type->sons($v['typeid']);
+$types[] = $v['typeid'];
+$where = 'typeid in (' . implode(',', $types) . ') AND checked=1 AND state=1';
+$archive_all = new archive();
+$archive_num = $archive_all->rec_count($where);
+for (front::$get['page'] = 1; ; front::$get['page']++) {
+$view = $case->view;
+$pagesize = config::get('list_pagesize');
+$limit = ((front::$get['page'] - 1) * $pagesize) . ',' . $pagesize;
+$archive = new archive();
+$case->view->archives = $archive->getrows($where, $limit, '`listorder` desc,aid desc');
+$case->view->page = front::$get['page'];
+$case->view->type = $v;
+$case->view->typeid = $v['typeid'];
+$case->view->pages = $v['ispages'];
+
+foreach ($case->view->archives as $order => $arc) {
+$articles = $arc;
+if (!$arc['introduce'])
+$arc['introduce'] = cut($arc['content'], 200);
+$articles['url'] = archive::url($arc);
+$articles['catname'] = category::name($arc['catid']);
+$articles['caturl'] = category::url($arc['catid']);
+$articles['sthumb'] = @strstr($arc['thumb'], "http://") ? $arc['thumb'] : config::get('base_url') . '/' . $arc['thumb'];
+$articles['strgrade'] = archive::getgrade($arc['grade']);
+$articles['adddate'] = sdate($arc['adddate']);
+$articles['buyurl'] = url('archive/orders/aid/' . $arc['aid']);
+$articles['stitle'] = strip_tags($arc['title']);
+$case->view->archives[$order] = $articles;
+}
+if (!isset($page_count)) {
+front::$record_count = $case->view->record_count = $archive_num;
+$case->view->page_count = ceil($case->view->record_count / $pagesize);
+$page_count = $case->view->page_count;
+}
+
+if (front::get('page') > 1 && front::get('page') > $case->view->page_count) {
+$page_count = null;
+break;
+}
+$tpl = type::gettemplate($v['typeid']);
+$content = $case->fetch($tpl);
+$path = type::url($v['typeid'], front::$get['page'], true);
+if (!preg_match('/\.[a-zA-Z]+$/', $path))
+$path = rtrim(rtrim($path, '/'), '\\') . '/index.html';
+$path = rtrim($path, '/');
+$path = rtrim($path, '\\');
+$path = str_replace('//', '/', $path);
+if (config::get('base_url') == '/') {
+$path = ROOT . substr($path, 1);
+} else {
+$path = ROOT . str_replace(config::get('base_url'), '', $path);
+}
+tool::mkdir(dirname($path));
+if (!file_put_contents($path, $content)) {
+front::flash(lang('write_html_failed'));
+}
+$indexpath = dirname($path) . '/index.html';
+if (front::$get['page'] == 1 && $indexpath != ROOT . '/index.html') {
+file_put_contents($indexpath, $content);
+$cpage++;
+}
+$cpage++;
+$case->view = $view;
+}
+}
+}
+
+if ($cpage > 0)
+front::flash(lang('generate_html') . " <b>$cpage</b> " . lang('npage') . "！");
+else
+front::flash(lang('none_of_the_generated_HTML'));
+front::$admin = true;
+}
+
+function make_list_action()
+{
+$servip = gethostbyname($_SERVER['SERVER_NAME']);
+if ($servip != front::ip() && front::get('ishtml') == 1) {
+chkpw('cache_category');
+}
+header('Cache-control: private, must-revalidate');
+@set_time_limit(0);
+if (!front::post('submit'))
+return;
+$case = 'archive';
+$act = 'list';
+$_GET = array('case' => $case, 'act' => $act);
+$front = new front();
+front::$admin = false;
+front::$html = true;
+front::$rewrite = false;
+$case = $case . '_act';
+$case = new $case();
+$case->init();
+$method = $act . '_action';
+$totalpage = 100;
+$time_start = time::getTime();
+$category = category::getInstance();
+$categories = $category->sons(front::post('catid'));
+$categories[] = front::post('catid');
+$cpage = 0;
+$archive_all = new archive();
+foreach ($categories as $key => $catid) {
+$new_categories = $category->sons($catid);
+$new_categories[] = $catid;
+$archive_num[$catid] = $archive_all->rec_count('catid in(' . implode(',', $new_categories) . ') and checked=1 and `state`=1');
+}
+$i = 0;
+foreach ($categories as $catid) {
+if ($catid == 0)
+continue;
+if (!category::getishtml($catid))
+continue;
+
+if ($category->category[$catid]['linkto']) {
+continue;
+}
+
+front::$get['catid'] = $catid;
+$case->view->categories = category::getpositionlink2($catid);
+$_categories = $category->sons($catid);
+$_categories[] = $catid;
+$case->view->ifson = category::hasson($catid);
+for (front::$get['page'] = 1; ; front::$get['page']++) {
+$view = $case->view;
+$_catpage = category::categorypages($catid);
+if ($_catpage) {
+$pagesize = $_catpage;
+} else {
+$pagesize = config::get('list_pagesize');
+}
+$limit = ((front::$get['page'] - 1) * $pagesize) . ',' . $pagesize;
+
+$archive = new archive();
+
+$tops = array();
+$tops = $archive->getrows("checked=1 AND state=1 AND toppost!=0", 0, 'toppost DESC,listorder=0,listorder ASC,aid DESC');
+
+if (@$category->category[$catid]['includecatarchives']) {
+$case->view->archives = $archive->getrows('catid in(' . implode(',', $_categories) . ') and checked=1 and `state`=1', $limit, 'listorder=0,`listorder` asc,`aid` DESC');
+} else {
+$case->view->archives = $archive->getrows("catid=$catid and checked=1 and `state`=1", $limit, 'listorder=0,`listorder` asc,`aid` DESC');
+}
+$case->view->page = front::$get['page'];
+
+if (is_array($tops) && !empty($tops)) {
+foreach ($tops as $order => $arc) {
+if ($arc['toppost'] == 3) {
+$tops[$order]['title'] = "[" . lang('the_total_top') . "]" . $arc['title'];
+}
+if ($arc['toppost'] == 2) {
+$subcatids = $category->sons($arc['catid']);
+if ($arc['catid'] != front::get('catid') && !in_array(front::get('catid'), $subcatids)) {
+unset($tops[$order]);
+} else {
+$tops[$order]['title'] = "[" . lang('the_column_top') . "]" . $arc['title'];
+}
+}
+}
+$case->view->archives = array_merge($tops, $case->view->archives);
+}
+
+foreach ($case->view->archives as $order => $arc) {
+$articles = $arc;
+if (!$arc['introduce'])
+$arc['introduce'] = cut($arc['content'], 200);
+$articles['url'] = archive::url($arc);
+$articles['catname'] = category::name($arc['catid']);
+$articles['caturl'] = category::url($arc['catid']);
+$articles['image'] = @strstr($arc['image'], "http://") ? $arc['image'] : config::get('base_url') . '/' . $arc['image'];
+$articles['strgrade'] = archive::getgrade($arc['grade']);
+$articles['adddate'] = sdate($arc['adddate']);
+$articles['buyurl'] = url('archive/orders/aid/' . $arc['aid']);
+$articles['stitle'] = strip_tags($arc['title']);
+if (strtolower(substr($arc['thumb'], 0, 7)) == 'http://') {
+$articles['sthumb'] = $arc['thumb'];
+} else {
+$articles['sthumb'] = config::get('base_url') . '/' . $arc['thumb'];
+}
+
+if ($arc['strong']) {
+$articles['title'] = '<strong>' . $arc['title'] . '</strong>';
+}
+if ($arc['color']) {
+$articles['title'] = '<font style="color:' . $arc['color'] . ';">' . $articles['title'] . '</font>';
+}
+
+$case->view->archives[$order] = $articles;
+}
+
+if (!isset($page_count)) {
+front::$record_count = $case->view->record_count = $archive_num[$catid];
+$case->view->page_count = ceil($case->view->record_count / $pagesize);
+$page_count = $case->view->page_count;
+}
+$case->view->catid = $catid;
+$case->view->topid = category::gettopparent($catid);
+$case->view->parentid = $category->getparent($catid);
+$case->view->pages = @$category->category[$catid]['ispages'];
+
+if (front::get('page') > 1 && front::get('page') > $case->view->page_count) {
+$page_count = null;
+break;
+}
+if (front::get('page') > 1 && !@$category->category[$catid]['ispages']) {
+$page_count = null;
+break;
+}
+$template = @$category->category[$catid]['template'];
+
+if ($template && file_exists(TEMPLATE . '/' . $case->view->_style . '/' . $template))
+$tpl = $template;
+else
+$tpl = category::gettemplate($case->view->catid);
+$content = $case->fetch($tpl);
+$path = ROOT . category::url($catid, front::$get['page'] > 1 ? front::$get['page'] : null, true);
+if (!preg_match('/\.[a-zA-Z]+$/', $path))
+$path = rtrim(rtrim($path, '/'), '\\') . '/index.html';
+$path = rtrim($path, '/');
+$path = rtrim($path, '\\');
+$path = str_replace('//', '/', $path);
+tool::mkdir(dirname($path));
+file_put_contents($path, $content);
+$indexpath = dirname($path) . '/index.html';
+if (front::$get['page'] == 1 && $indexpath != ROOT . '/index.html') {
+file_put_contents($indexpath, $content);
+$cpage++;
+}
+$cpage++;
+$case->view = $view;
+$case->view->archives = null;
+}
+$i++;
+}
+if ($cpage > 0)
+front::flash(lang('generate_html') . " <b>$cpage</b> " . lang('npage') . "！");
+else
+front::flash(lang('none_of_the_generated_HTML'));
+front::$admin = true;
+}
+
+function make_sitemap_action()
+{
+chkpw('cache_google');
+}
+
+function make_sitemap_baidu_action()
+{
+chkpw('cache_baidu');
+}
+
+function make_sitemap_google_action()
+{
+chkpw('cache_baidu');
+}
+
+function make_baidu_action()
+{
+$limit = front::$post['XmlOutNum'];
+$p = front::$post['XmlMaxPerPage'];
+if (!$p)
+$p = 100;
+$frequency = front::$post['frequency'];
+$this->archive = new archive();
+$articles = $this->archive->getrows('', $limit);
+$site_url = config::get('site_url');
+$email = config::get('email');
+$head = '<?xml version="1.0" encoding="UTF-8"?>' . "\r\n";
+$head .= '<urlset>' . "\r\n";
+    //$head .= "<webSite>{$site_url}</webSite>\r\n";
+    //$head .= "<webMaster>{$email}</webMaster>\r\n";
+    //$head .= "<updatePeri>{$frequency}</updatePeri>\r\n";
+    $foot = "</urlset>";
+$code = '';
+$i = 1;
+$j = 1;
+if (is_array($articles) && !empty($articles)) {
+
+foreach ($articles as $arr) {
+$url = substr($site_url, 0, -1) . archive::url($arr);
+$adddate = date("Y-m-d", strtotime($arr['adddate']));
+$code .= "<url><loc>{$url}</loc><lastmod>{$adddate}</lastmod></url>\r\n";
+}
+file_put_contents("sitemaps_baidu.xml", $head . $code . $foot);
+/*foreach ($articles as $arr) {
+$url = substr($site_url,0,-1).archive::url($arr);
+$text = mb_substr(strip_tags($arr['content']), 0, 588,'UTF-8');
+$code .= "<item>\r\n<title><![CDATA[{$arr['title']}]]></title>\r\n<link><![CDATA[{$url}]]></link>\r\n<text><![CDATA[{$text}]]></text>\r\n";
+    $code .= "<image/>\r\n";
+    if ($arr['keyword'] != '') {
+    $code .= "<keywords>{$arr['keyword']}</keywords>\r\n";
+    } else {
+    $code .= "<keywords/>\r\n";
+    }
+    $code .= "<author>{$arr['author']}</author>\r\n";
+    $code .= "<source>互联网</source>\r\n";
+    $code .= "<pubDate>{$arr['adddate']}</pubDate>\r\n</item>\r\n";
+if ($i % $p == 0) {
+file_put_contents("baidumap_article_$j.xml", $head . $code . $foot);
+$j++;
+}
+$i++;
+}
+file_put_contents("baidumap_article_$j.xml", $head . $code . $foot);*/
+}
+echo '<script>alert("' . lang('generate_html') . '");window.location="index.php?case=cache&act=make_sitemap_baidu&admin_dir=' . config::get('admin_dir') . '"</script>';
+exit;
+}
+
+function make_google_action()
+{
+$limit = front::$post['XmlOutNum'];
+$p = front::$post['XmlMaxPerPage'];
+if (!$p)
+$p = 100;
+$frequency = front::$post['frequency'];
+$this->archive = new archive();
+$articles = $this->archive->getrows('', $limit);
+$site_url = config::get('site_url');
+$email = config::get('email');
+$head = '<?xml version="1.0" encoding="UTF-8"?>' . "\r\n";
+$head .= "<urlset xmlns=\"http://www.google.com/schemas/sitemap/0.84\">\r\n";
+    $foot = "</urlset>";
+$code = '';
+$i = 1;
+$j = 1;
+if (is_array($articles) && !empty($articles)) {
+//var_dump($articles);
+foreach ($articles as $arr) {
+$url = substr($site_url, 0, -1) . archive::url($arr);
+$adddate = date("Y-m-d\TH:i:s+00:00", strtotime($arr['adddate']));
+$code .= "<url><loc>{$url}</loc><lastmod>{$adddate}</lastmod></url>\r\n";
+//echo $url;
+/*$text = mb_substr(strip_tags($arr['content']), 0, 588,'UTF-8');
+$code .= "<item>\r\n<title><![CDATA[{$arr['title']}]]></title>\r\n<link><![CDATA[{$url}]]></link>\r\n<text><![CDATA[{$text}]]></text>\r\n";
+    $code .= "<image/>\r\n";
+    if ($arr['keyword'] != '') {
+    $code .= "<keywords>{$arr['keyword']}</keywords>\r\n";
+    } else {
+    $code .= "<keywords/>\r\n";
+    }
+    $code .= "<author>{$arr['author']}</author>\r\n";
+    $code .= "<source>互联网</source>\r\n";
+    $code .= "<pubDate>{$arr['adddate']}</pubDate>\r\n</item>\r\n";
+if ($i % $p == 0) {
+file_put_contents("baidumap_article_$j.xml", $head . $code . $foot);
+$j++;
+}
+$i++;*/
+}
+file_put_contents("sitemaps.xml", $head . $code . $foot);
+}
+echo '<script>alert("' . lang('generate_html') . '");window.location="index.php?case=cache&act=make_sitemap_google&admin_dir=' . config::get('admin_dir') . '"</script>';
+exit;
+}
+
+function make_show_action()
+{
+header('Cache-control: private, must-revalidate');
+@set_time_limit(0);
+$submit = front::post('submit') ? front::post('submit') : front::get('submit');
+if (!$submit)
+return;
+chkpw('cache_content');
+//time::start();
+$post = front::$post + front::$get;
+unset($post['submit']);
+$c_url = preg_replace('#&make_page=(\d+)#', '', $_SERVER['QUERY_STRING']);
+$c_url = preg_replace('#&aid_start=(\d+)#', '', $c_url);
+$c_url = preg_replace('#&aid_end=(\d+)#', '', $c_url);
+$c_url = preg_replace('#&catid=(\d+)#', '', $c_url);
+$c_url = preg_replace('#&submit=(\d+)#', '', $c_url);
+$c_url = 'index.php?' . $c_url;
+$c_url .= '&submit=1';
+
+$category = category::getInstance(); //实例化栏目类
+
+if ($post['aid_start']) {
+$aid_start = $post['aid_start'];
+$aid_end = $post['aid_end'];
+$where = "aid>=$aid_start and aid<=$aid_end AND checked=1 AND (ishtml IS NULL OR ishtml!=2)";
+$c_url .= '&aid_start=' . $aid_start . '&aid_end=' . $aid_end;
+} elseif (isset($post['catid'])) {
+$catid = $post['catid'];
+$categories = $category->sons($catid);
+$categories[] = $catid;
+$categories = implode(',', $categories);
+$where = "catid in(" . $categories . ') and checked=1 AND (ishtml IS NULL OR ishtml!=2)';
+$c_url .= '&catid=' . $catid;
+} else
+return;
+$case = 'archive';
+$act = 'show';
+$_GET = array('case' => $case, 'act' => $act);
+//$front = new front();
+front::$admin = false;
+front::$html = true;
+front::$rewrite = false;
+$case = $case . '_act';
+$case = new $case();
+$case->init();
+$method = $act . '_action';
+//$time_start = time::getTime();
+
+$archive = new archive(); //实例化文章类
+
+if (config::get('group_on')) { //启用分组生成
+$make_page = $post['make_page'] == '' ? 1 : $post['make_page'];
+$archive->getrows($where);
+$archive_num = $archive->record_count;
+$group_count = config::get('group_count');
+$make_page_num = ceil($archive_num / $group_count);
+$totalpage = (($make_page - 1) * $group_count) . ',' . $group_count;
+$c_url .= '&make_page=' . ($make_page + 1);
+} else {
+$totalpage = "";
+}
+
+$archives = $archive->getrows($where, $totalpage, '1'); //取到要生成的所有文章
+
+$cpage = 0;
+foreach ($archives as $arc) {
+if (!category::getarcishtml($arc))  //如果文章设置不生成则跳过
+continue;
+if ($arc['linkto']) { //如果有跳转连接则跳过生成
+continue;
+}
+$case->view->archive = $arc;
+front::$get['aid'] = $case->view->aid = $case->view->archive['aid'];
+$case->view->catid = $case->view->archive['catid'];
+
+$case->view->topid = category::gettopparent($case->view->catid);
+$case->view->parentid = $category->getparent($case->view->catid);
+
+$template = $case->view->archive['template'];
+$content = $case->view->archive['content'];
+
+$case->view->categories = category::getpositionlink2($case->view->catid);
+
+//关键字连接
+$linkword = new linkword();
+$linkwords = $linkword->getrows(null, 1000, 'linkorder desc');
+foreach ($linkwords as $linkword) {
+if (trim($linkword['linkurl']) && !preg_match('%^http://$%', trim($linkword['linkurl']))) {
+$linkword['linktimes'] = (int)$linkword['linktimes'];
+$link = "<a href='$linkword[linkurl]' target='_blank'>$linkword[linkword]</a>";
+} else {
+$link = "<a href='" . url('archive/search/keyword/' . urlencode($linkword['linkword'])) . "' target='_blank'>$linkword[linkword]</a>";
+}
+if (isset($link)) {
+$content = preg_replace("%(?!\"]*>)$linkword[linkword](?!\s*\")%i", "\\1$link\\2", $content, $linkword['linktimes']);
+}
+unset($link);
+}
+
+//相关文章
+$case->view->likenews = $case->getLike($case->view->archive['tag'], $case->view->archive['keyword']);
+
+//内容分页
+$contents = preg_split('%<div style="page-break-after(.*?)</div>%si', $content);
+            if (!empty($contents)) {
+                $case->view->pages = count($contents);
+                front::$record_count = $case->view->pages * config::get('list_pagesize');
+                $case->view->pages = count($contents);
+            } else {
+                $case->view->pages = 1;
+            }
+
+            //标签连接
+            $taghtml = '';
+            $tag_table = new tag();
+            foreach ($tag_table->urls($case->view->archive['tag']) as $tag => $url) {
+                $taghtml .= "<a href='$url' target='_blank'>$tag</a>&nbsp;&nbsp;";
+}
+$case->view->archive['tag'] = $taghtml;
+
+//专题连接
+$case->view->archive['special'] = null;
+if ($case->view->archive['spid']) {
+$spurl = special::url($case->view->archive['spid'], special::getishtml($case->view->archive['spid']));
+$sptitle = special::gettitle($case->view->archive['spid']);
+$case->view->archive['special'] = "<a href='$spurl' target='_blank'>$sptitle</a>&nbsp;&nbsp;";
+}
+
+//分类连接
+$case->view->archive['type'] = null;
+if ($case->view->archive['typeid']) {
+$typeurl = type::url($case->view->archive['typeid'], 1);
+$typetitle = type::name($case->view->archive['typeid']);
+$case->view->archive['type'] = "<a href='$typeurl' target='_blank'>$typetitle</a>&nbsp;&nbsp;";
+}
+
+//地区连接
+//$case->view->archive['area'] = null;
+//$case->view->archive['area'] = area::getpositonhtml($case->view->archive['province_id'], $case->view->archive['city_id'], $case->view->archive['section_id']);
+
+//$arc = $case->view->archive;
+for ($c = 1; $c <= $case->view->pages; $c++) {
+front::$get['page'] = $c;
+$case->view->page = $c;
+if (!empty($contents)) {
+$content = $contents[$c - 1];
+}
+$case->view->archive['content'] = $content;
+
+
+$catid = $case->view->catid;
+if (!$case->view->archive['showform']) {
+$this->getshowform($catid);
+} else if ($case->view->archive['showform'] && $case->view->archive['showform'] == '1') {
+$this->showform = 1;
+} else {
+$this->showform = $case->view->archive['showform'];
+}
+if (preg_match('/^my_/is', $this->showform)) {
+$case->view->archive['showform'] = $this->showform;
+$o_table = new defind($this->showform);
+front::$get['form'] = $this->showform;
+$this->view->primary_key = $o_table->primary_key;
+$field = $o_table->getFields();
+$fieldlimit = $o_table->getcols('user_modify');
+helper::filterField($field, $fieldlimit);
+$case->view->field = $field;
+} else {
+$case->view->archive['showform'] = '';
+}
+
+
+//自定义字段
+cb_data($case->view->archive);
+$str = "";
+foreach ($case->view->archive as $key => $value) {
+if (!preg_match('/^my/', $key) || !$value)
+continue;
+$sonids = $category->sons(setting::$var['archive'][$key]['catid']);
+$sonids[] = setting::$var['archive'][$key]['catid'];
+if (!in_array($case->view->archive['catid'], $sonids) && intval(setting::$var['archive'][$key]['catid'])) {
+//unset($case->view->field[$key]);
+continue;
+}
+$str .= '<p> ' . setting::$var['archive'][$key]['cname'] . ':' . $value . '</p>';
+}
+$arc['my_fields'] = $str;
+
+//上一篇,下一篇
+$aid = $case->view->archive['aid'];
+$catid = $case->view->archive['catid'];
+$sql1 = "SELECT * FROM `{$archive->name}` WHERE catid = '$catid' AND aid > '$aid' and state=1 ORDER BY aid ASC LIMIT 0,1";
+$sql2 = "SELECT * FROM `{$archive->name}` WHERE catid = '$catid' AND aid < '$aid' and state=1 ORDER BY aid DESC LIMIT 0,1";
+$n = $archive->rec_query_one($sql1);
+$p = $archive->rec_query_one($sql2);
+$case->view->archive['p'] = $p;
+$case->view->archive['n'] = $n;
+$case->view->archive['p']['url'] = archive::url($p);
+$case->view->archive['n']['url'] = archive::url($n);
+
+//评级
+$case->view->archive['strgrade'] = archive::getgrade($arc['grade']);
+$prices = getPrices($case->view->archive['attr2']);
+$case->view->archive['attr2'] = $prices['price'];
+$case->view->archive['oldprice'] = $prices['oldprice'];
+$case->view->groupname = $prices['groupname'];
+
+//图片
+$case->view->archive['pics'] = unserialize($case->view->archive['pics']);
+/*if(is_array($case->view->archive['pics']) && !empty($case->view->archive['pics'])){
+foreach ($case->view->archive['pics'] as $k => $v){
+if(strtolower(substr($v['url'],0,7)) == 'http://'){
+$case->view->archive['pics'][$k] = $v;
+}else{
+$case->view->archive['pics'][$k] = $v;
+}
+}
+}*/
+//$case->view->archive['pics'] = serialize($case->view->archive['pics']);
+
+if ($template && file_exists(TEMPLATE . '/' . $case->view->_style . '/' . $template))
+$tpl = $template;
+else
+$tpl = category::gettemplate($case->view->catid, 'showtemplate');
+$content = $case->fetch($tpl);
+$path = ROOT . archive::url($case->view->archive, front::$get['page'] > 1 ? front::$get['page'] : null, true);
+if (!preg_match('/\.[a-zA-Z]+$/', $path))
+$path = rtrim(rtrim($path, '/'), '\\') . '/index.html';
+$path = rtrim($path, '/');
+$path = rtrim($path, '\\');
+$path = str_replace('//', '/', $path);
+tool::mkdir(dirname($path));
+file_put_contents($path, $content);
+$cpage++;
+if ($case->view->pages > 1 && $c == 1) {
+$path = ROOT . archive::url($case->view->archive, 1, true);
+if (!preg_match('/\.[a-zA-Z]+$/', $path))
+$path = rtrim(rtrim($path, '/'), '\\') . '/index.html';
+$path = rtrim($path, '/');
+$path = rtrim($path, '\\');
+$path = str_replace('//', '/', $path);
+tool::mkdir(dirname($path));
+//file_put_contents('logs.txt', file_get_contents('logs.txt')."\r\n".$path);
+$f = fopen($path, 'w');
+fwrite($f, $content);
+fclose($f);
+$cpage++;
+}
+}
+}
+$totalpage = count($archives);
+if (!isset($archives[0]))
+$totalpage = 0;
+if ($make_page >= $make_page_num) {
+$show_msg = lang('this_group_generates_html') . " <b>{$cpage}</b> " . lang('npage') . "！  " . lang('generate_html') . lang('this_co_generation') . " <b>{$archive_num}</b> " . lang('npage') . "！ " . lang('automatic_return_ home_page') . "\n";
+$c_url = preg_replace('#&make_page=(\d+)#', '', $_SERVER['QUERY_STRING']);
+$c_url = preg_replace('#&aid_start=(\d+)#', '', $c_url);
+$c_url = preg_replace('#&aid_end=(\d+)#', '', $c_url);
+$c_url = preg_replace('#&catid=(\d+)#', '', $c_url);
+$c_url = preg_replace('#&submit=(\d+)#', '', $c_url);
+$c_url = 'index.php?' . $c_url;
+} else {
+$show_msg = lang('how_many') . " <b>{$make_page}</b> " . lang('group_html') . " <b>{$cpage}</b> " . lang('npage') . "！ " . lang('the_total_required') . " <b>{$archive_num}</b> " . lang('npage') . "！ " . lang('has_been_generated') . " <b>" . ($make_page * $group_count) . "</b> " . lang('npage') . "！ " . lang('automatic_jump_into_the_next_group_generated') . "\n";
+}
+$getnexturl = "<script>";
+    $getnexturl .= "var t=4;\n";
+    $getnexturl .= "setInterval('testTime()',3000);\n";
+    $getnexturl .= "function testTime() \n";
+    $getnexturl .= " { \n";
+    $getnexturl .= "if(t == 0) location = '" . $c_url . "'; \n";
+    $getnexturl .= " t--;\n";
+    $getnexturl .= "}\n</script> \n";
+if ($cpage > 0) {
+if (!config::get('group_on')) {
+front::flash(lang('generate_html') . " <b>{$cpage}</b> " . lang('npage') . "！" . lang('when_used') . time::getTime() . "！\n");
+} else {
+front::flash($show_msg . "\n" . $getnexturl);
+}
+} else {
+front::flash(lang('none_of_the_generated_HTML'));
+}
+front::$admin = true;
+front::$post = $post;
+}
+
+function getshowform($cid)
+{
+$category = category::getInstance();
+$row = $category->getrow(array('catid' => $cid), '1 desc', 'catid,showform,parentid');
+if ($row['showform'] && $row['showform'] != 1) {
+$this->showform = $row['showform'];
+} else if ($row['showform'] && $row['showform'] == 1) {
+$this->showform = 1;
+} else if (!$row['showform']) {
+if ($row['parentid'] != 0) {
+$this->getshowform($row['parentid']);
+} else {
+$this->showform = '1';
+}
+}
+}
+
+function end()
+{
+front::$html = false;
+front::$admin = true;
+$this->render('index.php');
+}
+
+}
